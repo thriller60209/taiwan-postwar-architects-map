@@ -83,7 +83,7 @@ Suggested route: a new page at **`/map`** in the Astro site, linked from the nav
 ## Data sources
 
 Merged and de-duplicated from five Google My Maps KMZ files by the author:
-〈蓬萊異聞錄〉（only the 戰後建築／宗教建築／戲院 layers）、〈基泰工程司 feat. 高而潘〉、〈傅義的白冷外方〉、〈大高雄戲院地圖®〉、〈蓮之呼吸★改〉.
+〈蓬萊異聞錄〉（only the 戰後建築／宗教建築／戲院 layers）、〈基泰工程司 feat. 高而潘〉、〈傅義的白冷外方〉、〈大高雄戲院地圖®〉、〈蓮之呼吸★改〉、〈台博GIS〉 (folders named after one architect — 王大閎、陳其寬、陳仁和、漢寶德、王秋華; its points update matching existing works: the 台博GIS name and location win, all older text is kept; new works are added. Manual matches go in `update_pairs` in scripts/config.json).
 
 - Points were assigned to an architect when the architect's name (or an alias / known typo) appears in the
   point's text; files dedicated to one architect (基泰／高而潘, 傅義／費宥諒, 王秀蓮) were assigned by file.

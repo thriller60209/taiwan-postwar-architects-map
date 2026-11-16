@@ -27,7 +27,12 @@ SOURCES = [
     '大高雄戲院地圖®',
     '蓮之呼吸★改',
     '蓬萊異聞錄',
+    '台博GIS',
 ]
+
+# Maps whose folders are named after one architect and whose points update
+# that architect's existing points (name + location win, all text is kept).
+UPDATE_MAPS = {'台博GIS'}
 
 
 def keys(a):
@@ -83,6 +88,8 @@ def load_points():
     roots, manifest = load_sources()
     pts = []
     for title in SOURCES:
+        if title not in roots:
+            continue
         r = roots[title]
         src = doc_title(r)
         for f in r.iterfind('.//k:Folder', NS):
@@ -129,6 +136,9 @@ def assign(p):
                 A.add('傅義')
         else:
             A.add('傅義')
+    elif s in UPDATE_MAPS:
+        if p['folder'].strip() in ARCH:
+            A.add(p['folder'].strip())
     elif s.startswith('蓮之'):
         A.add('王秀蓮')
         if '王水河FU' in t:
@@ -168,6 +178,36 @@ def year(n):
     return int(m.group(1)) if m else None
 
 
+STRIP = re.compile(r'(18[5-9]\d|19\d\d|20[0-2]\d)|\(.*?\)|（.*?）|新建工程|工程|設計圖|國立|台灣|臺灣|[\s　,，、()（）]')
+
+
+def norm(n):
+    return STRIP.sub('', n.replace('臺', '台'))
+
+
+def same_place(u, item_pts):
+    """Score how well update point u matches an existing item; None = no match."""
+    nu, yu = norm(u['name']), year(u['name'])
+    best = None
+    for q in item_pts:
+        d = dist(u, q)
+        if [u['name'], q['name']] in CFG.get('update_pairs', []) and d < 800:
+            return -1
+        nq, yq = norm(q['name']), year(q['name'])
+        named = len(nu) >= 2 and len(nq) >= 2 and (nu in nq or nq in nu)
+        if named and d < 800:
+            sc = d
+        elif d < 150 and yu and yu == yq:
+            sc = d + 200
+        elif d < 25:
+            sc = d + 400
+        else:
+            continue
+        if best is None or sc < best:
+            best = sc
+    return best
+
+
 def resolve_merges(pts):
     by = {}
     for p in pts:
@@ -193,9 +233,13 @@ def build():
             continue
         group[a] = group[b] = (a, b)
     used, items = set(), []
+    updates = []
     for p in pts:
         A = assign(p)
         if not A or p['i'] in used:
+            continue
+        if p['src'] in UPDATE_MAPS:
+            updates.append((p, A))
             continue
         if p['i'] in group:
             a, b = group[p['i']]
@@ -206,6 +250,30 @@ def build():
         else:
             used.add(p['i'])
             items.append((p, [], A))
+
+    # Update maps: match each point to an existing work of the same architect;
+    # the update point becomes the primary (its name and location), old text is kept.
+    taken, stats = set(), {}
+    for u, A in updates:
+        best = None
+        for k, (prim, secs, IA) in enumerate(items):
+            if k in taken or not (A & IA):
+                continue
+            sc = same_place(u, [prim] + secs)
+            if sc is not None and (best is None or sc < best[0]):
+                best = (sc, k)
+        st = stats.setdefault(next(iter(A)), [0, 0])
+        if best:
+            k = best[1]
+            prim, secs, IA = items[k]
+            items[k] = (u, [prim] + secs, IA | A)
+            taken.add(k)
+            st[0] += 1
+        else:
+            items.append((u, [], A))
+            taken.add(len(items) - 1)
+            st[1] += 1
+    build.stats = stats
 
     aidx = {a: i for i, a in enumerate(ARCH)}
     B = []
@@ -255,3 +323,5 @@ if __name__ == '__main__':
     os.makedirs(os.path.join(ROOT, 'sources', 'live'), exist_ok=True)
     json.dump(getattr(load_points, 'manifest', []), open(os.path.join(ROOT, 'sources', 'live', 'manifest.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f"{len(D['b'])} buildings, {len(ARCH)} architects")
+    for a, (m, n) in getattr(build, 'stats', {}).items():
+        print(f"  update map / {a}: {m} matched existing, {n} new")
