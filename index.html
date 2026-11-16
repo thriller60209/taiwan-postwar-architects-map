@@ -49,8 +49,8 @@ svg.leaflet-zoom-animated{will-change:transform}
 
 /* ---------- Site — synced with atelier WooO database ---------- */
 :root{
-  --silver:#444; --silver-light:#111; --silver-dark:#999; --black:#fff; --white:#000;
-  --silver-text:#2b2b2b; --silver-title:#000; --silver-muted:#757575; --rule:rgba(0,0,0,.35); --rule-soft:rgba(0,0,0,.15);
+  --silver:#b4bebe; --silver-light:#d0d8d8; --silver-dark:#737c7c; --black:#000; --white:#fff;
+  --silver-text:#b4bebe; --silver-title:#d0d8d8; --silver-muted:#7f8888; --rule:rgba(180,190,190,.5); --rule-soft:rgba(180,190,190,.28);
   --font:"Source Code Pro","Microsoft JhengHei","Noto Sans TC",Arial,monospace,sans-serif;
   --side:380px; --head:69px; --cursor-x:-100vw; --cursor-y:-100vh;
 }
@@ -65,8 +65,8 @@ a:hover,a:focus{text-decoration:underline}
 
 /* crosshair cursor (same as WooO database) */
 .index-cursor{position:fixed;z-index:3000;pointer-events:none;opacity:0;transition:opacity .14s}
-.index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(0,0,0,.18)}
-.index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(0,0,0,.16)}
+.index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
+.index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
 @media (hover:hover) and (pointer:fine){
   header,header *,aside,aside *{cursor:none!important}
   body:hover .index-cursor{opacity:1}
@@ -76,7 +76,7 @@ a:hover,a:focus{text-decoration:underline}
 header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18px 0;z-index:20;background:var(--black)}
 .site-header{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:12px;height:100%}
 .brand{display:flex;align-items:center;gap:8px;font-size:10pt;line-height:1.2;color:var(--silver-text);text-decoration:none!important}
-.brand img{width:58px;height:auto;display:block;flex:none;filter:brightness(.25)}
+.brand img{width:58px;height:auto;display:block;flex:none}
 .brand span{white-space:nowrap}
 .nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;line-height:1.2;align-items:center}
 .menu-btn{display:none;background:none;border:0;padding:0;cursor:pointer;color:var(--silver-text)}
@@ -84,7 +84,7 @@ header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18
 
 main{position:absolute;top:var(--head);bottom:0;left:0;right:0;display:flex;padding:18px 18px 0;gap:18px}
 aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-direction:column;min-height:0;z-index:10}
-#map{flex:1;min-width:0;background:#f2f2f2;margin-bottom:18px;border:1px solid var(--rule)}
+#map{flex:1;min-width:0;background:#0b0c0c;margin-bottom:18px;border:1px solid var(--rule)}
 
 .page-title{margin:0 0 18px;font-size:10pt;font-weight:700;line-height:1.4;color:var(--silver-title)}
 .search{padding:0 0 14px;border-bottom:1px solid var(--rule)}
@@ -169,12 +169,12 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
 .zoom button{width:32px;height:32px;border:none;background:var(--black);font-size:12px;cursor:pointer;color:var(--silver-text);padding:0}
 .zoom button+button{border-top:1px solid var(--rule)}
 .zoom button:hover{background:var(--silver);color:var(--black)}
-.leaflet-control-attribution{font-family:var(--font)!important;font-size:9px!important;background:rgba(255,255,255,.8)!important;color:var(--silver-muted)!important}
+.leaflet-control-attribution{font-family:var(--font)!important;font-size:9px!important;background:rgba(0,0,0,.75)!important;color:var(--silver-muted)!important}
 .leaflet-control-attribution a{color:var(--silver-text)!important}
-.basenote{background:rgba(255,255,255,.9);border:1px solid var(--rule);font-size:10px;padding:6px 9px;max-width:260px;line-height:1.6;color:var(--silver-muted)}
+.basenote{background:rgba(0,0,0,.85);border:1px solid var(--rule);font-size:10px;padding:6px 9px;max-width:260px;line-height:1.6;color:var(--silver-muted)}
 .basenote[hidden]{display:none}
 .county-label{font-size:10px;letter-spacing:.2em;color:var(--silver-muted);white-space:nowrap}
-.base-tiles{filter:grayscale(1) contrast(.9) brightness(1.05)}
+.base-tiles{filter:grayscale(1) invert(1) brightness(.78) contrast(.95)}
 
 @media (max-width: 760px){
   :root{--side:min(88vw,360px);--head:64px}
@@ -287,7 +287,7 @@ const ZH={"Kaohsiung City":"高雄市","Pingtung":"屏東縣","Tainan City":"臺
 function fallback(){
   if (fellBack) return; fellBack=true;
   map.removeLayer(tiles);
-  map.getContainer().style.background="#f2f2f2";
+  map.getContainer().style.background="#000";
   const n=$("#basenote"); n.hidden=false;
   n.textContent="目前環境無法載入線上街道底圖，暫以簡化縣市輪廓顯示；部署到一般網站時會自動顯示含道路名稱的街道底圖。";
   const s=document.createElement("script");
@@ -304,7 +304,7 @@ function fallback(){
     });
     const pane=map.createPane("base"); pane.style.zIndex=250;
     L.geoJSON({type:"FeatureCollection",features:feats},{pane:"base",interactive:false,
-      style:{color:"rgba(0,0,0,.3)",weight:1,fillColor:"#fff",fillOpacity:1}}).addTo(map);
+      style:{color:"rgba(180,190,190,.45)",weight:1,fillColor:"#0b0c0c",fillOpacity:1}}).addTo(map);
     const lp=map.createPane("baselabel"); lp.style.zIndex=260; lp.style.pointerEvents="none";
     feats.forEach(f=>{
       let best=null,area=-1;
@@ -320,7 +320,7 @@ function fallback(){
 const renderer = L.canvas({padding:.4});
 const layer = L.layerGroup().addTo(map);
 const markers = B.map(b=>{
-  const m=L.circleMarker([b.lat,b.lng],{renderer,radius:5.5,weight:1.2,color:"#fff",fillOpacity:.95,fillColor:"#888"});
+  const m=L.circleMarker([b.lat,b.lng],{renderer,radius:5.5,weight:1.2,color:"#000",fillOpacity:.95,fillColor:"#888"});
   m.bindTooltip(esc(b.n),{direction:"top",offset:[0,-6],className:"tip",opacity:1});
   m.on("click",()=>openPopup(b));
   return m;
