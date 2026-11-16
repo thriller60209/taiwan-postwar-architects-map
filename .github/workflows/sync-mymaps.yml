@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/**"
       - "sources/**"
+      - ".github/workflows/sync-mymaps.yml"
 
 permissions:
   contents: write
