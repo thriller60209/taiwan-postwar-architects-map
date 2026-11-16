@@ -573,6 +573,9 @@ $("#menuBtn").addEventListener("click",()=>document.body.classList.toggle("side-
 map.on("click",()=>{ document.body.classList.remove("side-open"); if(isMobile()){ closeCard(); q.blur(); setSheet("peek"); } });
 map.on("dragstart",()=>{ if(isMobile() && sheet!=="peek" && !document.body.classList.contains("card-open")){ q.blur(); setSheet("peek"); } });
 
+const relayout=()=>{ map.invalidateSize(); if(!isMobile()){ closeCard(); setSheet("peek"); } };
+(mq.addEventListener ? mq.addEventListener("change",relayout) : mq.addListener(relayout));
+window.addEventListener("orientationchange",()=>setTimeout(()=>map.invalidateSize(),300));
 update(false);
 })();
 </script>
