@@ -33,7 +33,8 @@ jobs:
             1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg \
             1CxzQotAsFwOGYpLER5Eh4c819X0Pesg \
             1GWoYz00KerCWwC3BmzFpgphp0d-pBmS_ \
-            1OiskSInjoV4UarGBrfSjNc5zfyGjE87T ; do
+            1OiskSInjoV4UarGBrfSjNc5zfyGjE87T \
+            1HYvRvmb2PvOoavrkxOfVX6DdrLaaWw84 ; do
             if curl -fsSL --retry 3 -o /tmp/map.kml "https://www.google.com/maps/d/kml?mid=${MID}&forcekml=1" \
                && grep -q "<kml" /tmp/map.kml && grep -q "<Placemark" /tmp/map.kml; then
               cp /tmp/map.kml "sources/live/${MID}.kml"
