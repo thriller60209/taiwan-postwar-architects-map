@@ -290,8 +290,13 @@ def build():
         extra = []
         for q in secs:
             src.append(f"《{q['src']}》／{q['folder']}")
-            if plain(q['desc']) and plain(q['desc']) not in plain(prim['desc']):
-                extra.append(q['desc'])
+            pq = plain(q['desc'])
+            if not pq or any(pq in plain(x) for x in parts + extra):
+                continue
+            # drop earlier text that this one already contains
+            parts = [x for x in parts if plain(x) not in pq]
+            extra = [x for x in extra if plain(x) not in pq]
+            extra.append(q['desc'])
         d = clean('<br><br>'.join(parts + extra))
         name = prim['name'].strip().replace('\n', ' ')
         if year(name) is None:   # same place: keep the name that carries a year
