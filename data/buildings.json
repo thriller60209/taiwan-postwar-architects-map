@@ -993,7 +993,7 @@
   ],
   "lat": 25.035834,
   "lng": 121.494187,
-  "description_html": "沈祖海、陳其寬、虞日鎮、高而潘、郭炳才<br><br><a href=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5zIwKJhsmy_KN-wDLt3lHs71s3HJomXBu4aHqCLzRrviBUIGmIztVXl2QYpi5S8iV7JGb5_QpgT4MT5xWhT-hRMQVKsdRZJ_e1jRkU_hMMb7OLrk-ERgyN85xrmBX4rxOcZNv-AntV06wU5kduTKn4W5gPmpZDJObIwkIJuY7xHkkl2JlthuBSSvFw1Zba59HIH6NTVvgIV0?authuser=0&fife=s16383\">［原始圖片］</a><br><br>沈祖海、陳其寬、虞日鎮、高爾潘、郭炳才",
+  "description_html": "沈祖海、陳其寬、虞曰鎮、高而潘、郭炳才<br><br><a href=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5zIwKJhsmy_KN-wDLt3lHs71s3HJomXBu4aHqCLzRrviBUIGmIztVXl2QYpi5S8iV7JGb5_QpgT4MT5xWhT-hRMQVKsdRZJ_e1jRkU_hMMb7OLrk-ERgyN85xrmBX4rxOcZNv-AntV06wU5kduTKn4W5gPmpZDJObIwkIJuY7xHkkl2JlthuBSSvFw1Zba59HIH6NTVvgIV0?authuser=0&fife=s16383\">［原始圖片］</a><br><br>沈祖海、陳其寬、虞日鎮、高爾潘、郭炳才",
   "sources": [
    "《蓬萊異聞錄》／戰後建築",
    "《基泰工程司 feat. 高而潘》／自行開業"
@@ -7896,7 +7896,7 @@
   ],
   "lat": 25.049222,
   "lng": 121.543322,
-  "description_html": "1970/08/20 蔣緯國 白克德發起完工<br>虞日鎮/有巢建築師事務所設計<br>建築雙月刊第7期",
+  "description_html": "1970/08/20 蔣緯國 白克德發起完工<br>虞曰鎮/有巢建築師事務所設計<br>建築雙月刊第7期",
   "sources": [
    "《蓬萊異聞錄》／戰後建築"
   ]
@@ -10759,7 +10759,7 @@
   ],
   "lat": 24.137268,
   "lng": 120.679492,
-  "description_html": "朱祖名",
+  "description_html": "朱祖明",
   "sources": [
    "《蓬萊異聞錄》／戰後建築"
   ]
@@ -22015,7 +22015,7 @@
   ],
   "lat": 25.029117,
   "lng": 121.548353,
-  "description_html": "設計：彭蔭宜、謝照明，建照時有陳其寬、梁悅問<br>監造：彭蔭宜<br>承造：葉財記,潤泰營造",
+  "description_html": "設計：彭蔭宣、謝照明，建照時有陳其寬、梁悅問<br>監造：彭蔭宣<br>承造：葉財記,潤泰營造",
   "sources": [
    "《蓬萊異聞錄》／戰後建築"
   ]
@@ -22029,7 +22029,7 @@
   ],
   "lat": 25.027918,
   "lng": 121.548351,
-  "description_html": "設計：彭蔭宜、謝照明<br>監造：謝照明",
+  "description_html": "設計：彭蔭宣、謝照明<br>監造：謝照明",
   "sources": [
    "《蓬萊異聞錄》／戰後建築"
   ]
@@ -22134,6 +22134,20 @@
  },
  {
   "id": 1567,
+  "name": "篤行路何宅1973",
+  "year": 1973,
+  "architects": [
+   4
+  ],
+  "lat": 24.15649,
+  "lng": 120.673067,
+  "description_html": "王文芳+王水河<br><a href=\"https://www.threads.com/share/HRShF0pIi\">https://www.threads.com/share/HRShF0pIi</a>",
+  "sources": [
+   "《蓬萊異聞錄》／戰後建築"
+  ]
+ },
+ {
+  "id": 1568,
   "name": "中華福音神學院 華神大樓1977",
   "year": 1977,
   "architects": [
@@ -22147,7 +22161,7 @@
   ]
  },
  {
-  "id": 1568,
+  "id": 1569,
   "name": "台灣台北聖殿",
   "year": null,
   "architects": [
@@ -22161,7 +22175,7 @@
   ]
  },
  {
-  "id": 1569,
+  "id": 1570,
   "name": "天主教聖家堂1964",
   "year": 1964,
   "architects": [
@@ -22175,7 +22189,7 @@
   ]
  },
  {
-  "id": 1570,
+  "id": 1571,
   "name": "開臺聖王成功廟1991",
   "year": 1991,
   "architects": [
@@ -22190,7 +22204,7 @@
   ]
  },
  {
-  "id": 1571,
+  "id": 1572,
   "name": "醒修宮關聖帝君",
   "year": null,
   "architects": [
@@ -22204,7 +22218,7 @@
   ]
  },
  {
-  "id": 1572,
+  "id": 1573,
   "name": "基督教浸信會懷恩堂1984",
   "year": 1984,
   "architects": [
@@ -22218,7 +22232,7 @@
   ]
  },
  {
-  "id": 1573,
+  "id": 1574,
   "name": "頭城天主堂",
   "year": null,
   "architects": [
@@ -22232,7 +22246,7 @@
   ]
  },
  {
-  "id": 1574,
+  "id": 1575,
   "name": "聖母無原罪主教座堂1961",
   "year": 1961,
   "architects": [
@@ -22246,7 +22260,7 @@
   ]
  },
  {
-  "id": 1575,
+  "id": 1576,
   "name": "聖維雅納天主堂1971",
   "year": 1971,
   "architects": [
@@ -22260,7 +22274,7 @@
   ]
  },
  {
-  "id": 1576,
+  "id": 1577,
   "name": "天主教 耕莘文教院1970",
   "year": 1970,
   "architects": [
@@ -22274,7 +22288,7 @@
   ]
  },
  {
-  "id": 1577,
+  "id": 1578,
   "name": "延吉街聖母顯靈聖牌天主堂1960",
   "year": 1960,
   "architects": [
@@ -22288,7 +22302,7 @@
   ]
  },
  {
-  "id": 1578,
+  "id": 1579,
   "name": "財團法人基督教台灣信義會台北救恩堂1976",
   "year": 1976,
   "architects": [
@@ -22302,7 +22316,7 @@
   ]
  },
  {
-  "id": 1579,
+  "id": 1580,
   "name": "南港聖玫瑰天主堂1979",
   "year": 1979,
   "architects": [
@@ -22316,7 +22330,7 @@
   ]
  },
  {
-  "id": 1580,
+  "id": 1581,
   "name": "八德路聖若瑟天主堂1967",
   "year": 1967,
   "architects": [
@@ -22330,7 +22344,7 @@
   ]
  },
  {
-  "id": 1581,
+  "id": 1582,
   "name": "石牌聖體堂1964",
   "year": 1964,
   "architects": [
@@ -22344,7 +22358,7 @@
   ]
  },
  {
-  "id": 1582,
+  "id": 1583,
   "name": "耶穌聖心堂(中式)1977",
   "year": 1977,
   "architects": [
@@ -22358,7 +22372,7 @@
   ]
  },
  {
-  "id": 1583,
+  "id": 1584,
   "name": "台灣神學院禮拜堂(中式)1958",
   "year": 1958,
   "architects": [
@@ -22372,7 +22386,7 @@
   ]
  },
  {
-  "id": 1584,
+  "id": 1585,
   "name": "基督教台灣信義會善牧堂1955",
   "year": 1955,
   "architects": [
@@ -22386,7 +22400,7 @@
   ]
  },
  {
-  "id": 1585,
+  "id": 1586,
   "name": "萬丹山生命紀念園2005",
   "year": 2005,
   "architects": [
@@ -22400,7 +22414,7 @@
   ]
  },
  {
-  "id": 1586,
+  "id": 1587,
   "name": "壽山寺1963",
   "year": 1963,
   "architects": [
@@ -22414,7 +22428,7 @@
   ]
  },
  {
-  "id": 1587,
+  "id": 1588,
   "name": "財團法人天主教會嘉義教區民生北路天主堂1983",
   "year": 1983,
   "architects": [
@@ -22428,7 +22442,7 @@
   ]
  },
  {
-  "id": 1588,
+  "id": 1589,
   "name": "海會寺靈塔",
   "year": null,
   "architects": [
@@ -22442,7 +22456,7 @@
   ]
  },
  {
-  "id": 1589,
+  "id": 1590,
   "name": "清泉崗美軍帷幕教堂1959",
   "year": 1959,
   "architects": [
@@ -22456,7 +22470,7 @@
   ]
  },
  {
-  "id": 1590,
+  "id": 1591,
   "name": "台灣基督長老教會四結教會1964",
   "year": 1964,
   "architects": [
@@ -22470,7 +22484,7 @@
   ]
  },
  {
-  "id": 1591,
+  "id": 1592,
   "name": "瑞閣園1984",
   "year": 1984,
   "architects": [
@@ -22484,7 +22498,7 @@
   ]
  },
  {
-  "id": 1592,
+  "id": 1593,
   "name": "真耶穌教會嘉義教會1975",
   "year": 1975,
   "architects": [
@@ -22498,7 +22512,7 @@
   ]
  },
  {
-  "id": 1593,
+  "id": 1594,
   "name": "寶覺禪寺",
   "year": null,
   "architects": [
@@ -22513,7 +22527,7 @@
   ]
  },
  {
-  "id": 1594,
+  "id": 1595,
   "name": "毘盧禪寺1931",
   "year": 1931,
   "architects": [
@@ -22527,7 +22541,7 @@
   ]
  },
  {
-  "id": 1595,
+  "id": 1596,
   "name": "中和天主之母堂(中式)1979",
   "year": 1979,
   "architects": [
@@ -22541,7 +22555,7 @@
   ]
  },
  {
-  "id": 1596,
+  "id": 1597,
   "name": "中華聖母主教座堂 (中式)1964",
   "year": 1964,
   "architects": [
@@ -22555,7 +22569,7 @@
   ]
  },
  {
-  "id": 1597,
+  "id": 1598,
   "name": "西門街耶穌聖心堂(中式)1972",
   "year": 1972,
   "architects": [
@@ -22569,7 +22583,7 @@
   ]
  },
  {
-  "id": 1598,
+  "id": 1599,
   "name": "仁愛天主堂(石獅)1973",
   "year": 1973,
   "architects": [
@@ -22583,7 +22597,7 @@
   ]
  },
  {
-  "id": 1599,
+  "id": 1600,
   "name": "天主教聖女小德蘭朝聖地1970",
   "year": 1970,
   "architects": [
@@ -22597,7 +22611,7 @@
   ]
  },
  {
-  "id": 1600,
+  "id": 1601,
   "name": "屋頂廟1959",
   "year": 1959,
   "architects": [
@@ -22611,7 +22625,7 @@
   ]
  },
  {
-  "id": 1601,
+  "id": 1602,
   "name": "中壢浸信會1972",
   "year": 1972,
   "architects": [
@@ -22619,13 +22633,13 @@
   ],
   "lat": 24.955638,
   "lng": 121.21392,
-  "description_html": "<a href=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh4VL8BrEE-ycY5zfOoWUiu7jgu6iEtPIUK1J9mBnbgLWweWUp2LoEObwuGUCm901xyDehTptoKgynS6_b9wEfT8HwTSz65vh0WnA_iFLBg6xyF0emzxLgIyyU7H3m4Hw-qkXdH0I6J94GyPK5n9hKM8X4AXKyP4Y3wyHAd0kMI7ZnLOIBfEzATwLo7EQLQnVO4wAEK9LU9I5M?authuser=0&fife=s16383\">［原始圖片］</a><br><br>黃有良/大宇<br>落水口<br>建築特刊68",
+  "description_html": "<a href=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiWkIw0zNzBxXMAxrED0wTX9ttoROSKEYgZZL7o2yAMeqAyIDRp3tzbcIP8MvQ2mHcUusYSU8uAZeFc0DAh8-k6tMFD9YKy6H2203o2vWTpFcoKpMqokLG4kqj85xfdTr_K3KgBGn7N3NfGa7BJCfr5HF4ESuqJFyU0D52Y95DMP826S9ndbKu3EccYAtY-fbRtLVBq2Kzxupo?fife=s16383\">［原始圖片］</a><br><br>黃有良/大宇<br>落水口<br>建築特刊68",
   "sources": [
    "《蓬萊異聞錄》／宗教建築"
   ]
  },
  {
-  "id": 1602,
+  "id": 1603,
   "name": "中華聖母堂1979",
   "year": 1979,
   "architects": [
@@ -22639,7 +22653,7 @@
   ]
  },
  {
-  "id": 1603,
+  "id": 1604,
   "name": "蘆洲聖若瑟天主堂1978",
   "year": 1978,
   "architects": [
@@ -22653,7 +22667,7 @@
   ]
  },
  {
-  "id": 1604,
+  "id": 1605,
   "name": "石碇耶穌聖心天主堂1979",
   "year": 1979,
   "architects": [
@@ -22667,7 +22681,7 @@
   ]
  },
  {
-  "id": 1605,
+  "id": 1606,
   "name": "佳里聖三堂1956",
   "year": 1956,
   "architects": [
@@ -22681,7 +22695,7 @@
   ]
  },
  {
-  "id": 1606,
+  "id": 1607,
   "name": "天母天主堂1958",
   "year": 1958,
   "architects": [
@@ -22695,7 +22709,7 @@
   ]
  },
  {
-  "id": 1607,
+  "id": 1608,
   "name": "耶穌聖心天主堂1963",
   "year": 1963,
   "architects": [
@@ -22709,7 +22723,7 @@
   ]
  },
  {
-  "id": 1608,
+  "id": 1609,
   "name": "天主教台北總教區耶穌救主堂1967",
   "year": 1967,
   "architects": [
@@ -22723,7 +22737,7 @@
   ]
  },
  {
-  "id": 1609,
+  "id": 1610,
   "name": "始胎無玷天主堂1979",
   "year": 1979,
   "architects": [
@@ -22737,7 +22751,7 @@
   ]
  },
  {
-  "id": 1610,
+  "id": 1611,
   "name": "聖若瑟天主堂1968",
   "year": 1968,
   "architects": [
@@ -22751,7 +22765,7 @@
   ]
  },
  {
-  "id": 1611,
+  "id": 1612,
   "name": "美國聖公會台灣教區淡水降臨堂1973",
   "year": 1973,
   "architects": [
@@ -22765,7 +22779,7 @@
   ]
  },
  {
-  "id": 1612,
+  "id": 1613,
   "name": "金山天主教聖母堂1976",
   "year": 1976,
   "architects": [
@@ -22779,7 +22793,7 @@
   ]
  },
  {
-  "id": 1613,
+  "id": 1614,
   "name": "中華聖母會1974(中式)",
   "year": 1974,
   "architects": [
@@ -22794,7 +22808,7 @@
   ]
  },
  {
-  "id": 1614,
+  "id": 1615,
   "name": "嘉義教區主教公署小教堂1984",
   "year": 1984,
   "architects": [
@@ -22809,7 +22823,7 @@
   ]
  },
  {
-  "id": 1615,
+  "id": 1616,
   "name": "天主教德蘭堂1969",
   "year": 1969,
   "architects": [
@@ -22823,7 +22837,7 @@
   ]
  },
  {
-  "id": 1616,
+  "id": 1617,
   "name": "基督教新生教團1963",
   "year": 1963,
   "architects": [
@@ -22837,7 +22851,7 @@
   ]
  },
  {
-  "id": 1617,
+  "id": 1618,
   "name": "雙連長老教會1972",
   "year": 1972,
   "architects": [
@@ -22851,7 +22865,7 @@
   ]
  },
  {
-  "id": 1618,
+  "id": 1619,
   "name": "私立衛理幼稚園",
   "year": null,
   "architects": [
@@ -22865,7 +22879,7 @@
   ]
  },
  {
-  "id": 1619,
+  "id": 1620,
   "name": "財團法人台北市華亞之聲社中華基督教便以利教會大安堂1966",
   "year": 1966,
   "architects": [
@@ -22879,7 +22893,7 @@
   ]
  },
  {
-  "id": 1620,
+  "id": 1621,
   "name": "台灣基督長老教會東門教會1980",
   "year": 1980,
   "architects": [
@@ -22893,7 +22907,7 @@
   ]
  },
  {
-  "id": 1621,
+  "id": 1622,
   "name": "台北清真寺1959",
   "year": 1959,
   "architects": [
@@ -22907,7 +22921,7 @@
   ]
  },
  {
-  "id": 1622,
+  "id": 1623,
   "name": "關山聖母天主堂1956",
   "year": 1956,
   "architects": [
@@ -22921,7 +22935,7 @@
   ]
  },
  {
-  "id": 1623,
+  "id": 1624,
   "name": "台灣基督長老教會聖望教會1952",
   "year": 1952,
   "architects": [
@@ -22935,7 +22949,7 @@
   ]
  },
  {
-  "id": 1624,
+  "id": 1625,
   "name": "玉山神學院禮拜堂1961",
   "year": 1961,
   "architects": [
@@ -22949,7 +22963,7 @@
   ]
  },
  {
-  "id": 1625,
+  "id": 1626,
   "name": "礁溪聖若瑟天主堂1963",
   "year": 1963,
   "architects": [
@@ -22963,7 +22977,7 @@
   ]
  },
  {
-  "id": 1626,
+  "id": 1627,
   "name": "宏法寺1952",
   "year": 1952,
   "architects": [
@@ -22977,7 +22991,7 @@
   ]
  },
  {
-  "id": 1627,
+  "id": 1628,
   "name": "修澤蘭風墓園",
   "year": null,
   "architects": [
@@ -22991,7 +23005,7 @@
   ]
  },
  {
-  "id": 1628,
+  "id": 1629,
   "name": "通化街玫瑰堂1977",
   "year": 1977,
   "architects": [
@@ -23005,7 +23019,7 @@
   ]
  },
  {
-  "id": 1629,
+  "id": 1630,
   "name": "廢棄復聖顏子廟1987",
   "year": 1987,
   "architects": [
@@ -23019,7 +23033,7 @@
   ]
  },
  {
-  "id": 1630,
+  "id": 1631,
   "name": "博愛教會顏水龍壁馬賽克1962",
   "year": 1962,
   "architects": [
@@ -23033,7 +23047,7 @@
   ]
  },
  {
-  "id": 1631,
+  "id": 1632,
   "name": "士林牧愛堂1966",
   "year": 1966,
   "architects": [
@@ -23048,7 +23062,7 @@
   ]
  },
  {
-  "id": 1632,
+  "id": 1633,
   "name": "台中市佛教蓮社1977",
   "year": 1977,
   "architects": [
@@ -23062,7 +23076,7 @@
   ]
  },
  {
-  "id": 1633,
+  "id": 1634,
   "name": "玄光寺1955",
   "year": 1955,
   "architects": [
@@ -23076,7 +23090,7 @@
   ]
  },
  {
-  "id": 1634,
+  "id": 1635,
   "name": "台南神學院頌音堂1963",
   "year": 1963,
   "architects": [
@@ -23090,7 +23104,7 @@
   ]
  },
  {
-  "id": 1635,
+  "id": 1636,
   "name": "台灣聖公會高雄聖保羅堂1965",
   "year": 1965,
   "architects": [
@@ -23105,7 +23119,7 @@
   ]
  },
  {
-  "id": 1636,
+  "id": 1637,
   "name": "基督教中國佈道會台北聖道堂1967",
   "year": 1967,
   "architects": [
@@ -23119,7 +23133,7 @@
   ]
  },
  {
-  "id": 1637,
+  "id": 1638,
   "name": "天天百貨大樓(銀座戲院)1979",
   "year": 1979,
   "architects": [
@@ -23133,7 +23147,7 @@
   ]
  },
  {
-  "id": 1638,
+  "id": 1639,
   "name": "真善美戲院1977",
   "year": 1977,
   "architects": [
@@ -23147,7 +23161,7 @@
   ]
  },
  {
-  "id": 1639,
+  "id": 1640,
   "name": "協和大戲院1983",
   "year": 1983,
   "architects": [
@@ -23161,7 +23175,7 @@
   ]
  },
  {
-  "id": 1640,
+  "id": 1641,
   "name": "中央戲院1982",
   "year": 1982,
   "architects": [
@@ -23175,7 +23189,7 @@
   ]
  },
  {
-  "id": 1641,
+  "id": 1642,
   "name": "樂樂戲院1974",
   "year": 1974,
   "architects": [
@@ -23189,7 +23203,7 @@
   ]
  },
  {
-  "id": 1642,
+  "id": 1643,
   "name": "合作大樓聯美戲院1969",
   "year": 1969,
   "architects": [
@@ -23203,7 +23217,7 @@
   ]
  },
  {
-  "id": 1643,
+  "id": 1644,
   "name": "光明大戲院1968～2012",
   "year": 1968,
   "architects": [
@@ -23217,7 +23231,7 @@
   ]
  },
  {
-  "id": 1644,
+  "id": 1645,
   "name": "1+1影城",
   "year": null,
   "architects": [
@@ -23232,7 +23246,7 @@
   ]
  },
  {
-  "id": 1645,
+  "id": 1646,
   "name": "東平診所(原戲院)1956",
   "year": 1956,
   "architects": [
@@ -23246,7 +23260,7 @@
   ]
  },
  {
-  "id": 1646,
+  "id": 1647,
   "name": "中興會堂1959",
   "year": 1959,
   "architects": [
