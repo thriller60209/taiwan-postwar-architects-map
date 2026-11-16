@@ -1,0 +1,3845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>大高雄戲院地圖®</name>
+    <description><![CDATA[本地圖由黃則維製作，如需轉貼使用務必標明出處。<br>聯絡方式：<br>daniel840429@gmail.com<br>https://www.instagram.com/yk6jo6/]]></description>
+    <Style id="icon-1502-FFEA00-labelson">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1547-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1578-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1578-795548-labelson">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1603-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1709-000000-labelson">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1709-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1709-424242-labelson">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1709-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1769-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-424242-labelson">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-757575-labelson">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-795548-labelson">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-BDBDBD-labelson">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-labelson">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>1900～1920</name>
+      <Placemark>
+        <name>打狗座／高雄座1909</name>
+        <description><![CDATA[說明: 高松豐次郎，建造者（1909）<br>地點: 所在地：臺南廳，築於鹽埕埔庄舊停車場附近（1911）<br>　　　　高雄州<br>簡介: 嘉義座、打狗座、屏東座都是型式及規模相近的劇院，皆可容納800名，對於該地方而言，是夠用的建築。（《臺灣日日新報》1909-08-17）<br><br>]]></description>
+        <styleUrl>#icon-1899-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>高松豐次郎，建造者（1909）</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：臺南廳，築於鹽埕埔庄舊停車場附近（1911）
+　　　　高雄州</value>
+          </Data>
+          <Data name="簡介">
+            <value>嘉義座、打狗座、屏東座都是型式及規模相近的劇院，皆可容納800名，對於該地方而言，是夠用的建築。（《臺灣日日新報》1909-08-17）
+
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2778059,22.6261508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鳳山座1912</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7QDaIZIGEswl5OHekEUgI5dKvhIJCaUF-LZrsAGNbTf_EX1WBSAVK43bTUHWtDdOjWSpQPdFsGojHvvuThTaNJ7hJezSIKNfTZOqUYFOH2g6SZfgs6Hr_2LiSNjYxaaqPQHA7eZhL1KmZfuaofkz4Ihs2w72MYvfIU7A-6tAIOU4VuKDfvpjVSsZ16rQ1B8Zd0hZkIU_7k1_vXYX9l-K_kBLbixld5aPyP_gJQqIpOMFB7ApA0jxF2jzgG3B9nrzerRhqboCiwhnffCIWyJBel3A4z67SgdqEewENnsVDWgf3IP0_peR5zlsUifFZ9raAPnNzBeNiT0P3FWoinA0iCB_5IUm8K1jMPHV_Ax3ceSzQykSCTCGfmp8yQTcAL9JRngY7JVAuvL7tcIa14Y5LtIW5Wpx3dhAh43ee61VweAqWzUAWcaA" height="200" width="auto" /><br><br>說明: 營運日期（起）：1912-?-?<br>營運日期（迄）：?<br><br><br>地點: 所在地：高雄州，清末所存協臺衙改造充用（1931）<br>簡介: 於鳳山新城設立的高雄第二間戲院]]></description>
+        <styleUrl>#icon-1899-757575-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>營運日期（起）：1912-?-?
+營運日期（迄）：?
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，清末所存協臺衙改造充用（1931）</value>
+          </Data>
+          <Data name="簡介">
+            <value>於鳳山新城設立的高雄第二間戲院</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7QDaIZIGEswl5OHekEUgI5dKvhIJCaUF-LZrsAGNbTf_EX1WBSAVK43bTUHWtDdOjWSpQPdFsGojHvvuThTaNJ7hJezSIKNfTZOqUYFOH2g6SZfgs6Hr_2LiSNjYxaaqPQHA7eZhL1KmZfuaofkz4Ihs2w72MYvfIU7A-6tAIOU4VuKDfvpjVSsZ16rQ1B8Zd0hZkIU_7k1_vXYX9l-K_kBLbixld5aPyP_gJQqIpOMFB7ApA0jxF2jzgG3B9nrzerRhqboCiwhnffCIWyJBel3A4z67SgdqEewENnsVDWgf3IP0_peR5zlsUifFZ9raAPnNzBeNiT0P3FWoinA0iCB_5IUm8K1jMPHV_Ax3ceSzQykSCTCGfmp8yQTcAL9JRngY7JVAuvL7tcIa14Y5LtIW5Wpx3dhAh43ee61VweAqWzUAWcaA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3582493,22.622846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>旗後座1914</name>
+        <description><![CDATA[說明: 1914開始營業<br>地點: 所在地：臺南廳<br>　　　　高雄州<br>簡介: 當時旗後街為主要人口聚集地，因使用需求與曾考慮將打狗座遷於此，後決議於旗後街新建了高雄第二座戲院]]></description>
+        <styleUrl>#icon-1899-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1914開始營業</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：臺南廳
+　　　　高雄州</value>
+          </Data>
+          <Data name="簡介">
+            <value>當時旗後街為主要人口聚集地，因使用需求與曾考慮將打狗座遷於此，後決議於旗後街新建了高雄第二座戲院</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2680287,22.6143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1921～1930</name>
+      <Placemark>
+        <name>高雄館1921</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5ATG4qaQ8aXXnG01p5JGMFAwMzzJuxUsDyPHHr0-HHqZ5w-wGqmFJmwywOfcr2NEfNBQaLG4jKL1BMGC7Ggh2YQC_vDtUGhbf52Xb7n4gTU7DbfedbmMkeX70vXlkPo08NA-OBkMx5FR5p2B7ztGZiDMIyajhVBkk0HGMZjunusQJXR7HhT0k6QPIaYAGaDKw2LJLi5s6JwUDy7BZKGoSMghLhtxaR4LpJXGWHRL7AGD5qAmSD21_no7Pa6R1r5r2ZvruvidqzXKg2cgKti0zMNn8yocJN06eZanYzTQDuiybsRuhWxsuxva6wcuAK6hIs37Min_bIizDRkglucIPHqg9C6meyFCekJkOIh13ZDn9INFKZxhXuO3Y_vIVUvU91AGwyUOLVSGwsdMWUhrJnuOkhwpF5FwpYewj0BLuIM5tY5Iu_pQ" height="200" width="auto" /><br><br>說明: ＊之後的亞洲戲院<br>大坪與一，發起人（1921）<br>荒木萬三郎，所有者（1944）<br>中村秀，經營者（1944）<br>清水覺一，會社擔當者（1944）<br>中村秀，統制會社契約書（1944)<br><br>地點: 所在地：高雄州，高雄市堀江町（1921）<br>　　　　高雄州，高雄市堀江町三丁目二番地（1931）<br>簡介: 大坪與一在1920年代，集合了老一代的「在地日商」荒木萬三郎、真砂由次郎、館林恒吉、名川鑒、小川與市、真砂由次郎，以及新一代的多木龍二、杉原佐一、高木拾郎、大坪佐苦樂、陳啟峰等人，分別在1921年（大正10年）設立「高雄劇場株式會社」、1925年（大正14年）創設「高雄製冰」及1928年（昭和3年）的「高雄共榮自動車株式會社」，分別進軍電影、製冰、公共運輸三項新興事業，在其1932年（昭和7年）過世後，高木拾郎繼續領導該集團運作，陸續投資土地、觀光、製帽等事業，成為日治時期最重要的商業集團。[26]其中陳中和家族以陳啟峰投資「高雄製冰」及「高雄共榮自動車」，以及高木拾郎於1929年成立的「壽山遊覽自動車」。<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v69cPOLnVlgG-z7IsE6lGbiYgHuM2luRQlCbStv5w--SgwT-w499QnGRqy3F2ujMH0_LWWHg3mmX2qtVZ8nZMfbmC_jqFbyyeRE34apLkz9D1bIimvS_1yytus0ybaRsVjIUxDG9CQsh42oxz8-Lz8cMvxe-0gGrN18VizlkaYLQWBqKtFtV13l7pkXCioO5gIJXgpu3T8k7Wx3-kF4zDq30M76ZBSgryVsx6rTTyxuIBOc_ylm2rgThMQ16dgkyn_w5slANd_rnjRwUziLpuok_qoFkKDu5KvvukPQOGKczMExsqpBsLCUgx8tladBWngx7bOHM_xnQJ9ebMUwraAgsXPe4SFu18tVJXHTTWD7p0QQVJymoHofeXbtEt-h6BKReGi5Q6gpd1ofTjvRL0bvWZInJ61qBcnR4mAZNT2xWXKXhm1e" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6Dt0ORL7IUetx-YLsDXo9QPPNOLnOifHYb5ymwVhqOSVWqtHkGT6Y46ncGZMzgBBgm5eFDaXhHuEAotlwWqSYY43YKT63wSURbDQOjpLptrJWD7A0TCr7pqnkFrfBdDGnFyO0d0g9qMYpgfYCRqPPMfaDDl69Mc3ZnQ6vZn9J-ud2kvys-IGTupah5Y_7132kiY-Loe0ybsC5id_oSKR6mIuUhvhwdMtg7pZ2a0DXGnu83kO2RtT_bSdV1BvQtfvI56pQfDmhmBtP8CbLjd6L-BaIQlL6h2k_e1B_JJyrkxROmr2X2OAg42QMXkh_ijDgoaAMBuOZxn9jW1ZRNOh0IorZKFgENcpjaUJkWldlfntjtQOOZsVpBiMlsR6gJU42PmSy1STMIZVN75_MrLa8WZY_UnRZ2clttmXw_u0o2-WXbhw" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7tNfJM7_gKuM_2YnbFKGi0Hx9lh2Q7zsD9LgxGbFFL8Mgx6-wJZt62EbEhggTR3a3SGk7GK-h9j0dHhpZ9sfpLSmmoE5NY93-EA7aSN_y5tEb7JeuoC32ig0MyH0jIoUGzamOJVSUuP7huuQ7TWGAe4vn3WtxYhVrurUzTsjfL7eTSSWb80U6jfokt2YalmKJOkJqakr4aum2EC6B5mHQ6PyCiPuRlA6igpMRXLYjDy0-_oyaA-Asu-nq1Ero83kFmDUo7kEEjypTwbVYacJ2uU0OF3bFRHcOKNC6jt954-sLDbLMjEaorSM0p8jwmdcQljf0yrDSjNreDf7anqNUJQZ62WQSeojsfxTnnFx8eRd8BCUQQPVb02xh2iTUlO6J3_hfqbzjLTBmLX8mAPjYlFATMeQM2aqBblKE-2y39gUwtq15JCw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>＊之後的亞洲戲院
+大坪與一，發起人（1921）
+荒木萬三郎，所有者（1944）
+中村秀，經營者（1944）
+清水覺一，會社擔當者（1944）
+中村秀，統制會社契約書（1944)
+</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，高雄市堀江町（1921）
+　　　　高雄州，高雄市堀江町三丁目二番地（1931）</value>
+          </Data>
+          <Data name="簡介">
+            <value>大坪與一在1920年代，集合了老一代的「在地日商」荒木萬三郎、真砂由次郎、館林恒吉、名川鑒、小川與市、真砂由次郎，以及新一代的多木龍二、杉原佐一、高木拾郎、大坪佐苦樂、陳啟峰等人，分別在1921年（大正10年）設立「高雄劇場株式會社」、1925年（大正14年）創設「高雄製冰」及1928年（昭和3年）的「高雄共榮自動車株式會社」，分別進軍電影、製冰、公共運輸三項新興事業，在其1932年（昭和7年）過世後，高木拾郎繼續領導該集團運作，陸續投資土地、觀光、製帽等事業，成為日治時期最重要的商業集團。[26]其中陳中和家族以陳啟峰投資「高雄製冰」及「高雄共榮自動車」，以及高木拾郎於1929年成立的「壽山遊覽自動車」。</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5ATG4qaQ8aXXnG01p5JGMFAwMzzJuxUsDyPHHr0-HHqZ5w-wGqmFJmwywOfcr2NEfNBQaLG4jKL1BMGC7Ggh2YQC_vDtUGhbf52Xb7n4gTU7DbfedbmMkeX70vXlkPo08NA-OBkMx5FR5p2B7ztGZiDMIyajhVBkk0HGMZjunusQJXR7HhT0k6QPIaYAGaDKw2LJLi5s6JwUDy7BZKGoSMghLhtxaR4LpJXGWHRL7AGD5qAmSD21_no7Pa6R1r5r2ZvruvidqzXKg2cgKti0zMNn8yocJN06eZanYzTQDuiybsRuhWxsuxva6wcuAK6hIs37Min_bIizDRkglucIPHqg9C6meyFCekJkOIh13ZDn9INFKZxhXuO3Y_vIVUvU91AGwyUOLVSGwsdMWUhrJnuOkhwpF5FwpYewj0BLuIM5tY5Iu_pQ https://lh3.googleusercontent.com/umsh/AN6v0v69cPOLnVlgG-z7IsE6lGbiYgHuM2luRQlCbStv5w--SgwT-w499QnGRqy3F2ujMH0_LWWHg3mmX2qtVZ8nZMfbmC_jqFbyyeRE34apLkz9D1bIimvS_1yytus0ybaRsVjIUxDG9CQsh42oxz8-Lz8cMvxe-0gGrN18VizlkaYLQWBqKtFtV13l7pkXCioO5gIJXgpu3T8k7Wx3-kF4zDq30M76ZBSgryVsx6rTTyxuIBOc_ylm2rgThMQ16dgkyn_w5slANd_rnjRwUziLpuok_qoFkKDu5KvvukPQOGKczMExsqpBsLCUgx8tladBWngx7bOHM_xnQJ9ebMUwraAgsXPe4SFu18tVJXHTTWD7p0QQVJymoHofeXbtEt-h6BKReGi5Q6gpd1ofTjvRL0bvWZInJ61qBcnR4mAZNT2xWXKXhm1e https://lh3.googleusercontent.com/umsh/AN6v0v6Dt0ORL7IUetx-YLsDXo9QPPNOLnOifHYb5ymwVhqOSVWqtHkGT6Y46ncGZMzgBBgm5eFDaXhHuEAotlwWqSYY43YKT63wSURbDQOjpLptrJWD7A0TCr7pqnkFrfBdDGnFyO0d0g9qMYpgfYCRqPPMfaDDl69Mc3ZnQ6vZn9J-ud2kvys-IGTupah5Y_7132kiY-Loe0ybsC5id_oSKR6mIuUhvhwdMtg7pZ2a0DXGnu83kO2RtT_bSdV1BvQtfvI56pQfDmhmBtP8CbLjd6L-BaIQlL6h2k_e1B_JJyrkxROmr2X2OAg42QMXkh_ijDgoaAMBuOZxn9jW1ZRNOh0IorZKFgENcpjaUJkWldlfntjtQOOZsVpBiMlsR6gJU42PmSy1STMIZVN75_MrLa8WZY_UnRZ2clttmXw_u0o2-WXbhw https://lh3.googleusercontent.com/umsh/AN6v0v7tNfJM7_gKuM_2YnbFKGi0Hx9lh2Q7zsD9LgxGbFFL8Mgx6-wJZt62EbEhggTR3a3SGk7GK-h9j0dHhpZ9sfpLSmmoE5NY93-EA7aSN_y5tEb7JeuoC32ig0MyH0jIoUGzamOJVSUuP7huuQ7TWGAe4vn3WtxYhVrurUzTsjfL7eTSSWb80U6jfokt2YalmKJOkJqakr4aum2EC6B5mHQ6PyCiPuRlA6igpMRXLYjDy0-_oyaA-Asu-nq1Ero83kFmDUo7kEEjypTwbVYacJ2uU0OF3bFRHcOKNC6jt954-sLDbLMjEaorSM0p8jwmdcQljf0yrDSjNreDf7anqNUJQZ62WQSeojsfxTnnFx8eRd8BCUQQPVb02xh2iTUlO6J3_hfqbzjLTBmLX8mAPjYlFATMeQM2aqBblKE-2y39gUwtq15JCw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2810013,22.624722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>湊館1922</name>
+        <description><![CDATA[說明: 貸席<br>地點: 湊町四町目17番地<br>簡介: 代理館主 黑木氏]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>貸席</value>
+          </Data>
+          <Data name="地點">
+            <value>湊町四町目17番地</value>
+          </Data>
+          <Data name="簡介">
+            <value>代理館主 黑木氏</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2705261,22.6223916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>★共樂園1926</name>
+        <description><![CDATA[說明: 1926-10-9開設<br>地點: 所在地：高雄州，岡山郡楠梓庄橋子頭臺糖工廠附近（1926）<br>簡介: 建地九十五坪，可容納人數三百五十名左右。（《臺灣日日新報》1926-10-09）<br><br>戰後為橋頭戲院，現已活化]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1926-10-9開設</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，岡山郡楠梓庄橋子頭臺糖工廠附近（1926）</value>
+          </Data>
+          <Data name="簡介">
+            <value>建地九十五坪，可容納人數三百五十名左右。（《臺灣日日新報》1926-10-09）
+
+戰後為橋頭戲院，現已活化</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.31239,22.754949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>共樂座1927</name>
+        <description><![CDATA[說明: 成立時間未知<br>地點: 所在地：高雄州，岡山郡路竹庄（1944）<br>簡介: 許進，所有者（1944）<br>許進，經營者（1944）<br>許進，會社擔當者（1944）<br>許進，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>成立時間未知</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，岡山郡路竹庄（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>許進，所有者（1944）
+許進，經營者（1944）
+許進，會社擔當者（1944）
+許進，統制會社契約書（1944）</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.26012,22.858429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>旗山座 約1927～1979</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4oT05teqEG0yf5sQ_iJw1EiNNs5hSoq48yhV3DEgvB9KPw20iLNFquch2IIWTCcqKepbG0a25-bq5GCzp3ISjKgIsEQi5yscctrQjCnHgE9va3gxk2p3JWM39AjRvRe4i-geLAnZHuhzbnbFx0Rhh61ESmVYzV6SwWVqXoZgbiTnxuEhH_lrMPtZFDc2Salmez3L0GvpGG2JSZeDHiepyQnj2HhRj8jxQ2888zzesGQiQPMR4v3Cl2G8JG-3b7kK6vvhQ5jNsUrb6RWNuNnEWe7mZ-guIcEnCOzN70cyzG9UEkt7YILASc9LprmmNSbUNZLygroV-_04pCqdyJyuh6kzjXyXoM4B0ryPyuLpd5bKBQL6VUjGa1ebMLP5ZDkoNDj5ABgGIHnZQVdQLizIPEf3AxpewzSBmXDhWj2iHwu2V-BC9ngw" height="200" width="auto" /><br><br>說明: 旗山第一戲院<br>地點: 所在地：高雄州，旗山郡旗山街（1944）<br>簡介: 戰後改稱「旗山戲院」<br>1965/1/17陳仁和改建<br>三文興業株式會社，所有者（1944）<br>三文興業株式會社，經營者（1944）<br>林田良平，會社擔當者（1944）<br>高山文一，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>旗山第一戲院</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，旗山郡旗山街（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>戰後改稱「旗山戲院」
+1965/1/17陳仁和改建
+三文興業株式會社，所有者（1944）
+三文興業株式會社，經營者（1944）
+林田良平，會社擔當者（1944）
+高山文一，統制會社契約書（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4oT05teqEG0yf5sQ_iJw1EiNNs5hSoq48yhV3DEgvB9KPw20iLNFquch2IIWTCcqKepbG0a25-bq5GCzp3ISjKgIsEQi5yscctrQjCnHgE9va3gxk2p3JWM39AjRvRe4i-geLAnZHuhzbnbFx0Rhh61ESmVYzV6SwWVqXoZgbiTnxuEhH_lrMPtZFDc2Salmez3L0GvpGG2JSZeDHiepyQnj2HhRj8jxQ2888zzesGQiQPMR4v3Cl2G8JG-3b7kK6vvhQ5jNsUrb6RWNuNnEWe7mZ-guIcEnCOzN70cyzG9UEkt7YILASc9LprmmNSbUNZLygroV-_04pCqdyJyuh6kzjXyXoM4B0ryPyuLpd5bKBQL6VUjGa1ebMLP5ZDkoNDj5ABgGIHnZQVdQLizIPEf3AxpewzSBmXDhWj2iHwu2V-BC9ngw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4821131,22.8862719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>岡山座1928</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7EhBw2p31kj_qV6oYjuYC-NaL6raLf9ud1sypJOC7apqmpBW8azxEy4b7K1iIogsXqPs73sCXeVG-dy5FK901SArzf0qusRcldBNB_JOV900uG5g-Ku_MArO1UAJPjKd0T4MOC30uh3NoCAlt0Vx7lGLqbY4JTIoOK5JObMX1zaxXNFL1nzKr0KKlYvkg4I9rMASM9DIaabjat1jm0oZeXpZRJFIRKF9uhklt1HtdJDCEN7LwkYRVWIEdimyw--81qvVU0p7n74nMAGGfg8_qbnMaHxAsyyUl8iqhNewujgacYgiGP64y_tpSp9e1Erg4nkkEYw9NBVpstYe8_drYP64yeNizB2Qjco1gCbjIzCTasnJJdOdIo0oUl0oyxjckU3XeHb5q-Fsatf9hXiYB8prQkyFglvYyl-s94jw-2TPJDwGbx4g" height="200" width="auto" /><br><br>說明: 1928成立<br>地點: 所在地：高雄州，岡山街（1944）<br>簡介: ．總建地八十坪、建築費六千圓，在紅磚建成的鄉村地區是少見的宏偉建築。（《臺灣日日新報》1926-03-09）<br><br>吳瑞泰，發起人（1928）<br>何鉗，發起人（1928）<br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1928成立</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，岡山街（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>．總建地八十坪、建築費六千圓，在紅磚建成的鄉村地區是少見的宏偉建築。（《臺灣日日新報》1926-03-09）
+
+吳瑞泰，發起人（1928）
+何鉗，發起人（1928）
+株式會社岡山共樂館，所有者（1944）
+株式會社岡山共樂館，經營者（1944）
+東滿，會社擔當者（1944）
+齋藤善次郎，統制會社契約書（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7EhBw2p31kj_qV6oYjuYC-NaL6raLf9ud1sypJOC7apqmpBW8azxEy4b7K1iIogsXqPs73sCXeVG-dy5FK901SArzf0qusRcldBNB_JOV900uG5g-Ku_MArO1UAJPjKd0T4MOC30uh3NoCAlt0Vx7lGLqbY4JTIoOK5JObMX1zaxXNFL1nzKr0KKlYvkg4I9rMASM9DIaabjat1jm0oZeXpZRJFIRKF9uhklt1HtdJDCEN7LwkYRVWIEdimyw--81qvVU0p7n74nMAGGfg8_qbnMaHxAsyyUl8iqhNewujgacYgiGP64y_tpSp9e1Erg4nkkEYw9NBVpstYe8_drYP64yeNizB2Qjco1gCbjIzCTasnJJdOdIo0oUl0oyxjckU3XeHb5q-Fsatf9hXiYB8prQkyFglvYyl-s94jw-2TPJDwGbx4g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2932086,22.7931524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>澎湖會館1929(金城戲院)1952/10/3～1991</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7qPHCdgTPeRfLe7bLadrSCcw8WZH_mLRkXlAW6WlG56SYjNPbq3-2Rp2D3Gs72DsTuLrB80DRZRPfNapC2y1f1-cSh_IKhMs6pS58ADbvIiuaThg2MppxNo5vkas5AyF5NgUI0ToVDJNIOdBGsMYoo2vhUZx6gR3tZ_rzpKaExU36iiDZOQbmN__BsO6uDr9cCUA2qmX6RmwExkQPH_TBbUidqBaZ3b1DnN-0ZD4SP2zR0oPtDLs1OdWAQwggBR8HAtqJ9YahsSMJZnt_YnPz7AnP7bdzdkeI0DoMePI7Jz_apZWqfufUmMCA-BMld9DqwlpaFa63hdCvouHTJgoeOe6mSHR7-DEvjwV9seFq1362DjGq87zKc6rvTPP3WXimJvVuVakn3H0_1QevTzSfXxIbDxH2rJZ9OSFaELXn3gDgFHO2Uxg" height="200" width="auto" /><br><br>說明: 鹽國段(0038)337地號<br>地點: 803高雄市鹽埕區瀨南街161號<br>簡介: 澎湖廳民會1927於高雄成立，澎湖會館又名金城會館1929落成啟用，位於鹽埕區瀨南街。光復後1952改建為金城戲院，民會更名為高雄市澎湖同鄉會繼續於戲院辦公，見證澎湖幫當年在高雄的影響力。戲院1995拆除現在是停車場，算是澎湖先民移居高雄蓽路襤褸舊影。<br>戰後許火金經營<br>]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>鹽國段(0038)337地號</value>
+          </Data>
+          <Data name="地點">
+            <value>803高雄市鹽埕區瀨南街161號</value>
+          </Data>
+          <Data name="簡介">
+            <value>澎湖廳民會1927於高雄成立，澎湖會館又名金城會館1929落成啟用，位於鹽埕區瀨南街。光復後1952改建為金城戲院，民會更名為高雄市澎湖同鄉會繼續於戲院辦公，見證澎湖幫當年在高雄的影響力。戲院1995拆除現在是停車場，算是澎湖先民移居高雄蓽路襤褸舊影。
+戰後許火金經營
+</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7qPHCdgTPeRfLe7bLadrSCcw8WZH_mLRkXlAW6WlG56SYjNPbq3-2Rp2D3Gs72DsTuLrB80DRZRPfNapC2y1f1-cSh_IKhMs6pS58ADbvIiuaThg2MppxNo5vkas5AyF5NgUI0ToVDJNIOdBGsMYoo2vhUZx6gR3tZ_rzpKaExU36iiDZOQbmN__BsO6uDr9cCUA2qmX6RmwExkQPH_TBbUidqBaZ3b1DnN-0ZD4SP2zR0oPtDLs1OdWAQwggBR8HAtqJ9YahsSMJZnt_YnPz7AnP7bdzdkeI0DoMePI7Jz_apZWqfufUmMCA-BMld9DqwlpaFa63hdCvouHTJgoeOe6mSHR7-DEvjwV9seFq1362DjGq87zKc6rvTPP3WXimJvVuVakn3H0_1QevTzSfXxIbDxH2rJZ9OSFaELXn3gDgFHO2Uxg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.282768,22.62571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>興隆座1929</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5f3G163DJuCMHiPntvhPXEGsXzeVuutcg8-57HwOpqZUzAkoKgYNp01rYxnQYSK0O66mqRbjDMmLwQNap2ZejliKGlmd13l8MpW1380duXHL0O2rQEVKUHyTXuhglYG7-ogY1SlgVKX9nvwYIBg0oMQEyh_RWZcTDjXoxAioq8QPSWSiYxkbwCIgiIgwJFrDZ18xjsm-gd9uXvZD-F3Co3M-Th32bL-zPOOY0sIX0yDrQ8-rOjczcCRAFPGZ0X6Bjh3K4HWtSri4H4t19LzJfyZI5mhqG92Uffj7bkEfnQCGwAPmeenwwhZQjL2xMrIPx_1Flnp1oL52Vr4fhG5_cUMBi3OrXQxQe51iwKQgd856tnnxw8lQEe11CihZYALsF5vfbA3UHAFWbutWpBRKBaCFZC_wHX5tpqZVOZ-N4Fvv_Vxcs9" height="200" width="auto" /><br><br>說明: 1929成立<br>左營段 273-1 <br><br>地點: 所在地：高雄州，高雄市左營（1944）<br>簡介: 磚造2樓166坪<br>樓上234位樓下560位<br><br>黃查某，所有者（1944）<br>王稱奇，經營者（1944）<br>王稱奇，會社擔當者（1944）<br>王稱奇，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1929成立
+左營段 273-1 
+</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，高雄市左營（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>磚造2樓166坪
+樓上234位樓下560位
+
+黃查某，所有者（1944）
+王稱奇，經營者（1944）
+王稱奇，會社擔當者（1944）
+王稱奇，統制會社契約書（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5f3G163DJuCMHiPntvhPXEGsXzeVuutcg8-57HwOpqZUzAkoKgYNp01rYxnQYSK0O66mqRbjDMmLwQNap2ZejliKGlmd13l8MpW1380duXHL0O2rQEVKUHyTXuhglYG7-ogY1SlgVKX9nvwYIBg0oMQEyh_RWZcTDjXoxAioq8QPSWSiYxkbwCIgiIgwJFrDZ18xjsm-gd9uXvZD-F3Co3M-Th32bL-zPOOY0sIX0yDrQ8-rOjczcCRAFPGZ0X6Bjh3K4HWtSri4H4t19LzJfyZI5mhqG92Uffj7bkEfnQCGwAPmeenwwhZQjL2xMrIPx_1Flnp1oL52Vr4fhG5_cUMBi3OrXQxQe51iwKQgd856tnnxw8lQEe11CihZYALsF5vfbA3UHAFWbutWpBRKBaCFZC_wHX5tpqZVOZ-N4Fvv_Vxcs9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.290561,22.685961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金鵄館1929</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7zoC7rkNhlUECtEhjIufvwn1jaAb1Nzb_H79GwRKeKXyDFtz5D090GiT1WZopjlZCOhxK2oUkqEZ1gA_2yo0o2aWbqkVAY1W0Tlku-zaBAdVTYiuI59YSsrLhEJB1rrNY0Opa4Ie726D302D-lNzF6LkzFTKTdoF2KVZ7jX0uazXkvZJx__IxhkhN2SDsLrZGJOX7kXK8NK6qqqnLTklIIqKiX5w_uOicXaIGQ95JBRRaWrTJ-LWIxHozVH7wQZ6RDJnE0tQZxfhikRYx7LK3AC_EB9rZNvhBEUzFdW6nn5DYbHLjMop44rSEF6xxt3x7OQdFwWU0FdbsZZRHW5oCpFWMZ9q0ODdibMIoHTeT_WIuS1n5pgQz4PAdvPvSpNuIe5DkmWgb6X1_IHmxcXw_XmxbReb1FW8Fgyakr1b0cHSs-rj5w8A" height="200" width="auto" /><br><br>說明: 專映外國片<br><br>地點: 所在地：高雄州，高雄市鹽埕町原嫩ケラウンド一角（1929）<br>　　　　高雄州，高雄市榮町（1944）<br>簡介: ＊戰後光復大戲院<br>1945年台灣光復後改名為光復戲院，屬於台灣電影事業股份有限公司所有。當年光復戲院是高雄地區數一數二的戲院，均放映首輪國片，其中最令人記憶深刻且上演時日最長的，是1963年轟動一時的黃梅調電影《梁山伯與祝英台》。1968年，光復戲院改由中央電影公司直營。1982年10月，金馬獎外片觀摩首次南下高雄映演的場所就是光復戲院。<br>光復戲院在1983年8月24日宣佈停止營業。後來，中影公司花了近七千萬元重建光復戲院，改建成三樓新廈，闢成兩間放映廳，每廳約有400個座位，並於1987年6/19重新開幕，交由「鴻錦樓」（位於大勇路與大仁路口）的老闆經營，而影片的放映也從以往的首輪電影變為二輪電影。<br><br>2002年10月進行拆除，現為鹽埕埔站出口2<br><br>泉寬平，所有者（1929）<br>船橋武雄，所有者（1944）<br>船橋武雄，經營者（1944）<br>鈴木景三，會社擔當者（1944）<br>船橋武雄，統制會社契約書（1944）<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6KZIN0h8GHn-P1m9BIpxnP3QLLcVOCGQj2mxQ1ruD5ys_XoRHDT52Ojsj3s19hkRhzfMIQv3z6i_KL2nEaL6UUEk1NKmxiyfRV_8N-av2DQw96tq2of_H9kOLdf6eDckXYrJjqk7xNA03VRtVMiTQaReJt1XUH6d2cdPgt-zokNtQVP0FqA-qXL7bHjGgywANbD3dlC3VcFrnjEkdUbWO3kyy1pkAGmqikVP47NuvsRHGIiC_HLzXwZTdj1U0HDLllOrevZ2_ZmtnlALqZO7L-I71A4OpTAI6kyOKU7y_WoiBKpfqRthDq0JEE2y4X6_YSEDItpbeKjj1DXuEA1KEcSwWr6RbY8JMm3oyiw-BPPPzXZLBHlRHQEBobe0F7P0ezwew4whaC64z0xruK18uxP_J_7LwmvD6iDzLY7xUT6BpbMdObDg" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7yX2HCncKRzXby8daH4xxrbw8SNuTI6kdMqANgI5C44Y90bwkbLczyx1zp7AuOcG7A_knSxSKynr6v8Dw7yye-Sapw_f-8O05Ehtd87hbhGJM5CJ8mnj5cHLamecc5OUSo62LimLXo1N-KJCVEpKXVysKZb4woeddZQpB0yazWWNZgQ_Ao9duzXSEvKlKNZYlimLnueFwfHNadLI8fGXq7AXYUtRJcO9xHFKISgO1FBdGAnExYSoyq8ArPtTGiAyJNfHnsBcTWWEzI-vZr1yFTRWT03EmsUrx6i370xIbXfS1gj2JGSZoAvEUqrM9Aq9i6WN6v-mCktqbCXlcxS6m4J1Vfg6ua5GfWAkjHdQWwSBZkXBOXGFTxpZTNfFUJQaXEkkGa9A7WPZdydVuqFPrdijcAErSPcNi6KciE0EmZYgGnlzKmyds" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>專映外國片
+</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，高雄市鹽埕町原嫩ケラウンド一角（1929）
+　　　　高雄州，高雄市榮町（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>＊戰後光復大戲院
+1945年台灣光復後改名為光復戲院，屬於台灣電影事業股份有限公司所有。當年光復戲院是高雄地區數一數二的戲院，均放映首輪國片，其中最令人記憶深刻且上演時日最長的，是1963年轟動一時的黃梅調電影《梁山伯與祝英台》。1968年，光復戲院改由中央電影公司直營。1982年10月，金馬獎外片觀摩首次南下高雄映演的場所就是光復戲院。
+光復戲院在1983年8月24日宣佈停止營業。後來，中影公司花了近七千萬元重建光復戲院，改建成三樓新廈，闢成兩間放映廳，每廳約有400個座位，並於1987年6/19重新開幕，交由「鴻錦樓」（位於大勇路與大仁路口）的老闆經營，而影片的放映也從以往的首輪電影變為二輪電影。
+
+2002年10月進行拆除，現為鹽埕埔站出口2
+
+泉寬平，所有者（1929）
+船橋武雄，所有者（1944）
+船橋武雄，經營者（1944）
+鈴木景三，會社擔當者（1944）
+船橋武雄，統制會社契約書（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7zoC7rkNhlUECtEhjIufvwn1jaAb1Nzb_H79GwRKeKXyDFtz5D090GiT1WZopjlZCOhxK2oUkqEZ1gA_2yo0o2aWbqkVAY1W0Tlku-zaBAdVTYiuI59YSsrLhEJB1rrNY0Opa4Ie726D302D-lNzF6LkzFTKTdoF2KVZ7jX0uazXkvZJx__IxhkhN2SDsLrZGJOX7kXK8NK6qqqnLTklIIqKiX5w_uOicXaIGQ95JBRRaWrTJ-LWIxHozVH7wQZ6RDJnE0tQZxfhikRYx7LK3AC_EB9rZNvhBEUzFdW6nn5DYbHLjMop44rSEF6xxt3x7OQdFwWU0FdbsZZRHW5oCpFWMZ9q0ODdibMIoHTeT_WIuS1n5pgQz4PAdvPvSpNuIe5DkmWgb6X1_IHmxcXw_XmxbReb1FW8Fgyakr1b0cHSs-rj5w8A https://lh3.googleusercontent.com/umsh/AN6v0v6KZIN0h8GHn-P1m9BIpxnP3QLLcVOCGQj2mxQ1ruD5ys_XoRHDT52Ojsj3s19hkRhzfMIQv3z6i_KL2nEaL6UUEk1NKmxiyfRV_8N-av2DQw96tq2of_H9kOLdf6eDckXYrJjqk7xNA03VRtVMiTQaReJt1XUH6d2cdPgt-zokNtQVP0FqA-qXL7bHjGgywANbD3dlC3VcFrnjEkdUbWO3kyy1pkAGmqikVP47NuvsRHGIiC_HLzXwZTdj1U0HDLllOrevZ2_ZmtnlALqZO7L-I71A4OpTAI6kyOKU7y_WoiBKpfqRthDq0JEE2y4X6_YSEDItpbeKjj1DXuEA1KEcSwWr6RbY8JMm3oyiw-BPPPzXZLBHlRHQEBobe0F7P0ezwew4whaC64z0xruK18uxP_J_7LwmvD6iDzLY7xUT6BpbMdObDg https://lh3.googleusercontent.com/umsh/AN6v0v7yX2HCncKRzXby8daH4xxrbw8SNuTI6kdMqANgI5C44Y90bwkbLczyx1zp7AuOcG7A_knSxSKynr6v8Dw7yye-Sapw_f-8O05Ehtd87hbhGJM5CJ8mnj5cHLamecc5OUSo62LimLXo1N-KJCVEpKXVysKZb4woeddZQpB0yazWWNZgQ_Ao9duzXSEvKlKNZYlimLnueFwfHNadLI8fGXq7AXYUtRJcO9xHFKISgO1FBdGAnExYSoyq8ArPtTGiAyJNfHnsBcTWWEzI-vZr1yFTRWT03EmsUrx6i370xIbXfS1gj2JGSZoAvEUqrM9Aq9i6WN6v-mCktqbCXlcxS6m4J1Vfg6ua5GfWAkjHdQWwSBZkXBOXGFTxpZTNfFUJQaXEkkGa9A7WPZdydVuqFPrdijcAErSPcNi6KciE0EmZYgGnlzKmyds</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.284501,22.624511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1931～1945</name>
+      <Placemark>
+        <name>壽星座1930</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7INkTxcOmqwx8756rjeV6sqiw9BeIJRP_mDD0K7FyXWGcCvnFiOcetR0Za14eRmVFv-t2ZP_694Tg08vhyYzbkWAq3RkvxwqesllqFpRuGLkQGdfg9177WI-hHwVrh38KfVMo-MnC4ORTaQG-gZJve4N_Q0IkHmBtQf5cCU4NbtlDEsT6fSK7yd3d3BGeK4g6TJK_HCdAQHzN2eetCNwgxlhpbZQ_5mKyDfy18UMUcmesgrGrKNT2eP8zsc4UDGfPzsLaho8432CV-YLy6I2bm7pUEh17oanmuVIQQv2gUzt5fVP1TtVp7XoQ1FDl_IBhJr_UvjKdDjZZDDxtqbzmmjeObWKjQtGeprQ_mmrbz9KL6TCpjew-ZOoHYEpdokEixp71XyLoz9I_kXwjJwebU9eb3ts7OygjLdmwSUu1Q5QxSY-Ir" height="200" width="auto" /><br><br>說明: 1930-4-23 第一臺人戲院鹽埕座成立<br>地點: 所在地：高雄州，高雄市北野町（1929）<br>簡介: 戰後壽星戲院1995年關閉<br><br>多木龍二，株式會社鹽埕座取締役社長（1930）<br>宮本幸次郎，株式會社鹽埕座取締役（1930）<br>福井四磨，株式會社鹽埕座取締役（1930）<br>西田傳吉，株式會社鹽埕座取締役（1930）<br>陳啟峰，株式會社鹽埕座取締役（1930）<br>中村秀，株式會社鹽埕座監察役（1930）<br>林迦，株式會社鹽埕座監察役（1930）<br>陳鏡湖，座主（1931）<br>豐永易介，監事（1931-1941）<br>黃量，董事（1932-1941）<br>小野農夫，董事（1932-1935）<br>高鉾豐三郎，董事（1932-1941）<br>周李芳，監事（1935-）<br>李炳森，監事（1938-1941）<br>尾上信雄，董事（1941-）<br>高鉾豐三郎，所有者（1944）<br>高鉾豐三郎，經營者（1944）<br>高鉾豐三郎，統制會社契約書（1944）<br>今井淺次郎，會社擔當者（1944）]]></description>
+        <styleUrl>#icon-1899-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1930-4-23 第一臺人戲院鹽埕座成立</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，高雄市北野町（1929）</value>
+          </Data>
+          <Data name="簡介">
+            <value>戰後壽星戲院1995年關閉
+
+多木龍二，株式會社鹽埕座取締役社長（1930）
+宮本幸次郎，株式會社鹽埕座取締役（1930）
+福井四磨，株式會社鹽埕座取締役（1930）
+西田傳吉，株式會社鹽埕座取締役（1930）
+陳啟峰，株式會社鹽埕座取締役（1930）
+中村秀，株式會社鹽埕座監察役（1930）
+林迦，株式會社鹽埕座監察役（1930）
+陳鏡湖，座主（1931）
+豐永易介，監事（1931-1941）
+黃量，董事（1932-1941）
+小野農夫，董事（1932-1935）
+高鉾豐三郎，董事（1932-1941）
+周李芳，監事（1935-）
+李炳森，監事（1938-1941）
+尾上信雄，董事（1941-）
+高鉾豐三郎，所有者（1944）
+高鉾豐三郎，經營者（1944）
+高鉾豐三郎，統制會社契約書（1944）
+今井淺次郎，會社擔當者（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7INkTxcOmqwx8756rjeV6sqiw9BeIJRP_mDD0K7FyXWGcCvnFiOcetR0Za14eRmVFv-t2ZP_694Tg08vhyYzbkWAq3RkvxwqesllqFpRuGLkQGdfg9177WI-hHwVrh38KfVMo-MnC4ORTaQG-gZJve4N_Q0IkHmBtQf5cCU4NbtlDEsT6fSK7yd3d3BGeK4g6TJK_HCdAQHzN2eetCNwgxlhpbZQ_5mKyDfy18UMUcmesgrGrKNT2eP8zsc4UDGfPzsLaho8432CV-YLy6I2bm7pUEh17oanmuVIQQv2gUzt5fVP1TtVp7XoQ1FDl_IBhJr_UvjKdDjZZDDxtqbzmmjeObWKjQtGeprQ_mmrbz9KL6TCpjew-ZOoHYEpdokEixp71XyLoz9I_kXwjJwebU9eb3ts7OygjLdmwSUu1Q5QxSY-Ir</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.284004,22.630049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>青年會館1930～1985</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5p6yRl0FncE1ldwJmeKKg2DlnA-9mSsyhQ5rSUfsj6AspVpPMG7xBTcHJ_roDyimGNdzgazyP0GwaG1bhQqhgF5RVVRDuqSB4-xXFw3qfqaTwdNAWyHtc_6gh3Cs1XPvFlID163T8RJKkl2UYvofyOV_k1vWvsZs5BGM0l82NYZqDs3tJVL9b6PQxgdTsvXn7sglMFa81uAK2wTwn063OkbdQ4cIoRx3DZJuy97XBbgoBUiGXLqxWqlJU9y7xnyy49nWfHdZ8PJyPrV_s9fvtkv3AjYyKdSsk6-lAk6MgTH5jJEG-3yYQ_Y0NmxD65chv0EgvFccvvp0a1VnxAn-kXp0F9TztXa3S2-tECIRo-Sth0YHaTNfEr0O3ywennJE3UtyaD9OAdQVk_lankIR0KQhdozoCS62Qq5AushoTRxv1LDA" height="200" width="auto" /><br><br>說明: 高雄戲院負責人王復成(混合)<br>地點: 台灣高雄市前金區大同二路131號<br>簡介: 1930年（昭和5年），日本政府於高雄川旁的高雄州廳後方興建「青年會館」，為全台首座青年會館。其主要用途為高雄州各地青年團舉辦演講、集會、映畫欣賞等活動的場所，另外亦發行青年雜誌。<br><br>戰後，青年會館由國民黨的「三民主義青年團」進行劫收，改為「青年戲院」專映電影。在經歷1947年二二八大屠殺與1950年代的白色恐怖之後，青年戲院於1953年改名為「勝利戲院」，當時的觀眾仍以學生為主。<br><br>1957年，勝利戲院經營權易主，改名為「高雄戲院」。照片中為1961年高雄戲院整修後的樣子，改建後的大門已不復以往壯觀優美。高雄戲院最後於1985年10月停業。原為高雄州廳的高雄地方法院於1987年遭拆除改建，在此矗立近一甲子的青年會館也隨之灰飛煙滅。]]></description>
+        <styleUrl>#icon-1899-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>高雄戲院負責人王復成(混合)</value>
+          </Data>
+          <Data name="地點">
+            <value>台灣高雄市前金區大同二路131號</value>
+          </Data>
+          <Data name="簡介">
+            <value>1930年（昭和5年），日本政府於高雄川旁的高雄州廳後方興建「青年會館」，為全台首座青年會館。其主要用途為高雄州各地青年團舉辦演講、集會、映畫欣賞等活動的場所，另外亦發行青年雜誌。
+
+戰後，青年會館由國民黨的「三民主義青年團」進行劫收，改為「青年戲院」專映電影。在經歷1947年二二八大屠殺與1950年代的白色恐怖之後，青年戲院於1953年改名為「勝利戲院」，當時的觀眾仍以學生為主。
+
+1957年，勝利戲院經營權易主，改名為「高雄戲院」。照片中為1961年高雄戲院整修後的樣子，改建後的大門已不復以往壯觀優美。高雄戲院最後於1985年10月停業。原為高雄州廳的高雄地方法院於1987年遭拆除改建，在此矗立近一甲子的青年會館也隨之灰飛煙滅。</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5p6yRl0FncE1ldwJmeKKg2DlnA-9mSsyhQ5rSUfsj6AspVpPMG7xBTcHJ_roDyimGNdzgazyP0GwaG1bhQqhgF5RVVRDuqSB4-xXFw3qfqaTwdNAWyHtc_6gh3Cs1XPvFlID163T8RJKkl2UYvofyOV_k1vWvsZs5BGM0l82NYZqDs3tJVL9b6PQxgdTsvXn7sglMFa81uAK2wTwn063OkbdQ4cIoRx3DZJuy97XBbgoBUiGXLqxWqlJU9y7xnyy49nWfHdZ8PJyPrV_s9fvtkv3AjYyKdSsk6-lAk6MgTH5jJEG-3yYQ_Y0NmxD65chv0EgvFccvvp0a1VnxAn-kXp0F9TztXa3S2-tECIRo-Sth0YHaTNfEr0O3ywennJE3UtyaD9OAdQVk_lankIR0KQhdozoCS62Qq5AushoTRxv1LDA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.29085,22.62586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新鳳山座1932</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6VrgBhLlYYpihrHXyIYIq8X0HzBNRWzQ8Ui1gDBFJKqrt4TLcBfgvzXgOTz4vsNDspoNG93Se0VmXv27BDDeqV4WALKsiwEs-ztei8Hx7wJnsAeDSN36wil-_TOuRh6McOqoalkr2V48ZZx4Ph2UZcYlJwXI-ejP8zaPoeiL29d_UTY4NQ3oly-19_Y2JvrLZoF4ImKs8guDYjmfBbyiTIbgwo18BdzbIsSDW1Ps1ESHH-IHekR0VqTbqe1nGq0nO6BP1hnG8eSkLbsZL3TLHzlDpY8IpYi2Y2uWj0YKaYPM7gISXei0FEn2nE4-RtP0TNrqAsmfFenyqN9O9qpAAMrIGLT42NWK2e5Sm_K8CNIMmJ5IE1lWR_CxWq5ZjcZGDDejoK7GuHtrQYLGToInVrYo75f0YAP4jXnRzAMtKVmkIW" height="200" width="auto" /><br><br>說明: 戲院名稱：（新）鳳山座<br>定位精度：精確<br>營運日期（起）：1932-?-?<br>營運日期（迄）：?<br>可考之營運年代：1930-1939，1940-1945<br><br>工程費用三萬圓，現代摩登式建物，可容納一千名。（《臺灣日日新報》1932-05-11）<br><br>地點: 所在地：高雄州，舊鳳山座附近（1931）<br>　　　　高雄州，鳳山郡鳳山街（1944）<br>簡介: 何在首，座主（1932）<br>大觀商事株式會社，所有者（1944）<br>大觀商事株式會社，經營者（1944）<br>林水連，會社擔當者（1944）<br>平山敬三，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>戲院名稱：（新）鳳山座
+定位精度：精確
+營運日期（起）：1932-?-?
+營運日期（迄）：?
+可考之營運年代：1930-1939，1940-1945
+
+工程費用三萬圓，現代摩登式建物，可容納一千名。（《臺灣日日新報》1932-05-11）
+</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，舊鳳山座附近（1931）
+　　　　高雄州，鳳山郡鳳山街（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>何在首，座主（1932）
+大觀商事株式會社，所有者（1944）
+大觀商事株式會社，經營者（1944）
+林水連，會社擔當者（1944）
+平山敬三，統制會社契約書（1944）</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6VrgBhLlYYpihrHXyIYIq8X0HzBNRWzQ8Ui1gDBFJKqrt4TLcBfgvzXgOTz4vsNDspoNG93Se0VmXv27BDDeqV4WALKsiwEs-ztei8Hx7wJnsAeDSN36wil-_TOuRh6McOqoalkr2V48ZZx4Ph2UZcYlJwXI-ejP8zaPoeiL29d_UTY4NQ3oly-19_Y2JvrLZoF4ImKs8guDYjmfBbyiTIbgwo18BdzbIsSDW1Ps1ESHH-IHekR0VqTbqe1nGq0nO6BP1hnG8eSkLbsZL3TLHzlDpY8IpYi2Y2uWj0YKaYPM7gISXei0FEn2nE4-RtP0TNrqAsmfFenyqN9O9qpAAMrIGLT42NWK2e5Sm_K8CNIMmJ5IE1lWR_CxWq5ZjcZGDDejoK7GuHtrQYLGToInVrYo75f0YAP4jXnRzAMtKVmkIW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3580732,22.6226572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鳳林座 約1938</name>
+        <description><![CDATA[說明: 成立時間未知<br>地點: 所在地：高雄州，鳳山郡小港庄大林埔（1944）<br>簡介: 富田良藏，所有者（1944）<br>富田良藏，經營者（1944）<br>富田良藏，會社擔當者（1944）<br>富田良藏，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>成立時間未知</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，鳳山郡小港庄大林埔（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>富田良藏，所有者（1944）
+富田良藏，經營者（1944）
+富田良藏，會社擔當者（1944）
+富田良藏，統制會社契約書（1944）</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.345257,22.528266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>★大和座(大洲戲院)1938～1982</name>
+        <description><![CDATA[說明: 五保保正郭振勝先生出資，並請「日本大阪工業專科學校」留學的二兒子郭藻梗先生設計完成。戰後前縣長陳皆興提名大洲戲院<br><br>資料來源：<br>https://www.peopo.org/news/382333?fbclid=IwAR0FNsjvqRhWAHSRv5qXg8NSYQNT9pZ6NZBpGm49uJoaZ98dUku1UXqiNhI<br><br><br><br><br>地點: 842高雄市旗山區中洲路169號<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1899-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>五保保正郭振勝先生出資，並請「日本大阪工業專科學校」留學的二兒子郭藻梗先生設計完成。戰後前縣長陳皆興提名大洲戲院
+
+資料來源：
+https://www.peopo.org/news/382333?fbclid=IwAR0FNsjvqRhWAHSRv5qXg8NSYQNT9pZ6NZBpGm49uJoaZ98dUku1UXqiNhI
+
+
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>842高雄市旗山區中洲路169號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.468002,22.842142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>★共樂館1943</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7JgHYaiHhZ8VPnkvKcXVaBEb3qHdcgV7u0RahZ4U-9n2AkGTWo5jwzKC8p6NPvmY0FJx4uDbx5T9dO_4NmpArwGs3puroHYFoIo7_3jlNAyqvXJA4AJrJHAmqIRD5ni9Q7gxJNCUEon1rxXDBLcMRQ7DN77rvHgMwM-HbfDdvUCR8puqW29IjeEiTFZUFPC70e-41Q96pIQquQ59XgXf6Ec5G0JlzRYFZYOLyysOXJt9jpTYCkcS1xKRngpMtA8SU-N6US2V-5_xhy4Ef8jSbWIb_QtP3ABoBjDRw_9NQgv6WNPOXb_yeImTBdYDL6F-Fvs8YtmSqhEVOriPMV9dxNtmQ6ijvlL6-kVgx_CoaNQUtHKRK-WFLUrx6PNHDhtm_LxO8sFXzp0Jqrq-fbY8ZRIvat_dTfOzXqPSzULfjcLr29E7bTtQ" height="200" width="auto" /><br><br>說明: 1943-11-10成立<br>地點: 所在地：高雄州，岡山郡岡山街（1944）<br>簡介: 存在，戰後改稱「岡山戲院」，現為成衣賣場。<br><br>http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800<br><br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）<br>]]></description>
+        <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1943-11-10成立</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，岡山郡岡山街（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value><![CDATA[存在，戰後改稱「岡山戲院」，現為成衣賣場。
+
+http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
+
+株式會社岡山共樂館，所有者（1944）
+株式會社岡山共樂館，經營者（1944）
+東滿，會社擔當者（1944）
+齋藤善次郎，統制會社契約書（1944）
+]]></value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7JgHYaiHhZ8VPnkvKcXVaBEb3qHdcgV7u0RahZ4U-9n2AkGTWo5jwzKC8p6NPvmY0FJx4uDbx5T9dO_4NmpArwGs3puroHYFoIo7_3jlNAyqvXJA4AJrJHAmqIRD5ni9Q7gxJNCUEon1rxXDBLcMRQ7DN77rvHgMwM-HbfDdvUCR8puqW29IjeEiTFZUFPC70e-41Q96pIQquQ59XgXf6Ec5G0JlzRYFZYOLyysOXJt9jpTYCkcS1xKRngpMtA8SU-N6US2V-5_xhy4Ef8jSbWIb_QtP3ABoBjDRw_9NQgv6WNPOXb_yeImTBdYDL6F-Fvs8YtmSqhEVOriPMV9dxNtmQ6ijvlL6-kVgx_CoaNQUtHKRK-WFLUrx6PNHDhtm_LxO8sFXzp0Jqrq-fbY8ZRIvat_dTfOzXqPSzULfjcLr29E7bTtQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.291254,22.794808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>昭和館1941/11/23</name>
+        <description><![CDATA[說明: 1941-11-23戰前小規模<br>地點: 所在地：高雄州，高雄市入船町（1944）<br>簡介: 二戰時毀於戰火。<br><br>本地才一郎，所有者（1944）<br>本地才一郎，經營者（1944）<br>相埜愛三郎，會社擔當者（1944）<br>本地才一郎，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1941-11-23戰前小規模</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，高雄市入船町（1944）</value>
+          </Data>
+          <Data name="簡介">
+            <value>二戰時毀於戰火。
+
+本地才一郎，所有者（1944）
+本地才一郎，經營者（1944）
+相埜愛三郎，會社擔當者（1944）
+本地才一郎，統制會社契約書（1944）</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2859403,22.6221178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>楠梓劇場1936/09/01～1988</name>
+        <description><![CDATA[說明: 1936/09/01<br>地點: 高雄州，岡山郡楠梓庄250番地<br>簡介: 1952稱興楠戲院(？)<br>1979經營者黃仙在<br>1987上昇<br><br>陳翻復，所有者（1944）<br>陳翻復，經營者（1944）<br>陳翻復，會社擔當者（1944）<br>陳翻復，統制會社契約書（1944）<br>]]></description>
+        <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1936/09/01</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄州，岡山郡楠梓庄250番地</value>
+          </Data>
+          <Data name="簡介">
+            <value>1952稱興楠戲院(？)
+1979經營者黃仙在
+1987上昇
+
+陳翻復，所有者（1944）
+陳翻復，經營者（1944）
+陳翻復，會社擔當者（1944）
+陳翻復，統制會社契約書（1944）
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3296909,22.7298133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>林園座1944</name>
+        <description><![CDATA[說明: 成立時間未知<br>地點: 所在地：高雄州，鳳山郡林園庄林子邊（1944)<br>簡介: 不存在，戰後改稱「林園戲院」，現為林園中央市場。<br><br>劉伯樊，所有者（1944）<br>劉伯樊，經營者（1944）<br>劉伯樊，會社擔當者（1944）<br>劉伯樊，統制會社契約書（1944）]]></description>
+        <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>成立時間未知</value>
+          </Data>
+          <Data name="地點">
+            <value>所在地：高雄州，鳳山郡林園庄林子邊（1944)</value>
+          </Data>
+          <Data name="簡介">
+            <value>不存在，戰後改稱「林園戲院」，現為林園中央市場。
+
+劉伯樊，所有者（1944）
+劉伯樊，經營者（1944）
+劉伯樊，會社擔當者（1944）
+劉伯樊，統制會社契約書（1944）</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.395269,22.505427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1945～1960</name>
+      <Placemark>
+        <name>大舞台戲院1946/12～1999</name>
+        <description><![CDATA[說明: 3筆土地面積共1191平方公尺，建物樓地板面積2800平方公尺<br>第四種商業區，建蔽率60%容積率630%<br>地點: 台灣高雄市鹽埕區中山里大仁路199號<br>簡介: 郭國基(1953)<br><br>1970年林月姮結合電影、藝廊、出版、書局、娛樂與咖啡座等功能<br>1976年毀於大火<br>1999停業<br>2013毀<br>混合戲院<br><br>]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>3筆土地面積共1191平方公尺，建物樓地板面積2800平方公尺
+第四種商業區，建蔽率60%容積率630%</value>
+          </Data>
+          <Data name="地點">
+            <value>台灣高雄市鹽埕區中山里大仁路199號</value>
+          </Data>
+          <Data name="簡介">
+            <value>郭國基(1953)
+
+1970年林月姮結合電影、藝廊、出版、書局、娛樂與咖啡座等功能
+1976年毀於大火
+1999停業
+2013毀
+混合戲院
+
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.281224,22.626795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>萬龍戲院1946/01/30～1987(陳仁和設計)</name>
+        <description><![CDATA[說明: 曾萬隆<br>地點: 台灣高雄市新興區中山橫路14號<br>簡介: 1947成立叫光華戲院,600座位<br>1952改名第一戲院<br>1958曾萬龍入主改名萬龍戲院<br>1964陳仁和改建(青薰)<br>1987結束營業<br>1995/9 拆]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>曾萬隆</value>
+          </Data>
+          <Data name="地點">
+            <value>台灣高雄市新興區中山橫路14號</value>
+          </Data>
+          <Data name="簡介">
+            <value>1947成立叫光華戲院,600座位
+1952改名第一戲院
+1958曾萬龍入主改名萬龍戲院
+1964陳仁和改建(青薰)
+1987結束營業
+1995/9 拆</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.301136,22.632131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>天華戲院1945/10/01～1966/7</name>
+        <description><![CDATA[說明: 黃再德<br>850位<br>地點: 鼓東二巷37號<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>黃再德
+850位</value>
+          </Data>
+          <Data name="地點">
+            <value>鼓東二巷37號</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2980407,22.6149625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新星戲院1946～？</name>
+        <description><![CDATA[說明: <br>地點: 新濱町二丁目7番地<br>簡介: 陳朝農<br>152坪<br>120位]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>新濱町二丁目7番地</value>
+          </Data>
+          <Data name="簡介">
+            <value>陳朝農
+152坪
+120位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.27125,22.61966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鼓山戲院1946/11/30～1984</name>
+        <description><![CDATA[說明: 混合戲院，戲劇為多<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>混合戲院，戲劇為多</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.27043,22.621909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>明昌戲院1947～1971</name>
+        <description><![CDATA[說明: 歌仔戲、新劇<br>地點: 右昌街右昌二巷35號<br>簡介: 徐坤泰]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>歌仔戲、新劇</value>
+          </Data>
+          <Data name="地點">
+            <value>右昌街右昌二巷35號</value>
+          </Data>
+          <Data name="簡介">
+            <value>徐坤泰</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.287496,22.712439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南興戲院1945/12/20～1997</name>
+        <description><![CDATA[說明: 1997/5/13停業<br>地點: 新興區民主路28號<br>簡介: 張艷秋<br>座位300<br><br>成立叫南華戲院<br>1950改為南興布袋戲院負責人莊秀滿，木造200座位<br><br>1979許參陸改建，放映二輪與西片<br><br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1997/5/13停業</value>
+          </Data>
+          <Data name="地點">
+            <value>新興區民主路28號</value>
+          </Data>
+          <Data name="簡介">
+            <value>張艷秋
+座位300
+
+成立叫南華戲院
+1950改為南興布袋戲院負責人莊秀滿，木造200座位
+
+1979許參陸改建，放映二輪與西片
+
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.300082,22.633245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大同戲院1946/12/19～1954</name>
+        <description><![CDATA[說明: <br>地點: 三塊厝709號，現建國三路三信前馬路<br>簡介: 主體人張岳，1952年負責人楊宗本<br>因道路開闢拆除]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>三塊厝709號，現建國三路三信前馬路</value>
+          </Data>
+          <Data name="簡介">
+            <value>主體人張岳，1952年負責人楊宗本
+因道路開闢拆除</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.294266,22.637292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>明星戲院1946/10/30～1988/10/1</name>
+        <description><![CDATA[說明: (56)高市建都築使字第00085號<br><br><br>地點: 苓雅區成功一路22號<br>簡介: 王再益創立，明星戲院改名過新寶<br>1947聲請人王石定<br>1964 林添燈改名新寶<br>1974後改金寶跳脫衣舞負責人范用禮<br>1988大寶<br>混合戲院，歌仔戲為多<br>1999拆]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>(56)高市建都築使字第00085號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>苓雅區成功一路22號</value>
+          </Data>
+          <Data name="簡介">
+            <value>王再益創立，明星戲院改名過新寶
+1947聲請人王石定
+1964 林添燈改名新寶
+1974後改金寶跳脫衣舞負責人范用禮
+1988大寶
+混合戲院，歌仔戲為多
+1999拆</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.298586,22.612661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>壽山戲院1949～1952</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.278113,22.65878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新興戲院1950～1985</name>
+        <description><![CDATA[說明: <br>地點: 台灣高雄市新興區球庭路69號<br>簡介: 負責人蔡杰村 1952年吳阿滿<br>1954改名大成演歌仔戲<br>1961改回新興，1962與金城跑片首輪<br>1974經理范用禮<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>台灣高雄市新興區球庭路69號</value>
+          </Data>
+          <Data name="簡介">
+            <value>負責人蔡杰村 1952年吳阿滿
+1954改名大成演歌仔戲
+1961改回新興，1962與金城跑片首輪
+1974經理范用禮
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3039545,22.6302575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南台戲院？1950</name>
+        <description><![CDATA[說明: 台灣通覽<br>地點: (舊)鳳山鎮和德里維新路36號<br>簡介: 王溪泉<br>842位]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>台灣通覽</value>
+          </Data>
+          <Data name="地點">
+            <value>(舊)鳳山鎮和德里維新路36號</value>
+          </Data>
+          <Data name="簡介">
+            <value>王溪泉
+842位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3586925,22.621881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>堀江布袋戲院(大華)1950～1980</name>
+        <description><![CDATA[說明: <br>地點: 高雄市鹽埕區必忠街<br>41號<br><br>簡介: 黃張亂妹創立，1956負責人劉大敦<br>專映布袋戲，後改大華演歌仔戲與<br>牛肉場<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>高雄市鹽埕區必忠街
+41號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>黃張亂妹創立，1956負責人劉大敦
+專映布袋戲，後改大華演歌仔戲與
+牛肉場
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.287769,22.620105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>興宗布袋戲院1950～？</name>
+        <description><![CDATA[說明: 陳柏基創立，專映布袋戲<br>地點: 高雄市鼓山區鼓山<br>二路71號<br><br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>陳柏基創立，專映布袋戲</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市鼓山區鼓山
+二路71號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2826159,22.6342104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>太平布袋戲院1950～1952</name>
+        <description><![CDATA[說明: 負責人姚清玉<br>地點: 賴南商場內<br>簡介: 隨波逐流的店家改裝城戲院，一年多後改為酒家經營]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>負責人姚清玉</value>
+          </Data>
+          <Data name="地點">
+            <value>賴南商場內</value>
+          </Data>
+          <Data name="簡介">
+            <value>隨波逐流的店家改裝城戲院，一年多後改為酒家經營</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.281409,22.623645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>文賢戲院1950～1973</name>
+        <description><![CDATA[說明: 負責人葉國昌、葉兆昌<br>地點: <br>簡介: 葉兆昌可說是路竹湖內地區的「電影大亨」。在他全盛時期，曾同時經營路竹萬國戲院、一甲派出所旁的一甲戲院，阿蓮鄉國民戲院，屏東縣鹽埔鄉新莊戲院。他還成立巡演影片團，並且曾組「大鵬電影公司」，投資拍攝了由陳揚導演的台語電影「思慕的人」，不過並不賣座]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>負責人葉國昌、葉兆昌</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>葉兆昌可說是路竹湖內地區的「電影大亨」。在他全盛時期，曾同時經營路竹萬國戲院、一甲派出所旁的一甲戲院，阿蓮鄉國民戲院，屏東縣鹽埔鄉新莊戲院。他還成立巡演影片團，並且曾組「大鵬電影公司」，投資拍攝了由陳揚導演的台語電影「思慕的人」，不過並不賣座</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.215483,22.908844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新高戲院1950～1991</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZghpc9_w9YEJdvK6rnhX2rv96wrsLoWWhWwv1yvy_bbGoIagEPQIDFrVK4c8ll9qE_6tTPHfJNlThcKZI6tVRSvQuWyV6mBvn09P7YVVrHvDWCXL2tgmm85EXHEf3Wi9lvx348KPeF1oJfz9BnU9vqU3A34H46mVcdUngrQ2zCKKKY_k-1nhSWsLEjiU5mmYuUypv9nCKV76Q?fife=s16383" height="200" width="auto" /><br><br>說明: 1979林月姮經營<br>地點: 高雄市鹽埕區藍橋里新興街305號<br>簡介: 開幕叫建國戲院，1952改名新高，1979林月姮承租改映首輪片，後改播色情<br>1983被抓，改吳忠信承租繼續色情映演<br>1991拆除蓋大樓<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1979林月姮經營</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市鹽埕區藍橋里新興街305號</value>
+          </Data>
+          <Data name="簡介">
+            <value>開幕叫建國戲院，1952改名新高，1979林月姮承租改映首輪片，後改播色情
+1983被抓，改吳忠信承租繼續色情映演
+1991拆除蓋大樓
+</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZghpc9_w9YEJdvK6rnhX2rv96wrsLoWWhWwv1yvy_bbGoIagEPQIDFrVK4c8ll9qE_6tTPHfJNlThcKZI6tVRSvQuWyV6mBvn09P7YVVrHvDWCXL2tgmm85EXHEf3Wi9lvx348KPeF1oJfz9BnU9vqU3A34H46mVcdUngrQ2zCKKKY_k-1nhSWsLEjiU5mmYuUypv9nCKV76Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.28454,22.632066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>吉興戲院1947？～？</name>
+        <description><![CDATA[說明: 大寮鄉公所建造<br>地點: 高雄市大寮區鳳林三路301巷底<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>大寮鄉公所建造</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市大寮區鳳林三路301巷底</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.398654,22.60091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>美濃戲院1947～1970</name>
+        <description><![CDATA[說明: 楊增榮創立，1970出售給土地銀行<br>地點: 843高雄市美濃區中山路一段65號<br>簡介: 現為土地銀行]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>楊增榮創立，1970出售給土地銀行</value>
+          </Data>
+          <Data name="地點">
+            <value>843高雄市美濃區中山路一段65號</value>
+          </Data>
+          <Data name="簡介">
+            <value>現為土地銀行</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.539755,22.901296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>林園大舞台戲院1948</name>
+        <description><![CDATA[說明: 張簡天賞<br>地點: 832高雄市林園區東林西路6號<br>簡介: 蕭佛助的縮小版大舞台戲院<br>1981年時發生火災而拆除<br>]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>張簡天賞</value>
+          </Data>
+          <Data name="地點">
+            <value>832高雄市林園區東林西路6號</value>
+          </Data>
+          <Data name="簡介">
+            <value>蕭佛助的縮小版大舞台戲院
+1981年時發生火災而拆除
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.395445,22.503919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>富源布袋戲院1950～1953</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.284426,22.628248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>甲仙農會戲院1950？～？</name>
+        <description><![CDATA[說明: <br>地點: 高雄市甲仙區中正路26號<br>簡介: 農會結合戲院]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>高雄市甲仙區中正路26號</value>
+          </Data>
+          <Data name="簡介">
+            <value>農會結合戲院</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.588494,23.083031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>杉林平都戲院1950？～？</name>
+        <description><![CDATA[說明: ？<br>地點: ？<br>簡介: ？]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>？</value>
+          </Data>
+          <Data name="地點">
+            <value>？</value>
+          </Data>
+          <Data name="簡介">
+            <value>？</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.54215,22.975522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>一甲戲院1950？～？</name>
+        <description><![CDATA[說明: 負責人葉兆昌<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>負責人葉兆昌</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.267827,22.869959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>富樂布袋戲院1951/8/20～1970</name>
+        <description><![CDATA[說明: <br>地點: 瀨南街4巷60號，樂天地熱飲中<br>簡介: 何萬得獨資，周龍炎為看板畫師，最後一家走進歷史的布袋戲院]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>瀨南街4巷60號，樂天地熱飲中</value>
+          </Data>
+          <Data name="簡介">
+            <value>何萬得獨資，周龍炎為看板畫師，最後一家走進歷史的布袋戲院</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2841421,22.6287978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中山堂1951～2009</name>
+        <description><![CDATA[說明: 軍中戲院<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>軍中戲院</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.29193,22.689919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國際戲院1951/5/15～1991</name>
+        <description><![CDATA[說明: 1955放映室負責人陳啟洲<br>負責人:林嘉財<br>地點: <br>簡介: 1960曾萬龍<br>1975林月姮承租<br>1983/10/8重新開幕<br>1997年拆<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1955放映室負責人陳啟洲
+負責人:林嘉財</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>1960曾萬龍
+1975林月姮承租
+1983/10/8重新開幕
+1997年拆
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.283175,22.624447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>前鎮戲院1951/2/6～1995</name>
+        <description><![CDATA[說明: 張鴻瀛設立意成戲院<br>1956更名前鎮，負責人葉林瑞香<br>1960易主黃源興，播西片後轉色情<br><br>地點: 806高雄市前鎮區前鎮一巷47號<br>簡介: 量販店<br>第二種特定經貿核心專用區<br>]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>張鴻瀛設立意成戲院
+1956更名前鎮，負責人葉林瑞香
+1960易主黃源興，播西片後轉色情
+</value>
+          </Data>
+          <Data name="地點">
+            <value>806高雄市前鎮區前鎮一巷47號</value>
+          </Data>
+          <Data name="簡介">
+            <value>量販店
+第二種特定經貿核心專用區
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.306858,22.590669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金昇戲院1952/2/8～1985</name>
+        <description><![CDATA[說明: 左西段(0213)1618地號<br><br>地點: 高雄市左營區左營大路87號<br><br>簡介: 曾胡的兒子曾仁春先生，原是一位英文教師，繼續經營戲院，1961年任高雄市議員，1979因色情被吊銷改名金昇，經理程武勇，1984再被抓再更名大金昇<br>]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>左西段(0213)1618地號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市左營區左營大路87號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>曾胡的兒子曾仁春先生，原是一位英文教師，繼續經營戲院，1961年任高雄市議員，1979因色情被吊銷改名金昇，經理程武勇，1984再被抓再更名大金昇
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.289528,22.685778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>港都戲院1952/10/15～1978</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6I3SmH-e8OtiuA_Oua5T5l0Ebu8KEfsNJiAqz08RSWhVDSPztikf-tEYLRRuDWtsv33a_hgD-YO6Jb3aED0024k0XxvYZAWOSX0F3IrmrcI3Y-8tjiV2ExetRW6OFFm-IXVUV6VPskFfeMio1op_EV2iEO4qx_mrjoSKH__7_h8-KJ5fzAijp59ci8aQKBgTgjLItMeeNaIUTn0HPhelwhwcg_sJAQe8rFq9_ywA1QnK6gfgsC10tcEsf76hA0Rr6SvjZ_3P3QtAs" height="200" width="auto" /><br><br>說明: 鹽府段(0040)196地號<br><br><br>地點: 高雄市鹽埕區興華街19號<br><br>簡介: 混和<br>張庸言、戴買等創立，混和戲院<br>1963葉炎山獨資接手，後轉脫衣舞<br>為市區首家色情<br>旁邊為舊果菜市場<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>鹽府段(0040)196地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市鹽埕區興華街19號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>混和
+張庸言、戴買等創立，混和戲院
+1963葉炎山獨資接手，後轉脫衣舞
+為市區首家色情
+旁邊為舊果菜市場
+</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6I3SmH-e8OtiuA_Oua5T5l0Ebu8KEfsNJiAqz08RSWhVDSPztikf-tEYLRRuDWtsv33a_hgD-YO6Jb3aED0024k0XxvYZAWOSX0F3IrmrcI3Y-8tjiV2ExetRW6OFFm-IXVUV6VPskFfeMio1op_EV2iEO4qx_mrjoSKH__7_h8-KJ5fzAijp59ci8aQKBgTgjLItMeeNaIUTn0HPhelwhwcg_sJAQe8rFq9_ywA1QnK6gfgsC10tcEsf76hA0Rr6SvjZ_3P3QtAs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.285097,22.629999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>小港戲院1953</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4DZjnWmmaOXJIKDhShrBzyo7Tr5QtwptWD7NERdrFHALPLqe1NTFDngubAGdfP9vAWVOWRaHJVlR06CWt-1uFwrieIWRS2d-PATUQjzCE2s9lFz67EN6QmeqAtQdM-PF0VnSj_2t_V9UMsUTS4mkMp6zWWceJBa3NyQuWxsYGsEyo5zzIEq2GLKg2YJF6PpRQ3CZvZ4nWaEDNHGhREHn5jZWJBub9H4-UZ7r4Q1MOkPK5nyw29LAYs5KYg8-ZwoVQFU6MHXFi2AEs" height="200" width="auto" /><br><br>說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4DZjnWmmaOXJIKDhShrBzyo7Tr5QtwptWD7NERdrFHALPLqe1NTFDngubAGdfP9vAWVOWRaHJVlR06CWt-1uFwrieIWRS2d-PATUQjzCE2s9lFz67EN6QmeqAtQdM-PF0VnSj_2t_V9UMsUTS4mkMp6zWWceJBa3NyQuWxsYGsEyo5zzIEq2GLKg2YJF6PpRQ3CZvZ4nWaEDNHGhREHn5jZWJBub9H4-UZ7r4Q1MOkPK5nyw29LAYs5KYg8-ZwoVQFU6MHXFi2AEs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.336868,22.564799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>六龜戲院1953～1992</name>
+        <description><![CDATA[說明: <br>地點: 高雄市六龜區太平路85號<br><br>簡介: 鍾玉妹創 1956劉祖燕經營]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>高雄市六龜區太平路85號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>鍾玉妹創 1956劉祖燕經營</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.637083,22.995589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大社戲院 1953～1971</name>
+        <description><![CDATA[說明: <br>地點: 高雄市大社區<br>民生路24號<br><br>簡介: 負責人陳紹宗]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>高雄市大社區
+民生路24號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>負責人陳紹宗</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3469242,22.7285492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中洲戲院1953/9/20～1987</name>
+        <description><![CDATA[說明: 中洲唯一一家<br>莊高都，將魚市場改建<br>1974年程武勇改播色情<br>地點: 22.57182, 120.29987<br>簡介: 後改名永洲]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>中洲唯一一家
+莊高都，將魚市場改建
+1974年程武勇改播色情</value>
+          </Data>
+          <Data name="地點">
+            <value>22.57182, 120.29987</value>
+          </Data>
+          <Data name="簡介">
+            <value>後改名永洲</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.299874,22.571826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>明城戲院1954/2～1984</name>
+        <description><![CDATA[說明: 灣復段(0548)1023地號<br><br><br>地點: 高雄市三民區灣子里<br>民生街14號<br><br>簡介: 負責人胡盛坤、胡錦文<br>1966/4/1停業，1967/8/6復業<br>1970負責人郭明哲、楊金岸<br>1983負責人趙萬川靠牛肉場還是<br>無力振興，隔年停業]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>灣復段(0548)1023地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市三民區灣子里
+民生街14號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>負責人胡盛坤、胡錦文
+1966/4/1停業，1967/8/6復業
+1970負責人郭明哲、楊金岸
+1983負責人趙萬川靠牛肉場還是
+無力振興，隔年停業</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.315557,22.649092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>美都戲院1954～1993</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjxQzPcswd15er8vW5z7krMxw-O3RvyvK9DNhMjJy7ycHAh1Y5HUGb3pq8YLre-tUYz5-Nzjq1e2MqHUYLtmuT4kldN8JD_67KhvaSBvnDNK1Aad19-8y1A1mteMhCrsoNKevtp_M2yfTAPS-Y4ig8Sq_WzWwdt7pv76MqmkJpzyswdLBsL5cCs-w8Ra2iwTpsr7bIwwW0bOlg?fife=s16383" height="200" width="auto" /><br><br>說明: 張嘉倫<br>地點: 高雄市美濃區合和里中正路一段８５巷１７號<br>簡介: 空地]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>張嘉倫</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市美濃區合和里中正路一段８５巷１７號</value>
+          </Data>
+          <Data name="簡介">
+            <value>空地</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjxQzPcswd15er8vW5z7krMxw-O3RvyvK9DNhMjJy7ycHAh1Y5HUGb3pq8YLre-tUYz5-Nzjq1e2MqHUYLtmuT4kldN8JD_67KhvaSBvnDNK1Aad19-8y1A1mteMhCrsoNKevtp_M2yfTAPS-Y4ig8Sq_WzWwdt7pv76MqmkJpzyswdLBsL5cCs-w8Ra2iwTpsr7bIwwW0bOlg?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.543452,22.898116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>萬國戲院1956～1974</name>
+        <description><![CDATA[說明: 立面典雅<br>地點: 821高雄市路竹區中山路520號<br>簡介: 葉兆昌是曾同時經營路竹萬國戲院、一甲戲院，阿蓮國民戲院，鹽埔新莊戲院。路竹區曾同時有3家戲院]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>立面典雅</value>
+          </Data>
+          <Data name="地點">
+            <value>821高雄市路竹區中山路520號</value>
+          </Data>
+          <Data name="簡介">
+            <value>葉兆昌是曾同時經營路竹萬國戲院、一甲戲院，阿蓮國民戲院，鹽埔新莊戲院。路竹區曾同時有3家戲院</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.258852,22.860671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大華僑戲院1957/12/28～1999</name>
+        <description><![CDATA[說明: 河濱段(0514)594地號<br>(79)高市工建築使字第00666號<br> (77)高市工建築字第D10001號<br><br>地點: 三民區建國三路533號，商四<br>簡介: 1962陳武璋市長期間第二運河截彎去直<br>※1966/4/5 第二運河一代都市計畫變更了未設定區成為了商業區與住宅區<br><br>東南/1957<br>1969易手蔡專治改名國賓<br>1972馬來西亞華僑吳浩經營改名華僑，並加裝冷氣並於其中加入巴黎香水<br>1976林月姮承接改名大華僑<br>1985改建大樓多角經營第一家超市美食書苑<br>1999/7/21停業<br>]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>河濱段(0514)594地號
+(79)高市工建築使字第00666號
+ (77)高市工建築字第D10001號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>三民區建國三路533號，商四</value>
+          </Data>
+          <Data name="簡介">
+            <value>1962陳武璋市長期間第二運河截彎去直
+※1966/4/5 第二運河一代都市計畫變更了未設定區成為了商業區與住宅區
+
+東南/1957
+1969易手蔡專治改名國賓
+1972馬來西亞華僑吳浩經營改名華僑，並加裝冷氣並於其中加入巴黎香水
+1976林月姮承接改名大華僑
+1985改建大樓多角經營第一家超市美食書苑
+1999/7/21停業
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.287718,22.635002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>林園玉山戲院(?)</name>
+        <description><![CDATA[說明: 林園段(1623)1099-1地號<br><br>地點: 832高雄市林園區開南街103號<br>簡介: 原開南戲院，劉伯潤頂下更名]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>林園段(1623)1099-1地號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>832高雄市林園區開南街103號</value>
+          </Data>
+          <Data name="簡介">
+            <value>原開南戲院，劉伯潤頂下更名</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.394444,22.502189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>九曲堂戲院？</name>
+        <description><![CDATA[說明: 台灣通覽<br>地點: 久堂村113號<br>簡介: 丁天木<br>500位]]></description>
+        <styleUrl>#icon-1709-000000-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>台灣通覽</value>
+          </Data>
+          <Data name="地點">
+            <value>久堂村113號</value>
+          </Data>
+          <Data name="簡介">
+            <value>丁天木
+500位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4204652,22.6565071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>甲仙明星戲院1966～1991</name>
+        <description><![CDATA[說明: 陳水凌<br>地點: 甲仙林森路2巷7號<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>陳水凌</value>
+          </Data>
+          <Data name="地點">
+            <value>甲仙林森路2巷7號</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.5902426,23.0836475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>福壽戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 甲南村111號<br>簡介: 王丙 500位]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>甲南村111號</value>
+          </Data>
+          <Data name="簡介">
+            <value>王丙 500位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2695,22.871003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>後庄戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 後庄村8號<br>簡介: 曾激瑞 500]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>後庄村8號</value>
+          </Data>
+          <Data name="簡介">
+            <value>曾激瑞 500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3921453,22.6400596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>仁武戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 仁武鄉仁武村1號<br>簡介: 王吳金 500]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>仁武鄉仁武村1號</value>
+          </Data>
+          <Data name="簡介">
+            <value>王吳金 500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.34625,22.701035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>彌陀戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 彌陀村227號<br>簡介: 張啓榮500]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>彌陀村227號</value>
+          </Data>
+          <Data name="簡介">
+            <value>張啓榮500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2476314,22.7788738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>茄萣戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 嘉賜村683號<br>簡介: 林鼎宗 650]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>嘉賜村683號</value>
+          </Data>
+          <Data name="簡介">
+            <value>林鼎宗 650</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.18262,22.90249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>梓官戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 梓義村51號<br>簡介: 蔣滿 600]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>梓義村51號</value>
+          </Data>
+          <Data name="簡介">
+            <value>蔣滿 600</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2670265,22.761793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>赤慈戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 赤東村<br>簡介: 王顯祥 640]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>赤東村</value>
+          </Data>
+          <Data name="簡介">
+            <value>王顯祥 640</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2481557,22.7358293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>通安戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 智蚵村<br>簡介: 曾清文 600]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>智蚵村</value>
+          </Data>
+          <Data name="簡介">
+            <value>曾清文 600</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2515606,22.7303642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>永安戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 永華村112號<br>簡介: 黃仲 500]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>永華村112號</value>
+          </Data>
+          <Data name="簡介">
+            <value>黃仲 500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.225254,22.818193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>燕巢戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 南燕村79號<br>簡介: 蔡文全 550]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>南燕村79號</value>
+          </Data>
+          <Data name="簡介">
+            <value>蔡文全 550</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.362554,22.7931577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>平都戲院1950</name>
+        <description><![CDATA[說明: <br>地點: 公平村164號<br>簡介: 林嶸貴 500]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>公平村164號</value>
+          </Data>
+          <Data name="簡介">
+            <value>林嶸貴 500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.540058,22.9717391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鼎金戲院1951/5/11</name>
+        <description><![CDATA[說明: 鮑國佐<br>600位<br>專映歌仔戲<br>地點: 前鼎西里富鼎金279號<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>鮑國佐
+600位
+專映歌仔戲</value>
+          </Data>
+          <Data name="地點">
+            <value>前鼎西里富鼎金279號</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.315725548482,22.6688420965075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1960～1980</name>
+      <Placemark>
+        <name>亞洲大戲院1960/6/30～1981</name>
+        <description><![CDATA[說明: 鹽埕區江東段三小段1-1地號<br><br>地點: 台灣高雄市鹽埕區五福四路269號<br>簡介: 前高雄劇場 (第一結合百貨)致美齋販店、金馬車咖啡<br>1960/01/22 破土<br>1961/06/01 開幕<br>許火金(戰後)<br>蕭佛助規模最大者8層樓僅次於台北國賓<br><br>1982年改建為商業住宅大樓建築師廖正義<br>商五<br>]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>鹽埕區江東段三小段1-1地號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>台灣高雄市鹽埕區五福四路269號</value>
+          </Data>
+          <Data name="簡介">
+            <value>前高雄劇場 (第一結合百貨)致美齋販店、金馬車咖啡
+1960/01/22 破土
+1961/06/01 開幕
+許火金(戰後)
+蕭佛助規模最大者8層樓僅次於台北國賓
+
+1982年改建為商業住宅大樓建築師廖正義
+商五
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.28097,22.624663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>環球戲院1963/2/6～1993</name>
+        <description><![CDATA[說明: 灣復段(0548)1211地號<br><br><br>地點: 高雄市三民區灣子里裕民巷28號<br><br>簡介: 創立人曾先助<br>1969前鎮戲院的黃源興購得改名全球<br>改映色情<br>2004年拆]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>灣復段(0548)1211地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市三民區灣子里裕民巷28號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>創立人曾先助
+1969前鎮戲院的黃源興購得改名全球
+改映色情
+2004年拆</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.315917,22.650308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>仙堂戲院舊址1963～2003</name>
+        <description><![CDATA[說明: 陳健男　　<br>地點: 高雄市旗山區太平里旗南一路３２巷１號<br>簡介: 原新樂園戲院，陳啟清1963收購改建]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>陳健男　　</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市旗山區太平里旗南一路３２巷１號</value>
+          </Data>
+          <Data name="簡介">
+            <value>原新樂園戲院，陳啟清1963收購改建</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.48006,22.885954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中正堂1963</name>
+        <description><![CDATA[說明: 廍後段(0216)540-2地號<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>廍後段(0216)540-2地號</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2799399,22.6844977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>光華戲院1964/6/1～？</name>
+        <description><![CDATA[說明: 市場用地<br>前鎮區籬子內段籬子內小段82-31號<br>林興段(0913)，地號：1775<br><br>地點: 前鎮區竹內里農村巷10號<br>簡介: 閒置中<br>負責人蔡達郎，300座位<br>程武勇操盤，高雄第一家色情戲院<br>1972/1/17變更為住宅用地<br>1975/02/08 高市府工都字第011336號 本市第六批（籬子內）細部計畫及變更主要計畫案【十五批上方】變更原住宅用地變成市場用地           <br>]]></description>
+        <styleUrl>#icon-1578-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>市場用地
+前鎮區籬子內段籬子內小段82-31號
+林興段(0913)，地號：1775
+</value>
+          </Data>
+          <Data name="地點">
+            <value>前鎮區竹內里農村巷10號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中
+負責人蔡達郎，300座位
+程武勇操盤，高雄第一家色情戲院
+1972/1/17變更為住宅用地
+1975/02/08 高市府工都字第011336號 本市第六批（籬子內）細部計畫及變更主要計畫案【十五批上方】變更原住宅用地變成市場用地           
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3186,22.616182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>岡山中正堂1964/6/12～？</name>
+        <description><![CDATA[說明: 提供給軍校與眷村<br>地點: 高雄市岡山區柳橋西路1號<br><br>簡介: ]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>提供給軍校與眷村</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市岡山區柳橋西路1號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2888819,22.7902984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>西北戲院1965/7/9～1989</name>
+        <description><![CDATA[說明: 大港埔 212-11號<br>商二<br><br>地點: 高雄市新興區建興里和平巷27號<br><br>簡介: 1965/7/9<br>1989停業<br>專映西片，文藝片之宮，名畫家張啟華財產]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>大港埔 212-11號
+商二
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市新興區建興里和平巷27號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>1965/7/9
+1989停業
+專映西片，文藝片之宮，名畫家張啟華財產</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.299637,22.636575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>興德戲院1965/12/30～1993</name>
+        <description><![CDATA[說明: 三塊厝段二小段(0566)1373-10地號<br>地點: 三民市場對面，高雄市三民區中華三路280號<br><br>簡介: 三鳳宮財團法人高雄市三塊厝興德團與蕭佛助合作於剛開闢之中華三路，一樓商店二樓以上戲院，負責人邱道得、孫士池、陳世明合夥]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>三塊厝段二小段(0566)1373-10地號</value>
+          </Data>
+          <Data name="地點">
+            <value>三民市場對面，高雄市三民區中華三路280號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>三鳳宮財團法人高雄市三塊厝興德團與蕭佛助合作於剛開闢之中華三路，一樓商店二樓以上戲院，負責人邱道得、孫士池、陳世明合夥</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2937,22.635938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>觀光大戲院1966/1/20～1995</name>
+        <description><![CDATA[說明: 左西段(0213)1094地號<br><br><br>地點: 高雄市左營區路頂三巷25號<br><br>簡介: 軍中樂園，曾清水創立<br>國外成人電影]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>左西段(0213)1094地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市左營區路頂三巷25號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>軍中樂園，曾清水創立
+國外成人電影</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.291908,22.688083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>清水戲院1966/2/25～1995</name>
+        <description><![CDATA[說明: 左西段(0213)961地號<br><br><br>地點: 22.68796, 120.29242<br>簡介: 曾清水]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>左西段(0213)961地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>22.68796, 120.29242</value>
+          </Data>
+          <Data name="簡介">
+            <value>曾清水</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.292424,22.687967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>聲都戲院1966/1/16～1986/5/2</name>
+        <description><![CDATA[說明: 負責人林加由，放二輪居多<br>地點: 高雄市新興區青年一路2-3號<br><br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>負責人林加由，放二輪居多</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市新興區青年一路2-3號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3096332,22.6226848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東南戲院1966/10/7～1987</name>
+        <description><![CDATA[說明: 新興段四小段(0704)107地號<br><br><br>地點: <br>簡介: 1966/10/7<br>19874/6停業<br>張啟華所有，王復成向林家承租<br>學生為主，曾放映色情電影]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>新興段四小段(0704)107地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>1966/10/7
+19874/6停業
+張啟華所有，王復成向林家承租
+學生為主，曾放映色情電影</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.298809,22.6364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中都戲院1966/10/23～1989/10/3</name>
+        <description><![CDATA[說明: 閒置中<br>市場用地建蔽50 容積300<br>中都段三小段(0504)367地號<br><br><br>地點: 807高雄市三民區中都街14號(舊稱磚仔窯、牛車寮)<br>簡介: 1966/10/23<br>莊魁燦經營<br>愛河家樂福開業導致沒落<br>1989/10/3停業<br><br>中都地區原為市政府向唐榮借的土地作為垃圾掩埋場，1966年的都市計畫開通中都街與興建第一個民營市場中都市場與戲院<br><br>1961/04/28 高市府建土字第20912號<br>巷弄劃分出來與寬度(中都一代小巷稱為仁愛巷ex:中都街63巷稱為三民區193仁愛二巷6公尺)<br><br>1972-01-17高市府建都字第148042號 原都市計畫分區使用檢討：<br>力行里中都地區一代由工業用地變為住宅用地<br><br>104/12 變更高雄市原都市計畫區（三民區部<br>分）細部計畫(第三次通盤檢討)(第一階段)案計畫書：從住宅用地變更為市場用地]]></description>
+        <styleUrl>#icon-1709-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>閒置中
+市場用地建蔽50 容積300
+中都段三小段(0504)367地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>807高雄市三民區中都街14號(舊稱磚仔窯、牛車寮)</value>
+          </Data>
+          <Data name="簡介">
+            <value>1966/10/23
+莊魁燦經營
+愛河家樂福開業導致沒落
+1989/10/3停業
+
+中都地區原為市政府向唐榮借的土地作為垃圾掩埋場，1966年的都市計畫開通中都街與興建第一個民營市場中都市場與戲院
+
+1961/04/28 高市府建土字第20912號
+巷弄劃分出來與寬度(中都一代小巷稱為仁愛巷ex:中都街63巷稱為三民區193仁愛二巷6公尺)
+
+1972-01-17高市府建都字第148042號 原都市計畫分區使用檢討：
+力行里中都地區一代由工業用地變為住宅用地
+
+104/12 變更高雄市原都市計畫區（三民區部
+分）細部計畫(第三次通盤檢討)(第一階段)案計畫書：從住宅用地變更為市場用地</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.287148,22.639352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>遠東戲院1966/5/11～1998/10/3</name>
+        <description><![CDATA[說明: 陳清輝<br>地點: 左營區城北里店仔頂81號<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>陳清輝</value>
+          </Data>
+          <Data name="地點">
+            <value>左營區城北里店仔頂81號</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.290333,22.684308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>永貴戲院1967/9/28～1986/3/28</name>
+        <description><![CDATA[說明: 19670928中興泰開幕，許火金經營<br>1972改名永貴<br>1981程武勇接手改歌舞團經營<br>1983改名漢宮<br>19860328停業<br><br>地點: 高雄市苓雅區鼓中里永昌街6-1號<br><br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>19670928中興泰開幕，許火金經營
+1972改名永貴
+1981程武勇接手改歌舞團經營
+1983改名漢宮
+19860328停業
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市苓雅區鼓中里永昌街6-1號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.299483,22.616693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>楠都戲院1968/12/25～1987</name>
+        <description><![CDATA[說明: 1960～1969間建立<br><br>地點: 811高雄市楠梓區朝陽路148號<br>簡介: 賓館]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1960～1969間建立
+</value>
+          </Data>
+          <Data name="地點">
+            <value>811高雄市楠梓區朝陽路148號</value>
+          </Data>
+          <Data name="簡介">
+            <value>賓館</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.326074,22.725855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東亞戲院1968</name>
+        <description><![CDATA[說明: 1968創，翁剛雄<br>2013拆<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1968創，翁剛雄
+2013拆</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.356196,22.623033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東亞戲院石柱</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1769-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.357191,22.623532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>第一戲院1969</name>
+        <description><![CDATA[說明: <br>地點: 843高雄市美濃區中正路一段127巷5號<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>843高雄市美濃區中正路一段127巷5號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.544025,22.898076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>昌樂(光明？)大戲院1969～1990年代？</name>
+        <description><![CDATA[說明: 大樹唯一戲院，1977鍾正芳命案<br>地點: 840高雄市大樹區中興北路安樂巷1號<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>大樹唯一戲院，1977鍾正芳命案</value>
+          </Data>
+          <Data name="地點">
+            <value>840高雄市大樹區中興北路安樂巷1號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.432982,22.691621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>福東戲院1971/11/25～？</name>
+        <description><![CDATA[說明: 高雄市苓雅區 五塊厝段 1099<br>福東段982 <br><br>地點: 高雄市苓雅區福東市場巷42號<br>簡介: 福東戲院 代表人郭吳綢、洪陳歛]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>高雄市苓雅區 五塊厝段 1099
+福東段982 
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市苓雅區福東市場巷42號</value>
+          </Data>
+          <Data name="簡介">
+            <value>福東戲院 代表人郭吳綢、洪陳歛</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3300014,22.6200588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>壽星戲院(大樓)1971～1995</name>
+        <description><![CDATA[說明: 鹽壽段(0041)52地號<br> (68)高市工都築變使字第00667-02號<br>商五<br><br>地點: 80341高雄市鹽埕區七賢三路243號<br>簡介: 1930建<br>1935壽星座<br>1954重建<br>專映京劇<br><br>許火金(戰後)<br>一樓為全聯<br>]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>鹽壽段(0041)52地號
+ (68)高市工都築變使字第00667-02號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>80341高雄市鹽埕區七賢三路243號</value>
+          </Data>
+          <Data name="簡介">
+            <value>1930建
+1935壽星座
+1954重建
+專映京劇
+
+許火金(戰後)
+一樓為全聯
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.283909,22.630147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>憲德戲院巷1972/2/12～1990/3/7</name>
+        <description><![CDATA[說明: 以戲院命名的路<br>地點: 前鎮區瑞隆路591號<br>簡介: 負責人楊金岸，外國脫衣秀瘦林仔]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>以戲院命名的路</value>
+          </Data>
+          <Data name="地點">
+            <value>前鎮區瑞隆路591號</value>
+          </Data>
+          <Data name="簡介">
+            <value>負責人楊金岸，外國脫衣秀瘦林仔</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3261898,22.6049329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大統戲院1973～2001左右</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.330816,22.62013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>今日戲院1976/8/21～1991/5/12</name>
+        <description><![CDATA[說明: 新興段四小段(0704)183地號<br>商四<br>(59)高市建都築字第00059號<br><br>地點: 新興區八德二路30號<br>簡介: 王水河與王文芳設計<br>董事長陳茂蘭，1979後跳脫衣<br>1991/5/12地下室三溫暖火災關閉<br>]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>新興段四小段(0704)183地號
+商四
+(59)高市建都築字第00059號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>新興區八德二路30號</value>
+          </Data>
+          <Data name="簡介">
+            <value>王水河與王文芳設計
+董事長陳茂蘭，1979後跳脫衣
+1991/5/12地下室三溫暖火災關閉
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.300237,22.636305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>三多影城1975</name>
+        <description><![CDATA[說明: 意誠段(0906)765地號<br>(67)高市工都築變使字第00059-02號<br>商五<br><br>地點: 802高雄市苓雅區三多四路123號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>意誠段(0906)765地號
+(67)高市工都築變使字第00059-02號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>802高雄市苓雅區三多四路123號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.299332,22.612061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>藍寶石大舞廳1975</name>
+        <description><![CDATA[說明: 1975~1995<br>地點: <br>簡介: 創始者蔡有望與其妻陳鶯合力經營<br>老闆"時鐘"龔書清，其18斧頭幫與豬灶幫吳守雄共組西北幫以此為據點<br>李再富（台北仔）裝潢<br>]]></description>
+        <styleUrl>#icon-1578-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>1975~1995</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value><![CDATA[創始者蔡有望與其妻陳鶯合力經營
+老闆"時鐘"龔書清，其18斧頭幫與豬灶幫吳守雄共組西北幫以此為據點
+李再富（台北仔）裝潢
+]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2997,22.636569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>六龜光華戲院1975～1994</name>
+        <description><![CDATA[說明: 義寶段(3611)907地號<br>地點: 高雄市六龜區文武里河邊巷64號<br>簡介: 1975文武村忠孝街底新開光華戲院 張祖森，1975劉祖燕也接受]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>義寶段(3611)907地號</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市六龜區文武里河邊巷64號</value>
+          </Data>
+          <Data name="簡介">
+            <value>1975文武村忠孝街底新開光華戲院 張祖森，1975劉祖燕也接受</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.637229,22.991946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>豪華戲院1978/2/10～1991/11/4</name>
+        <description><![CDATA[說明: 後金段(0801)530地號<br><br>地點: 高雄市前金區河東路178-1號<br><br>簡介: 興德戲院的陳世明去台北取經開設高雄第一多廳複合戲院<br>三樓保齡球館]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>後金段(0801)530地號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市前金區河東路178-1號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>興德戲院的陳世明去台北取經開設高雄第一多廳複合戲院
+三樓保齡球館</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.290265,22.624767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>統一、日新戲院1978/7/3-1989/8/31</name>
+        <description><![CDATA[說明: 聯宏院線，王慶禾所有<br>地點: 高雄市苓雅區中華四路20號<br><br>簡介: 商五]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>聯宏院線，王慶禾所有</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市苓雅區中華四路20號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>商五</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.302834,22.6122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>翡翠、真善美戲院1978/10/9-1989/9/2</name>
+        <description><![CDATA[說明: 意誠段(0906)776-10地號<br><br><br>地點: 高雄市苓雅區成功二路98-2號<br><br>簡介: 聯宏院線，負責人余子琛<br>中西首輪片，奠定了戲院標準規範<br>]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>意誠段(0906)776-10地號
+
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市苓雅區成功二路98-2號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>聯宏院線，負責人余子琛
+中西首輪片，奠定了戲院標準規範
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.29915,22.610825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>美的戲院1978/8/19～1983</name>
+        <description><![CDATA[說明: 建築師高而潘<br>地點: 高雄市新興區民族二路72號<br><br>簡介: 負責人趙文孝，與民族保齡球館結合<br>色情片為主]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>建築師高而潘</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市新興區民族二路72號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>負責人趙文孝，與民族保齡球館結合
+色情片為主</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.313811,22.632767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>喜相逢、金像獎戲院1979/10/4-1987/7/1</name>
+        <description><![CDATA[說明: 商四<br>(68)高市工建築使字第01354號<br>(67)高市工都築字第13100號<br><br>(71)高市工建築使字第00021號<br> (70)高市工建築字第03509號<br><br>地點: 802高雄市苓雅區自強三路62號<br>簡介: 聯宏院線喜相逢歌廳，為三多商圈鼻祖<br><br>喜相逢歌劇院位於高雄市苓雅區自強三路「自強點心大樓」的6、7樓，於1979年10月10日正式開幕；由聯宏企業董事長王慶禾投資經營，耗資新台幣六千多萬元，內部可容納一千多名觀眾，開幕時號稱是東南亞最大歌廳，與新興區同愛街的藍寶石歌廳，並列為高雄兩大秀場。<br><br>1981年7月18日發生的一場大火<br>]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>商四
+(68)高市工建築使字第01354號
+(67)高市工都築字第13100號
+
+(71)高市工建築使字第00021號
+ (70)高市工建築字第03509號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>802高雄市苓雅區自強三路62號</value>
+          </Data>
+          <Data name="簡介">
+            <value>聯宏院線喜相逢歌廳，為三多商圈鼻祖
+
+喜相逢歌劇院位於高雄市苓雅區自強三路「自強點心大樓」的6、7樓，於1979年10月10日正式開幕；由聯宏企業董事長王慶禾投資經營，耗資新台幣六千多萬元，內部可容納一千多名觀眾，開幕時號稱是東南亞最大歌廳，與新興區同愛街的藍寶石歌廳，並列為高雄兩大秀場。
+
+1981年7月18日發生的一場大火
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3001662,22.6132476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金塔大戲院 1979/1/11～1991/8/16</name>
+        <description><![CDATA[說明: 金金大廈，餐廳改建<br>地點: 高雄市新興區林森一路242號2樓<br><br>簡介: 閒置中<br>商四]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>金金大廈，餐廳改建</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市新興區林森一路242號2樓
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中
+商四</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.305028,22.635028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>十全電影城1979/3/10</name>
+        <description><![CDATA[說明: 說明: 高雄目前唯一二輪<br>地點: 807高雄市三民區十全二路21號<br>簡介: 營業中<br>地點: 807高雄市三民區十全二路21號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>說明: 高雄目前唯一二輪
+地點: 807高雄市三民區十全二路21號
+簡介: 營業中</value>
+          </Data>
+          <Data name="地點">
+            <value>807高雄市三民區十全二路21號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.302,22.645396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國泰國光戲院1979/3/8～1990/4/5</name>
+        <description><![CDATA[說明: <br>地點: 前鎮區瑞和街218號<br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>前鎮區瑞和街218號</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.327133,22.605903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大山戲院1960?</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: 莊角<br>650位]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>莊角
+650位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.35979,22.626447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>阿蓮戲院</name>
+        <description><![CDATA[說明: 資料不足<br><br>地點: 822高雄市阿蓮區民族路38巷13號<br>簡介: 全聯]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>資料不足
+</value>
+          </Data>
+          <Data name="地點">
+            <value>822高雄市阿蓮區民族路38巷13號</value>
+          </Data>
+          <Data name="簡介">
+            <value>全聯</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.330548,22.880145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>同樂戲院1960</name>
+        <description><![CDATA[說明: 台灣通覽<br>地點: <br>簡介: 許金煜<br>300位]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>台灣通覽</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>許金煜
+300位</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.302257,22.6151309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>福源大戲院(?)</name>
+        <description><![CDATA[說明: <br>地點: 821高雄市路竹區中正路104巷3-45<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value>821高雄市路竹區中正路104巷3-45</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.26209,22.855183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>合作戲院1970/01/16～2010</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.361276,22.629332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1980～1995</name>
+      <Placemark>
+        <name>國王戲院1981</name>
+        <description><![CDATA[說明: 成功段(0917)3地號<br> (66)高市工都築變使字第00137-05號<br>商五<br><br>地點: 802高雄市苓雅區五福三路101號<br>簡介: 地下室，閒置中]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>成功段(0917)3地號
+ (66)高市工都築變使字第00137-05號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>802高雄市苓雅區五福三路101號</value>
+          </Data>
+          <Data name="簡介">
+            <value>地下室，閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.294972,22.620805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>三寶宮戲院1981/2/2～1998/12/1</name>
+        <description><![CDATA[說明: 劉興森<br>地點: 高雄市三民區建興路267-2號<br><br>簡介: 249位小廳，閒置中]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>劉興森</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市三民區建興路267-2號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>249位小廳，閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.324259,22.644857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高雄地下街1981/1/30～1989/12/19</name>
+        <description><![CDATA[說明: 金、銀、玉、珍珠地戲院<br>全國第一地下街與地下戲院<br>1989大火毀<br>地點: <br>簡介: 李騰雄]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>金、銀、玉、珍珠地戲院
+全國第一地下街與地下戲院
+1989大火毀</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>李騰雄</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.287401,22.625735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國宮戲院1981/1/23～1995</name>
+        <description><![CDATA[說明: 府北段五小段143地號<br> (70)高市工建築使字第00084號<br> (66)高市工都築字第03509號<br>商四<br><br>地點: 803高雄市鹽埕區大有街24之1號<br>簡介: 城中城大樓，冰宮 歌舞廳 證券行<br>許火金經營<br>曾觀濤設計]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>府北段五小段143地號
+ (70)高市工建築使字第00084號
+ (66)高市工都築字第03509號
+商四
+</value>
+          </Data>
+          <Data name="地點">
+            <value>803高雄市鹽埕區大有街24之1號</value>
+          </Data>
+          <Data name="簡介">
+            <value>城中城大樓，冰宮 歌舞廳 證券行
+許火金經營
+曾觀濤設計</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.285316,22.628807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中華戲院1981/10/25～1989/9/11</name>
+        <description><![CDATA[說明: 中華一開始為歌舞廳<br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1709-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>中華一開始為歌舞廳</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.29526,22.6305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>愛心戲院1982/1/25～1993</name>
+        <description><![CDATA[說明: 芝蘭大廈，陳正瑞<br>地點: 一心二路192號<br>簡介: 當地最響亮牛肉場]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>芝蘭大廈，陳正瑞</value>
+          </Data>
+          <Data name="地點">
+            <value>一心二路192號</value>
+          </Data>
+          <Data name="簡介">
+            <value>當地最響亮牛肉場</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3070732,22.6130019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>榮星大戲院1982/1/25～1995</name>
+        <description><![CDATA[說明: 榮星歡樂世界廣場，陳增和<br>地點: 811高雄市楠梓區楠都東街177號<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1603-880E4F-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>榮星歡樂世界廣場，陳增和</value>
+          </Data>
+          <Data name="地點">
+            <value>811高雄市楠梓區楠都東街177號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.326392,22.726131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金角大戲院1983～1986/7/17</name>
+        <description><![CDATA[說明: 商五<br>地點: 高雄市新興區五福二路244號<br><br>簡介: 吳耀庭令妹吳碧開設之戲院百貨，負責人韓方]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>商五</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市新興區五福二路244號
+</value>
+          </Data>
+          <Data name="簡介">
+            <value>吳耀庭令妹吳碧開設之戲院百貨，負責人韓方</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.30219,22.623724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>碧麗宮 頂好 皇后戲院 1983/3/5～1998</name>
+        <description><![CDATA[說明: 民生段829地號<br>(72)高市工建築使字第00273號<br> (70)高市工建築字第02500號<br>商五<br><br>地點: 801高雄市前金區五福三路60號<br>簡介: 陳世明開創三家戲院開創電影院"結市"，後由陳文武經營]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>民生段829地號
+(72)高市工建築使字第00273號
+ (70)高市工建築字第02500號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>801高雄市前金區五福三路60號</value>
+          </Data>
+          <Data name="簡介">
+            <value><![CDATA[陳世明開創三家戲院開創電影院"結市"，後由陳文武經營]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.296944,22.622111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>華國大戲院1983/2/11～1987/1</name>
+        <description><![CDATA[說明: 銀座大廈，郭功清<br>地點: 807高雄市三民區順昌街92號<br>簡介: 閒置中]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>銀座大廈，郭功清</value>
+          </Data>
+          <Data name="地點">
+            <value>807高雄市三民區順昌街92號</value>
+          </Data>
+          <Data name="簡介">
+            <value>閒置中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.317972,22.651221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新華喜戲院1983/7/20～1985/8/3</name>
+        <description><![CDATA[說明: 萬福參<br>地點: <br>簡介: 外國脫衣舞]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>萬福參</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>外國脫衣舞</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3286636,22.6051989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>小港壹壹戲院1983/12/25～1989/8/3</name>
+        <description><![CDATA[說明: 王清溪<br>地點: <br>簡介: 小港唯一牛肉場，但並沒有帶來繁榮]]></description>
+        <styleUrl>#icon-1709-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>王清溪</value>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value>小港唯一牛肉場，但並沒有帶來繁榮</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.356813,22.569712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>岡山統一戲院1984</name>
+        <description><![CDATA[說明: 岡山鎮大戲院<br>地點: 820高雄市岡山區壽天路103之18號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>岡山鎮大戲院</value>
+          </Data>
+          <Data name="地點">
+            <value>820高雄市岡山區壽天路103之18號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.291523,22.795133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>和春影城1986～2019</name>
+        <description><![CDATA[說明: 李麗琴<br>地點: 807高雄市三民區建興路391號<br>簡介: 已停業]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>李麗琴</value>
+          </Data>
+          <Data name="地點">
+            <value>807高雄市三民區建興路391號</value>
+          </Data>
+          <Data name="簡介">
+            <value>已停業</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.321555,22.647299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>奧斯卡3D數位影城1987/3/10～</name>
+        <description><![CDATA[說明: 前金段(0800)495地號<br> (76)高市工建築使字第01161號<br>  (75)高市工建築字第K01003號<br>商三<br><br>地點: 800高雄市新興區仁智街287號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>前金段(0800)495地號
+ (76)高市工建築使字第01161號
+  (75)高市工建築字第K01003號
+商三
+</value>
+          </Data>
+          <Data name="地點">
+            <value>800高雄市新興區仁智街287號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.301956,22.622729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>芝麻影劇院1987/2/5～1989/3/3</name>
+        <description><![CDATA[說明: 現為新高醫院<br>地點: 灣中街322號2樓<br>簡介: 莊雅惠，最短命]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>現為新高醫院</value>
+          </Data>
+          <Data name="地點">
+            <value>灣中街322號2樓</value>
+          </Data>
+          <Data name="簡介">
+            <value>莊雅惠，最短命</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.318098,22.649799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>宏總百貨-金星戲院1992/8/8～2000/11/16</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZifT1FDech-wZWM8KFOjd7R6YsBhmIkSvmGXif4AyxBknefoe64Gepx0zpQ7Hzac42OzsH7ibFxN_pPAB2X2LrJ1Na406Z-OIjSWw8DnSFfvujGmpij33DkOE70hoyL12vLzm44OWTgaw9hK_35UjZaSy1NbG2DXO9QBzH09uvmVD-N2tiJW_uKFZNqsT-G7opYbWRYJMI_Vw?fife=s16383" height="200" width="auto" /><br><br>說明: 意誠段(0906)200地號<br> (79)高市工建築使字第00955號<br>  (76)高市工建築字第G04005號<br>商五<br><br>地點: 苓雅區三多四路63號<br>簡介: 林宏宗，高雄第一家全機能消費商圈戲院]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>意誠段(0906)200地號
+ (79)高市工建築使字第00955號
+  (76)高市工建築字第G04005號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>苓雅區三多四路63號</value>
+          </Data>
+          <Data name="簡介">
+            <value>林宏宗，高雄第一家全機能消費商圈戲院</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZifT1FDech-wZWM8KFOjd7R6YsBhmIkSvmGXif4AyxBknefoe64Gepx0zpQ7Hzac42OzsH7ibFxN_pPAB2X2LrJ1Na406Z-OIjSWw8DnSFfvujGmpij33DkOE70hoyL12vLzm44OWTgaw9hK_35UjZaSy1NbG2DXO9QBzH09uvmVD-N2tiJW_uKFZNqsT-G7opYbWRYJMI_Vw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3016959,22.6128329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1995～2005</name>
+      <Placemark>
+        <name>漢神寰藝影城1995/8～1999/7/20</name>
+        <description><![CDATA[說明: 文東段(0804)1474地號<br> (84)高市工建築使字第00392號<br>  (78)高市工建築字第K03007號<br><br>地點: 高雄市前金區成功一路266-1號<br>簡介: 1995開幕，蔡寬敏，後梁文斌<br>高雄第一外資戲院，受在地戲院抵制，隔年收購大華僑，同時於1999年倒閉<br>]]></description>
+        <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>文東段(0804)1474地號
+ (84)高市工建築使字第00392號
+  (78)高市工建築字第K03007號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市前金區成功一路266-1號</value>
+          </Data>
+          <Data name="簡介">
+            <value>1995開幕，蔡寬敏，後梁文斌
+高雄第一外資戲院，受在地戲院抵制，隔年收購大華僑，同時於1999年倒閉
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2962693,22.6193744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>環球影城1999</name>
+        <description><![CDATA[說明: 五塊厝段(0901)2346地號<br> (87)高市工建築使字第00756號<br>  (86)高市工建築字第01976號<br><br>地點: 802高雄市苓雅區大順三路108號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>五塊厝段(0901)2346地號
+ (87)高市工建築使字第00756號
+  (86)高市工建築字第01976號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>802高雄市苓雅區大順三路108號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.325334,22.632123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高雄大遠百威秀影城2001</name>
+        <description><![CDATA[說明: 意誠段(0906)13地號<br>  (90)高市工建築使字第00559號<br>  (81)高市工建築字第G04001號<br>商五<br><br>地點: 802高雄市苓雅區三多四路21號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>意誠段(0906)13地號
+  (90)高市工建築使字第00559號
+  (81)高市工建築字第G04001號
+商五
+</value>
+          </Data>
+          <Data name="地點">
+            <value>802高雄市苓雅區三多四路21號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.304059,22.613067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>美奇萊影城2005</name>
+        <description><![CDATA[說明: 大港段二小段(0572)1484地號<br>  (84)高市工建築使字第00778號<br><br>地點: 807高雄市三民區十全一路161號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>大港段二小段(0572)1484地號
+  (84)高市工建築使字第00778號
+</value>
+          </Data>
+          <Data name="地點">
+            <value>807高雄市三民區十全一路161號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.309411,22.644834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>2005～</name>
+      <Placemark>
+        <name>喜滿客夢時代2007</name>
+        <description><![CDATA[說明: 第五種特定經貿核心專用區<br>地點: 806高雄市前鎮區中華五路789號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>第五種特定經貿核心專用區</value>
+          </Data>
+          <Data name="地點">
+            <value>806高雄市前鎮區中華五路789號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.306873,22.594801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國賓影城@高雄義大世界2010</name>
+        <description><![CDATA[說明: 義大世界<br>地點: 高雄市大樹區三和里學城路１段１２號３樓<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>義大世界</value>
+          </Data>
+          <Data name="地點">
+            <value>高雄市大樹區三和里學城路１段１２號３樓</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.405919,22.729414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MLD Cinema2015/7/2</name>
+        <description><![CDATA[說明: 第四種特定經貿核心專用區<br>地點: 806高雄市前鎮區忠勤路8號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>第四種特定經貿核心專用區</value>
+          </Data>
+          <Data name="地點">
+            <value>806高雄市前鎮區忠勤路8號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.30264,22.603665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>in89駁二電影院2016/1/29</name>
+        <description><![CDATA[說明: 駁二<br>地點: 80343高雄市鹽埕區大勇路5-1, 5-2號<br>簡介: 營業中]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>駁二</value>
+          </Data>
+          <Data name="地點">
+            <value>80343高雄市鹽埕區大勇路5-1, 5-2號</value>
+          </Data>
+          <Data name="簡介">
+            <value>營業中</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.281667,22.620581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>草衙道國賓2016/5/8</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.3288911,22.5824875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高雄大立in89豪華影城2019/10/21</name>
+        <description><![CDATA[說明: <br>地點: <br>簡介: ]]></description>
+        <styleUrl>#icon-1502-FFEA00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="地點">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2982807,22.6217077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>新開發計畫</name>
+      <Placemark>
+        <name>聯上集團 MLD2022年4月</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.299277,22.6577254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>喜滿客自行開發影城商場(預定)</name>
+        <description>20.26公頃土地</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            120.3096364,22.5990029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>達麗米樂開發結合秀泰影城2021</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.2999048,22.780207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>義联集團－義享天地購物廣場威秀影城2020年底</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.30553,22.6551666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>三地開發秀泰影城(預定)</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.2969605,22.6455807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>三地開發威秀影城(預定)</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.3466235,22.6438187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鳳山車站2期 2022年2月</name>
+        <description>九典</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            120.3579123,22.6313495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>總圖二期2020年底</name>
+        <description><![CDATA[劉培森<br>地上27層 地下6層 1幢 1棟 1戶]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            120.3019606,22.6094878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>蕭佛助其餘案例</name>
+      <Placemark>
+        <name>中山路販厝</name>
+        <description><![CDATA[說明: 蕭佛助作品，興建完成後多家補習班進駐<br>簡介: ]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>蕭佛助作品，興建完成後多家補習班進駐</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.302679,22.63722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>★建國市場與販厝1953</name>
+        <description><![CDATA[說明: 蕭佛助作品，大街廓整體設計，中間消費中心為市場<br>簡介: 1962/01/24 (高市府建土字第2241號)變更為商業地]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>蕭佛助作品，大街廓整體設計，中間消費中心為市場</value>
+          </Data>
+          <Data name="簡介">
+            <value>1962/01/24 (高市府建土字第2241號)變更為商業地</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.284392,22.632303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>蕭佛助街屋？</name>
+        <description><![CDATA[說明: <br>簡介: ]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value/>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.284391,22.626671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>★百成書店1952</name>
+        <description><![CDATA[說明: 蕭佛助作品，富華營造廠登記場址，已拆除<br>簡介: ]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>蕭佛助作品，富華營造廠登記場址，已拆除</value>
+          </Data>
+          <Data name="簡介">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.2835418,22.6290949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>八德路販厝</name>
+        <description><![CDATA[說明: 蕭佛助作品<br>簡介: 商四]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>蕭佛助作品</value>
+          </Data>
+          <Data name="簡介">
+            <value>商四</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.29919,22.636382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>蕭佛助販厝</name>
+        <description><![CDATA[說明: 配合華僑販店同時興建<br>簡介: 原都為魚塭地]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="說明">
+            <value>配合華僑販店同時興建</value>
+          </Data>
+          <Data name="簡介">
+            <value>原都為魚塭地</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.288192,22.635102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
