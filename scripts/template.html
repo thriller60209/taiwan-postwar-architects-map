@@ -354,7 +354,7 @@ function dive(latlng, done){
   const here = map.getCenter(), dz = target - map.getZoom();
   const far = map.distance(here, latlng);
   if (dz < 0.5 && far < 30){ done(); return; }            // already there
-  const dur = reduceMotion ? 0.4 : Math.min(2.2, Math.max(1.1, 0.9 + dz * 0.12 + Math.log10(far + 10) * 0.12));
+  const dur = reduceMotion ? 0.4 : 1;                       // always lands in one second
   let finished = false;
   const finish = () => { if (finished || token !== diveToken) return; finished = true; done(); };
   map.once("moveend", finish);
