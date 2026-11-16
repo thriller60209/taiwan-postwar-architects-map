@@ -26,17 +26,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download 蓬萊異聞錄 from Google My Maps
-        env:
-          MID: 1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg
+      - name: Download the Google My Maps
         run: |
-          curl -fsSL --retry 3 -o /tmp/base.kml "https://www.google.com/maps/d/kml?mid=${MID}&forcekml=1"
-          # only accept a real KML document
-          if grep -q "<kml" /tmp/base.kml && grep -q "<Placemark" /tmp/base.kml; then
-            cp /tmp/base.kml "sources/蓬萊異聞錄.kml"
-          else
-            echo "Download did not look like KML; keeping the previous copy."
-          fi
+          mkdir -p sources/live
+          for MID in \
+            1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg \
+            1CxzQotAsFwOGYpLER5Eh4c819X0Pesg \
+            1GWoYz00KerCWwC3BmzFpgphp0d-pBmS_ \
+            1OiskSInjoV4UarGBrfSjNc5zfyGjE87T ; do
+            if curl -fsSL --retry 3 -o /tmp/map.kml "https://www.google.com/maps/d/kml?mid=${MID}&forcekml=1" \
+               && grep -q "<kml" /tmp/map.kml && grep -q "<Placemark" /tmp/map.kml; then
+              cp /tmp/map.kml "sources/live/${MID}.kml"
+              echo "OK   ${MID}"
+            else
+              echo "SKIP ${MID} (download failed or not KML) - keeping previous copy"
+            fi
+          done
 
       - name: Rebuild site
         run: python scripts/build_site.py

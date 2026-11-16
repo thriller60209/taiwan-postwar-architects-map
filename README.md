@@ -15,7 +15,7 @@ index.html              ← GENERATED: the whole app in ONE file (HTML + CSS + J
 scripts/build_site.py   ← rebuilds index.html + data/ from sources/ (stdlib Python, no deps)
 scripts/config.json     ← architects (order + colour), aliases, duplicate-merge pairs
 scripts/template.html   ← page template (edit layout/style here)
-sources/                ← source maps (蓬萊異聞錄 is refreshed from Google My Maps every hour)
+sources/                ← static snapshots; sources/live/ = maps refreshed from Google My Maps every hour
 .github/workflows/      ← hourly sync job
 data/architects.json    ← 80 architect layers: { id, name, color, count }  (ordered by surname stroke count)
 data/buildings.json     ← 1,647 buildings: { id, name, year, architects[], lat, lng, description_html, sources[] }
@@ -94,9 +94,10 @@ Merged and de-duplicated from five Google My Maps KMZ files by the author:
 ## Updating
 
 **Data — automatic.** `.github/workflows/sync-mymaps.yml` runs every hour (and on demand from the Actions tab →
-"Sync from Google My Maps" → Run workflow). It downloads the live 蓬萊異聞錄 My Map
-(`mid=1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg`) as KML, runs `scripts/build_site.py`, and commits `index.html` + `data/`
-if anything changed; Vercel then redeploys. The other four sources are static files in `sources/`.
+"Sync from Google My Maps" → Run workflow). It downloads the live Google My Maps
+(IDs listed in the workflow) as KML into `sources/live/`, runs `scripts/build_site.py`, and commits `index.html` + `data/`
+if anything changed; Vercel then redeploys. Each live map replaces the static snapshot in `sources/*.kmz` with the
+same map title; `sources/live/manifest.json` shows which maps were used on the last run.
 
 **Rules** (architect list/colours/order, aliases, duplicate pairs) live in `scripts/config.json`.
 **Layout / style** lives in `scripts/template.html` — edit that, not `index.html`, which is generated.

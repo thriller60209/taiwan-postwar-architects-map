@@ -20,13 +20,13 @@ ALIASES = CFG['aliases']
 BASE = CFG['base_map']
 FUYI_BOTH = set(CFG['fuyi_both'])
 
-# Source files, in the order the original merge used.
+# Source maps, by My Maps title, in the order the original merge used.
 SOURCES = [
-    '基泰工程司 feat. 高而潘.kmz',
-    '傅義的白冷外方大雞雞.kmz',
-    '大高雄戲院地圖®.kmz',
-    '蓮之呼吸★改.kmz',
-    '蓬萊異聞錄.kml',      # downloaded live from Google My Maps by the workflow
+    '基泰工程司 feat. 高而潘',
+    '傅義的白冷外方大雞雞',
+    '大高雄戲院地圖®',
+    '蓮之呼吸★改',
+    '蓬萊異聞錄',
 ]
 
 
@@ -43,14 +43,48 @@ def read_kml(path):
     return ET.fromstring(data)
 
 
+def doc_title(r):
+    return (r.findtext('.//k:Document/k:name', namespaces=NS) or '').strip()
+
+
+def count_pm(r):
+    return len(r.findall('.//k:Placemark', NS))
+
+
+def load_sources():
+    """Static snapshots in sources/*.kmz, overridden by live downloads in sources/live/*.kml."""
+    roots, manifest = {}, []
+    sdir = os.path.join(ROOT, 'sources')
+    for fn in sorted(os.listdir(sdir)):
+        if fn.endswith(('.kmz', '.kml')):
+            r = read_kml(os.path.join(sdir, fn))
+            roots[doc_title(r)] = r
+    ldir = os.path.join(sdir, 'live')
+    if os.path.isdir(ldir):
+        for fn in sorted(os.listdir(ldir)):
+            if not fn.endswith('.kml'):
+                continue
+            try:
+                r = read_kml(os.path.join(ldir, fn))
+            except ET.ParseError:
+                manifest.append({'file': fn, 'status': 'unreadable'}); continue
+            title, n = doc_title(r), count_pm(r)
+            if title not in SOURCES:
+                manifest.append({'file': fn, 'title': title, 'placemarks': n, 'status': 'ignored: unknown map title'}); continue
+            old = count_pm(roots[title]) if title in roots else 0
+            if n < old * 0.8:
+                manifest.append({'file': fn, 'title': title, 'placemarks': n, 'status': f'ignored: only {n} vs {old} points'}); continue
+            roots[title] = r
+            manifest.append({'file': fn, 'title': title, 'placemarks': n, 'status': 'live'})
+    return roots, manifest
+
+
 def load_points():
+    roots, manifest = load_sources()
     pts = []
-    for fn in SOURCES:
-        path = os.path.join(ROOT, 'sources', fn)
-        if not os.path.exists(path) and fn.endswith('.kml'):
-            path = path[:-4] + '.kmz'
-        r = read_kml(path)
-        src = r.findtext('.//k:Document/k:name', namespaces=NS)
+    for title in SOURCES:
+        r = roots[title]
+        src = doc_title(r)
         for f in r.iterfind('.//k:Folder', NS):
             fname = f.findtext('k:name', namespaces=NS)
             for p in f.findall('k:Placemark', NS):
@@ -62,6 +96,7 @@ def load_points():
                                 desc=p.findtext('k:description', namespaces=NS) or '', ed=ed, coords=coords))
     for i, p in enumerate(pts):
         p['i'] = i
+    load_points.manifest = manifest
     return pts
 
 
@@ -217,4 +252,6 @@ if __name__ == '__main__':
         if len(D['b']) < n_prev * 0.8:
             sys.exit(f'Refusing to publish: {len(D["b"])} buildings vs {n_prev} before (source download looks broken).')
     write(D)
+    os.makedirs(os.path.join(ROOT, 'sources', 'live'), exist_ok=True)
+    json.dump(getattr(load_points, 'manifest', []), open(os.path.join(ROOT, 'sources', 'live', 'manifest.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f"{len(D['b'])} buildings, {len(ARCH)} architects")
