@@ -162,7 +162,6 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
 .pp-gmap{display:block;padding:9px 16px 10px;border-top:1px solid var(--rule);font-size:10pt;color:var(--silver-title);line-height:1.45}
 .pp-gmap:hover{background:var(--silver);color:var(--black);text-decoration:none}
 
-.speedlines{position:absolute;inset:0;z-index:640;pointer-events:none;opacity:0;transition:opacity .25s}
 .tip{background:var(--black);color:var(--silver-title);font-size:10px;padding:3px 7px;border:1px solid var(--rule);font-family:var(--font)}
 
 /* map controls */
@@ -345,12 +344,9 @@ function openPopup(b, fly){
   if (window.innerWidth<=820) document.body.classList.remove("side-open");
 }
 
-/* ---------- dive-in zoom with speed lines ---------- */
+/* ---------- dive-in zoom ---------- */
 const DIVE_ZOOM = 17;
 const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const speed = document.createElement("canvas");
-speed.className = "speedlines";
-map.getContainer().appendChild(speed);
 let diveToken = 0;
 function dive(latlng, done){
   const token = ++diveToken;
@@ -364,51 +360,7 @@ function dive(latlng, done){
   map.once("moveend", finish);
   map.flyTo(latlng, target, {duration: dur, easeLinearity: 0.12});
   setTimeout(finish, dur * 1000 + 400);                    // safety net
-  if (!reduceMotion) speedLines(dur * 1000, token);
 }
-function speedLines(ms, token){
-  const box = map.getContainer(), dpr = window.devicePixelRatio || 1;
-  const W = box.clientWidth, H = box.clientHeight;
-  speed.width = W * dpr; speed.height = H * dpr;
-  speed.style.width = W + "px"; speed.style.height = H + "px";
-  const ctx = speed.getContext("2d");
-  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  const cx = W / 2, cy = H / 2, R = Math.hypot(W, H) / 2;
-  const lines = Array.from({length: 140}, () => ({
-    a: Math.random() * Math.PI * 2,
-    r: R * (0.08 + Math.random() * 0.9),
-    v: 0.6 + Math.random() * 1.4,
-    w: 0.6 + Math.random() * 1.6,
-    s: 0.35 + Math.random() * 0.65
-  }));
-  const t0 = performance.now();
-  speed.style.opacity = "1";
-  (function frame(now){
-    if (token !== diveToken){ ctx.clearRect(0, 0, W, H); return; }
-    const t = Math.min(1, (now - t0) / ms);
-    const env = Math.sin(Math.PI * Math.min(1, t * 1.08));     // ramp up, then fade out before landing
-    const accel = 0.4 + 3.2 * env;
-    ctx.clearRect(0, 0, W, H);
-    // soft vignette so the centre stays readable
-    const g = ctx.createRadialGradient(cx, cy, R * 0.15, cx, cy, R);
-    g.addColorStop(0, "rgba(0,0,0,0)"); g.addColorStop(1, `rgba(0,0,0,${0.55 * env})`);
-    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
-    ctx.lineCap = "round";
-    for (const L of lines){
-      L.r += L.v * accel * 9;
-      if (L.r > R * 1.05){ L.r = R * (0.06 + Math.random() * 0.25); L.a = Math.random() * Math.PI * 2; }
-      const len = (18 + L.r * 0.35) * env * L.s;
-      const x1 = cx + Math.cos(L.a) * L.r, y1 = cy + Math.sin(L.a) * L.r;
-      const x2 = cx + Math.cos(L.a) * (L.r + len), y2 = cy + Math.sin(L.a) * (L.r + len);
-      ctx.strokeStyle = `rgba(208,216,216,${(0.15 + 0.6 * L.s) * env * Math.min(1, L.r / (R * 0.3))})`;
-      ctx.lineWidth = L.w;
-      ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
-    }
-    if (t < 1) requestAnimationFrame(frame);
-    else { ctx.clearRect(0, 0, W, H); speed.style.opacity = "0"; }
-  })(t0);
-}
-
 /* ---------- sidebar ---------- */
 const archList=$("#archList");
 const rows = ARCH.map((name,k)=>{
