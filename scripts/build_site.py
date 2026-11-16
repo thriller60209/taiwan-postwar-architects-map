@@ -294,6 +294,11 @@ def build():
                 extra.append(q['desc'])
         d = clean('<br><br>'.join(parts + extra))
         name = prim['name'].strip().replace('\n', ' ')
+        if year(name) is None:   # same place: keep the name that carries a year
+            for q in secs:
+                if year(q['name']) is not None:
+                    name = q['name'].strip().replace('\n', ' ')
+                    break
         alln = ' '.join([name] + [q['name'] for q in secs])
         t = (alln + ' ' + plain(html.unescape(re.sub('<[^>]+>', ' ', '<br>'.join([prim['desc']] + [q['desc'] for q in secs]))))).lower()
         B.append(dict(n=name, y=year(name), a=a, lat=round(lat, 6), lng=round(lng, 6), d=d, s=src, t=t))
