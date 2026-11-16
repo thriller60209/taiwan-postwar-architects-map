@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台灣戰後建築師地圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ---------- Leaflet core (inlined) ---------- */
+.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
+.leaflet-container{overflow:hidden;-webkit-tap-highlight-color:transparent}
+.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
+.leaflet-container .leaflet-tile-pane img,.leaflet-container .leaflet-overlay-pane svg,.leaflet-container img.leaflet-tile{max-width:none!important;max-height:none!important;width:auto;padding:0}
+.leaflet-container img.leaflet-tile{mix-blend-mode:normal}
+.leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}
+.leaflet-container.leaflet-touch-drag{touch-action:none}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}
+.leaflet-tile{filter:inherit;visibility:hidden}
+.leaflet-tile-loaded{visibility:inherit}
+.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}
+.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-shadow-pane{z-index:500}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}
+.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}
+.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}
+.leaflet-top,.leaflet-bottom{position:absolute;z-index:1000;pointer-events:none}
+.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}
+.leaflet-right .leaflet-control{float:right}
+.leaflet-top .leaflet-control{margin-top:16px}.leaflet-bottom .leaflet-control{margin-bottom:12px}
+.leaflet-left .leaflet-control{margin-left:16px}.leaflet-right .leaflet-control{margin-right:16px}
+.leaflet-fade-anim .leaflet-popup{opacity:0;transition:opacity .2s linear}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup{opacity:1}
+.leaflet-zoom-animated{transform-origin:0 0}
+svg.leaflet-zoom-animated{will-change:transform}
+.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,.25,1)}
+.leaflet-zoom-anim .leaflet-tile,.leaflet-pan-anim .leaflet-tile{transition:none}
+.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}
+.leaflet-interactive{cursor:pointer}
+.leaflet-grab{cursor:grab}
+.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive{cursor:grabbing}
+.leaflet-popup{position:absolute;text-align:center;margin-bottom:18px}
+.leaflet-popup-content-wrapper{text-align:left}
+.leaflet-popup-content{margin:0;min-height:1px}
+.leaflet-popup-tip-container{width:40px;height:20px;position:absolute;left:50%;margin-top:-1px;margin-left:-20px;overflow:hidden;pointer-events:none}
+.leaflet-popup-tip{width:14px;height:14px;margin:-8px auto 0;pointer-events:auto;transform:rotate(45deg)}
+.leaflet-popup-close-button{position:absolute;border:none;text-align:center;width:28px;height:28px;text-decoration:none;background:transparent;z-index:2}
+.leaflet-tooltip{position:absolute;white-space:nowrap;-webkit-user-select:none;user-select:none;pointer-events:none}
+.leaflet-control-attribution{margin:0!important;padding:0 6px;line-height:1.6}
+
+/* ---------- Site — synced with atelier WooO database ---------- */
+:root{
+  --silver:#b4bebe; --silver-light:#d0d8d8; --silver-dark:#737c7c; --black:#000; --white:#fff;
+  --silver-text:#b4bebe; --silver-title:#d0d8d8; --silver-muted:#7f8888; --rule:rgba(180,190,190,.5); --rule-soft:rgba(180,190,190,.28);
+  --font:"Source Code Pro","Microsoft JhengHei","Noto Sans TC",Arial,monospace,sans-serif;
+  --side:380px; --head:69px; --cursor-x:-100vw; --cursor-y:-100vh;
+}
+*{box-sizing:border-box}
+html{background:var(--black);color:var(--silver-text);font-family:var(--font);font-size:10pt;letter-spacing:0}
+html,body{margin:0;height:100%;overflow:hidden}
+body{background:var(--black);color:var(--silver-text);-webkit-font-smoothing:antialiased}
+button,input{font:inherit;color:inherit;letter-spacing:inherit}
+a{color:inherit;text-decoration:none}
+a:hover,a:focus{text-decoration:underline}
+::selection{background:var(--silver);color:var(--black)}
+
+/* crosshair cursor (same as WooO database) */
+.index-cursor{position:fixed;z-index:3000;pointer-events:none;opacity:0;transition:opacity .14s}
+.index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
+.index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
+@media (hover:hover) and (pointer:fine){
+  header,header *,aside,aside *{cursor:none!important}
+  body:hover .index-cursor{opacity:1}
+  #map,#map .leaflet-interactive{cursor:crosshair}
+}
+
+header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18px 0;z-index:20;background:var(--black)}
+.site-header{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:12px;height:100%}
+.brand{display:flex;align-items:center;gap:8px;font-size:10pt;line-height:1.2;color:var(--silver-text);text-decoration:none!important}
+.brand img{width:58px;height:auto;display:block;flex:none}
+.brand span{white-space:nowrap}
+.nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;line-height:1.2;align-items:center}
+.menu-btn{display:none;background:none;border:0;padding:0;cursor:pointer;color:var(--silver-text)}
+.menu-btn:hover{text-decoration:underline}
+
+main{position:absolute;top:var(--head);bottom:0;left:0;right:0;display:flex;padding:18px 18px 0;gap:18px}
+aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-direction:column;min-height:0;z-index:10}
+#map{flex:1;min-width:0;background:#0b0c0c;margin-bottom:18px;border:1px solid var(--rule)}
+
+.page-title{margin:0 0 18px;font-size:10pt;font-weight:700;line-height:1.4;color:var(--silver-title)}
+.search{padding:0 0 14px;border-bottom:1px solid var(--rule)}
+.search label{display:block;font-size:10pt;font-weight:700;color:var(--silver-title);margin-bottom:10px;line-height:1.4}
+.sbox{position:relative}
+.sbox input{width:100%;font-size:10pt;line-height:1.45;padding:6px 26px 6px 0;border:0;border-bottom:1px solid var(--rule);background:transparent;color:var(--silver-title);outline:none;border-radius:0;-webkit-appearance:none;appearance:none}
+.sbox input:focus{border-bottom-color:var(--silver)}
+.sbox input::placeholder{color:var(--silver-muted)}
+.sbox input::-webkit-search-cancel-button,.sbox input::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
+.sbox .x{position:absolute;right:0;top:50%;transform:translateY(-50%);width:22px;height:22px;border:none;background:none;font-size:14px;cursor:pointer;display:none;color:var(--silver-text);padding:0}
+.sbox.has .x{display:block}
+.hint{font-size:10px;color:var(--silver-muted);margin-top:10px;line-height:1.6}
+.stat{display:flex;align-items:baseline;justify-content:space-between;margin-top:12px;line-height:1.45}
+.stat .num{font-size:10pt;color:var(--silver-title)}
+.stat .num small{font-size:10px;color:var(--silver-muted);margin-left:6px}
+.clear{font-size:10px;border:0;background:none;padding:0;cursor:pointer;color:var(--silver-text)}
+.clear:hover{text-decoration:underline}
+.clear[hidden]{display:none}
+
+.scroll{flex:1;overflow-y:auto;min-height:0;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
+.scroll::-webkit-scrollbar{width:6px}.scroll::-webkit-scrollbar-thumb{background:var(--silver-dark)}
+.sec-h{position:sticky;top:0;background:var(--black);z-index:2;display:flex;justify-content:space-between;align-items:baseline;padding:14px 0 6px;border-bottom:1px solid var(--rule);font-size:10pt;font-weight:700;color:var(--silver-title);line-height:1.45}
+.sec-h span:last-child{font-weight:400;color:var(--silver-muted);font-size:10px}
+
+.results[hidden]{display:none}
+.res-list{list-style:none;margin:0;padding:0;max-height:36vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent;border-bottom:1px solid var(--rule)}
+.more{font-size:10px;color:var(--silver-muted);padding:6px 0;line-height:1.6}
+.more a{color:var(--silver-text);text-decoration:underline}
+
+.arch{border-bottom:1px solid var(--rule)}
+.arch-row{display:flex;align-items:center;padding:5px 0 6px;line-height:1.45;cursor:pointer;user-select:none}
+.arch-row:hover .arch-name{text-decoration:underline}
+.chk{width:9px;height:9px;border:1px solid var(--c);flex:none;margin-right:12px;background:transparent}
+.arch.on .chk{background:var(--c)}
+.arch-name{flex:1;font-size:10pt;color:var(--silver-text)}
+.arch.on .arch-name{color:var(--silver-title);font-weight:700}
+.arch-name .cnt{font-weight:400;color:var(--silver-muted)}
+.badge{font-size:10px;color:var(--silver-title);margin-right:10px}
+.badge[hidden]{display:none}
+.arch.dim .arch-row{opacity:.22}
+.tog{width:22px;height:22px;border:none;background:none;cursor:pointer;flex:none;color:var(--silver-text);font-size:12px;padding:0;line-height:1}
+.tog::before{content:"+"}
+.arch.open .tog::before{content:"−"}
+.works{list-style:none;margin:0;padding:0 0 8px;display:none}
+.arch.open .works{display:block}
+
+.work{display:grid;grid-template-columns:42px 1fr;gap:10px;padding:4px 0 4px 21px;font-size:12px;line-height:1.5;cursor:pointer;color:var(--silver-text)}
+.res-list .work{grid-template-columns:9px 40px 1fr;padding-left:0;border-bottom:1px solid var(--rule-soft);padding-top:5px;padding-bottom:6px;font-size:10pt;color:var(--silver-text);line-height:1.45}
+.work:hover{color:var(--silver-title)}
+.work:hover span:last-child{text-decoration:underline}
+.work .yr{font-size:11px;color:var(--silver-muted);padding-top:1px;font-variant-numeric:tabular-nums}
+.res-list .work .yr{font-size:11px}
+.work .dot{width:9px;height:9px;margin-top:4px;background:var(--c)}
+
+aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silver-text);border-top:1px solid var(--rule)}
+.contact{display:grid;grid-template-columns:22px 1fr}
+.contact .ck{color:var(--silver-muted)}
+
+/* popup */
+.leaflet-popup-content-wrapper{background:var(--black);color:var(--silver-text);border:1px solid var(--rule);border-radius:0;box-shadow:none}
+.leaflet-popup-tip{background:var(--black);border:1px solid var(--rule);box-shadow:none}
+.leaflet-popup-close-button{color:var(--silver-text)!important;font:16px/28px "Source Code Pro",monospace!important;top:8px!important;right:8px!important}
+.pp{width:340px;max-width:72vw;font-family:var(--font)}
+.pp-top{padding:16px 40px 12px 16px;border-bottom:1px solid var(--rule)}
+.pp-yr{font-size:9px;color:var(--silver-muted);margin-bottom:6px}
+.pp h3{margin:0;font-size:10pt;line-height:1.4;font-weight:700;color:var(--silver-title)}
+.pp-arch{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:10px}
+.chip{font-size:10px;color:var(--silver-text);cursor:pointer;display:inline-flex;align-items:center;gap:6px;line-height:1.6}
+.chip::before{content:"";width:9px;height:9px;background:var(--c);display:inline-block}
+.chip:hover{text-decoration:underline}
+.pp-body{padding:12px 16px 14px;max-height:260px;overflow-y:auto;font-size:10pt;line-height:1.75;color:var(--silver-text);word-break:break-word;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
+.pp-body a{text-decoration:underline}
+.pp-src{padding:8px 16px 12px;font-size:10px;color:var(--silver-muted);border-top:1px solid var(--rule);line-height:1.6}
+.pp-coord{font-variant-numeric:tabular-nums}
+.pp-gmap{display:block;padding:9px 16px 10px;border-top:1px solid var(--rule);font-size:10pt;color:var(--silver-title);line-height:1.45}
+.pp-gmap:hover{background:var(--silver);color:var(--black);text-decoration:none}
+
+.tip{background:var(--black);color:var(--silver-title);font-size:10px;padding:3px 7px;border:1px solid var(--rule);font-family:var(--font)}
+
+/* map controls */
+.zoom{display:flex;flex-direction:column;border:1px solid var(--rule);background:var(--black)}
+.zoom button{width:32px;height:32px;border:none;background:var(--black);font-size:12px;cursor:pointer;color:var(--silver-text);padding:0}
+.zoom button+button{border-top:1px solid var(--rule)}
+.zoom button:hover{background:var(--silver);color:var(--black)}
+.leaflet-control-attribution{font-family:var(--font)!important;font-size:9px!important;background:rgba(0,0,0,.75)!important;color:var(--silver-muted)!important}
+.leaflet-control-attribution a{color:var(--silver-text)!important}
+.basenote{background:rgba(0,0,0,.85);border:1px solid var(--rule);font-size:10px;padding:6px 9px;max-width:260px;line-height:1.6;color:var(--silver-muted)}
+.basenote[hidden]{display:none}
+.county-label{font-size:10px;letter-spacing:.2em;color:var(--silver-muted);white-space:nowrap}
+.base-tiles{filter:grayscale(1) invert(1) brightness(.78) contrast(.95)}
+
+@media (max-width: 760px){
+  :root{--side:min(88vw,360px);--head:64px}
+  header{padding:12px 12px 0}
+  .brand img{width:48px}
+  .menu-btn{display:inline-block}
+  .nav{gap:14px}
+  main{padding:12px 12px 0}
+  aside{position:absolute;top:0;bottom:0;left:0;padding:12px;transform:translateX(-102%);transition:transform .25s;border-right:1px solid var(--rule)}
+  body.side-open aside{transform:none}
+  #map{margin-bottom:12px}
+}
+</style>
+</head>
+<body>
+<div class="index-cursor index-cursor-x" aria-hidden="true"></div><div class="index-cursor index-cursor-y" aria-hidden="true"></div>
+<header><div class="site-header">
+  <a class="brand" href="#" onclick="return false"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABUCAYAAABTNhMRAAARr0lEQVR42u2de7Rc1V3HP+fMzL15PyEkgdrSxBSMXSB9RMqrpIDSJ1WgFZfWLmu62iKKVay2oQU1agEt1r6LtFUQWlZJDaFUQEBWlBarsU+LhlKjtBBCSdIk996ZOcc/9nd7f909c+c8ZnJncnPWOmvuPXPmnL33b+/f8/v77ejWLXcAbAQuB0aBu4FLgf8BYiBhZhyRPo8C3g+8CmgBHweuAFJzDuxRB94JXK3/U+A1wErgDKCpjqYzhKARcBNwrunzb4mwvwvUgPYgdyIWQf3Mi9T4FwHrtDrjGUBMz4meL2K2zUROgLcAi8z1ge5I3RATs1KPC1jRTGC3y4KxsJ+NYZmZd+uzpRnY0qx81gwhpidYDMxS35tmLGLgS8Au/Z0OOkHfCjyslVpTp2rAK81srZvvo8OEgDXTL89yz9P1UX02gG8Ab6vQ79i8p9NZ66VS9B3gJVKCjgXmA+uBC4E3AJ/sMCDpEBMzzVBuLhDhtgBfAPYB3wUeBMb0u6SkbE4Ktq0SQb0idJ+5/iHgTcAngDOBL+qencC9auAwEtW2eT1wPDAHOBX4BZkn10xBmKLv8orWyVrtLfMcz/kAHgUeMByx9LhGskO9DLFKQBPYCrw8+M0/AT8HPGkUqGFSfBYAtwHnZPTrNDPIGC03LbkyNwHvyMmutwKvBw5UsXdj03CvBLT0fyzW0xLLaQETYs+bzD3DctTU5neJmE3Tt7Y4lB/4llES0xLv8fL49/T7VpezCbxCtm5SRaZORZAE+EGGAE+As4yRPSxKkpeZ5+jvOFBKmj3iNn48ztVYtXMoRbHuO9eMfWkZWmYSNPTb9hCtUE+shllFWYToFXufZZ6Z5mhbLeCYh4ygzCD7tIritdxMoLx0WGYcPWmZlVo/Mv49kc0Yzb8p7fnn9f/uHM9IcK7FZ0vb/mvjW44MS06PELT/q7Ed/H8q8DfA/cDvA/+ZU1NeDlwGfETK5+eksBVaqUcIWt2h/ytywizUKvtJYLuUryIs8xmc164G3ALsAJ6QGXMfcJ0IPaWMrZeUnbUZEoWZis22ZQL9Qcb3V4uYI2LBRcydPwR+CVil02vm64DXdiNonHMWhpri4Rb0LuI88Gx2qZwG1pnv2e9/Gw9cmvNs61m7JHcTYws3gVfj3LNT2qlxFxX/24aobdPxdIiJatvfNjbpNwtyqZXAXGPG1cxAV7FpY8MBayYgkpgVGxUlqO/kA8A9Yh014/tdgoNq1IzLcBBNmchEVmrAPOAYJv2oPrLyMHBHhpIznW3OolWrilLkXVYXyCV1NjBbhHw2Dprx9g7utWRA4pvtwEt0OXA08L9SOMaAbcAfS/kY9IBDWpWgAPuBK831ubKxPiJN7Cbj520OQHjNhsfqWoFLcaHAjTgA3Kdw4bHDJSRYSMuNAnDUfg1IHbhBxG4C48CXcQ7pR6cJMeiJshL4E+CnceGxRZqIvw18IENjbx8uQLh6zmXeCnh5JG/GVUxij5DQfjHwAuD7OWd9HhREmkO2+WfMAe4ETgq+fxoHyQzFQssoIGXDZQNlHJdR8b2q/j1D8ESr9DliyWmOMFAUhO06nXmiOp4g54mYE0b1T2W4H8hYjXFgIqTD7Kuu98DA9gqIneXPKiDk1wEnTuHEbgPfkvKS5zjWwE/jHJpjIiXvVFy48F7g4DTK1MRwo8KTq95HAFYezvAhYEPO594ixabVJaLfzim//T2vAz6Gw1IBfB0HNn90GDMH4n6r0VO4uF4vYuZhuS3d/+YcEf2ogPJ0jBS7+RIhE8Ba4C9K9i3twUIJOUuhvsWHyj7KaNT5Rh53i+j7lfczOd4X5Winx9e+WNpvSyy/ofasE5GTkvK0igxuGSU0LUqvuOLKfspooJYNTsX7U4NEjwJFq9NpZ27UZSAbgYvPuyyfNBqtb+fuAAyWGJExWtCV2Dby74mSiyISl3jaPMuOa1eLoOoKvV4vGDGD6VlZGvgirbstNS64hiFWp7MePD+LsJ5Qx+qzETz/fYFm7RHx95l7fFtn48JhWVElf22Z0b6te/FTuMy9Wkkcb6pxjYM+JDIR0wCcHZnx+X8YZ5V44MVyA67A4WiWSUt8rsyarONFGkw0m1s55O4yvfNE4D8Cgnrn9UIpM0vEPcZw0Yv3AzcGSo6Xo4uBP8XhdGfpGfOAPzOuzSiDbf8dLuXQm0P7dG1jnrhljnH9NVx8dKnadTTwOLBGzp1MDlWFoKG7bLZe/BO4YOxCrYpTgJfp3gdwEfzflBlyFfCYGYBOx4hm5xWyMzcAfy+71x9rRbTZuMj/V0TQ/Tldew2x2SWapJvkBfsgsNfcd7SI9ka95y4R82APHfu2rXPUp1M0MZ8BPgucLnt7H3AzcC0wUZWgVmtNA3/vDrHVcWCzyT2dDTwCPK/k+26T4+IRYI9hdWsle56nTmcFpPM48v3xJpkzj+Oc+V55O15Ef6kmaLexqBpEt8ca2eTgYq53qS0XAv8IvLzeQ7xrZFjGfs2cXWJlu/TdUlw4bp6Rg0kBm7mtVX2BOhce14qYowHba+dwK0YBgX3m9o/LN2yPe0TMRiAuehl6awftwQRAvE3uJ86JONjLdXGPQzte4TgBWA38jog5qnM3zkG+WivKJtZ2O7178bvy6Fh33YTuecy0oWg6QRpou+h5qZ7fFrdJJaez2k2fQma+T6/Qyr1c10c0rt/EQWE2xH3KH1mhQfm6QaU39fc3TP5pGZutFZgXVpMe79HgRgE0xb4nNd6qQ32sljzfrVXbNGHC7UAU9ykAu0MvPEkv9EZ7G5eNFRtZkBZ4dqwOPWJstqbRDL/aowQqT9AvGqRAy/iIH5omz96/4UKBx6ktDYNdOgs4GPfBsVyTwN4it9pxWjnjWrk34pKgdpT0lSbSLneL3fhOXcEPY6Cqyq9I9uCX9Z66WNwdwK0dFCn6mJcTSbvdBfwtLovOT+j1EmVX9ULL7YSJWQB8HnihlIgUl4zz78DPSiOlZN5lCvyYHOvzNUG29diZ7t8zB4dmP14c4NO9yOOsYJ+eKu22gUuBXCyT5mPAhn4Q1A5GLG3sVfp7q1Zoq+KAZBGuH5GRQYOl+D4eI1t8nRbGLbigftQvgnYbjF4MlHXcJzmcE1UGccTI5olpJnKniRsBab3PCLWsl/eieFMcRCX6tZq8nTzGYIHCs8aw7wT1xDwDV1GlKWXiqxUH3w/yGiND72ayPE+vZeg8XGrCasn/mwL7mWlKkDoPlyKxVyz3v/rJcv0Mukyaoj/G5f77QsmV6n9zlrTNeea7jbi8kF5wAG+2LJFCd7L57vO4HJMmh772X2zyX95pru/BxYq/FPdxBh2Di2JgYJ6jwJ8zmdpf1mtynYg5rmcnuAShVSY01ot6DG8XMceZxB6fj0NPJL2sL1SAmCeImIkZ14V+rOM+wlrWMFmZqyHFIpX6v7xE0Y3IJMY+17i+GobQJ/Qow9yvulMCREVsEA3TBRc6yXAGP64Jzuc8u95HPt/IQDPEpkJX2UFvmGcnhtC9zLFJg0G0KRW1aayoZmsbtUybRnCx57F6H/y4dbGBVR2KHsY42OS39V2zgJnS0uqeE4CpakHxxUYGJCZv+y1A6/jAbKkZ7pOaSEiR95TFJtXU/zW6Phq06d1A0qt4aKiEzMU54VdIM3xG9y2WTNqGC9CWOW7Hhc++IqO6LU33+bjY5Qt7FA+9FBdQfgxXPm9McnuVJtX58tgcynjoSpwfG43rfhzi4wZcCYC43sMaA4slM9cC78WBss4XYe1xuhpwp2bVTjMIWah2z95W4sJxZ0plvye4d5Weux2X1/KA2vD0FGaGTWyao3OxXH0bgV/XMw+a3yyUUnI7zn96Jy72uy9AUPRiXCPpDHNw6SXXy923QRPtR5SmXmCK3oCLz60UG1igzj1HgxlnGMZHqUFzpXJHRh6kHTCqC/R5tp+NGc+djYtVLhd72iPZ8gEcqDsLU7RMmveZGri56scmES6Uy/73n8EhBQ5o9e6VKfUOXauKKfoNEW6Z2jNfk3+1tO0Qu9uuAgj27OACXIHHsDbezSLmSIZLroEDcN0JXKQZT4Hw0f0dWNuIVtIntXIiHEJiKQ4XdFBttRXQ6rgIxmnBe8aYTGwKkQje5PpL2aOzNRGWiE0vAX6xZG1d37Y3M4lStON6g8ZzpJOrs6rZcqnxo6YG9/rUFPCSJIj2N3OiFVKx0E7VufxzdwYE93bqW4OqXd78OM3c438zLi7TzuiDv+9pQ3Cb4v86XPC+THl334dLjZ1px3VXN9hOXMGf6OVmHGBvuxWh8MQcM/dEXU6CTLKpzI0kIx0/1kqtB2j4RYFiFJkBHM+pgdriUN6kOaqCq3FU7coa165IibhHanVU4LmpKScaGw2z3SGNsG3Y0dYKjoNwckQ4RMJeYxL5lfCgVmhtigFMctivZcVZrUM/Jw5VbkuR3A7vmvuMzAKL18kq3e2vfwIXxO1WPCKP3PI25C4pdbv1jgbwL/JBd3O+J4egtm8nJGDf0gnbGYOYpyS3XyGXAX8lV5414O2MTCQXHy6IE84rrzYD/4xLXNqPw7e2SpYkZ9gTfmN+tO5PXaZD3njpdp1V0QP+u51mFSddyqn7NjyBw0ANfQGNmPL5i6Oy9yLjuB7FpTrcnrPmT1Jg14Q057PuBv5Vqz0OaivNz0hACiGhVWO1FHBnTgtBfyi7yazEN8qZsBcXXP0aLvPqHLne8g5MkrPGQl6g9EEcCO3DuGD6DlwBj0W4HZLawfOsrTno1VDiflRBWYSLB74PF4P8qOzDZkaoi2kozOSVnbcYh8NiHOpgk+TyjUEO5rCw2agKQX0HF+CysM4w6YLL5S999wBWEksDh/uEZOS1+v4aHIZ3l1bzQ8B7jNGeHq51ijyr3Sz/qT32yf9ZCxwJ7QEqoZaV7PNBnIN/mTH+T8HtdHF6ifJwA1cCJ+6i+r9UxJwwhr+v+bMnqNDJANfH8/LxgMRDWFvpZBx2OC0AK+lXwcpkCnOwdNGMyISkkqDk57BvIBBl1FZKcFGMImiGx6UQhvVy00CJrErYtjGvdlQtgDw2g/YPrRcgaE2a89UZ9XIjTQ5b5yHP6RfMUTi/s31uAxcV2tYtp6ae0wl/5Mh2X16HQzNchEvVny+ZfKVs8fGCaZJIQZuFS8V8St6re3G1k7qWyDuyiUA1lhjhSgTcZq6fjMsOux+3K8S3uqRPePa/AoeQuBgXZ93SYSWmRwjaX4WrFmi823EQmUdF1D05K4kuFGEvlGURB0jGnuzbcmQHpfwBCgwiY6dkXlFExmO4/VpKg83qOXcNOnIUd2w8xaRft55jUtTk3KiUalkvKTuaeQraD+ieZBNlZFMJooaIjLw+7UpuyLiLoJ6fgR6IcRDKds4oCAO2R9ldhqVZlEQjgJLY9IcyqPutxhxq5URk3FUVeBB32GTc+2Nfqf9nGXvIa2/DFgD2Kv8mHNyyYTaRr+PKBaSBV6xVAuzlJ/0/4ErNJCYEOBUiYzPO31xpq5H6FJuMX4YrxnA9Dj45gStK+OCQBoG9bPsBzs33Ehw6by6ubsGvitg3Aj+FQzB8X0rK1wrmnnqT5kqZMGtNTo7dI9R7mL7DZGWVnuzBPaoZuhwXXVmPK3J0MQ77w2G0JUYnGOhrpZliNh2YoxX8HlwFs6IJxUXuj3ohy+s4hPtnNSvtcb+I2QiScZIhDzGFtWe96LhHq/dJ4BJctdDZODzvNTgkxs0FE4rD2vdVdr3ITdCPiphNJosYNczWUekQarRF7EdPoHNwyUjrcYC0GBeduRaXAPVHImiZukrJoXRKn8VkUq7V7L53uGxOk5PVvQAX533YaO9+TD4teTtv0LcBiU0tWBvbjHDVwJghRAWHzR0xeZd1k5O5Audon2AIwkbXBPHOBg6n+tAhLn/GNDrZkYgZxWWP+T07xyRH3yVtd2LQbe/aRZdcsk0anUfwfQ5X/HffDHLVxVqhbVyMc61W69m4/bQncH7ZA4POtaJbt9xhTRCbphbNIHZrTYxflj16rK5vBt6GQygM/Jj8H7xT1CIJh8obAAAAAElFTkSuQmCC" alt="atelier WooO"><span>台灣戰後建築師地圖<br>taiwan post-war architects map</span></a>
+  <nav class="nav"><button class="menu-btn" id="menuBtn" aria-label="開啟清單">list</button><a href="https://project-7twdd.vercel.app/about" target="_blank" rel="noopener">about us</a></nav>
+</div></header>
+<main>
+  <aside id="side">
+    <div class="search">
+      <label for="q">search</label>
+      <div class="sbox" id="sbox">
+        <input id="q" type="search" placeholder="ex: 王秀蓮 or 陳仁和 住宅" autocomplete="off" spellcheck="false">
+        <button class="x" id="qx" aria-label="清除搜尋">×</button>
+      </div>
+      <div class="stat"><div class="num" id="num">0<small>處建物</small></div><button class="clear" id="clr" hidden>清除篩選</button></div>
+    </div>
+    <div class="scroll" id="scroll">
+      <section class="results" id="results" hidden>
+        <div class="sec-h"><span>results / 搜尋結果</span><span id="resCnt"></span></div>
+        <ul class="res-list" id="resList"></ul>
+      </section>
+      <section>
+        <div class="sec-h"><span>architects / 建築師圖層</span><span id="layCnt"></span></div>
+        <div id="archList"></div>
+      </section>
+    </div>
+    <footer><div class="contact"><span class="ck">E</span><a href="mailto:atelierwooop@gmail.com">atelierwooop@gmail.com</a></div><div class="contact"><span class="ck">I</span><a href="https://www.instagram.com/atelier_woo0/" target="_blank" rel="noopener">@atelier_woo0</a></div></footer>
+  </aside>
+  <div id="map"></div>
+</main>
+
+<script>window.echarts={registerMap:function(n,g){window.__twGeo=g;}};</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const DATA = __DATA__;
+const COLORS = __COLORS__;
+(function(){
+"use strict";
+const ARCH = DATA.arch, B = DATA.b;
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => n.toLocaleString("en-US");
+document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--cursor-x",e.clientX+"px");r.setProperty("--cursor-y",e.clientY+"px");},{passive:true});
+
+B.forEach((b,i)=>{ b.i=i; b.t = (b.t+" "+b.a.map(k=>ARCH[k]).join(" ")+" "+(b.y||"")).toLowerCase(); });
+const sortWorks = (x,y)=> (x.y??9999)-(y.y??9999) || x.n.localeCompare(y.n,"zh-Hant");
+const byArch = ARCH.map((_,k)=>B.filter(b=>b.a.includes(k)).sort(sortWorks));
+
+/* ---------- state ---------- */
+const selected = []; // selection order
+let tokens = [];
+const isSel = k => selected.includes(k);
+const matches = b => tokens.every(t => b.t.includes(t));
+const inLayers = b => selected.length===0 || b.a.some(isSel);
+function colorIdx(b){
+  if (selected.length){ for (const k of selected) if (b.a.includes(k)) return k; }
+  for (const t of tokens){ const k = ARCH.indexOf(t); if (k>=0 && b.a.includes(k)) return k; }
+  return b.a[0];
+}
+
+/* ---------- map ---------- */
+const map = L.map("map",{zoomControl:false,preferCanvas:true,minZoom:6,maxZoom:19,worldCopyJump:false,attributionControl:true})
+  .setView([23.75,120.95],8);
+map.attributionControl.setPrefix(false);
+const Zoom = L.Control.extend({options:{position:"topright"},onAdd(){
+  const d=L.DomUtil.create("div","zoom");
+  d.innerHTML='<button title="放大" aria-label="放大">+</button><button title="縮小" aria-label="縮小">−</button><button title="全台灣" aria-label="全台灣" style="font-size:12px;letter-spacing:.05em">TW</button>';
+  const [a,b,c]=d.querySelectorAll("button");
+  a.onclick=()=>map.zoomIn(); b.onclick=()=>map.zoomOut(); c.onclick=()=>map.flyTo([23.75,120.95],8,{duration:.8});
+  L.DomEvent.disableClickPropagation(d); return d;}});
+new Zoom().addTo(map);
+const Note = L.Control.extend({options:{position:"bottomright"},onAdd(){const d=L.DomUtil.create("div","basenote");d.hidden=true;d.id="basenote";return d;}});
+new Note().addTo(map);
+
+/* basemap: CARTO light (clean admin + road labels); fallback to built-in county outline */
+let tilesOK=false, fellBack=false, tileErr=0;
+const tiles = L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP01/default/GoogleMapsCompatible/{z}/{y}/{x}",{
+  maxZoom:19, className:"base-tiles",
+  attribution:'底圖：<a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心 臺灣通用電子地圖（灰階）</a>'
+}).addTo(map);
+tiles.on("tileload",()=>{tilesOK=true;});
+tiles.on("tileerror",()=>{ if(++tileErr>=6 && !tilesOK) fallback(); });
+setTimeout(()=>{ if(!tilesOK) fallback(); },3500);
+
+function decodeRing(str, off, scale){
+  const out=[]; let px=off[0], py=off[1];
+  for(let i=0;i<str.length;i+=2){
+    let x=str.charCodeAt(i)-64, y=str.charCodeAt(i+1)-64;
+    x=(x>>1)^(-(x&1)); y=(y>>1)^(-(y&1));
+    x+=px; y+=py; px=x; py=y;
+    out.push([x/scale, y/scale]);
+  }
+  return out;
+}
+const ZH={"Kaohsiung City":"高雄市","Pingtung":"屏東縣","Tainan City":"臺南市","Hsinchu City":"新竹市","Hsinchu":"新竹縣","Yilan":"宜蘭縣","Keelung City":"基隆市","Miaoli":"苗栗縣","Taipei City":"臺北市","New Taipei City":"新北市","Taoyuan":"桃園市","Changhua":"彰化縣","Chiayi":"嘉義縣","Chiayi City":"嘉義市","Hualien":"花蓮縣","Nantou":"南投縣","Taichung City":"臺中市","Yunlin":"雲林縣","Taitung":"臺東縣","Penghu":"澎湖縣","Kinmen":"金門縣","Lienchiang":"連江縣"};
+function fallback(){
+  if (fellBack) return; fellBack=true;
+  map.removeLayer(tiles);
+  map.getContainer().style.background="#000";
+  const n=$("#basenote"); n.hidden=false;
+  n.textContent="目前環境無法載入線上街道底圖，暫以簡化縣市輪廓顯示；部署到一般網站時會自動顯示含道路名稱的街道底圖。";
+  const s=document.createElement("script");
+  s.src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/province/taiwan.js";
+  s.onload=()=>{
+    const g=window.__twGeo; if(!g) return;
+    const scale=g.UTF8Scale||1024, feats=[];
+    g.features.forEach(f=>{
+      const en=f.properties.name_en; if(!ZH[en]) return;
+      const geom=f.geometry; let coords;
+      if (geom.type==="Polygon") coords=[geom.coordinates.map((r,i)=>decodeRing(r,geom.encodeOffsets[i],scale))];
+      else coords=geom.coordinates.map((poly,j)=>poly.map((r,i)=>decodeRing(r,geom.encodeOffsets[j][i],scale)));
+      feats.push({type:"Feature",properties:{zh:ZH[en]},geometry:{type:"MultiPolygon",coordinates:coords}});
+    });
+    const pane=map.createPane("base"); pane.style.zIndex=250;
+    L.geoJSON({type:"FeatureCollection",features:feats},{pane:"base",interactive:false,
+      style:{color:"rgba(180,190,190,.45)",weight:1,fillColor:"#0b0c0c",fillOpacity:1}}).addTo(map);
+    const lp=map.createPane("baselabel"); lp.style.zIndex=260; lp.style.pointerEvents="none";
+    feats.forEach(f=>{
+      let best=null,area=-1;
+      f.geometry.coordinates.forEach(p=>{const r=p[0];let a=0;for(let i=0;i<r.length;i++){const[x1,y1]=r[i],[x2,y2]=r[(i+1)%r.length];a+=x1*y2-x2*y1;} a=Math.abs(a); if(a>area){area=a;best=r;}});
+      let cx=0,cy=0; best.forEach(([x,y])=>{cx+=x;cy+=y;}); cx/=best.length; cy/=best.length;
+      L.marker([cy,cx],{pane:"baselabel",interactive:false,icon:L.divIcon({className:"",html:'<div class="county-label" style="transform:translate(-50%,-50%)">'+f.properties.zh+'</div>',iconSize:[0,0]})}).addTo(map);
+    });
+  };
+  document.head.appendChild(s);
+}
+
+/* markers */
+const renderer = L.canvas({padding:.4});
+const layer = L.layerGroup().addTo(map);
+const markers = B.map(b=>{
+  const m=L.circleMarker([b.lat,b.lng],{renderer,radius:5.5,weight:1.2,color:"#000",fillOpacity:.95,fillColor:"#888"});
+  m.bindTooltip(esc(b.n),{direction:"top",offset:[0,-6],className:"tip",opacity:1});
+  m.on("click",()=>openPopup(b));
+  return m;
+});
+function popupHTML(b){
+  const chips=b.a.map(k=>`<span class="chip" data-k="${k}" style="--c:${COLORS[k]}">${esc(ARCH[k])}</span>`).join("");
+  return `<div class="pp"><div class="pp-top"><div class="pp-yr">${b.y?b.y:"年代未詳"}</div><h3>${esc(b.n)}</h3><div class="pp-arch">${chips}</div></div>`+
+    (b.d?`<div class="pp-body">${b.d}</div>`:"")+
+    `<div class="pp-src">來源：${b.s.map(esc).join("；")}<br><span class="pp-coord">${b.lat.toFixed(5)}, ${b.lng.toFixed(5)}</span></div>`+
+    `<a class="pp-gmap" href="https://www.google.com/maps/search/?api=1&amp;query=${b.lat},${b.lng}" target="_blank" rel="noopener">在 Google Maps 開啟 ↗</a></div>`;
+}
+function openPopup(b, fly){
+  const go=()=>{
+    const p=L.popup({maxWidth:400,minWidth:280,autoPanPadding:[30,30],closeButton:true}).setLatLng([b.lat,b.lng]).setContent(popupHTML(b)).openOn(map);
+    const el=p.getElement();
+    el.querySelectorAll("a").forEach(a=>{a.target="_blank";a.rel="noopener";});
+    el.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{ toggle(+c.dataset.k,true); }));
+  };
+  if (fly){ map.flyTo([b.lat,b.lng],Math.max(map.getZoom(),16),{duration:.9}); map.once("moveend",go); }
+  else go();
+  if (window.innerWidth<=820 && fly) document.body.classList.remove("side-open");
+}
+
+/* ---------- sidebar ---------- */
+const archList=$("#archList");
+const rows = ARCH.map((name,k)=>{
+  const el=document.createElement("div"); el.className="arch"; el.style.setProperty("--c",COLORS[k]);
+  el.innerHTML=`<div class="arch-row" role="button" tabindex="0" aria-pressed="false"><span class="chk"></span><span class="arch-name">${esc(name)}<span class="cnt">（${byArch[k].length}）</span></span><span class="badge" hidden></span><button class="tog" aria-label="展開作品列表"></button></div><ul class="works"></ul>`;
+  const row=el.firstChild, tog=el.querySelector(".tog");
+  row.addEventListener("click",e=>{ if(e.target.closest(".tog")) return; toggle(k); });
+  row.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle(k);} });
+  tog.addEventListener("click",e=>{ e.stopPropagation(); el.classList.toggle("open"); if(el.classList.contains("open")) renderWorks(k); });
+  archList.appendChild(el); return el;
+});
+$("#layCnt").textContent = ARCH.length+" 位";
+
+function workLI(b,k,withDot){
+  const li=document.createElement("li"); li.className="work";
+  li.innerHTML=(withDot?`<span class="dot" style="--c:${COLORS[k]}"></span>`:"")+`<span class="yr">${b.y||"—"}</span><span>${esc(b.n)}</span>`;
+  li.addEventListener("click",()=>openPopup(b,true));
+  return li;
+}
+function renderWorks(k){
+  const ul=rows[k].querySelector(".works"); ul.innerHTML="";
+  const list = tokens.length ? byArch[k].filter(matches) : byArch[k];
+  if (!list.length){ ul.innerHTML='<li class="more">沒有符合搜尋的作品</li>'; return; }
+  const frag=document.createDocumentFragment(); list.forEach(b=>frag.appendChild(workLI(b,k,false))); ul.appendChild(frag);
+}
+function toggle(k, scrollTo){
+  const i=selected.indexOf(k);
+  if (i>=0) selected.splice(i,1); else selected.push(k);
+  update(true);
+  if (scrollTo && i<0) rows[k].scrollIntoView({block:"nearest",behavior:"smooth"});
+}
+
+/* ---------- update ---------- */
+let fitTimer=null;
+function update(fit){
+  const vis=[];
+  B.forEach((b,i)=>{
+    const show = inLayers(b) && matches(b);
+    const m=markers[i];
+    if (show){ m.setStyle({fillColor:COLORS[colorIdx(b)]}); if(!layer.hasLayer(m)) layer.addLayer(m); vis.push(b); }
+    else if (layer.hasLayer(m)) layer.removeLayer(m);
+  });
+  $("#num").innerHTML = fmt(vis.length)+"<small>處建物"+(vis.length!==B.length?" / 共 "+fmt(B.length):"")+"</small>";
+  $("#clr").hidden = !(selected.length || tokens.length);
+
+  rows.forEach((el,k)=>{
+    const on=isSel(k); el.classList.toggle("on",on); el.firstChild.setAttribute("aria-pressed",on);
+    const badge=el.querySelector(".badge");
+    if (tokens.length){ const c=byArch[k].filter(matches).length; badge.hidden=!c; badge.textContent="符合 "+c; el.classList.toggle("dim",!c); }
+    else { badge.hidden=true; el.classList.remove("dim"); }
+    if (el.classList.contains("open")) renderWorks(k);
+  });
+
+  const res=$("#results");
+  if (tokens.length){
+    res.hidden=false;
+    const list=vis.slice().sort(sortWorks);
+    $("#resCnt").textContent=fmt(list.length)+" 筆";
+    const ul=$("#resList"); ul.innerHTML="";
+    const frag=document.createDocumentFragment();
+    if (selected.length){
+      const li=document.createElement("li"); li.className="more";
+      li.innerHTML='僅顯示已勾選的 '+selected.length+' 位建築師中符合者。<a href="#" style="color:#141414;font-weight:700">改為搜尋全部</a>';
+      li.querySelector("a").addEventListener("click",e=>{e.preventDefault(); selected.length=0; update(true);});
+      frag.appendChild(li);
+    }
+    list.slice(0,400).forEach(b=>frag.appendChild(workLI(b,colorIdx(b),true)));
+    if (list.length>400){ const li=document.createElement("li"); li.className="more"; li.textContent="僅列出前 400 筆，請加入更多關鍵字縮小範圍。"; frag.appendChild(li); }
+    if (!list.length){ const li=document.createElement("li"); li.className="more"; li.textContent="沒有符合的點位。"; frag.appendChild(li); }
+    ul.appendChild(frag);
+  } else res.hidden=true;
+
+  if (fit){
+    clearTimeout(fitTimer);
+    fitTimer=setTimeout(()=>{
+      if (!vis.length) return;
+      if (!selected.length && !tokens.length){ map.flyTo([23.75,120.95],8,{duration:.8}); return; }
+      const bb=L.latLngBounds(vis.map(b=>[b.lat,b.lng]));
+      map.flyToBounds(bb,{padding:[60,60],maxZoom:16,duration:.8});
+    },120);
+  }
+}
+
+/* search */
+const q=$("#q"), sbox=$("#sbox");
+let qTimer=null, composing=false;
+function runSearch(){
+  clearTimeout(qTimer);
+  qTimer=setTimeout(()=>{
+    const nt=q.value.trim().toLowerCase().split(/[\s　,，、]+/).filter(Boolean);
+    if (nt.join(" ")===tokens.join(" ")) return;
+    if (nt.length) selected.length=0;   // a new search always covers all architects
+    tokens=nt; update(true);
+  },200);
+}
+q.addEventListener("compositionstart",()=>{ composing=true; });
+q.addEventListener("compositionend",()=>{ composing=false; runSearch(); });
+q.addEventListener("input",e=>{
+  sbox.classList.toggle("has",!!q.value);
+  if (composing || e.isComposing) return;
+  runSearch();
+});
+q.addEventListener("keydown",e=>{ if(e.key==="Escape"){ q.value=""; q.dispatchEvent(new Event("input")); }});
+$("#qx").addEventListener("click",()=>{ q.value=""; q.dispatchEvent(new Event("input")); q.focus(); });
+$("#clr").addEventListener("click",()=>{ selected.length=0; q.value=""; sbox.classList.remove("has"); tokens=[]; update(true); });
+$("#menuBtn").addEventListener("click",()=>document.body.classList.toggle("side-open"));
+map.on("click",()=>document.body.classList.remove("side-open"));
+
+update(false);
+})();
+</script>
+</body>
+</html>

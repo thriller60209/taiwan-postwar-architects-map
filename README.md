@@ -11,7 +11,12 @@ Part of **atelier WooO database** (https://project-7twdd.vercel.app/).
 ## Repository layout
 
 ```
-index.html              ← the whole app in ONE file (HTML + CSS + JS + embedded data). Deployable as-is.
+index.html              ← GENERATED: the whole app in ONE file (HTML + CSS + JS + embedded data). Deployable as-is.
+scripts/build_site.py   ← rebuilds index.html + data/ from sources/ (stdlib Python, no deps)
+scripts/config.json     ← architects (order + colour), aliases, duplicate-merge pairs
+scripts/template.html   ← page template (edit layout/style here)
+sources/                ← source maps (蓬萊異聞錄 is refreshed from Google My Maps every hour)
+.github/workflows/      ← hourly sync job
 data/architects.json    ← 80 architect layers: { id, name, color, count }  (ordered by surname stroke count)
 data/buildings.json     ← 1,647 buildings: { id, name, year, architects[], lat, lng, description_html, sources[] }
 .vercelignore           ← keeps raw KMZ sources / helper scripts out of the deployment
@@ -88,5 +93,11 @@ Merged and de-duplicated from five Google My Maps KMZ files by the author:
 
 ## Updating
 
-Edit `index.html` (and `data/*.json` if the data changes), commit, push — Vercel redeploys automatically once the
-project is connected to this repo.
+**Data — automatic.** `.github/workflows/sync-mymaps.yml` runs every hour (and on demand from the Actions tab →
+"Sync from Google My Maps" → Run workflow). It downloads the live 蓬萊異聞錄 My Map
+(`mid=1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg`) as KML, runs `scripts/build_site.py`, and commits `index.html` + `data/`
+if anything changed; Vercel then redeploys. The other four sources are static files in `sources/`.
+
+**Rules** (architect list/colours/order, aliases, duplicate pairs) live in `scripts/config.json`.
+**Layout / style** lives in `scripts/template.html` — edit that, not `index.html`, which is generated.
+The build refuses to publish if the building count drops by more than 20 % (protects against a broken download).

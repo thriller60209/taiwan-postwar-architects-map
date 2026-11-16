@@ -1,0 +1,54 @@
+name: Sync from Google My Maps
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # every hour at :17 (UTC)
+  workflow_dispatch:           # "Run workflow" button in the Actions tab
+  push:
+    paths:
+      - "scripts/**"
+      - "sources/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-mymaps
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download 蓬萊異聞錄 from Google My Maps
+        env:
+          MID: 1YdXsuuZrWFRGo5Qb1JtVM8GOE7hDbYOg
+        run: |
+          curl -fsSL --retry 3 -o /tmp/base.kml "https://www.google.com/maps/d/kml?mid=${MID}&forcekml=1"
+          # only accept a real KML document
+          if grep -q "<kml" /tmp/base.kml && grep -q "<Placemark" /tmp/base.kml; then
+            cp /tmp/base.kml "sources/蓬萊異聞錄.kml"
+          else
+            echo "Download did not look like KML; keeping the previous copy."
+          fi
+
+      - name: Rebuild site
+        run: python scripts/build_site.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "thriller60209"
+          git config user.email "thriller60209@users.noreply.github.com"
+          git add -A index.html data sources
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Sync from Google My Maps"
+            git push
+          fi
