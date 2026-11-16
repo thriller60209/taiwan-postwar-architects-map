@@ -11694,16 +11694,15 @@
  },
  {
   "id": 820,
-  "name": "徐有庠宅",
-  "year": null,
+  "name": "徐有庠宅1970s",
+  "year": 1970,
   "architects": [
    3
   ],
   "lat": 25.0003,
   "lng": 121.45293,
-  "description_html": "王大閎<br><br>王大閎？",
+  "description_html": "王大閎？",
   "sources": [
-   "《台博GIS》／王大閎",
    "《蓬萊異聞錄》／戰後建築"
   ]
  },

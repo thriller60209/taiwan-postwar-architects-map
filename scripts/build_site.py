@@ -234,8 +234,11 @@ def build():
         group[a] = group[b] = (a, b)
     used, items = set(), []
     updates = []
+    drop = {n.strip() for n in CFG.get('exclude', [])}
     for p in pts:
         A = assign(p)
+        if p['name'].strip() in drop:
+            continue
         if not A or p['i'] in used:
             continue
         if p['src'] in UPDATE_MAPS:
