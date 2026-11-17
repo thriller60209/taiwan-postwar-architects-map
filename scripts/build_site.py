@@ -33,14 +33,16 @@ def _oklch_hex(L, C, h):
 
 
 def stroke_gradient(n):
-    """Colours follow the layer order (surname stroke count): the hue walks once round
-    the colour wheel, so neighbours in the list are related; lightness/chroma cycle
-    through four steps, so neighbours are still clearly different on the black map."""
-    steps = [(0.80, 0.085), (0.63, 0.125), (0.72, 0.14), (0.56, 0.095)]
+    """Morandi palette following the layer order (surname stroke count).
+    Hue walks once round the wheel; lightness repeats a fixed 5-step ramp,
+    light → dark, so the rhythm is regular and neighbours stay distinguishable.
+    Chroma stays low (dusty, greyed), slightly higher on the darker steps so
+    they do not turn muddy on the black map."""
+    ramp = [(0.86, 0.045), (0.79, 0.052), (0.72, 0.060), (0.65, 0.066), (0.58, 0.072)]
     out = []
     for i in range(n):
-        L, C = steps[i % len(steps)]
-        out.append(_oklch_hex(L, C, 25 + 335 * i / max(1, n - 1)))
+        L, C = ramp[i % len(ramp)]
+        out.append(_oklch_hex(L, C, 20 + 320 * i / max(1, n - 1)))
     return out
 
 
@@ -391,6 +393,13 @@ def write(D):
     tpl = open(os.path.join(ROOT, 'scripts', 'template.html'), encoding='utf-8').read()
     out = tpl.replace('__VERSION__', version).replace('__DATAVERSION__', data_version)
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(out)
+    sw = ''.join(f'<li><i style="background:{c}"></i>{html.escape(n)}<small>{c}</small></li>' for n, c in zip(ARCH, COLORS))
+    open(os.path.join(ROOT, 'dist', 'palette.html'), 'w', encoding='utf-8').write(
+        '<!DOCTYPE html><meta charset="utf-8"><meta name="robots" content="noindex"><title>architect palette</title>'
+        '<style>body{margin:0;padding:24px;background:#000;color:#b4bebe;font:10pt "Source Code Pro","Microsoft JhengHei",monospace}'
+        'ol{columns:5 170px;column-gap:24px;margin:0;padding:0;list-style:none}li{display:flex;align-items:center;gap:10px;height:28px;break-inside:avoid}'
+        'i{width:18px;height:18px;flex:none}small{margin-left:auto;color:#7f8888;font-size:8pt}</style>'
+        f'<ol>{sw}</ol>')
     for page in ('demo.html', 'widths.html'):
         sp = os.path.join(ROOT, 'scripts', page)
         if os.path.exists(sp):

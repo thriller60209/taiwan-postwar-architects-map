@@ -2,323 +2,323 @@
  "architects": [
   {
    "name": "三門",
-   "color": "#f0a9a2"
+   "color": "#edc6c5"
   },
   {
    "name": "中國興業",
-   "color": "#c9695c"
+   "color": "#daaeaa"
   },
   {
    "name": "方汝鎮",
-   "color": "#ef8169"
+   "color": "#c89790"
   },
   {
    "name": "王大閎",
-   "color": "#a4604b"
+   "color": "#b48176"
   },
   {
    "name": "王水河",
-   "color": "#edac93"
+   "color": "#a06b5c"
   },
   {
    "name": "王以唐",
-   "color": "#c66f43"
+   "color": "#ecc8bb"
   },
   {
    "name": "王秀蓮",
-   "color": "#e9884d"
+   "color": "#d8b1a0"
   },
   {
    "name": "王俊雄",
-   "color": "#9f643b"
+   "color": "#c59a84"
   },
   {
    "name": "王秋華",
-   "color": "#e7b187"
+   "color": "#b0846a"
   },
   {
    "name": "王昭藩",
-   "color": "#bd762a"
+   "color": "#9b6f50"
   },
   {
    "name": "王振河",
-   "color": "#de9132"
+   "color": "#e8cbb4"
   },
   {
    "name": "朱祖明",
-   "color": "#976a2e"
+   "color": "#d3b498"
   },
   {
    "name": "吳明修",
-   "color": "#deb77f"
+   "color": "#be9e7c"
   },
   {
    "name": "吳增榮",
-   "color": "#b07f15"
+   "color": "#a88962"
   },
   {
    "name": "呂石鑄",
-   "color": "#cd9c1f"
+   "color": "#937548"
   },
   {
    "name": "呂阿玉",
-   "color": "#8b7129"
+   "color": "#e0cfb0"
   },
   {
    "name": "李松蒲",
-   "color": "#d1bd7e"
+   "color": "#cab995"
   },
   {
    "name": "李承寬",
-   "color": "#9f8814"
+   "color": "#b4a379"
   },
   {
    "name": "李風",
-   "color": "#b7a625"
+   "color": "#9d8f60"
   },
   {
    "name": "李重耀",
-   "color": "#7c782e"
+   "color": "#867b47"
   },
   {
    "name": "李祖原",
-   "color": "#c1c382"
+   "color": "#d7d2b1"
   },
   {
    "name": "李謀華",
-   "color": "#899129"
+   "color": "#bfbd97"
   },
   {
    "name": "沈祖海",
-   "color": "#9db03e"
+   "color": "#a7a87d"
   },
   {
    "name": "宗邁",
-   "color": "#6a7d3a"
+   "color": "#8f9465"
   },
   {
    "name": "林東憲",
-   "color": "#afc88d"
+   "color": "#77804e"
   },
   {
    "name": "林柏年",
-   "color": "#6e9842"
+   "color": "#ccd6b6"
   },
   {
    "name": "林論下",
-   "color": "#7db85a"
+   "color": "#b3c19d"
   },
   {
    "name": "林澍民",
-   "color": "#56824b"
+   "color": "#99ac85"
   },
   {
    "name": "林慶豐",
-   "color": "#9dcc9b"
+   "color": "#7f986f"
   },
   {
    "name": "姚元中",
-   "color": "#4e9d5c"
+   "color": "#66855a"
   },
   {
    "name": "姚仁喜",
-   "color": "#55bd78"
+   "color": "#c1d9be"
   },
   {
    "name": "柯傅",
-   "color": "#3f855d"
+   "color": "#a6c4a7"
   },
   {
    "name": "修澤蘭",
-   "color": "#8ccfac"
+   "color": "#8bb091"
   },
   {
    "name": "徐雨壽",
-   "color": "#1fa076"
+   "color": "#709b7d"
   },
   {
    "name": "徐迺欣",
-   "color": "#19c096"
+   "color": "#54876a"
   },
   {
    "name": "浩群",
-   "color": "#258670"
+   "color": "#b8dbc8"
   },
   {
    "name": "高而潘",
-   "color": "#7ed0bd"
+   "color": "#9cc6b3"
   },
   {
    "name": "高煥庚",
-   "color": "#109e8e"
+   "color": "#7fb19f"
   },
   {
    "name": "基泰工程司",
-   "color": "#14bdb0"
+   "color": "#639d8c"
   },
   {
    "name": "張亦煌",
-   "color": "#098681"
+   "color": "#46887a"
   },
   {
    "name": "張昌華",
-   "color": "#77cfce"
+   "color": "#b2dbd3"
   },
   {
    "name": "張紹載",
-   "color": "#149ca1"
+   "color": "#95c6bf"
   },
   {
    "name": "張敬德",
-   "color": "#24b9c5"
+   "color": "#78b1ad"
   },
   {
    "name": "張肇康",
-   "color": "#068491"
+   "color": "#5c9c9b"
   },
   {
    "name": "張德霖",
-   "color": "#79cddd"
+   "color": "#3f878a"
   },
   {
    "name": "許仲川",
-   "color": "#0999b3"
+   "color": "#afdade"
   },
   {
    "name": "許英魁",
-   "color": "#26b6da"
+   "color": "#94c5cb"
   },
   {
    "name": "郭文豐",
-   "color": "#22809e"
+   "color": "#78afba"
   },
   {
    "name": "陳仁和",
-   "color": "#81c9e9"
+   "color": "#5e9aa8"
   },
   {
    "name": "陳其寬",
-   "color": "#1695c8"
+   "color": "#448597"
   },
   {
    "name": "陳昭武",
-   "color": "#36b0f1"
+   "color": "#b2d8e7"
   },
   {
    "name": "陳萬榮",
-   "color": "#3b7ba7"
+   "color": "#98c2d5"
   },
   {
    "name": "陳錫照",
-   "color": "#90c4f1"
+   "color": "#7eacc4"
   },
   {
    "name": "陳濯",
-   "color": "#478dd1"
+   "color": "#6696b2"
   },
   {
    "name": "陳鍊鋒",
-   "color": "#62a7fa"
+   "color": "#5080a0"
   },
   {
    "name": "傅義",
-   "color": "#5175ac"
+   "color": "#b8d5ed"
   },
   {
    "name": "費宥諒",
-   "color": "#a0bef5"
+   "color": "#a0bedb"
   },
   {
    "name": "賀陳詞",
-   "color": "#6785d5"
+   "color": "#89a8ca"
   },
   {
    "name": "黃永洪",
-   "color": "#849efc"
+   "color": "#7491b7"
   },
   {
    "name": "黃有良",
-   "color": "#646fac"
+   "color": "#607ba5"
   },
   {
    "name": "黃祖權",
-   "color": "#b2b8f4"
+   "color": "#c2d2ef"
   },
   {
    "name": "黃聲遠",
-   "color": "#807dd2"
+   "color": "#acbadd"
   },
   {
    "name": "黃寶瑜",
-   "color": "#a195f7"
+   "color": "#97a3cb"
   },
   {
    "name": "楊卓成",
-   "color": "#766aa8"
+   "color": "#838cb8"
   },
   {
    "name": "楊貽炳",
-   "color": "#c2b3ef"
+   "color": "#7176a5"
   },
   {
    "name": "虞曰鎮",
-   "color": "#9676c9"
+   "color": "#ccceee"
   },
   {
    "name": "廖上焜",
-   "color": "#b98deb"
+   "color": "#b8b6db"
   },
   {
    "name": "漢寶德",
-   "color": "#85649f"
+   "color": "#a49ec8"
   },
   {
    "name": "趙力行",
-   "color": "#d1aee5"
+   "color": "#9287b4"
   },
   {
    "name": "劉明國",
-   "color": "#a86fba"
+   "color": "#80719f"
   },
   {
    "name": "劉祥宏",
-   "color": "#cd85d9"
+   "color": "#d7caea"
   },
   {
    "name": "樊祥孫",
-   "color": "#916092"
+   "color": "#c4b2d5"
   },
   {
    "name": "潘冀",
-   "color": "#deaad8"
+   "color": "#b19ac0"
   },
   {
    "name": "蔡正義",
-   "color": "#b66aa8"
+   "color": "#9f83ab"
   },
   {
    "name": "蔡柏鋒",
-   "color": "#dd80c2"
+   "color": "#8d6d95"
   },
   {
    "name": "鄭定邦",
-   "color": "#9b5d83"
+   "color": "#e0c8e2"
   },
   {
    "name": "盧毓駿",
-   "color": "#e7a8c8"
+   "color": "#ceafcc"
   },
   {
    "name": "賴銘池",
-   "color": "#c16792"
+   "color": "#bc97b6"
   },
   {
    "name": "謝碧榮",
-   "color": "#e87da8"
+   "color": "#a9809f"
   },
   {
    "name": "顏水龍",
-   "color": "#a15c72"
+   "color": "#976a88"
   }
  ],
  "aliases": {
