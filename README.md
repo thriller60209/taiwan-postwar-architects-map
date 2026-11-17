@@ -14,7 +14,8 @@ Part of **atelier WooO database** (https://project-7twdd.vercel.app/).
 index.html              ← GENERATED: the whole app in ONE file (HTML + CSS + JS + embedded data). Deployable as-is.
 scripts/build_site.py   ← rebuilds index.html + data/ from sources/ (stdlib Python, no deps)
 scripts/config.json     ← architects (order + colour), aliases, duplicate-merge pairs
-scripts/template.html   ← page template (edit layout/style here)
+scripts/template.html   ← standalone page shell (header/footer around the module)
+src/wooo-map/          ← the map itself: core.js + wooo-map.css (edit map behaviour/style here)
 sources/                ← static snapshots; sources/live/ = maps refreshed from Google My Maps every hour
 .github/workflows/      ← hourly sync job
 data/architects.json    ← 80 architect layers: { id, name, color, count }  (ordered by surname stroke count)
@@ -100,5 +101,34 @@ if anything changed; Vercel then redeploys. Each live map replaces the static sn
 same map title; `sources/live/manifest.json` shows which maps were used on the last run.
 
 **Rules** (architect list/colours/order, aliases, duplicate pairs) live in `scripts/config.json`.
-**Layout / style** lives in `scripts/template.html` — edit that, not `index.html`, which is generated.
+**Map behaviour / style** lives in `src/wooo-map/`; the standalone page shell in `scripts/template.html`. Never edit `index.html` or `dist/`, which are generated.
 The build refuses to publish if the building count drops by more than 20 % (protects against a broken download).
+
+## Mountable module (for the atelier WooO website)
+
+The map is a component, not just a page:
+
+```txt
+src/wooo-map/core.js        source of the module (edit here)
+src/wooo-map/wooo-map.css   source of the scoped CSS (edit here)
+dist/wooo-map/wooo-map.js   built copy — what other sites import
+dist/wooo-map/wooo-map.css
+dist/wooo-map/manifest.json version, dataVersion, counts, interface
+dist/demo.html              test page imitating the official /archive/map shell
+dist/widths.html            the demo at 320 / 375 / 390 / 430 px with overflow checks
+```
+
+```js
+import { mountWoooMap } from "./dist/wooo-map/wooo-map.js";
+const map = await mountWoooMap(container, {
+  architectsUrl, buildingsUrl,   // or data: { architects, buildings }
+  initialView: "taiwan",
+  mobileBreakpoint: 760,         // container width
+  L                              // optional Leaflet 1.9.4; otherwise loaded from cdnjs
+});
+map.destroy();
+```
+
+`scripts/build_site.py` writes `data/*.json` (unchanged contract), `dist/wooo-map/*` and the
+standalone `index.html`, which is now a thin shell around the same module. The hourly workflow
+commits `dist/` too. How the official Astro site mounts it: **docs/ASTRO_INTEGRATION.md**.
