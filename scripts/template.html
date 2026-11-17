@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>post-war architects map / atelier WooO database</title>
 <meta name="description" content="selected database by atelier WooO">
 <meta property="og:title" content="post-war architects map / atelier WooO database">
@@ -20,603 +20,57 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dist/wooo-map/wooo-map.css?v=__VERSION__">
+<!-- Standalone shell. The map itself is the dist/wooo-map module, the same one the
+     atelier WooO website mounts at /archive/map. Edit the map in src/wooo-map/. -->
 <style>
-/* ---------- Leaflet core (inlined) ---------- */
-.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
-.leaflet-container{overflow:hidden;-webkit-tap-highlight-color:transparent}
-.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
-.leaflet-container .leaflet-tile-pane img,.leaflet-container .leaflet-overlay-pane svg,.leaflet-container img.leaflet-tile{max-width:none!important;max-height:none!important;width:auto;padding:0}
-.leaflet-container img.leaflet-tile{mix-blend-mode:normal}
-.leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}
-.leaflet-container.leaflet-touch-drag{touch-action:none}
-.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}
-.leaflet-tile{filter:inherit;visibility:hidden}
-.leaflet-tile-loaded{visibility:inherit}
-.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}
-.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-shadow-pane{z-index:500}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}
-.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}
-.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}
-.leaflet-top,.leaflet-bottom{position:absolute;z-index:1000;pointer-events:none}
-.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}
-.leaflet-right .leaflet-control{float:right}
-.leaflet-top .leaflet-control{margin-top:16px}.leaflet-bottom .leaflet-control{margin-bottom:12px}
-.leaflet-left .leaflet-control{margin-left:16px}.leaflet-right .leaflet-control{margin-right:16px}
-.leaflet-fade-anim .leaflet-popup{opacity:0;transition:opacity .2s linear}
-.leaflet-fade-anim .leaflet-map-pane .leaflet-popup{opacity:1}
-.leaflet-zoom-animated{transform-origin:0 0}
-svg.leaflet-zoom-animated{will-change:transform}
-.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,.25,1)}
-.leaflet-zoom-anim .leaflet-tile,.leaflet-pan-anim .leaflet-tile{transition:none}
-.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}
-.leaflet-interactive{cursor:pointer}
-.leaflet-grab{cursor:grab}
-.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive{cursor:grabbing}
-.leaflet-popup{position:absolute;text-align:center;margin-bottom:18px}
-.leaflet-popup-content-wrapper{text-align:left}
-.leaflet-popup-content{margin:0;min-height:1px}
-.leaflet-popup-tip-container{width:40px;height:20px;position:absolute;left:50%;margin-top:-1px;margin-left:-20px;overflow:hidden;pointer-events:none}
-.leaflet-popup-tip{width:14px;height:14px;margin:-8px auto 0;pointer-events:auto;transform:rotate(45deg)}
-.leaflet-popup-close-button{position:absolute;border:none;text-align:center;width:28px;height:28px;text-decoration:none;background:transparent;z-index:2}
-.leaflet-tooltip{position:absolute;white-space:nowrap;-webkit-user-select:none;user-select:none;pointer-events:none}
-.leaflet-control-attribution{margin:0!important;padding:0 6px;line-height:1.6}
-
-/* ---------- Site — synced with atelier WooO database ---------- */
-:root{
-  --silver:#b4bebe; --silver-light:#d0d8d8; --silver-dark:#737c7c; --black:#000; --white:#fff;
-  --silver-text:#b4bebe; --silver-title:#d0d8d8; --silver-muted:#7f8888; --rule:rgba(180,190,190,.5); --rule-soft:rgba(180,190,190,.28);
-  --font:"Source Code Pro","Microsoft JhengHei",Arial,sans-serif;
-  --side:330px; --head:69px; --cursor-x:-100vw; --cursor-y:-100vh;
-}
+:root{--silver:#b4bebe;--silver-title:#d0d8d8;--silver-muted:#7f8888;--rule:rgba(180,190,190,.5);--cursor-x:-100vw;--cursor-y:-100vh}
 *{box-sizing:border-box}
-html{background:var(--black);color:var(--silver-text);font-family:var(--font);font-size:10pt;letter-spacing:0}
-html,body{margin:0;height:100%;overflow:hidden}
-body{background:var(--black);color:var(--silver-text);-webkit-font-smoothing:antialiased}
-button,input{font:inherit;color:inherit;letter-spacing:inherit}
-a{color:inherit;text-decoration:none}
-a:hover,a:focus{text-decoration:underline}
-::selection{background:var(--silver);color:var(--black)}
-
-/* crosshair cursor (same as WooO database) */
+html,body{margin:0;height:100%;height:100dvh;overflow:hidden;background:#000;color:var(--silver)}
+body{font-family:"Source Code Pro","Microsoft JhengHei",Arial,sans-serif;font-size:10pt;letter-spacing:0;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}a:hover,a:focus-visible{text-decoration:underline}
+.site-header{flex:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:start;margin:0 18px;padding:calc(14px + env(safe-area-inset-top)) 0 12px;border-bottom:1px solid var(--rule)}
+.brand{display:flex;align-items:center;gap:8px;min-width:0;line-height:1.2}
+.brand img{width:58px;height:auto;display:block;flex:none}
+.brand span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav{display:flex;gap:14px;line-height:1.2}
+.nav a[aria-current="page"]{text-decoration:underline}
+.map-slot{flex:1;min-height:0;margin:0 18px}
+.site-footer{flex:none;display:flex;justify-content:center;gap:18px;padding:6px 18px calc(6px + env(safe-area-inset-bottom));font-size:8pt;line-height:1.4;color:var(--silver)}
+.site-footer span{color:var(--silver-muted)}
 .index-cursor{position:fixed;z-index:3000;pointer-events:none;opacity:0;transition:opacity .14s}
 .index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
 .index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
-@media (hover:hover) and (pointer:fine){
-  body,body *,#map .leaflet-grab,#map .leaflet-interactive,.leaflet-dragging .leaflet-grab{cursor:none!important}
-  body:hover .index-cursor{opacity:1}
+@media (hover:hover) and (pointer:fine){body,body *{cursor:none!important}body:hover .index-cursor{opacity:1}}
+@media (max-width:760px){
+  .site-header{margin:0 14px;padding:calc(10px + env(safe-area-inset-top)) 0 10px;gap:12px;align-items:center}
+  .brand img{width:40px}.brand .en{display:none}
+  .nav{gap:10px}
+  .map-slot{margin:0}
+  .site-footer{display:none}
 }
-
-header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18px 0;z-index:20;background:var(--black)}
-.site-header{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:12px;height:100%}
-.brand{display:flex;align-items:center;gap:8px;font-size:10pt;line-height:1.2;color:var(--silver-text);text-decoration:none!important}
-.brand img{width:58px;height:auto;display:block;flex:none}
-.brand span{white-space:nowrap}
-.nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;line-height:1.2;align-items:center}
-.nav a[aria-current="page"]{text-decoration:underline}
-.menu-btn{display:none;background:none;border:0;padding:0;cursor:pointer;color:var(--silver-text)}
-.menu-btn:hover{text-decoration:underline}
-
-main{position:absolute;top:var(--head);bottom:0;left:0;right:0;display:flex;padding:0 18px;gap:0}
-aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-direction:column;min-height:0;z-index:10;padding:18px 18px 0 0;border-right:1px solid var(--rule)}
-#map{flex:1;min-width:0;background:var(--black);opacity:0;transition:opacity .4s ease-out}
-body.ready #map{opacity:1}
-.loading{position:absolute;top:50%;left:calc(18px + var(--side) + (100% - 36px - var(--side))/2);transform:translate(-50%,-50%);z-index:5;color:var(--silver-muted);pointer-events:none}
-body.ready .loading{display:none}
-
-.page-title{margin:0 0 18px;font-size:10pt;font-weight:700;line-height:1.4;color:var(--silver-title)}
-.search{padding:0 0 14px;border-bottom:1px solid var(--rule)}
-.search label{display:block;font-size:10pt;font-weight:700;color:var(--silver-title);margin-bottom:10px;line-height:1.4}
-.sbox{position:relative}
-.sbox input{width:100%;font-size:10pt;line-height:1.45;padding:6px 26px 6px 0;border:0;border-bottom:1px solid var(--rule);background:transparent;color:var(--silver-title);outline:none;border-radius:0;-webkit-appearance:none;appearance:none}
-.sbox input{min-height:44px}
-.sbox input:focus{border-bottom-color:var(--silver)}
-.sbox input:focus-visible,.arch-row:focus-visible,.tog:focus-visible,.work:focus-visible,.card-x:focus-visible{outline:1px dashed var(--silver);outline-offset:3px}
-.sbox input::placeholder{color:var(--silver-muted)}
-.sbox input::-webkit-search-cancel-button,.sbox input::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
-.sbox .x{position:absolute;right:0;top:50%;transform:translateY(-50%);width:22px;height:22px;border:none;background:none;font-size:14px;cursor:pointer;display:none;color:var(--silver-text);padding:0}
-.sbox.has .x{display:block}
-.hint{font-size:10px;color:var(--silver-muted);margin-top:10px;line-height:1.6}
-.stat{display:flex;align-items:baseline;justify-content:space-between;margin-top:12px;line-height:1.45}
-.stat .num{font-size:10pt;color:var(--silver-title)}
-.stat .num small{font-size:10px;color:var(--silver-muted);margin-left:6px}
-.clear{font-size:10px;border:0;background:none;padding:0;cursor:pointer;color:var(--silver-text)}
-.clear:hover{text-decoration:underline}
-.clear[hidden]{display:none}
-
-.scroll{flex:1;overflow-y:auto;overflow-x:hidden;min-height:0;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
-.scroll::-webkit-scrollbar{width:6px}.scroll::-webkit-scrollbar-thumb{background:var(--silver-dark)}
-.sec-h{position:sticky;top:0;background:var(--black);z-index:2;display:flex;justify-content:space-between;align-items:baseline;padding:14px 0 6px;border-bottom:1px solid var(--rule);font-size:10pt;font-weight:700;color:var(--silver-title);line-height:1.45}
-.sec-h span:last-child{font-weight:400;color:var(--silver-muted);font-size:10px}
-
-.results[hidden]{display:none}
-.res-list{list-style:none;margin:0;padding:0;max-height:36vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent;border-bottom:1px solid var(--rule)}
-.more{font-size:10px;color:var(--silver-muted);padding:6px 0;line-height:1.6}
-.more a{color:var(--silver-text);text-decoration:underline}
-
-.arch{border-bottom:1px solid var(--rule)}
-.arch-row{display:flex;align-items:center;min-height:44px;padding:0;line-height:1.45;cursor:pointer;user-select:none}
-.arch-row:hover .arch-name{text-decoration:underline}
-.chk{width:9px;height:9px;border:1px solid var(--c);flex:none;margin-right:12px;background:transparent}
-.arch.on .chk{background:var(--c)}
-.arch-name{flex:1;font-size:10pt;color:var(--silver-text)}
-.arch.on .arch-name{color:var(--silver-title);font-weight:700}
-body.has-sel .arch:not(.on) .arch-name{color:var(--silver-muted)}
-.arch-name .cnt{font-weight:400;color:var(--silver-muted)}
-.badge{font-size:10px;color:var(--silver-title);margin-right:10px}
-.badge[hidden]{display:none}
-.arch.dim .arch-row{opacity:.22}
-.tog{width:44px;height:44px;margin-right:-8px;border:none;background:none;cursor:pointer;flex:none;color:var(--silver-text);font-size:12px;padding:0;line-height:1}
-.tog::before{content:"+"}
-.arch.open .tog::before{content:"−"}
-.works{list-style:none;margin:0;padding:0 0 8px;display:none}
-.arch.open .works{display:block}
-
-.work{display:grid;grid-template-columns:42px 1fr;gap:10px;padding:4px 0 4px 21px;font-size:12px;line-height:1.5;cursor:pointer;color:var(--silver-text)}
-.res-list .work{grid-template-columns:9px 40px 1fr;padding-left:0;border-bottom:1px solid var(--rule-soft);padding-top:5px;padding-bottom:6px;font-size:10pt;color:var(--silver-text);line-height:1.45}
-.work:hover{color:var(--silver-title)}
-.work:hover span:last-child{text-decoration:underline}
-.work .yr{font-size:11px;color:var(--silver-muted);padding-top:1px;font-variant-numeric:tabular-nums}
-.res-list .work .yr{font-size:11px}
-.work .dot{width:9px;height:9px;margin-top:4px;background:var(--c)}
-
-aside footer{padding:12px 0 14px;font-size:8pt;line-height:1.6;color:var(--silver-text);border-top:1px solid var(--rule)}
-.contact{display:grid;grid-template-columns:22px 1fr}
-.contact .ck{color:var(--silver-muted)}
-
-/* popup */
-.leaflet-popup-content-wrapper{background:var(--black);color:var(--silver-text);border:1px solid var(--rule);border-radius:0;box-shadow:none}
-.leaflet-popup-tip{background:var(--black);border:1px solid var(--rule);box-shadow:none}
-.leaflet-popup-close-button{color:var(--silver-text)!important;font:16px/28px "Source Code Pro",monospace!important;top:8px!important;right:8px!important}
-.pp{width:340px;max-width:72vw;font-family:var(--font)}
-.pp-top{padding:16px 40px 12px 16px;border-bottom:1px solid var(--rule)}
-.pp-yr{font-size:9px;color:var(--silver-muted);margin-bottom:6px}
-.pp h3{margin:0;font-size:10pt;line-height:1.4;font-weight:700;color:var(--silver-title)}
-.pp-arch{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:10px}
-.chip{font-size:10px;color:var(--silver-text);cursor:pointer;display:inline-flex;align-items:center;gap:6px;line-height:1.6}
-.chip::before{content:"";width:9px;height:9px;background:var(--c);display:inline-block}
-.chip:hover{text-decoration:underline}
-.pp-body{padding:12px 16px 14px;max-height:260px;overflow-y:auto;font-size:10pt;line-height:1.75;color:var(--silver-text);word-break:break-word;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
-.pp-body a{text-decoration:underline}
-.pp-src{padding:8px 16px 12px;font-size:10px;color:var(--silver-muted);border-top:1px solid var(--rule);line-height:1.6}
-.pp-coord{font-variant-numeric:tabular-nums}
-.pp-gmap{display:block;padding:9px 16px 10px;border-top:1px solid var(--rule);font-size:10pt;color:var(--silver-title);line-height:1.45}
-.pp-gmap:hover{text-decoration:underline}
-
-.tip{background:var(--black);color:var(--silver-title);font-size:10px;padding:3px 7px;border:1px solid var(--rule);font-family:var(--font)}
-
-/* map controls */
-.zoom{display:flex;flex-direction:column;border:1px solid var(--rule);background:var(--black)}
-.zoom button{width:36px;height:36px;border:none;background:var(--black);font-size:12px;cursor:pointer;color:var(--silver-text);padding:0}
-.zoom button+button{border-top:1px solid var(--rule)}
-.zoom button:hover{color:var(--silver-title);text-decoration:underline}
-.leaflet-control-attribution{font-family:var(--font)!important;font-size:8pt!important;background:rgba(0,0,0,.84)!important;color:var(--silver-muted)!important}
-.leaflet-control-attribution a{color:var(--silver-text)!important}
-.basenote{background:rgba(0,0,0,.85);border:1px solid var(--rule);font-size:10px;padding:6px 9px;max-width:260px;line-height:1.6;color:var(--silver-muted)}
-.basenote[hidden]{display:none}
-.county-label{font-size:10px;letter-spacing:.2em;color:var(--silver-muted);white-space:nowrap}
-.base-tiles{filter:grayscale(1) invert(1) brightness(.78) contrast(.95)}
-
-.grab{display:none}
-.card{display:none;position:fixed;right:32px;bottom:32px;width:min(360px,calc(100% - var(--side) - 64px));max-height:min(58vh,520px);z-index:1200;flex-direction:column;background:var(--black);border:1px solid var(--rule)}
-body.card-open .card{display:flex}
-.card-x{position:absolute;top:2px;right:2px;width:44px;height:44px;border:0;background:none;color:var(--silver-text);font:16px/44px "Source Code Pro",monospace;cursor:pointer;z-index:2}
-.card-x:hover{color:var(--silver-title)}
-.card .pp{width:auto;max-width:none}
-.card .pp-body{max-height:none}
-.pp-scroll{overflow-y:auto;flex:1;min-height:0;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
-
-@media (prefers-reduced-motion: reduce){
-  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}
-}
-
-/* ---------- mobile: full-bleed map + bottom sheet ---------- */
-@media (max-width: 760px){
-  :root{--head:calc(54px + env(safe-area-inset-top));--peek:118px;--sheet:var(--peek)}
-  html,body{height:100%;height:100dvh}
-  header{height:var(--head);padding:calc(10px + env(safe-area-inset-top)) 14px 0}
-  .site-header{gap:12px;padding-bottom:10px;align-items:center;grid-template-columns:minmax(0,1fr) auto}
-  .brand{min-width:0}
-  .brand img{width:40px}
-  .brand span{overflow:hidden;text-overflow:ellipsis}
-  .brand .en{display:none}
-  .nav{gap:10px;flex-wrap:nowrap}
-  .menu-btn{display:none}
-  main{padding:0;gap:0}
-  #map{position:absolute;inset:0;margin:0;border:0;border-top:1px solid var(--rule)}
-
-  .loading{left:50%}
-  aside{position:fixed;left:0;right:0;bottom:0;width:auto;height:var(--sheet);z-index:1100;border-right:0;
-    padding:0 16px calc(env(safe-area-inset-bottom));border-top:1px solid var(--rule);
-    transition:height .28s cubic-bezier(.2,.7,.2,1);will-change:height}
-  aside.dragging{transition:none}
-  body.sheet-half aside{--sheet:56dvh}
-  body.sheet-full aside{--sheet:calc(100dvh - var(--head))}
-  body.card-open aside{--sheet:0px;border-top-color:transparent}
-  .grab{display:flex;justify-content:center;align-items:center;height:22px;margin:0 -16px;cursor:grab;touch-action:none;flex:none}
-  .grab span{width:38px;height:3px;background:var(--silver-dark)}
-  .search{padding-bottom:10px}
-  .search label{display:none}
-  .sbox input{font-size:16px;padding:8px 34px 8px 0}
-  .sbox .x{width:32px;height:32px;font-size:18px}
-  .stat{margin-top:10px}
-  .clear{font-size:12px;padding:4px 0}
-  .sec-h{padding:12px 0 8px}
-  .res-list{max-height:none}
-  .scroll{overflow-x:hidden}
-  .arch-row{padding:0}
-  .chk{width:12px;height:12px}
-  .tog{font-size:16px}
-  .work{padding:8px 0 8px 24px;font-size:13px}
-  .res-list .work{padding-top:9px;padding-bottom:10px}
-  aside footer{padding:12px 0 calc(14px + env(safe-area-inset-bottom))}
-  body:not(.sheet-full):not(.sheet-half) aside .scroll,body:not(.sheet-full):not(.sheet-half) aside footer{visibility:hidden}
-
-  .leaflet-bottom{bottom:var(--peek)}
-  body.card-open .leaflet-bottom{display:none}
-  .leaflet-top .leaflet-control{margin-top:12px}.leaflet-right .leaflet-control{margin-right:12px}
-  .zoom button{width:44px;height:44px;font-size:15px}
-  .leaflet-control-attribution{max-width:calc(100vw - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-
-  /* info card replaces the map popup */
-  .card{display:flex;flex-direction:column;position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;z-index:1200;max-height:46dvh;border:0;
-    background:var(--black);border-top:1px solid var(--rule);transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.7,.2,1);
-    padding-bottom:env(safe-area-inset-bottom)}
-  body.card-open .card{transform:none}
-  .card .pp{display:flex;flex-direction:column;min-height:0;flex:1}
-  .card .pp-top{padding:16px 52px 12px 16px}
-  .card .pp-yr{font-size:11px}
-  .card .pp h3{font-size:15px}
-  .card .chip{font-size:12px;padding:3px 0}
-  .card .pp-body{max-height:none;flex:1;min-height:0;font-size:14px;line-height:1.7}
-  .card .pp-src{font-size:11px}
-  .card .pp-gmap{padding:14px 16px;font-size:14px}
-}
-@media (max-width: 400px){
-  .brand span{display:none}
-}
+@media (max-width:400px){.brand span{display:none}}
 </style>
 </head>
 <body>
 <div class="index-cursor index-cursor-x" aria-hidden="true"></div><div class="index-cursor index-cursor-y" aria-hidden="true"></div>
-<header><div class="site-header">
+<header class="site-header">
   <a class="brand" href="https://atelierwooo.vercel.app/"><img src="assets/wooo-logo-silver.png" alt="atelier WooO"><span>台灣戰後建築師地圖<span class="en"><br>taiwan post-war architects map</span></span></a>
-  <nav class="nav"><button class="menu-btn" id="menuBtn" aria-label="開啟清單">list</button><a href="https://atelierwooo.vercel.app/">index</a><a href="https://atelierwooo.vercel.app/axis">axis</a><a href="https://atelierwooo.vercel.app/archive" aria-current="page">archive</a><a href="https://atelierwooo.vercel.app/about">about</a></nav>
-</div></header>
-<main>
-  <aside id="side">
-    <div class="grab" id="grab" role="button" tabindex="0" aria-label="展開或收合清單"><span></span></div>
-    <div class="search">
-      <label for="q">search</label>
-      <div class="sbox" id="sbox">
-        <input id="q" type="search" placeholder="ex: 王秀蓮 or 陳仁和 住宅" autocomplete="off" spellcheck="false">
-        <button class="x" id="qx" aria-label="清除搜尋">×</button>
-      </div>
-      <div class="stat"><div class="num" id="num">0<small>處建物</small></div><button class="clear" id="clr" hidden>清除篩選</button></div>
-    </div>
-    <div class="scroll" id="scroll">
-      <section class="results" id="results" hidden>
-        <div class="sec-h"><span>results / 搜尋結果</span><span id="resCnt"></span></div>
-        <ul class="res-list" id="resList"></ul>
-      </section>
-      <section>
-        <div class="sec-h"><span>architects / 建築師圖層</span><span id="layCnt"></span></div>
-        <div id="archList"></div>
-      </section>
-    </div>
-    <footer><div class="contact"><span class="ck">E</span><a href="mailto:atelierwooop@gmail.com">atelierwooop@gmail.com</a></div><div class="contact"><span class="ck">I</span><a href="https://www.instagram.com/atelier_woo0/" target="_blank" rel="noopener">@atelier_woo0</a></div></footer>
-  </aside>
-  <div id="map"></div>
-  <div class="loading" aria-live="polite">loading map…</div>
-</main>
-<div class="card" id="card" role="dialog" aria-label="建物資訊"><button class="card-x" id="cardX" aria-label="關閉">×</button><div id="cardBody" class="pp-scroll"></div></div>
-
-<script>window.echarts={registerMap:function(n,g){window.__twGeo=g;}};</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <nav class="nav" aria-label="primary"><a href="https://atelierwooo.vercel.app/">index</a><a href="https://atelierwooo.vercel.app/axis">axis</a><a href="https://atelierwooo.vercel.app/archive" aria-current="page">archive</a><a href="https://atelierwooo.vercel.app/about">about</a></nav>
+</header>
+<main class="map-slot" id="map-slot"></main>
+<footer class="site-footer"><a href="mailto:atelierwooop@gmail.com"><span>E</span> atelierwooop@gmail.com</a><a href="https://www.instagram.com/atelier_woo0/" target="_blank" rel="noopener"><span>I</span> @atelier_woo0</a></footer>
 <script>
-const DATA = __DATA__;
-const COLORS = __COLORS__;
-(function(){
-"use strict";
-const ARCH = DATA.arch, B = DATA.b;
-const $ = s => document.querySelector(s);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmt = n => n.toLocaleString("en-US");
-const mq = window.matchMedia("(max-width: 760px)");
-const isMobile = () => mq.matches;
-const canHover = window.matchMedia("(hover: hover)").matches;
 document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--cursor-x",e.clientX+"px");r.setProperty("--cursor-y",e.clientY+"px");},{passive:true});
-
-B.forEach((b,i)=>{ b.i=i; b.t = (b.t+" "+b.a.map(k=>ARCH[k]).join(" ")+" "+(b.y||"")).toLowerCase(); });
-const sortWorks = (x,y)=> (x.y??9999)-(y.y??9999) || x.n.localeCompare(y.n,"zh-Hant");
-const byArch = ARCH.map((_,k)=>B.filter(b=>b.a.includes(k)).sort(sortWorks));
-
-/* ---------- state ---------- */
-const selected = []; // selection order
-let tokens = [];
-const isSel = k => selected.includes(k);
-const matches = b => tokens.every(t => b.t.includes(t));
-const inLayers = b => selected.length===0 || b.a.some(isSel);
-function colorIdx(b){
-  if (selected.length){ for (const k of selected) if (b.a.includes(k)) return k; }
-  for (const t of tokens){ const k = ARCH.indexOf(t); if (k>=0 && b.a.includes(k)) return k; }
-  return b.a[0];
-}
-
-/* ---------- map ---------- */
-const map = L.map("map",{zoomControl:false,preferCanvas:true,minZoom:6,maxZoom:19,worldCopyJump:false,attributionControl:true})
-  .setView([23.75,120.95],8);
-map.attributionControl.setPrefix(false);
-const Zoom = L.Control.extend({options:{position:"topright"},onAdd(){
-  const d=L.DomUtil.create("div","zoom");
-  d.innerHTML='<button title="放大" aria-label="放大">+</button><button title="縮小" aria-label="縮小">−</button><button title="全台灣" aria-label="全台灣" style="font-size:12px;letter-spacing:.05em">TW</button>';
-  const [a,b,c]=d.querySelectorAll("button");
-  a.onclick=()=>map.zoomIn(); b.onclick=()=>map.zoomOut(); c.onclick=()=>map.flyTo([23.75,120.95],8,{duration:.8});
-  L.DomEvent.disableClickPropagation(d); return d;}});
-new Zoom().addTo(map);
-const Note = L.Control.extend({options:{position:"bottomright"},onAdd(){const d=L.DomUtil.create("div","basenote");d.hidden=true;d.id="basenote";return d;}});
-new Note().addTo(map);
-
-/* basemap: CARTO light (clean admin + road labels); fallback to built-in county outline */
-let tilesOK=false, fellBack=false, tileErr=0;
-const tiles = L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP01/default/GoogleMapsCompatible/{z}/{y}/{x}",{
-  maxZoom:19, className:"base-tiles",
-  attribution:'底圖：<a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心 臺灣通用電子地圖（灰階）</a>'
-}).addTo(map);
-tiles.on("tileload",()=>{tilesOK=true;});
-tiles.on("tileerror",()=>{ if(++tileErr>=6 && !tilesOK) fallback(); });
-setTimeout(()=>{ if(!tilesOK) fallback(); },3500);
-
-function decodeRing(str, off, scale){
-  const out=[]; let px=off[0], py=off[1];
-  for(let i=0;i<str.length;i+=2){
-    let x=str.charCodeAt(i)-64, y=str.charCodeAt(i+1)-64;
-    x=(x>>1)^(-(x&1)); y=(y>>1)^(-(y&1));
-    x+=px; y+=py; px=x; py=y;
-    out.push([x/scale, y/scale]);
-  }
-  return out;
-}
-const ZH={"Kaohsiung City":"高雄市","Pingtung":"屏東縣","Tainan City":"臺南市","Hsinchu City":"新竹市","Hsinchu":"新竹縣","Yilan":"宜蘭縣","Keelung City":"基隆市","Miaoli":"苗栗縣","Taipei City":"臺北市","New Taipei City":"新北市","Taoyuan":"桃園市","Changhua":"彰化縣","Chiayi":"嘉義縣","Chiayi City":"嘉義市","Hualien":"花蓮縣","Nantou":"南投縣","Taichung City":"臺中市","Yunlin":"雲林縣","Taitung":"臺東縣","Penghu":"澎湖縣","Kinmen":"金門縣","Lienchiang":"連江縣"};
-function fallback(){
-  if (fellBack) return; fellBack=true;
-  map.removeLayer(tiles);
-  map.getContainer().style.background="#000";
-  const n=$("#basenote"); n.hidden=false;
-  n.textContent="目前環境無法載入線上街道底圖，暫以簡化縣市輪廓顯示；部署到一般網站時會自動顯示含道路名稱的街道底圖。";
-  const s=document.createElement("script");
-  s.src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/province/taiwan.js";
-  s.onload=()=>{
-    const g=window.__twGeo; if(!g) return;
-    const scale=g.UTF8Scale||1024, feats=[];
-    g.features.forEach(f=>{
-      const en=f.properties.name_en; if(!ZH[en]) return;
-      const geom=f.geometry; let coords;
-      if (geom.type==="Polygon") coords=[geom.coordinates.map((r,i)=>decodeRing(r,geom.encodeOffsets[i],scale))];
-      else coords=geom.coordinates.map((poly,j)=>poly.map((r,i)=>decodeRing(r,geom.encodeOffsets[j][i],scale)));
-      feats.push({type:"Feature",properties:{zh:ZH[en]},geometry:{type:"MultiPolygon",coordinates:coords}});
-    });
-    const pane=map.createPane("base"); pane.style.zIndex=250;
-    L.geoJSON({type:"FeatureCollection",features:feats},{pane:"base",interactive:false,
-      style:{color:"rgba(180,190,190,.45)",weight:1,fillColor:"#0b0c0c",fillOpacity:1}}).addTo(map);
-    const lp=map.createPane("baselabel"); lp.style.zIndex=260; lp.style.pointerEvents="none";
-    feats.forEach(f=>{
-      let best=null,area=-1;
-      f.geometry.coordinates.forEach(p=>{const r=p[0];let a=0;for(let i=0;i<r.length;i++){const[x1,y1]=r[i],[x2,y2]=r[(i+1)%r.length];a+=x1*y2-x2*y1;} a=Math.abs(a); if(a>area){area=a;best=r;}});
-      let cx=0,cy=0; best.forEach(([x,y])=>{cx+=x;cy+=y;}); cx/=best.length; cy/=best.length;
-      L.marker([cy,cx],{pane:"baselabel",interactive:false,icon:L.divIcon({className:"",html:'<div class="county-label" style="transform:translate(-50%,-50%)">'+f.properties.zh+'</div>',iconSize:[0,0]})}).addTo(map);
-    });
-  };
-  document.head.appendChild(s);
-}
-
-/* markers */
-const renderer = L.canvas({padding:.4});
-const layer = L.layerGroup().addTo(map);
-const markers = B.map(b=>{
-  const m=L.circleMarker([b.lat,b.lng],{renderer,radius:5.5,weight:1.2,color:"#000",fillOpacity:.95,fillColor:"#888",bubblingMouseEvents:false});
-  if (canHover) m.bindTooltip(esc(b.n),{direction:"top",offset:[0,-6],className:"tip",opacity:1});
-  else m.options.radius=7;
-  m.on("click",()=>openPopup(b,true));
-  return m;
+</script>
+<script type="module">
+import { mountWoooMap } from "./dist/wooo-map/wooo-map.js?v=__VERSION__";
+mountWoooMap(document.getElementById("map-slot"), {
+  architectsUrl: "data/architects.json?v=__DATAVERSION__",
+  buildingsUrl: "data/buildings.json?v=__DATAVERSION__",
+  initialView: "taiwan",
+  mobileBreakpoint: 760
 });
-function popupHTML(b){
-  const chips=b.a.map(k=>`<span class="chip" data-k="${k}" style="--c:${COLORS[k]}">${esc(ARCH[k])}</span>`).join("");
-  return `<div class="pp"><div class="pp-top"><div class="pp-yr">${b.y?b.y:"年代未詳"}</div><h3>${esc(b.n)}</h3><div class="pp-arch">${chips}</div></div>`+
-    (b.d?`<div class="pp-body">${b.d}</div>`:"")+
-    `<div class="pp-src">來源：${b.s.map(esc).join("；")}<br><span class="pp-coord">${b.lat.toFixed(5)}, ${b.lng.toFixed(5)}</span></div>`+
-    `<a class="pp-gmap" href="https://www.google.com/maps/search/?api=1&amp;query=${b.lat},${b.lng}" target="_blank" rel="noopener">在 Google Maps 開啟 ↗</a></div>`;
-}
-function openPopup(b, fly){
-  const go=()=>{
-    const p=L.popup({maxWidth:400,minWidth:280,autoPanPadding:[30,30],closeButton:true}).setLatLng([b.lat,b.lng]).setContent(popupHTML(b)).openOn(map);
-    const el=p.getElement();
-    el.querySelectorAll("a").forEach(a=>{a.target="_blank";a.rel="noopener";});
-    el.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{ toggle(+c.dataset.k,true); }));
-  };
-  map.closePopup();
-  openCard(b);
-}
-
-/* ---------- mobile: info card + bottom sheet ---------- */
-const card=$("#card"), cardBody=$("#cardBody");
-function openCard(b){
-  cardBody.innerHTML=popupHTML(b);
-  cardBody.scrollTop=0;
-  cardBody.querySelectorAll("a").forEach(a=>{a.target="_blank";a.rel="noopener";});
-  cardBody.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{ closeCard(); setSheet("half"); toggle(+c.dataset.k,true); }));
-  document.activeElement && document.activeElement.blur && document.activeElement.blur();
-  document.body.classList.add("card-open");
-  // land the point in the visible map area above the card
-  requestAnimationFrame(()=>{
-    const h=Math.min(card.offsetHeight, window.innerHeight*0.62);
-    dive([b.lat,b.lng], ()=>{}, isMobile() ? h/2 : 0);
-  });
-}
-function closeCard(){ document.body.classList.remove("card-open"); }
-$("#cardX").addEventListener("click",closeCard);
-document.addEventListener("keydown",e=>{ if(e.key==="Escape" && document.body.classList.contains("card-open")) closeCard(); });
-
-const SHEETS=["peek","half","full"];
-let sheet="peek";
-function setSheet(st){
-  sheet=st; const c=document.body.classList;
-  c.toggle("sheet-half",st==="half"); c.toggle("sheet-full",st==="full");
-}
-const grab=$("#grab"), side=$("#side");
-let drag=null;
-grab.addEventListener("pointerdown",e=>{ drag={y:e.clientY,h:side.offsetHeight,moved:false}; side.classList.add("dragging"); grab.setPointerCapture(e.pointerId); });
-grab.addEventListener("pointermove",e=>{
-  if(!drag) return; const dy=drag.y-e.clientY; if(Math.abs(dy)>4) drag.moved=true;
-  const max=window.innerHeight-$("header").offsetHeight;
-  side.style.height=Math.max(90,Math.min(max,drag.h+dy))+"px";
-});
-function endDrag(){
-  if(!drag) return; side.classList.remove("dragging");
-  const h=side.offsetHeight, vh=window.innerHeight, moved=drag.moved; drag=null; side.style.height="";
-  if(!moved){ setSheet(sheet==="peek"?"half":"peek"); return; }
-  const r=h/vh; setSheet(r<0.3?"peek":r<0.75?"half":"full");
-}
-grab.addEventListener("pointerup",endDrag); grab.addEventListener("pointercancel",endDrag);
-grab.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); setSheet(sheet==="peek"?"half":"peek"); }});
-
-/* ---------- dive-in zoom ---------- */
-const DIVE_ZOOM = 17;
-const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-let diveToken = 0;
-function dive(latlng, done, offsetY){
-  const token = ++diveToken;
-  const target = Math.max(DIVE_ZOOM, map.getZoom());
-  if (offsetY){ const pt=map.project(latlng,target).add([0,offsetY]); latlng=map.unproject(pt,target); }
-  const here = map.getCenter(), dz = target - map.getZoom();
-  const far = map.distance(here, latlng);
-  if (dz < 0.5 && far < 30){ done(); return; }            // already there
-  const dur = reduceMotion ? 0.4 : 1;                       // always lands in one second
-  let finished = false;
-  const finish = () => { if (finished || token !== diveToken) return; finished = true; done(); };
-  map.once("moveend", finish);
-  map.flyTo(latlng, target, {duration: dur, easeLinearity: 0.12});
-  setTimeout(finish, dur * 1000 + 400);                    // safety net
-}
-/* ---------- sidebar ---------- */
-const archList=$("#archList");
-const rows = ARCH.map((name,k)=>{
-  const el=document.createElement("div"); el.className="arch"; el.style.setProperty("--c",COLORS[k]);
-  el.innerHTML=`<div class="arch-row" role="button" tabindex="0" aria-pressed="false"><span class="chk"></span><span class="arch-name">${esc(name)}<span class="cnt">（${byArch[k].length}）</span></span><span class="badge" hidden></span><button class="tog" aria-label="展開作品列表"></button></div><ul class="works"></ul>`;
-  const row=el.firstChild, tog=el.querySelector(".tog");
-  row.addEventListener("click",e=>{ if(e.target.closest(".tog")) return; toggle(k); });
-  row.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle(k);} });
-  tog.addEventListener("click",e=>{ e.stopPropagation(); el.classList.toggle("open"); if(el.classList.contains("open")) renderWorks(k); });
-  archList.appendChild(el); return el;
-});
-$("#layCnt").textContent = ARCH.length+" 位";
-
-function workLI(b,k,withDot){
-  const li=document.createElement("li"); li.className="work";
-  li.innerHTML=(withDot?`<span class="dot" style="--c:${COLORS[k]}"></span>`:"")+`<span class="yr">${b.y||"—"}</span><span>${esc(b.n)}</span>`;
-  li.tabIndex=0;
-  li.addEventListener("click",()=>openPopup(b,true));
-  li.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); openPopup(b,true); } });
-  return li;
-}
-function renderWorks(k){
-  const ul=rows[k].querySelector(".works"); ul.innerHTML="";
-  const list = tokens.length ? byArch[k].filter(matches) : byArch[k];
-  if (!list.length){ ul.innerHTML='<li class="more">沒有符合搜尋的作品</li>'; return; }
-  const frag=document.createDocumentFragment(); list.forEach(b=>frag.appendChild(workLI(b,k,false))); ul.appendChild(frag);
-}
-function toggle(k, scrollTo){
-  const i=selected.indexOf(k);
-  if (i>=0) selected.splice(i,1); else selected.push(k);
-  update(true);
-  if (scrollTo && i<0) rows[k].scrollIntoView({block:"nearest",behavior:"smooth"});
-}
-
-/* ---------- update ---------- */
-let fitTimer=null;
-function update(fit){
-  const vis=[];
-  B.forEach((b,i)=>{
-    const show = inLayers(b) && matches(b);
-    const m=markers[i];
-    if (show){ m.setStyle({fillColor:COLORS[colorIdx(b)]}); if(!layer.hasLayer(m)) layer.addLayer(m); vis.push(b); }
-    else if (layer.hasLayer(m)) layer.removeLayer(m);
-  });
-  $("#num").innerHTML = fmt(vis.length)+"<small>處建物"+(vis.length!==B.length?" / 共 "+fmt(B.length):"")+"</small>";
-  $("#clr").hidden = !(selected.length || tokens.length);
-  document.body.classList.toggle("has-sel", selected.length>0);
-
-  rows.forEach((el,k)=>{
-    const on=isSel(k); el.classList.toggle("on",on); el.firstChild.setAttribute("aria-pressed",on);
-    const badge=el.querySelector(".badge");
-    if (tokens.length){ const c=byArch[k].filter(matches).length; badge.hidden=!c; badge.textContent="符合 "+c; el.classList.toggle("dim",!c); }
-    else { badge.hidden=true; el.classList.remove("dim"); }
-    if (el.classList.contains("open")) renderWorks(k);
-  });
-
-  const res=$("#results");
-  if (tokens.length){
-    res.hidden=false;
-    const list=vis.slice().sort(sortWorks);
-    $("#resCnt").textContent=fmt(list.length)+" 筆";
-    const ul=$("#resList"); ul.innerHTML="";
-    const frag=document.createDocumentFragment();
-    if (selected.length){
-      const li=document.createElement("li"); li.className="more";
-      li.innerHTML='僅顯示已勾選的 '+selected.length+' 位建築師中符合者。<a href="#" style="color:#141414;font-weight:700">改為搜尋全部</a>';
-      li.querySelector("a").addEventListener("click",e=>{e.preventDefault(); selected.length=0; update(true);});
-      frag.appendChild(li);
-    }
-    list.slice(0,400).forEach(b=>frag.appendChild(workLI(b,colorIdx(b),true)));
-    if (list.length>400){ const li=document.createElement("li"); li.className="more"; li.textContent="僅列出前 400 筆，請加入更多關鍵字縮小範圍。"; frag.appendChild(li); }
-    if (!list.length){ const li=document.createElement("li"); li.className="more"; li.textContent="沒有符合的點位。"; frag.appendChild(li); }
-    ul.appendChild(frag);
-  } else res.hidden=true;
-
-  if (fit){
-    clearTimeout(fitTimer);
-    fitTimer=setTimeout(()=>{
-      if (!vis.length) return;
-      if (!selected.length && !tokens.length){ map.flyTo([23.75,120.95],8,{duration:.8}); return; }
-      const bb=L.latLngBounds(vis.map(b=>[b.lat,b.lng]));
-      const pad = isMobile() ? {paddingTopLeft:[30,30],paddingBottomRight:[30,$("#side").offsetHeight+30]} : {padding:[60,60]};
-      map.flyToBounds(bb,Object.assign({maxZoom:16,duration:.8},pad));
-    },120);
-  }
-}
-
-/* search */
-const q=$("#q"), sbox=$("#sbox");
-let qTimer=null, composing=false;
-function runSearch(){
-  clearTimeout(qTimer);
-  qTimer=setTimeout(()=>{
-    const nt=q.value.trim().toLowerCase().split(/[\s　,，、]+/).filter(Boolean);
-    if (nt.join(" ")===tokens.join(" ")) return;
-    if (nt.length) selected.length=0;   // a new search always covers all architects
-    tokens=nt; update(true);
-  },200);
-}
-q.addEventListener("focus",()=>{ if(isMobile()){ closeCard(); setSheet("full"); } });
-q.addEventListener("compositionstart",()=>{ composing=true; });
-q.addEventListener("compositionend",()=>{ composing=false; runSearch(); });
-q.addEventListener("input",e=>{
-  sbox.classList.toggle("has",!!q.value);
-  if (composing || e.isComposing) return;
-  runSearch();
-});
-q.addEventListener("keydown",e=>{ if(e.key==="Escape"){ q.value=""; q.dispatchEvent(new Event("input")); }});
-$("#qx").addEventListener("click",()=>{ q.value=""; q.dispatchEvent(new Event("input")); q.focus(); });
-$("#clr").addEventListener("click",()=>{ selected.length=0; q.value=""; sbox.classList.remove("has"); tokens=[]; update(true); });
-$("#menuBtn").addEventListener("click",()=>document.body.classList.toggle("side-open"));
-map.on("click",()=>{ document.body.classList.remove("side-open"); closeCard(); if(isMobile()){ q.blur(); setSheet("peek"); } });
-map.on("dragstart",()=>{ if(isMobile() && sheet!=="peek" && !document.body.classList.contains("card-open")){ q.blur(); setSheet("peek"); } });
-
-const relayout=()=>{ map.invalidateSize(); if(!isMobile()) setSheet("peek"); };
-(mq.addEventListener ? mq.addEventListener("change",relayout) : mq.addListener(relayout));
-window.addEventListener("orientationchange",()=>setTimeout(()=>map.invalidateSize(),300));
-update(false);
-const ready=()=>document.body.classList.add("ready");
-tiles.once("load",ready); setTimeout(ready,1500);
-})();
 </script>
 </body>
 </html>

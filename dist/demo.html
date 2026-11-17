@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>demo: /archive/map shell / wooo-map 07c2a89396</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="wooo-map/wooo-map.css?v=07c2a89396">
+<!-- Test page only. Imitates the official Astro BaseLayout (header, footer, crosshair)
+     so we can check the component adds no second header, footer, logo or cursor. -->
+<style>
+:root{--silver:#b4bebe;--silver-light:#d0d8d8;--silver-dark:#737c7c;--silver-text:#b4bebe;--silver-title:#d0d8d8;--silver-muted:#7f8888;--rule:rgba(180,190,190,.5);--cursor-x:-100vw;--cursor-y:-100vh}
+*{box-sizing:border-box}
+html{background:#000;color:var(--silver-text);font-family:"Source Code Pro","Microsoft JhengHei",Arial,sans-serif;font-size:10pt;letter-spacing:0}
+body{margin:0;background:#000}
+a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}
+.index-cursor{position:fixed;z-index:3000;pointer-events:none;opacity:0;transition:opacity .14s}
+.index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
+.index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
+@media (hover:hover) and (pointer:fine){body,body *{cursor:none}body:hover .index-cursor{opacity:1}}
+.site{width:min(100%,1280px);margin:0 auto;padding:14px 18px 48px;min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden}
+main{flex:1}
+.site-header{display:grid;grid-template-columns:170px 1fr;gap:28px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:8px;line-height:1.2}
+.brand img{width:58px;height:auto;display:block}
+.nav{display:flex;gap:14px;justify-content:flex-end}
+.nav a[aria-current="page"]{text-decoration:underline}
+h1{margin:0 0 14px;font-size:10pt;font-weight:700;color:var(--silver-title)}
+.archive-views{display:flex;gap:8px;margin:0 0 14px;color:var(--silver-muted)}
+.archive-views a[aria-current="page"]{color:var(--silver-text);text-decoration:underline}
+.map-host{height:calc(100dvh - 210px);min-height:420px;border-top:1px solid var(--rule)}
+.site-footer{margin-top:2lh;display:flex;justify-content:center;font-size:8pt;line-height:1.4}
+@media (max-width:760px){
+  .site{padding:12px 12px 36px}
+  .site-header{grid-template-columns:1fr;gap:10px}
+  .nav{justify-content:flex-start}
+  .map-host{height:calc(100dvh - 190px);margin:0 -12px}
+}
+</style>
+</head>
+<body>
+<div class="index-cursor index-cursor-x" aria-hidden="true"></div><div class="index-cursor index-cursor-y" aria-hidden="true"></div>
+<div class="site">
+  <header class="site-header">
+    <a class="brand" href="#"><img src="../assets/wooo-logo-silver.png" alt="atelier WooO"><span>atelier WooO<br>database</span></a>
+    <nav class="nav" aria-label="primary"><a href="#">index</a><a href="#">axis</a><a href="#" aria-current="page">archive</a><a href="#">about</a></nav>
+  </header>
+  <main>
+    <h1>archive</h1>
+    <nav class="archive-views" aria-label="archive view"><a href="#">list</a><span aria-hidden="true">/</span><a href="#" aria-current="page">map</a></nav>
+    <div class="map-host" id="map-host"></div>
+  </main>
+  <footer class="site-footer">selected database by atelier WooO</footer>
+</div>
+<script>
+document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--cursor-x",e.clientX+"px");r.setProperty("--cursor-y",e.clientY+"px");},{passive:true});
+</script>
+<script type="module">
+import { mountWoooMap } from "./wooo-map/wooo-map.js?v=07c2a89396";
+const host = document.getElementById("map-host");
+const opts = { architectsUrl: "../data/architects.json?v=16016905a5", buildingsUrl: "../data/buildings.json?v=16016905a5", initialView: "taiwan", mobileBreakpoint: 760 };
+let map = await mountWoooMap(host, opts);
+// ?remount=N : mount/destroy N times to check that destroy() leaves nothing behind
+const n = +new URLSearchParams(location.search).get("remount") || 0;
+for (let i = 0; i < n; i++) { map.destroy(); map = await mountWoooMap(host, opts); }
+window.__woooMap = map;
+document.documentElement.dataset.mounts = String(host.querySelectorAll(".wooo-map").length);
+</script>
+</body>
+</html>

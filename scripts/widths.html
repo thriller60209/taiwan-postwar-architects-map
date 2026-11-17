@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>width test / wooo-map __VERSION__</title>
+<!-- Test harness only: the demo page at phone widths, side by side. -->
+<style>
+body{margin:0;padding:12px;background:#111;color:#b4bebe;font:10pt "Source Code Pro",monospace}
+.row{display:flex;gap:16px;align-items:flex-start;overflow-x:auto}
+figure{margin:0}
+figcaption{margin-bottom:6px}
+iframe{border:1px solid #444;background:#000;height:760px}
+.ok{color:#9c9}.bad{color:#e88}
+</style>
+</head>
+<body>
+<div class="row">
+  <figure><figcaption>320 <b data-w="320"></b></figcaption><iframe src="demo.html" width="320"></iframe></figure>
+  <figure><figcaption>375 <b data-w="375"></b></figcaption><iframe src="demo.html" width="375"></iframe></figure>
+  <figure><figcaption>390 <b data-w="390"></b></figcaption><iframe src="demo.html" width="390"></iframe></figure>
+  <figure><figcaption>430 <b data-w="430"></b></figcaption><iframe src="demo.html" width="430"></iframe></figure>
+</div>
+<script>
+// After load, report horizontal overflow and how many headers/footers/maps/cursors each frame has.
+setTimeout(() => {
+  document.querySelectorAll("iframe").forEach((f) => {
+    const d = f.contentDocument, w = f.width;
+    const over = d.documentElement.scrollWidth - d.documentElement.clientWidth;
+    const c = (s) => d.querySelectorAll(s).length;
+    const txt = `overflow ${over}px · header ${c("header")} · footer ${c("footer")} · logo ${c("img")} · map ${c(".wooo-map")} · cursor ${c(".index-cursor")/2} · attribution ${c(".leaflet-control-attribution")}`;
+    const el = document.querySelector(`[data-w="${w}"]`);
+    el.textContent = txt; el.className = over > 0 ? "bad" : "ok";
+  });
+}, 5000);
+</script>
+</body>
+</html>

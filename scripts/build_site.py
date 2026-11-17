@@ -8,7 +8,7 @@ Outputs : index.html, data/architects.json, data/buildings.json
 
 Standard library only, so it runs on GitHub Actions without installing anything.
 """
-import html, io, json, math, os, re, sys, zipfile
+import hashlib, html, io, json, math, os, re, sys, zipfile
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -317,18 +317,56 @@ def build():
     return {'arch': ARCH, 'b': B}
 
 
+def _hash(*parts):
+    h = hashlib.sha256()
+    for b in parts:
+        h.update(b)
+    return h.hexdigest()[:10]
+
+
 def write(D):
-    data = json.dumps(D, ensure_ascii=False, separators=(',', ':'))
-    data = data.replace('</', '<\\/').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
-    tpl = open(os.path.join(ROOT, 'scripts', 'template.html'), encoding='utf-8').read()
-    out = tpl.replace('__DATA__', data).replace('__COLORS__', json.dumps(COLORS))
-    open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(out)
+    """data/*.json (the data contract), dist/wooo-map/ (the mountable module) and the standalone index.html."""
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
     arch = [{"id": i, "name": n, "color": COLORS[i], "count": sum(1 for b in D['b'] if i in b['a'])} for i, n in enumerate(ARCH)]
     bld = [{"id": i, "name": b['n'], "year": b['y'], "architects": b['a'], "lat": b['lat'], "lng": b['lng'],
             "description_html": b['d'], "sources": b['s']} for i, b in enumerate(D['b'])]
-    json.dump(arch, open(os.path.join(ROOT, 'data', 'architects.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    json.dump(bld, open(os.path.join(ROOT, 'data', 'buildings.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    arch_txt = json.dumps(arch, ensure_ascii=False, indent=1)
+    bld_txt = json.dumps(bld, ensure_ascii=False, indent=1)
+    open(os.path.join(ROOT, 'data', 'architects.json'), 'w', encoding='utf-8').write(arch_txt)
+    open(os.path.join(ROOT, 'data', 'buildings.json'), 'w', encoding='utf-8').write(bld_txt)
+    data_version = _hash(arch_txt.encode(), bld_txt.encode())
+
+    # dist/wooo-map: the module + scoped CSS, copied verbatim from src/wooo-map
+    src = os.path.join(ROOT, 'src', 'wooo-map')
+    js = open(os.path.join(src, 'core.js'), 'rb').read()
+    css = open(os.path.join(src, 'wooo-map.css'), 'rb').read()
+    version = _hash(js, css)
+    dist = os.path.join(ROOT, 'dist', 'wooo-map')
+    os.makedirs(dist, exist_ok=True)
+    banner = f"/* wooo-map {version} — generated from src/wooo-map by scripts/build_site.py; do not edit */\n".encode()
+    open(os.path.join(dist, 'wooo-map.js'), 'wb').write(banner + js)
+    open(os.path.join(dist, 'wooo-map.css'), 'wb').write(banner + css)
+    manifest = {
+        "name": "wooo-map",
+        "version": version,
+        "dataVersion": data_version,
+        "entry": "wooo-map.js",
+        "style": "wooo-map.css",
+        "export": "mountWoooMap(container, { architectsUrl, buildingsUrl, data, initialView, mobileBreakpoint, L, leafletUrl }) -> { destroy(), map, element }",
+        "leaflet": "1.9.4 (pass as option L, or it is loaded from cdnjs)",
+        "data": {"architects": "data/architects.json", "buildings": "data/buildings.json",
+                 "architectsCount": len(arch), "buildingsCount": len(bld)},
+    }
+    open(os.path.join(dist, 'manifest.json'), 'w', encoding='utf-8').write(json.dumps(manifest, ensure_ascii=False, indent=1) + '\n')
+
+    tpl = open(os.path.join(ROOT, 'scripts', 'template.html'), encoding='utf-8').read()
+    out = tpl.replace('__VERSION__', version).replace('__DATAVERSION__', data_version)
+    open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(out)
+    for page in ('demo.html', 'widths.html'):
+        sp = os.path.join(ROOT, 'scripts', page)
+        if os.path.exists(sp):
+            t = open(sp, encoding='utf-8').read().replace('__VERSION__', version).replace('__DATAVERSION__', data_version)
+            open(os.path.join(ROOT, 'dist', page), 'w', encoding='utf-8').write(t)
 
 
 if __name__ == '__main__':
