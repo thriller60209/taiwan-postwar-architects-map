@@ -11,8 +11,8 @@ Part of **atelier WooO database** (https://project-7twdd.vercel.app/).
 ## Repository layout
 
 ```
-index.html              ← GENERATED: the whole app in ONE file (HTML + CSS + JS + embedded data). Deployable as-is.
-scripts/build_site.py   ← rebuilds index.html + data/ from sources/ (stdlib Python, no deps)
+index.html              ← GENERATED: standalone page (shell + dist/wooo-map module + data/*.json). Deployable as-is.
+scripts/build_site.py   ← rebuilds data/, dist/wooo-map/ and index.html from sources/ (stdlib Python, no deps)
 scripts/config.json     ← architects (order + colour), aliases, duplicate-merge pairs
 scripts/template.html   ← standalone page shell (header/footer around the module)
 src/wooo-map/          ← the map itself: core.js + wooo-map.css (edit map behaviour/style here)
