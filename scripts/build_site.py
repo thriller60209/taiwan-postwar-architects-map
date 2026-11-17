@@ -168,6 +168,13 @@ def richness(p):
 def clean(s):
     s = re.sub(r'<img[^>]*src="([^"]+)"[^>]*/?>', lambda m: f'<a href="{m.group(1)}">［原始圖片］</a>', s)
     s = re.sub(r'<(?!/?(br|a)\b)[^>]+>', '', s)
+    # keep only safe http(s) hrefs on links, drop every other attribute
+    def _a(m):
+        h = re.search(r'href\s*=\s*"([^"]*)"', m.group(0))
+        h = html.unescape(h.group(1)).strip() if h else ''
+        return f'<a href="{html.escape(h, quote=True)}">' if re.match(r'https?://', h, re.I) else '<a>'
+    s = re.sub(r'<a\b[^>]*>', _a, s)
+    s = re.sub(r'<br\b[^>]*>', '<br>', s)
     s = re.sub(r'(?<!href=")(?<!">)(https?://[^\s<"]+)', r'<a href="\1">\1</a>', s)
     s = re.sub(r'(<br>\s*){3,}', '<br><br>', s)
     return s.strip()

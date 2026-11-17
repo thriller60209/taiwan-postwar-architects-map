@@ -3,10 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>台灣戰後建築師地圖</title>
+<title>post-war architects map / atelier WooO database</title>
+<meta name="description" content="selected database by atelier WooO">
+<meta property="og:title" content="post-war architects map / atelier WooO database">
+<meta property="og:description" content="selected database by atelier WooO">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://atelier-wooo-map.vercel.app/">
+<meta property="og:image" content="https://atelier-wooo-map.vercel.app/assets/wooo-share-black-white-v1.png">
+<meta property="og:image:width" content="1730">
+<meta property="og:image:height" content="909">
+<meta property="og:image:alt" content="atelier WooO — 白色標誌、黑色背景">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://atelier-wooo-map.vercel.app/assets/wooo-share-black-white-v1.png">
+<link rel="icon" type="image/png" href="assets/wooo-share-black-white-v1.png">
+<link rel="apple-touch-icon" href="assets/wooo-share-black-white-v1.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
 <style>
 /* ---------- Leaflet core (inlined) ---------- */
 .leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
@@ -51,8 +64,8 @@ svg.leaflet-zoom-animated{will-change:transform}
 :root{
   --silver:#b4bebe; --silver-light:#d0d8d8; --silver-dark:#737c7c; --black:#000; --white:#fff;
   --silver-text:#b4bebe; --silver-title:#d0d8d8; --silver-muted:#7f8888; --rule:rgba(180,190,190,.5); --rule-soft:rgba(180,190,190,.28);
-  --font:"Source Code Pro","Microsoft JhengHei","Noto Sans TC",Arial,monospace,sans-serif;
-  --side:380px; --head:69px; --cursor-x:-100vw; --cursor-y:-100vh;
+  --font:"Source Code Pro","Microsoft JhengHei",Arial,sans-serif;
+  --side:330px; --head:69px; --cursor-x:-100vw; --cursor-y:-100vh;
 }
 *{box-sizing:border-box}
 html{background:var(--black);color:var(--silver-text);font-family:var(--font);font-size:10pt;letter-spacing:0}
@@ -68,9 +81,8 @@ a:hover,a:focus{text-decoration:underline}
 .index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
 .index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
 @media (hover:hover) and (pointer:fine){
-  header,header *,aside,aside *{cursor:none!important}
+  body,body *,#map .leaflet-grab,#map .leaflet-interactive,.leaflet-dragging .leaflet-grab{cursor:none!important}
   body:hover .index-cursor{opacity:1}
-  #map,#map .leaflet-interactive{cursor:crosshair}
 }
 
 header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18px 0;z-index:20;background:var(--black)}
@@ -79,19 +91,25 @@ header{position:absolute;top:0;left:0;right:0;height:var(--head);padding:14px 18
 .brand img{width:58px;height:auto;display:block;flex:none}
 .brand span{white-space:nowrap}
 .nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;line-height:1.2;align-items:center}
+.nav a[aria-current="page"]{text-decoration:underline}
 .menu-btn{display:none;background:none;border:0;padding:0;cursor:pointer;color:var(--silver-text)}
 .menu-btn:hover{text-decoration:underline}
 
-main{position:absolute;top:var(--head);bottom:0;left:0;right:0;display:flex;padding:18px 18px 0;gap:18px}
-aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-direction:column;min-height:0;z-index:10}
-#map{flex:1;min-width:0;background:#0b0c0c;margin-bottom:18px;border:1px solid var(--rule)}
+main{position:absolute;top:var(--head);bottom:0;left:0;right:0;display:flex;padding:0 18px;gap:0}
+aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-direction:column;min-height:0;z-index:10;padding:18px 14px 0 0;border-right:1px solid var(--rule)}
+#map{flex:1;min-width:0;background:var(--black);opacity:0;transition:opacity .4s ease-out}
+body.ready #map{opacity:1}
+.loading{position:absolute;top:50%;left:calc(18px + var(--side) + (100% - 36px - var(--side))/2);transform:translate(-50%,-50%);z-index:5;color:var(--silver-muted);pointer-events:none}
+body.ready .loading{display:none}
 
 .page-title{margin:0 0 18px;font-size:10pt;font-weight:700;line-height:1.4;color:var(--silver-title)}
 .search{padding:0 0 14px;border-bottom:1px solid var(--rule)}
 .search label{display:block;font-size:10pt;font-weight:700;color:var(--silver-title);margin-bottom:10px;line-height:1.4}
 .sbox{position:relative}
 .sbox input{width:100%;font-size:10pt;line-height:1.45;padding:6px 26px 6px 0;border:0;border-bottom:1px solid var(--rule);background:transparent;color:var(--silver-title);outline:none;border-radius:0;-webkit-appearance:none;appearance:none}
+.sbox input{min-height:44px}
 .sbox input:focus{border-bottom-color:var(--silver)}
+.sbox input:focus-visible,.arch-row:focus-visible,.tog:focus-visible,.work:focus-visible,.card-x:focus-visible{outline:1px dashed var(--silver);outline-offset:3px}
 .sbox input::placeholder{color:var(--silver-muted)}
 .sbox input::-webkit-search-cancel-button,.sbox input::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
 .sbox .x{position:absolute;right:0;top:50%;transform:translateY(-50%);width:22px;height:22px;border:none;background:none;font-size:14px;cursor:pointer;display:none;color:var(--silver-text);padding:0}
@@ -115,17 +133,18 @@ aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-dire
 .more a{color:var(--silver-text);text-decoration:underline}
 
 .arch{border-bottom:1px solid var(--rule)}
-.arch-row{display:flex;align-items:center;padding:5px 0 6px;line-height:1.45;cursor:pointer;user-select:none}
+.arch-row{display:flex;align-items:center;min-height:44px;padding:6px 0;line-height:1.45;cursor:pointer;user-select:none}
 .arch-row:hover .arch-name{text-decoration:underline}
 .chk{width:9px;height:9px;border:1px solid var(--c);flex:none;margin-right:12px;background:transparent}
 .arch.on .chk{background:var(--c)}
 .arch-name{flex:1;font-size:10pt;color:var(--silver-text)}
 .arch.on .arch-name{color:var(--silver-title);font-weight:700}
+body.has-sel .arch:not(.on) .arch-name{color:var(--silver-muted)}
 .arch-name .cnt{font-weight:400;color:var(--silver-muted)}
 .badge{font-size:10px;color:var(--silver-title);margin-right:10px}
 .badge[hidden]{display:none}
 .arch.dim .arch-row{opacity:.22}
-.tog{width:22px;height:22px;border:none;background:none;cursor:pointer;flex:none;color:var(--silver-text);font-size:12px;padding:0;line-height:1}
+.tog{width:44px;height:44px;margin-right:-11px;border:none;background:none;cursor:pointer;flex:none;color:var(--silver-text);font-size:12px;padding:0;line-height:1}
 .tog::before{content:"+"}
 .arch.open .tog::before{content:"−"}
 .works{list-style:none;margin:0;padding:0 0 8px;display:none}
@@ -139,7 +158,7 @@ aside{width:var(--side);flex:none;background:var(--black);display:flex;flex-dire
 .res-list .work .yr{font-size:11px}
 .work .dot{width:9px;height:9px;margin-top:4px;background:var(--c)}
 
-aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silver-text);border-top:1px solid var(--rule)}
+aside footer{padding:12px 0 14px;font-size:8pt;line-height:1.6;color:var(--silver-text);border-top:1px solid var(--rule)}
 .contact{display:grid;grid-template-columns:22px 1fr}
 .contact .ck{color:var(--silver-muted)}
 
@@ -160,23 +179,34 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
 .pp-src{padding:8px 16px 12px;font-size:10px;color:var(--silver-muted);border-top:1px solid var(--rule);line-height:1.6}
 .pp-coord{font-variant-numeric:tabular-nums}
 .pp-gmap{display:block;padding:9px 16px 10px;border-top:1px solid var(--rule);font-size:10pt;color:var(--silver-title);line-height:1.45}
-.pp-gmap:hover{background:var(--silver);color:var(--black);text-decoration:none}
+.pp-gmap:hover{text-decoration:underline}
 
 .tip{background:var(--black);color:var(--silver-title);font-size:10px;padding:3px 7px;border:1px solid var(--rule);font-family:var(--font)}
 
 /* map controls */
 .zoom{display:flex;flex-direction:column;border:1px solid var(--rule);background:var(--black)}
-.zoom button{width:32px;height:32px;border:none;background:var(--black);font-size:12px;cursor:pointer;color:var(--silver-text);padding:0}
+.zoom button{width:36px;height:36px;border:none;background:var(--black);font-size:12px;cursor:pointer;color:var(--silver-text);padding:0}
 .zoom button+button{border-top:1px solid var(--rule)}
-.zoom button:hover{background:var(--silver);color:var(--black)}
-.leaflet-control-attribution{font-family:var(--font)!important;font-size:9px!important;background:rgba(0,0,0,.75)!important;color:var(--silver-muted)!important}
+.zoom button:hover{color:var(--silver-title);text-decoration:underline}
+.leaflet-control-attribution{font-family:var(--font)!important;font-size:8pt!important;background:rgba(0,0,0,.84)!important;color:var(--silver-muted)!important}
 .leaflet-control-attribution a{color:var(--silver-text)!important}
 .basenote{background:rgba(0,0,0,.85);border:1px solid var(--rule);font-size:10px;padding:6px 9px;max-width:260px;line-height:1.6;color:var(--silver-muted)}
 .basenote[hidden]{display:none}
 .county-label{font-size:10px;letter-spacing:.2em;color:var(--silver-muted);white-space:nowrap}
 .base-tiles{filter:grayscale(1) invert(1) brightness(.78) contrast(.95)}
 
-.grab,.card{display:none}
+.grab{display:none}
+.card{display:none;position:fixed;right:32px;bottom:32px;width:min(360px,calc(100% - var(--side) - 64px));max-height:min(58vh,520px);z-index:1200;flex-direction:column;background:var(--black);border:1px solid var(--rule)}
+body.card-open .card{display:flex}
+.card-x{position:absolute;top:2px;right:2px;width:44px;height:44px;border:0;background:none;color:var(--silver-text);font:16px/44px "Source Code Pro",monospace;cursor:pointer;z-index:2}
+.card-x:hover{color:var(--silver-title)}
+.card .pp{width:auto;max-width:none}
+.card .pp-body{max-height:none}
+.pp-scroll{overflow-y:auto;flex:1;min-height:0;scrollbar-width:thin;scrollbar-color:var(--silver-dark) transparent}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}
+}
 
 /* ---------- mobile: full-bleed map + bottom sheet ---------- */
 @media (max-width: 760px){
@@ -192,7 +222,8 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
   main{padding:0;gap:0}
   #map{position:absolute;inset:0;margin:0;border:0;border-top:1px solid var(--rule)}
 
-  aside{position:fixed;left:0;right:0;bottom:0;width:auto;height:var(--sheet);z-index:1100;
+  .loading{left:50%}
+  aside{position:fixed;left:0;right:0;bottom:0;width:auto;height:var(--sheet);z-index:1100;border-right:0;
     padding:0 16px calc(env(safe-area-inset-bottom));border-top:1px solid var(--rule);
     transition:height .28s cubic-bezier(.2,.7,.2,1);will-change:height}
   aside.dragging{transition:none}
@@ -210,9 +241,9 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
   .sec-h{padding:12px 0 8px}
   .res-list{max-height:none}
   .scroll{overflow-x:hidden}
-  .arch-row{padding:10px 0 11px}
+  .arch-row{padding:8px 0}
   .chk{width:12px;height:12px}
-  .tog{width:40px;height:32px;font-size:16px;margin-right:-8px}
+  .tog{font-size:16px}
   .work{padding:8px 0 8px 24px;font-size:13px}
   .res-list .work{padding-top:9px;padding-bottom:10px}
   aside footer{padding:12px 0 calc(14px + env(safe-area-inset-bottom))}
@@ -221,16 +252,15 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
   .leaflet-bottom{bottom:var(--peek)}
   body.card-open .leaflet-bottom{display:none}
   .leaflet-top .leaflet-control{margin-top:12px}.leaflet-right .leaflet-control{margin-right:12px}
-  .zoom button{width:40px;height:40px;font-size:15px}
+  .zoom button{width:44px;height:44px;font-size:15px}
   .leaflet-control-attribution{max-width:calc(100vw - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
   /* info card replaces the map popup */
-  .card{display:flex;flex-direction:column;position:fixed;left:0;right:0;bottom:0;z-index:1200;max-height:62dvh;
+  .card{display:flex;flex-direction:column;position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;z-index:1200;max-height:46dvh;border:0;
     background:var(--black);border-top:1px solid var(--rule);transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.7,.2,1);
     padding-bottom:env(safe-area-inset-bottom)}
   body.card-open .card{transform:none}
-  .card-x{position:absolute;top:6px;right:6px;width:40px;height:40px;border:0;background:none;color:var(--silver-text);font:18px/40px "Source Code Pro",monospace;cursor:pointer;z-index:2}
-  .card .pp{width:auto;max-width:none;display:flex;flex-direction:column;min-height:0;flex:1}
+  .card .pp{display:flex;flex-direction:column;min-height:0;flex:1}
   .card .pp-top{padding:16px 52px 12px 16px}
   .card .pp-yr{font-size:11px}
   .card .pp h3{font-size:15px}
@@ -238,15 +268,14 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
   .card .pp-body{max-height:none;flex:1;min-height:0;font-size:14px;line-height:1.7}
   .card .pp-src{font-size:11px}
   .card .pp-gmap{padding:14px 16px;font-size:14px}
-  .card .pp-scroll{overflow-y:auto;flex:1;min-height:0;-webkit-overflow-scrolling:touch}
 }
 </style>
 </head>
 <body>
 <div class="index-cursor index-cursor-x" aria-hidden="true"></div><div class="index-cursor index-cursor-y" aria-hidden="true"></div>
 <header><div class="site-header">
-  <a class="brand" href="#" onclick="return false"><img src="data:image/png;base64,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" alt="atelier WooO"><span>台灣戰後建築師地圖<span class="en"><br>taiwan post-war architects map</span></span></a>
-  <nav class="nav"><button class="menu-btn" id="menuBtn" aria-label="開啟清單">list</button><a href="https://project-7twdd.vercel.app/about" target="_blank" rel="noopener">about us</a></nav>
+  <a class="brand" href="https://atelierwooo.vercel.app/"><img src="assets/wooo-logo-silver.png" alt="atelier WooO"><span>台灣戰後建築師地圖<span class="en"><br>taiwan post-war architects map</span></span></a>
+  <nav class="nav"><button class="menu-btn" id="menuBtn" aria-label="開啟清單">list</button><a href="https://atelierwooo.vercel.app/">index</a><a href="https://atelierwooo.vercel.app/axis">axis</a><a href="https://atelierwooo.vercel.app/archive" aria-current="page">archive</a><a href="https://atelierwooo.vercel.app/about">about</a></nav>
 </div></header>
 <main>
   <aside id="side">
@@ -272,6 +301,7 @@ aside footer{padding:12px 0 14px;font-size:10px;line-height:1.6;color:var(--silv
     <footer><div class="contact"><span class="ck">E</span><a href="mailto:atelierwooop@gmail.com">atelierwooop@gmail.com</a></div><div class="contact"><span class="ck">I</span><a href="https://www.instagram.com/atelier_woo0/" target="_blank" rel="noopener">@atelier_woo0</a></div></footer>
   </aside>
   <div id="map"></div>
+  <div class="loading" aria-live="polite">loading map…</div>
 </main>
 <div class="card" id="card" role="dialog" aria-label="建物資訊"><button class="card-x" id="cardX" aria-label="關閉">×</button><div id="cardBody" class="pp-scroll"></div></div>
 
@@ -399,8 +429,7 @@ function openPopup(b, fly){
     el.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{ toggle(+c.dataset.k,true); }));
   };
   map.closePopup();
-  if (isMobile()){ openCard(b); return; }
-  dive([b.lat,b.lng], go);
+  openCard(b);
 }
 
 /* ---------- mobile: info card + bottom sheet ---------- */
@@ -415,11 +444,12 @@ function openCard(b){
   // land the point in the visible map area above the card
   requestAnimationFrame(()=>{
     const h=Math.min(card.offsetHeight, window.innerHeight*0.62);
-    dive([b.lat,b.lng], ()=>{}, h/2);
+    dive([b.lat,b.lng], ()=>{}, isMobile() ? h/2 : 0);
   });
 }
 function closeCard(){ document.body.classList.remove("card-open"); }
 $("#cardX").addEventListener("click",closeCard);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && document.body.classList.contains("card-open")) closeCard(); });
 
 const SHEETS=["peek","half","full"];
 let sheet="peek";
@@ -478,7 +508,9 @@ $("#layCnt").textContent = ARCH.length+" 位";
 function workLI(b,k,withDot){
   const li=document.createElement("li"); li.className="work";
   li.innerHTML=(withDot?`<span class="dot" style="--c:${COLORS[k]}"></span>`:"")+`<span class="yr">${b.y||"—"}</span><span>${esc(b.n)}</span>`;
+  li.tabIndex=0;
   li.addEventListener("click",()=>openPopup(b,true));
+  li.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); openPopup(b,true); } });
   return li;
 }
 function renderWorks(k){
@@ -506,6 +538,7 @@ function update(fit){
   });
   $("#num").innerHTML = fmt(vis.length)+"<small>處建物"+(vis.length!==B.length?" / 共 "+fmt(B.length):"")+"</small>";
   $("#clr").hidden = !(selected.length || tokens.length);
+  document.body.classList.toggle("has-sel", selected.length>0);
 
   rows.forEach((el,k)=>{
     const on=isSel(k); el.classList.toggle("on",on); el.firstChild.setAttribute("aria-pressed",on);
@@ -570,13 +603,15 @@ q.addEventListener("keydown",e=>{ if(e.key==="Escape"){ q.value=""; q.dispatchEv
 $("#qx").addEventListener("click",()=>{ q.value=""; q.dispatchEvent(new Event("input")); q.focus(); });
 $("#clr").addEventListener("click",()=>{ selected.length=0; q.value=""; sbox.classList.remove("has"); tokens=[]; update(true); });
 $("#menuBtn").addEventListener("click",()=>document.body.classList.toggle("side-open"));
-map.on("click",()=>{ document.body.classList.remove("side-open"); if(isMobile()){ closeCard(); q.blur(); setSheet("peek"); } });
+map.on("click",()=>{ document.body.classList.remove("side-open"); closeCard(); if(isMobile()){ q.blur(); setSheet("peek"); } });
 map.on("dragstart",()=>{ if(isMobile() && sheet!=="peek" && !document.body.classList.contains("card-open")){ q.blur(); setSheet("peek"); } });
 
-const relayout=()=>{ map.invalidateSize(); if(!isMobile()){ closeCard(); setSheet("peek"); } };
+const relayout=()=>{ map.invalidateSize(); if(!isMobile()) setSheet("peek"); };
 (mq.addEventListener ? mq.addEventListener("change",relayout) : mq.addListener(relayout));
 window.addEventListener("orientationchange",()=>setTimeout(()=>map.invalidateSize(),300));
 update(false);
+const ready=()=>document.body.classList.add("ready");
+tiles.once("load",ready); setTimeout(ready,1500);
 })();
 </script>
 </body>
