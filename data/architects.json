@@ -2,481 +2,481 @@
  {
   "id": 0,
   "name": "三門",
-  "color": "#62a2c1",
+  "color": "#f0a9a2",
   "count": 7
  },
  {
   "id": 1,
   "name": "中國興業",
-  "color": "#7b527f",
+  "color": "#c9695c",
   "count": 20
  },
  {
   "id": 2,
   "name": "方汝鎮",
-  "color": "#8c4e5a",
+  "color": "#ef8169",
   "count": 9
  },
  {
   "id": 3,
   "name": "王大閎",
-  "color": "#ac635d",
+  "color": "#a4604b",
   "count": 106
  },
  {
   "id": 4,
   "name": "王水河",
-  "color": "#866ca9",
+  "color": "#edac93",
   "count": 30
  },
  {
   "id": 5,
   "name": "王以唐",
-  "color": "#188c87",
+  "color": "#c66f43",
   "count": 8
  },
  {
   "id": 6,
   "name": "王秀蓮",
-  "color": "#7771b0",
+  "color": "#e9884d",
   "count": 229
  },
  {
   "id": 7,
   "name": "王俊雄",
-  "color": "#765484",
+  "color": "#9f643b",
   "count": 3
  },
  {
   "id": 8,
   "name": "王秋華",
-  "color": "#4a8b5f",
+  "color": "#e7b187",
   "count": 22
  },
  {
   "id": 9,
   "name": "王昭藩",
-  "color": "#516094",
+  "color": "#bd762a",
   "count": 26
  },
  {
   "id": 10,
   "name": "王振河",
-  "color": "#8a95ca",
+  "color": "#de9132",
   "count": 10
  },
  {
   "id": 11,
   "name": "朱祖明",
-  "color": "#ad965d",
+  "color": "#976a2e",
   "count": 20
  },
  {
   "id": 12,
   "name": "吳明修",
-  "color": "#a36284",
+  "color": "#deb77f",
   "count": 31
  },
  {
   "id": 13,
   "name": "吳增榮",
-  "color": "#9192c9",
+  "color": "#b07f15",
   "count": 27
  },
  {
   "id": 14,
   "name": "呂石鑄",
-  "color": "#017178",
+  "color": "#cd9c1f",
   "count": 6
  },
  {
   "id": 15,
   "name": "呂阿玉",
-  "color": "#8c6aa4",
+  "color": "#8b7129",
   "count": 26
  },
  {
   "id": 16,
   "name": "李松蒲",
-  "color": "#59a5b7",
+  "color": "#d1bd7e",
   "count": 4
  },
  {
   "id": 17,
   "name": "李承寬",
-  "color": "#126e83",
+  "color": "#9f8814",
   "count": 2
  },
  {
   "id": 18,
   "name": "李風",
-  "color": "#835928",
+  "color": "#b7a625",
   "count": 5
  },
  {
   "id": 19,
   "name": "李重耀",
-  "color": "#5da3bc",
+  "color": "#7c782e",
   "count": 5
  },
  {
   "id": 20,
   "name": "李祖原",
-  "color": "#8d4e53",
+  "color": "#c1c382",
   "count": 26
  },
  {
   "id": 21,
   "name": "李謀華",
-  "color": "#884e68",
+  "color": "#899129",
   "count": 5
  },
  {
   "id": 22,
   "name": "沈祖海",
-  "color": "#6b588d",
+  "color": "#9db03e",
   "count": 44
  },
  {
   "id": 23,
   "name": "宗邁",
-  "color": "#1f735f",
+  "color": "#6a7d3a",
   "count": 14
  },
  {
   "id": 24,
   "name": "林東憲",
-  "color": "#68a0c4",
+  "color": "#afc88d",
   "count": 3
  },
  {
   "id": 25,
   "name": "林柏年",
-  "color": "#9890c7",
+  "color": "#6e9842",
   "count": 19
  },
  {
   "id": 26,
   "name": "林論下",
-  "color": "#a0638c",
+  "color": "#7db85a",
   "count": 4
  },
  {
   "id": 27,
   "name": "林澍民",
-  "color": "#678647",
+  "color": "#56824b",
   "count": 11
  },
  {
   "id": 28,
   "name": "林慶豐",
-  "color": "#4d7eb1",
+  "color": "#9dcc9b",
   "count": 24
  },
  {
   "id": 29,
   "name": "姚元中",
-  "color": "#8da16a",
+  "color": "#4e9d5c",
   "count": 26
  },
  {
   "id": 30,
   "name": "姚仁喜",
-  "color": "#bc85a5",
+  "color": "#55bd78",
   "count": 13
  },
  {
   "id": 31,
   "name": "柯傅",
-  "color": "#07707e",
+  "color": "#3f855d",
   "count": 4
  },
  {
   "id": 32,
   "name": "修澤蘭",
-  "color": "#b2935e",
+  "color": "#8ccfac",
   "count": 53
  },
  {
   "id": 33,
   "name": "徐雨壽",
-  "color": "#895532",
+  "color": "#1fa076",
   "count": 3
  },
  {
   "id": 34,
   "name": "徐迺欣",
-  "color": "#297257",
+  "color": "#19c096",
   "count": 6
  },
  {
   "id": 35,
   "name": "浩群",
-  "color": "#86572d",
+  "color": "#258670",
   "count": 4
  },
  {
   "id": 36,
   "name": "高而潘",
-  "color": "#4380ae",
+  "color": "#7ed0bd",
   "count": 155
  },
  {
   "id": 37,
   "name": "高煥庚",
-  "color": "#7f6ead",
+  "color": "#109e8e",
   "count": 3
  },
  {
   "id": 38,
   "name": "基泰工程司",
-  "color": "#c58484",
+  "color": "#14bdb0",
   "count": 48
  },
  {
   "id": 39,
   "name": "張亦煌",
-  "color": "#949f66",
+  "color": "#098681",
   "count": 13
  },
  {
   "id": 40,
   "name": "張昌華",
-  "color": "#416593",
+  "color": "#77cfce",
   "count": 22
  },
  {
   "id": 41,
   "name": "張紹載",
-  "color": "#706323",
+  "color": "#149ca1",
   "count": 12
  },
  {
   "id": 42,
   "name": "張敬德",
-  "color": "#b487b2",
+  "color": "#24b9c5",
   "count": 2
  },
  {
   "id": 43,
   "name": "張肇康",
-  "color": "#c5857d",
+  "color": "#068491",
   "count": 11
  },
  {
   "id": 44,
   "name": "張德霖",
-  "color": "#496394",
+  "color": "#79cddd",
   "count": 7
  },
  {
   "id": 45,
   "name": "許仲川",
-  "color": "#8a4e61",
+  "color": "#0999b3",
   "count": 2
  },
  {
   "id": 46,
   "name": "許英魁",
-  "color": "#6a6626",
+  "color": "#26b6da",
   "count": 4
  },
  {
   "id": 47,
   "name": "郭文豐",
-  "color": "#877c32",
+  "color": "#22809e",
   "count": 2
  },
  {
   "id": 48,
   "name": "陳仁和",
-  "color": "#218c7f",
+  "color": "#81c9e9",
   "count": 190
  },
  {
   "id": 49,
   "name": "陳其寬",
-  "color": "#69a88a",
+  "color": "#1695c8",
   "count": 135
  },
  {
   "id": 50,
   "name": "陳昭武",
-  "color": "#5da998",
+  "color": "#36b0f1",
   "count": 58
  },
  {
   "id": 51,
   "name": "陳萬榮",
-  "color": "#3983aa",
+  "color": "#3b7ba7",
   "count": 7
  },
  {
   "id": 52,
   "name": "陳錫照",
-  "color": "#3c7149",
+  "color": "#90c4f1",
   "count": 19
  },
  {
   "id": 53,
   "name": "陳濯",
-  "color": "#c4848b",
+  "color": "#478dd1",
   "count": 16
  },
  {
   "id": 54,
   "name": "陳鍊鋒",
-  "color": "#158a95",
+  "color": "#62a7fa",
   "count": 9
  },
  {
   "id": 55,
   "name": "傅義",
-  "color": "#85a370",
+  "color": "#5175ac",
   "count": 131
  },
  {
   "id": 56,
   "name": "費宥諒",
-  "color": "#a6627d",
+  "color": "#a0bef5",
   "count": 18
  },
  {
   "id": 57,
   "name": "賀陳詞",
-  "color": "#aa664e",
+  "color": "#6785d5",
   "count": 5
  },
  {
   "id": 58,
   "name": "黃永洪",
-  "color": "#148b8e",
+  "color": "#849efc",
   "count": 9
  },
  {
   "id": 59,
   "name": "黃有良",
-  "color": "#64682a",
+  "color": "#646fac",
   "count": 4
  },
  {
   "id": 60,
   "name": "黃祖權",
-  "color": "#8e7930",
+  "color": "#b2b8f4",
   "count": 39
  },
  {
   "id": 61,
   "name": "黃聲遠",
-  "color": "#567bb2",
+  "color": "#807dd2",
   "count": 7
  },
  {
   "id": 62,
   "name": "黃寶瑜",
-  "color": "#337250",
+  "color": "#a195f7",
   "count": 6
  },
  {
   "id": 63,
   "name": "楊卓成",
-  "color": "#bb8e63",
+  "color": "#766aa8",
   "count": 38
  },
  {
   "id": 64,
   "name": "楊貽炳",
-  "color": "#8b5339",
+  "color": "#c2b3ef",
   "count": 7
  },
  {
   "id": 65,
   "name": "虞曰鎮",
-  "color": "#af88b7",
+  "color": "#9676c9",
   "count": 22
  },
  {
   "id": 66,
   "name": "廖上焜",
-  "color": "#947630",
+  "color": "#b98deb",
   "count": 4
  },
  {
   "id": 67,
   "name": "漢寶德",
-  "color": "#b886ac",
+  "color": "#85649f",
   "count": 77
  },
  {
   "id": 68,
   "name": "趙力行",
-  "color": "#a86847",
+  "color": "#d1aee5",
   "count": 20
  },
  {
   "id": 69,
   "name": "劉明國",
-  "color": "#b79160",
+  "color": "#a86fba",
   "count": 16
  },
  {
   "id": 70,
   "name": "劉祥宏",
-  "color": "#1d6d88",
+  "color": "#cd85d9",
   "count": 9
  },
  {
   "id": 71,
   "name": "樊祥孫",
-  "color": "#548957",
+  "color": "#916092",
   "count": 7
  },
  {
   "id": 72,
   "name": "潘冀",
-  "color": "#5c6a2f",
+  "color": "#deaad8",
   "count": 4
  },
  {
   "id": 73,
   "name": "蔡正義",
-  "color": "#ab6455",
+  "color": "#b66aa8",
   "count": 8
  },
  {
   "id": 74,
   "name": "蔡柏鋒",
-  "color": "#997332",
+  "color": "#dd80c2",
   "count": 40
  },
  {
   "id": 75,
   "name": "鄭定邦",
-  "color": "#8397ca",
+  "color": "#9b5d83",
   "count": 5
  },
  {
   "id": 76,
   "name": "盧毓駿",
-  "color": "#c48776",
+  "color": "#e7a8c8",
   "count": 5
  },
  {
   "id": 77,
   "name": "賴銘池",
-  "color": "#62a991",
+  "color": "#c16792",
   "count": 4
  },
  {
   "id": 78,
   "name": "謝碧榮",
-  "color": "#705689",
+  "color": "#e87da8",
   "count": 2
  },
  {
   "id": 79,
   "name": "顏水龍",
-  "color": "#59a99f",
+  "color": "#a15c72",
   "count": 5
  }
 ]

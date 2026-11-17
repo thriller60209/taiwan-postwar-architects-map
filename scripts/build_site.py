@@ -15,7 +15,36 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NS = {'k': 'http://www.opengis.net/kml/2.2'}
 CFG = json.load(open(os.path.join(ROOT, 'scripts', 'config.json'), encoding='utf-8'))
 ARCH = [a['name'] for a in CFG['architects']]
-COLORS = [a['color'] for a in CFG['architects']]
+
+
+def _oklch_hex(L, C, h):
+    """OKLCH → sRGB hex; chroma is reduced until the colour fits the sRGB gamut."""
+    for _ in range(40):
+        a, b = C * math.cos(math.radians(h)), C * math.sin(math.radians(h))
+        l_, m_, s_ = (L + 0.3963377774 * a + 0.2158037573 * b) ** 3, (L - 0.1055613458 * a - 0.0638541728 * b) ** 3, (L - 0.0894841775 * a - 1.2914855480 * b) ** 3
+        rgb = [4.0767416621 * l_ - 3.3077115913 * m_ + 0.2309699292 * s_,
+               -1.2684380046 * l_ + 2.6097574011 * m_ - 0.3413193965 * s_,
+               -0.0041960863 * l_ - 0.7034186147 * m_ + 1.7076147010 * s_]
+        if all(-1e-4 <= v <= 1.0001 for v in rgb):
+            break
+        C *= 0.94
+    enc = lambda v: 12.92 * v if v <= 0.0031308 else 1.055 * v ** (1 / 2.4) - 0.055
+    return '#' + ''.join(f'{round(min(1, max(0, enc(min(1, max(0, v))))) * 255):02x}' for v in rgb)
+
+
+def stroke_gradient(n):
+    """Colours follow the layer order (surname stroke count): the hue walks once round
+    the colour wheel, so neighbours in the list are related; lightness/chroma cycle
+    through four steps, so neighbours are still clearly different on the black map."""
+    steps = [(0.80, 0.085), (0.63, 0.125), (0.72, 0.14), (0.56, 0.095)]
+    out = []
+    for i in range(n):
+        L, C = steps[i % len(steps)]
+        out.append(_oklch_hex(L, C, 25 + 335 * i / max(1, n - 1)))
+    return out
+
+
+COLORS = stroke_gradient(len(ARCH))
 ALIASES = CFG['aliases']
 BASE = CFG['base_map']
 FUYI_BOTH = set(CFG['fuyi_both'])
