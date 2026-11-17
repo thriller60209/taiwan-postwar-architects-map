@@ -1,7 +1,7 @@
 {
  "name": "wooo-map",
  "version": "07c2a89396",
- "dataVersion": "c31c2ba0b2",
+ "dataVersion": "18cbe5e37f",
  "entry": "wooo-map.js",
  "style": "wooo-map.css",
  "export": "mountWoooMap(container, { architectsUrl, buildingsUrl, data, initialView, mobileBreakpoint, L, leafletUrl }) -> { destroy(), map, element }",
