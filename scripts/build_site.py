@@ -336,6 +336,13 @@ def build():
             extra = [x for x in extra if plain(x) not in pq]
             extra.append(q['desc'])
         d = clean('<br><br>'.join(parts + extra))
+        # 王秀蓮's My Map sorts her works into building types (one folder each): show it first
+        types = []
+        for q in [prim] + secs:
+            if q['src'].startswith('蓮之') and q['folder'].strip() and q['folder'].strip() not in types:
+                types.append(q['folder'].strip())
+        if types:
+            d = '類型：' + '、'.join(types) + ('<br><br>' + d if d else '')
         name = prim['name'].strip().replace('\n', ' ')
         if year(name) is None:   # same place: keep the name that carries a year
             for q in secs:
