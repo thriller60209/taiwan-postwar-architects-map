@@ -344,6 +344,26 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>中國農村復興聯合委員會1954</name>
+        <description>43使397</description>
+        <styleUrl>#icon-1605-0097A7-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.51317,25.03225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中央黨史史料編纂委員會1953</name>
+        <description><![CDATA[43使448<br>陳列館，加強磚造一層一座]]></description>
+        <styleUrl>#icon-1605-0097A7-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.519981520569,25.0478406266791,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>高而潘基泰時期（1957～1966）</name>
@@ -377,11 +397,11 @@
       </Placemark>
       <Placemark>
         <name>郭上錦小兒科診所、順天外科醫院1959</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgH-4rgro-cwRHuqAOGG0_5MwqbQQvGs8i7MIJsioDYiVsbQIMDyLgI_Nn2AveTlwLXOJ0jqI_0d4pv5ePsYb6QKi58VZzL1xF_icPiHKNXClFCiPnphSkgFNsXblrCavjPgufGMjt5k10maAu7cvP5coYxhR_PhXoOHxUry1EX5xmrsvjW7zoZceMA3vRazzSyzCDqjBwF-hM?fife=s16383" height="200" width="auto" /><br><br>保安街84.80號]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5wLqIOTBWSebSatE7Y8Wq_fafej7sQF5pcfoDMjlmYTmMjsMZtH6vH5ckknDpaHpSLqLux4vZO3oXBSUrxCJeG6IprWX09Tlu0eI7dfD-h4qk6LonV5Jf5miPfYAvD63TEBbR7Fl93NJqDytUyXNm7YZARjP5Ut5Eip6euWKJ9NFInIMgVkSoOTOsjk7AzENgwh7b06tvdlU?fife=s16383" height="200" width="auto" /><br><br>保安街84.80號]]></description>
         <styleUrl>#icon-1766-C2185B-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgH-4rgro-cwRHuqAOGG0_5MwqbQQvGs8i7MIJsioDYiVsbQIMDyLgI_Nn2AveTlwLXOJ0jqI_0d4pv5ePsYb6QKi58VZzL1xF_icPiHKNXClFCiPnphSkgFNsXblrCavjPgufGMjt5k10maAu7cvP5coYxhR_PhXoOHxUry1EX5xmrsvjW7zoZceMA3vRazzSyzCDqjBwF-hM?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5wLqIOTBWSebSatE7Y8Wq_fafej7sQF5pcfoDMjlmYTmMjsMZtH6vH5ckknDpaHpSLqLux4vZO3oXBSUrxCJeG6IprWX09Tlu0eI7dfD-h4qk6LonV5Jf5miPfYAvD63TEBbR7Fl93NJqDytUyXNm7YZARjP5Ut5Eip6euWKJ9NFInIMgVkSoOTOsjk7AzENgwh7b06tvdlU?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -401,11 +421,11 @@
       </Placemark>
       <Placemark>
         <name>中華基督教會公理堂1962</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiRkXkc_D-bn35OCPUSTUQkJJurZkzX8b6pmzwfTDiqEf4tFtohFMy0GEsUVQBiffl8LUSAqHczb9dFDu5ATrn5A-Ink3z7Y72MOGlbdu67Hlg_Fw2UTsHZ4nblmpeZQT0Tt82b-5OHILXAToPzVqvq1m2YVN6VCRLqfOGAsNDeiamivDGCQuAZ9GXfAdGG2DjS89O127WvMSI?fife=s16383" height="200" width="auto" /><br><br>中山北路二段45巷39號]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgPYgctEGIolVLc9C94Ptx83_7g0zIaLo7YtIZInaGJIopx8CZBxp1o_tgRuQCiAnh0opUJNAq0dJ4Xvbsczo4UU68I1prgBF1fUBCMK3DeGtUokkUgyIgzUt3OJ8QPGmJyaVS4Y61WrnR1zCbV7U08ynetl7iBg0q_AWlOEpJvGbv0NqPvJeO6_2yLuudmpy-CMqEF6n5c6pI?fife=s16383" height="200" width="auto" /><br><br>中山北路二段45巷39號]]></description>
         <styleUrl>#icon-1766-C2185B-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiRkXkc_D-bn35OCPUSTUQkJJurZkzX8b6pmzwfTDiqEf4tFtohFMy0GEsUVQBiffl8LUSAqHczb9dFDu5ATrn5A-Ink3z7Y72MOGlbdu67Hlg_Fw2UTsHZ4nblmpeZQT0Tt82b-5OHILXAToPzVqvq1m2YVN6VCRLqfOGAsNDeiamivDGCQuAZ9GXfAdGG2DjS89O127WvMSI?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgPYgctEGIolVLc9C94Ptx83_7g0zIaLo7YtIZInaGJIopx8CZBxp1o_tgRuQCiAnh0opUJNAq0dJ4Xvbsczo4UU68I1prgBF1fUBCMK3DeGtUokkUgyIgzUt3OJ8QPGmJyaVS4Y61WrnR1zCbV7U08ynetl7iBg0q_AWlOEpJvGbv0NqPvJeO6_2yLuudmpy-CMqEF6n5c6pI?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -526,11 +546,11 @@
       </Placemark>
       <Placemark>
         <name>台北市議會1966</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj8oj_rSv3Bc2kQGSuNbOsBLCwx3Q6j97byM6yRop7RdHoZMNmjyJ7D1zdLj5Q0NtxnegU3P24CW08Svfe7kpOUFXTMMP51SjgLuQp9d0OFySyV1tfTM9w_oM4QZMmpnxlOGJrJDoGJhAnVlTyIvampyCNXU0iin1SulaBDEa_oz6VeLn_mjnuh46CadD4lBiaaFAnC8G9Ixjk?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiPV2fvHspdB4zIVgKO6Gr6f5Of-ztd2MyDL5Dzu8j0YX8PGhf48tTRavHDnzzSQ8L_XmBHc9WXICLMhdkuReh5c6WyfcH8J_Jor3EnP0CH5wPHtcOSJtZ0cbMq9RwZjnTg8aR6hiTB1s4rAcMaecacmrBFK70JplawexMTBZcGXogq2SR6KmAa40AOXRBLYuEbZxg0eoeO9q0?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj8oj_rSv3Bc2kQGSuNbOsBLCwx3Q6j97byM6yRop7RdHoZMNmjyJ7D1zdLj5Q0NtxnegU3P24CW08Svfe7kpOUFXTMMP51SjgLuQp9d0OFySyV1tfTM9w_oM4QZMmpnxlOGJrJDoGJhAnVlTyIvampyCNXU0iin1SulaBDEa_oz6VeLn_mjnuh46CadD4lBiaaFAnC8G9Ixjk?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiPV2fvHspdB4zIVgKO6Gr6f5Of-ztd2MyDL5Dzu8j0YX8PGhf48tTRavHDnzzSQ8L_XmBHc9WXICLMhdkuReh5c6WyfcH8J_Jor3EnP0CH5wPHtcOSJtZ0cbMq9RwZjnTg8aR6hiTB1s4rAcMaecacmrBFK70JplawexMTBZcGXogq2SR6KmAa40AOXRBLYuEbZxg0eoeO9q0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -541,11 +561,11 @@
       </Placemark>
       <Placemark>
         <name>福OO衣行股份有限公司 叢潛伍1967</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiTkVEkVtcB_Ce2aS1P2mAvp0ysNgdnaPHaqg7PpTNX5ivtRdZCANZnTtXnAtAuGYcsxoBAnD7oawg-tZgsu4RGLPetzks1VtVZCAZm8lqVM0fhHjF31NC6BNUnfUO5KhvE0YixJUtRV6eoWgeqCxRfK14hPsZ6wBQcpbfy3nQD5O1dU57IwhxXkBAI7d8mocM_pf_AMVtj2Q?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZivUkyiMcnNL6O2vlYgONKaU3m7ZrxX9Qhs5CbJ_Zwr5PKpzss6twwtzUiPMvhxc65gYJJZp6jzM-kpND6VM2jWVFCbRNPy9raQ9prqOJwbq8dcl2DorblhJdU-lNm2TMgIa8jhItsHKoyliZnIkuXS1ncHEo2InNJ406i3Ibv7eCxjybTK97_W_e-a6w01-dqDRO9xBfg8UA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiTkVEkVtcB_Ce2aS1P2mAvp0ysNgdnaPHaqg7PpTNX5ivtRdZCANZnTtXnAtAuGYcsxoBAnD7oawg-tZgsu4RGLPetzks1VtVZCAZm8lqVM0fhHjF31NC6BNUnfUO5KhvE0YixJUtRV6eoWgeqCxRfK14hPsZ6wBQcpbfy3nQD5O1dU57IwhxXkBAI7d8mocM_pf_AMVtj2Q?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZivUkyiMcnNL6O2vlYgONKaU3m7ZrxX9Qhs5CbJ_Zwr5PKpzss6twwtzUiPMvhxc65gYJJZp6jzM-kpND6VM2jWVFCbRNPy9raQ9prqOJwbq8dcl2DorblhJdU-lNm2TMgIa8jhItsHKoyliZnIkuXS1ncHEo2InNJ406i3Ibv7eCxjybTK97_W_e-a6w01-dqDRO9xBfg8UA?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -556,11 +576,11 @@
       </Placemark>
       <Placemark>
         <name>實踐大學音樂廳1967</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgywdopYHCTSRadZ_IBUciNxdK-p8YAMGairaboyxx5croH1WbRVdcYmvgdsnm2sf8eNwvdajchxZQx1eIFhRl1XoTSTVtVYbSbGFnedX_JiDYUE87fMZRBMpO4jlHpBkRHJRk8d-GXPPpWhQUkpZMRRn1CF5nY9igXtaTPH9BZYtP2sNOZsoxvqogLQCXL-mzVgSTRsD0QL_8?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhUtyeot35Q451lfUaKIzauIBoUxituJOk1Ct1JTfsPxkSdpFe5gRpsAHphvNzOtlYwL0DASajnP8iiaZvXYLqCLOXe1VYx5248vLkHQMF7Z9m6lNfDRKIUQEoHHGTbTagJNpZbld_w7ZNqQNJRAqUbeyC2Paf5673KxdIY0_N6Gnkk4CJj4C-UDfsnls3WfhmDpd2BVDOAV2s?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgywdopYHCTSRadZ_IBUciNxdK-p8YAMGairaboyxx5croH1WbRVdcYmvgdsnm2sf8eNwvdajchxZQx1eIFhRl1XoTSTVtVYbSbGFnedX_JiDYUE87fMZRBMpO4jlHpBkRHJRk8d-GXPPpWhQUkpZMRRn1CF5nY9igXtaTPH9BZYtP2sNOZsoxvqogLQCXL-mzVgSTRsD0QL_8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhUtyeot35Q451lfUaKIzauIBoUxituJOk1Ct1JTfsPxkSdpFe5gRpsAHphvNzOtlYwL0DASajnP8iiaZvXYLqCLOXe1VYx5248vLkHQMF7Z9m6lNfDRKIUQEoHHGTbTagJNpZbld_w7ZNqQNJRAqUbeyC2Paf5673KxdIY0_N6Gnkk4CJj4C-UDfsnls3WfhmDpd2BVDOAV2s?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -682,11 +702,11 @@
       </Placemark>
       <Placemark>
         <name>北醫第一醫療大樓1975</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhh2O0dGGBQ8tZoeNI5Kps04bWg1JSZOZUgLLlQFyAkktp_4pWpGX-6ZuIiJRZ0A2YG2y0v_sOpde8tCxWKh9gqUmPwsW-BQnFCsODb0OO-2N6wGiZcbLN26FSE1yFfOD5mG8LSyLJa8gNSGyxBbuEBY7kURH6l6mh6LTRAG6n1Xutsd2x8xdDwQJ_Vbw3TN1i8PG4dHXJyDbw?fife=s16383" height="200" width="auto" /><br><br>活動中心1968(應該已拆)]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZihVlxdDc8kUhiffnNy0BajSMPzpkmANpKH843Yz5r7L6I4p8RRYF1Bos3YMyysHi72cblRwm3lxcLWH696pIzvmv8A8cYG1lHdk4VDOeppTV14Buu26E-Mr3LNASStAcbKoNNc0xDiq9XzNOaJOonzDvoQINE7K9pkUvOuYcFOBKAKQ-N-1p16TeX_2GyiH_JR8aV0KqA15TY?fife=s16383" height="200" width="auto" /><br><br>活動中心1968(應該已拆)]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhh2O0dGGBQ8tZoeNI5Kps04bWg1JSZOZUgLLlQFyAkktp_4pWpGX-6ZuIiJRZ0A2YG2y0v_sOpde8tCxWKh9gqUmPwsW-BQnFCsODb0OO-2N6wGiZcbLN26FSE1yFfOD5mG8LSyLJa8gNSGyxBbuEBY7kURH6l6mh6LTRAG6n1Xutsd2x8xdDwQJ_Vbw3TN1i8PG4dHXJyDbw?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZihVlxdDc8kUhiffnNy0BajSMPzpkmANpKH843Yz5r7L6I4p8RRYF1Bos3YMyysHi72cblRwm3lxcLWH696pIzvmv8A8cYG1lHdk4VDOeppTV14Buu26E-Mr3LNASStAcbKoNNc0xDiq9XzNOaJOonzDvoQINE7K9pkUvOuYcFOBKAKQ-N-1p16TeX_2GyiH_JR8aV0KqA15TY?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -697,11 +717,11 @@
       </Placemark>
       <Placemark>
         <name>朱福震集合住宅(和平公寓)1969</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiwjMih8Mk2ziX-GQVWnnLde9_fu7xG3oA91J5iYf5eBMZgTaTpMFF1oG8aNmfyX4FZNd24qu6e_xas16qSs-5eynD3p-JRbfRjpEIhiik4fgBzQdLq7bxQAC_lebG5eG2zPBoQV_ZfWXUX5ORbnmTm1Q1c_khuYVrZMr-_IcclQoecOCCJRpFOKsseX6N5JHBhFO1nzdkefPc?fife=s16383" height="200" width="auto" /><br><br>競潮營造廠]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh_LqPwNr-BXCUdQ73uAAAVUE3vTYdeLIxwZbU1CqTi9sDWZEfaVcFALkH31RxQtb1_oZjj1qOgFgaAdyB0IOk571SuNNxCzOA5dk6LbCn_J76QIARzgUZHf0-uL-dC0vCYnq2KodqgznAc40v04O2p535fGJOYma4F8kLsHGtfK11_mZ2hlyI-creNMmapk0D_8iOEQ00sH2U?fife=s16383" height="200" width="auto" /><br><br>競潮營造廠]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiwjMih8Mk2ziX-GQVWnnLde9_fu7xG3oA91J5iYf5eBMZgTaTpMFF1oG8aNmfyX4FZNd24qu6e_xas16qSs-5eynD3p-JRbfRjpEIhiik4fgBzQdLq7bxQAC_lebG5eG2zPBoQV_ZfWXUX5ORbnmTm1Q1c_khuYVrZMr-_IcclQoecOCCJRpFOKsseX6N5JHBhFO1nzdkefPc?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh_LqPwNr-BXCUdQ73uAAAVUE3vTYdeLIxwZbU1CqTi9sDWZEfaVcFALkH31RxQtb1_oZjj1qOgFgaAdyB0IOk571SuNNxCzOA5dk6LbCn_J76QIARzgUZHf0-uL-dC0vCYnq2KodqgznAc40v04O2p535fGJOYma4F8kLsHGtfK11_mZ2hlyI-creNMmapk0D_8iOEQ00sH2U?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -757,11 +777,11 @@
       </Placemark>
       <Placemark>
         <name>華江整宅1971</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjgK5WNwBfPC4Yfc5T03umt-JRs3nY0flpymS0I0psEyRMdeHxhBCByXeXTkeQMnE76lOiJc5fxGFoHqodoAvvUgDGZpgVt_HDol7_4HrUYgXRVMp9R-Q3PsfsmSnbPQroSF-nCbVPQWJBPwhIX6hax1f8-uL48Cmghv6y2ZohdT9P88_kovl678w_Q62ZJK-OjfCHZq0wQ5JQ?fife=s16383" height="200" width="auto" /><br><br>沈祖海、陳其寬、虞日鎮、高爾潘、郭炳才]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZikEP0wgQVWFarB69AF7AnB6DbE1YX9xuwNdBaug4E6tdKMFSIyQLOzuGi-nZUqE9tDj5GcL278cqXnT9pIaWP4qGoMJk0D38cIXdQrdYdE6N1SEzaRPqtkGCXPMNcAh_-w9WOf7spsa1g-97ZEfmORvqZnVPLUz_obeUlqkATV26mJsmhjvAvYK2O_hV-w5JGSuHZp9LanCRs?fife=s16383" height="200" width="auto" /><br><br>沈祖海、陳其寬、虞日鎮、高爾潘、郭炳才]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjgK5WNwBfPC4Yfc5T03umt-JRs3nY0flpymS0I0psEyRMdeHxhBCByXeXTkeQMnE76lOiJc5fxGFoHqodoAvvUgDGZpgVt_HDol7_4HrUYgXRVMp9R-Q3PsfsmSnbPQroSF-nCbVPQWJBPwhIX6hax1f8-uL48Cmghv6y2ZohdT9P88_kovl678w_Q62ZJK-OjfCHZq0wQ5JQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZikEP0wgQVWFarB69AF7AnB6DbE1YX9xuwNdBaug4E6tdKMFSIyQLOzuGi-nZUqE9tDj5GcL278cqXnT9pIaWP4qGoMJk0D38cIXdQrdYdE6N1SEzaRPqtkGCXPMNcAh_-w9WOf7spsa1g-97ZEfmORvqZnVPLUz_obeUlqkATV26mJsmhjvAvYK2O_hV-w5JGSuHZp9LanCRs?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -772,11 +792,11 @@
       </Placemark>
       <Placemark>
         <name>吳紹東住宅1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgWkcISmoMuubatvuCKICXxqBYtjDBnFpSjEBBsUqTE3gwGuPIMnL1Z9HiBVxhmdz5fudAyPCwvGjqfaGD8_bSle6mfNzHJK5Qzb9u75fDGMX0E5kTXgoxnQndelN7fProR8cHZMW0IUDuNHILzyEg5yUEoqUMB8w_VMwRcroZowPIqbhoOaiuP8hxRrXLDevF6WxV4jdjOoFY?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgyRBOfwULexpOuoW42hCCtKa9EdkL2Mx7BO-X8ISvXXCu5D39X9e4dWt-21iyXTKhBXzDC9sPbExPQuK3Ti6RIytxuZIXmaWyGLCdwu4n0f6NNGIVjix3S0VEYrsjvO9ACiEks7axNwq6g34foh3poLg30QAJpvlqaFbQupmcSmo8hbQncDWz6vwELaYLRoJTTjn3f9DCxiak?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgWkcISmoMuubatvuCKICXxqBYtjDBnFpSjEBBsUqTE3gwGuPIMnL1Z9HiBVxhmdz5fudAyPCwvGjqfaGD8_bSle6mfNzHJK5Qzb9u75fDGMX0E5kTXgoxnQndelN7fProR8cHZMW0IUDuNHILzyEg5yUEoqUMB8w_VMwRcroZowPIqbhoOaiuP8hxRrXLDevF6WxV4jdjOoFY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgyRBOfwULexpOuoW42hCCtKa9EdkL2Mx7BO-X8ISvXXCu5D39X9e4dWt-21iyXTKhBXzDC9sPbExPQuK3Ti6RIytxuZIXmaWyGLCdwu4n0f6NNGIVjix3S0VEYrsjvO9ACiEks7axNwq6g34foh3poLg30QAJpvlqaFbQupmcSmo8hbQncDWz6vwELaYLRoJTTjn3f9DCxiak?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -787,11 +807,11 @@
       </Placemark>
       <Placemark>
         <name>郭昭雄住宅1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZilIVxKleczgt95k4S_Z6IrsOyAMr_ZB_nRSRrGZ6NxRi9U_g6Ymx06twQKQ7otzWtRfREVq_cH35-TNJermi40Fz55xljRPtQY0cmnRJY-TUb68xpPOh9fStAkyZNUGIw0J3CHIZSFq5UDAgBs-MLsbRF4zuGLO8o_IJcZecyzISPnet1Ce8bWTbNbIG1V81-vV-Bv4b8xVmM?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiklr9jjf9YxYk7k1F2i28AidRpw3XPGS37GSSKjuoFGtrl8av-mX1OtOHoC4O6QOGvFc-RLKk7MB31srtblu9WVJyazbV10iD2lXp3tRbzvRJpvi8rjlrbM2qa7WpGxprZNR3gqD4a9HIQtQf5JcWrElR9CLHXUWuWuiAilHDCbcMEMldFYKF655URDrn4ooWdvEWMF9sxCMY?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZilIVxKleczgt95k4S_Z6IrsOyAMr_ZB_nRSRrGZ6NxRi9U_g6Ymx06twQKQ7otzWtRfREVq_cH35-TNJermi40Fz55xljRPtQY0cmnRJY-TUb68xpPOh9fStAkyZNUGIw0J3CHIZSFq5UDAgBs-MLsbRF4zuGLO8o_IJcZecyzISPnet1Ce8bWTbNbIG1V81-vV-Bv4b8xVmM?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiklr9jjf9YxYk7k1F2i28AidRpw3XPGS37GSSKjuoFGtrl8av-mX1OtOHoC4O6QOGvFc-RLKk7MB31srtblu9WVJyazbV10iD2lXp3tRbzvRJpvi8rjlrbM2qa7WpGxprZNR3gqD4a9HIQtQf5JcWrElR9CLHXUWuWuiAilHDCbcMEMldFYKF655URDrn4ooWdvEWMF9sxCMY?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -802,11 +822,11 @@
       </Placemark>
       <Placemark>
         <name>三協大樓1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiNNU_qxqTuFEJjRkANTwPZfx-tKVnoObfwydOsmeXfuKMnMRNI6_PreTvaNEgIBA3OURNvMbFd6tqFhygQcBoZZylt3Kacat7M_jzDoKyCCpAqoOJx5Hweq4R12li4YP9PKyEmsOj0FcyhB8I_LrOx-Pu4CD67U1DkEiCBFEICwS6hLTjfwWBXm_TFa-McMRG8IOMNi0mETSk?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhtLSzumdk1OUPRkGv7x5GtvBxAjKIhwLIp2THTCUj6ADKcoGt03UytulpLjnUAxZhtvSGUIdWDT_IwPik-yDIiPlBDEHMFrpXSUOlE31pcWesZzDLLNmk3keQhUYV8dYG39CuZsGwGDWJg7DxmenDEgiDV-KxkCOPOj7OHoY9pp8VyIIRE_j100OhDc_c0DQAYw86grIQAYYU?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiNNU_qxqTuFEJjRkANTwPZfx-tKVnoObfwydOsmeXfuKMnMRNI6_PreTvaNEgIBA3OURNvMbFd6tqFhygQcBoZZylt3Kacat7M_jzDoKyCCpAqoOJx5Hweq4R12li4YP9PKyEmsOj0FcyhB8I_LrOx-Pu4CD67U1DkEiCBFEICwS6hLTjfwWBXm_TFa-McMRG8IOMNi0mETSk?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhtLSzumdk1OUPRkGv7x5GtvBxAjKIhwLIp2THTCUj6ADKcoGt03UytulpLjnUAxZhtvSGUIdWDT_IwPik-yDIiPlBDEHMFrpXSUOlE31pcWesZzDLLNmk3keQhUYV8dYG39CuZsGwGDWJg7DxmenDEgiDV-KxkCOPOj7OHoY9pp8VyIIRE_j100OhDc_c0DQAYw86grIQAYYU?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -817,11 +837,11 @@
       </Placemark>
       <Placemark>
         <name>大峰大樓1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjvwukopq15gxPB86v-Eq3DhrZddQxZmJdScUIHPEjp5ky43ovm8z-A5czEMH8bxwHtxwp8htXpJdLXMjNFwvDxVeSdriJ9B_NsZyJze0_bwbEVNGyDr-TuaIdRFbly5cNQx2LfyiaBmx1shor3_GheOuaQzCeHLX7ExX_WtMfSSF_MJJOB6S863npPxedGOWVPpbN-iD_UC1E?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZggaftZAtWn_HTpVaJ2Z2M8lOdgNyrCKdK3kNzkiiFeEHkw4P_wyGNWVR7kMFJdvXF7VK6t96S9sRvhD50U7ylomuXQ2SfEAHxwBf68nBDazSCmo_z-c9MlFxHEN5e0O91r5gv0zJ5GMFy4lMraopEWtGxHI4Ev7aYdzMeLqs0MQVLJUIc5dg38FYwCLYwa3hRsJBBagAotaIU?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjvwukopq15gxPB86v-Eq3DhrZddQxZmJdScUIHPEjp5ky43ovm8z-A5czEMH8bxwHtxwp8htXpJdLXMjNFwvDxVeSdriJ9B_NsZyJze0_bwbEVNGyDr-TuaIdRFbly5cNQx2LfyiaBmx1shor3_GheOuaQzCeHLX7ExX_WtMfSSF_MJJOB6S863npPxedGOWVPpbN-iD_UC1E?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZggaftZAtWn_HTpVaJ2Z2M8lOdgNyrCKdK3kNzkiiFeEHkw4P_wyGNWVR7kMFJdvXF7VK6t96S9sRvhD50U7ylomuXQ2SfEAHxwBf68nBDazSCmo_z-c9MlFxHEN5e0O91r5gv0zJ5GMFy4lMraopEWtGxHI4Ev7aYdzMeLqs0MQVLJUIc5dg38FYwCLYwa3hRsJBBagAotaIU?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -832,11 +852,11 @@
       </Placemark>
       <Placemark>
         <name>新光松江大樓1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjyP1WhC77jNH1NFVaZ4cQ1E2ULWwbvQoaLMYkv__mnz3CLiXBcUwistfNvXNdyRGM3xhjAz0lKCo97ycSWuFcwYRg9dyNf9Qg77a7Vy9UeQqXN3_OYapVF2LidXeovy_Uui4uURWLUzQgO4dCe8RZUK04FNIGkKlDBi2HOegWz9_PXh9Pzz055tJ2tzc-20Yy97pxqLjIrl0w?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiQzV9T5FY6NEc-VrzhFqxspVoZvjfcL0aAonItX6iB_OfQ-bYKvJyW84eD2Rzn0eKqbl7yLfZ9La4dbmrRpS6bDQuQJ8NYGYJCFuzNF-ErUL7EkjpmuQpDw9-_EPmuxzsph2aRazBMMTHkTRhAO7NPcEd1QOEEgveKo0POVwayWLm53nIFgwv9O4JP8FY74Bx_qyyZ3NTqhoU?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjyP1WhC77jNH1NFVaZ4cQ1E2ULWwbvQoaLMYkv__mnz3CLiXBcUwistfNvXNdyRGM3xhjAz0lKCo97ycSWuFcwYRg9dyNf9Qg77a7Vy9UeQqXN3_OYapVF2LidXeovy_Uui4uURWLUzQgO4dCe8RZUK04FNIGkKlDBi2HOegWz9_PXh9Pzz055tJ2tzc-20Yy97pxqLjIrl0w?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiQzV9T5FY6NEc-VrzhFqxspVoZvjfcL0aAonItX6iB_OfQ-bYKvJyW84eD2Rzn0eKqbl7yLfZ9La4dbmrRpS6bDQuQJ8NYGYJCFuzNF-ErUL7EkjpmuQpDw9-_EPmuxzsph2aRazBMMTHkTRhAO7NPcEd1QOEEgveKo0POVwayWLm53nIFgwv9O4JP8FY74Bx_qyyZ3NTqhoU?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -847,11 +867,11 @@
       </Placemark>
       <Placemark>
         <name>市府公教住宅1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjDQ2OOHaXKMGW5AiwfYX76ABGV0Xn45Bg4KbK4ZFG_m6vslUKetgPzl-yb9OSM_MZTP6QeiXmJ1LfwBBCIBs5de0pPDzlydonTfvy3R6BWh31RqS0PW6MfpPUm8OK_LZjjySvdE4u6g3vC0vZw2wYLNOU0_bx2iKwJcaQHHbpgVQQixvytXhInfjWBqoVqz3DJB2vJjfTPL84?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiiUfK25aadH8NFVAIEUzdSHYlpTmQDXCLVeyohlzp8hAMPyd17RQj26M6eo_N9CXHJzCRC1G__9gK9OXnIqni0UdytvB-01JUOwTk-eAPpzDc5gVjDaN6DOYjn7MPhy7GmH1mJ6k8AowXQQlRfr9Jk1mEdcrdxiN9lEY4pbwdJugHx9aAhu7e_BN2GL9YyiJ4SY7j1qeHHMVc?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjDQ2OOHaXKMGW5AiwfYX76ABGV0Xn45Bg4KbK4ZFG_m6vslUKetgPzl-yb9OSM_MZTP6QeiXmJ1LfwBBCIBs5de0pPDzlydonTfvy3R6BWh31RqS0PW6MfpPUm8OK_LZjjySvdE4u6g3vC0vZw2wYLNOU0_bx2iKwJcaQHHbpgVQQixvytXhInfjWBqoVqz3DJB2vJjfTPL84?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiiUfK25aadH8NFVAIEUzdSHYlpTmQDXCLVeyohlzp8hAMPyd17RQj26M6eo_N9CXHJzCRC1G__9gK9OXnIqni0UdytvB-01JUOwTk-eAPpzDc5gVjDaN6DOYjn7MPhy7GmH1mJ6k8AowXQQlRfr9Jk1mEdcrdxiN9lEY4pbwdJugHx9aAhu7e_BN2GL9YyiJ4SY7j1qeHHMVc?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -862,11 +882,11 @@
       </Placemark>
       <Placemark>
         <name>成功大樓住宅1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjnuX8cIDWsqb30Ow1zwl-otA9jbF8XFmKKMwsm2TMsJRWiT80Zqq02HyTDXmIdSmwKPOTyQ18mVFPZxVPwGviGM3WWFHqqjAjkc1wL3PHTYs7Ku_GnbwjIagNDKAaJwWUV7tb4wxmkEjXtm-I1TyGmfiiW8xCPJBEXhH98G4q0gfwboe2EWlGwp36nCR19DimkJkh0PEfkav8?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiCyXzWGv5Gg_1wiqPsQdGkvB-nG46Fb6LDkkWTx2sbdwck7DoXM6A-LlRTRDMPskjHUEJpoFfGA0Dlf9011wo-z2ZyJroaQypNl3OMrE8WLGWgGieINytZBaN2d18s5EzkTl9q78JEX2BtwuUPWmPCjOZZG1q7Qs-kV3KO769l1Dlr6Ce3Pp748glISguqKvi9OXkefL7YqTI?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjnuX8cIDWsqb30Ow1zwl-otA9jbF8XFmKKMwsm2TMsJRWiT80Zqq02HyTDXmIdSmwKPOTyQ18mVFPZxVPwGviGM3WWFHqqjAjkc1wL3PHTYs7Ku_GnbwjIagNDKAaJwWUV7tb4wxmkEjXtm-I1TyGmfiiW8xCPJBEXhH98G4q0gfwboe2EWlGwp36nCR19DimkJkh0PEfkav8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiCyXzWGv5Gg_1wiqPsQdGkvB-nG46Fb6LDkkWTx2sbdwck7DoXM6A-LlRTRDMPskjHUEJpoFfGA0Dlf9011wo-z2ZyJroaQypNl3OMrE8WLGWgGieINytZBaN2d18s5EzkTl9q78JEX2BtwuUPWmPCjOZZG1q7Qs-kV3KO769l1Dlr6Ce3Pp748glISguqKvi9OXkefL7YqTI?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -877,11 +897,11 @@
       </Placemark>
       <Placemark>
         <name>青林大廈1974</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiKf-S_L_jB8jDMesUdAiFtsGrLJNYsIyfEspopsGpT1gtiWhP_DOX9jSxDDQnDa5AiCF2KwPqo9Sp1grxGKqt0LBIhiWMid7u6LpHoojDE0dRWIXeIr9SlCLJ8iF29VwdFu403VSd4WASU2quRQu2_SHIdfXIUEt8XQa1rpI1N6BYin8cTsmmftpQ2YcBtUUmHjv0fRm5XgZI?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgm3I2YQJOToN_gCZ2kol2Qx7gVFTvdVgPQtJo8mMQSZJj5_f8XB_B1BNUiDyUhZq6TuFIBDmnG6QYv20AwsEs6RKN_bIYKDfs-C6lZlgOyLFlYUcE6jOooY-phckwuHJK5WvjSdQRqTT_7W5UqSzjt3ihlQRln3meX9KPcc4KpCfBkRZS1Xc8Uf-WzPV6LxIfPnALrXjpAYIQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiKf-S_L_jB8jDMesUdAiFtsGrLJNYsIyfEspopsGpT1gtiWhP_DOX9jSxDDQnDa5AiCF2KwPqo9Sp1grxGKqt0LBIhiWMid7u6LpHoojDE0dRWIXeIr9SlCLJ8iF29VwdFu403VSd4WASU2quRQu2_SHIdfXIUEt8XQa1rpI1N6BYin8cTsmmftpQ2YcBtUUmHjv0fRm5XgZI?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgm3I2YQJOToN_gCZ2kol2Qx7gVFTvdVgPQtJo8mMQSZJj5_f8XB_B1BNUiDyUhZq6TuFIBDmnG6QYv20AwsEs6RKN_bIYKDfs-C6lZlgOyLFlYUcE6jOooY-phckwuHJK5WvjSdQRqTT_7W5UqSzjt3ihlQRln3meX9KPcc4KpCfBkRZS1Xc8Uf-WzPV6LxIfPnALrXjpAYIQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -902,11 +922,11 @@
       </Placemark>
       <Placemark>
         <name>裕民大廈1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgSmbrRBv2MZMz3rb0oR9N7Ys3eG6QRRFEMXQ8ru4fNIalSs8_WDWZ3UpYMrpzpx6zTzSatF4Aplj3DA2c95qUpDeOxmXsqSe9t-OVMXtzYcihv0vS0xFD7WYGO3wRHU1kB2VPPziB7PJdPOD20jkY9-ELke5-7J-NGSi1Y8qzr0lhYeMwSsbZaoKQ1WK__jJgJlHUt9bD9Ks8?fife=s16383" height="200" width="auto" /><br><br>沈祖海+宗邁？]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhlXBGQjmFnsl1UwFTSXYanLS5Oi2a3-LDJsGJOcuWnW9Jzw_f97q3Nzn-6WJqPEmOhWczuauJT9s_gSb1HLr0t1EOUM0rdlSUPSOI8BtvkA5CGQRwsRLHb1_hBCpYpVeOOh8LZ952a6BMlpZfS0pihok6MKHAXyrItqAe8-vSC9NvLWSVqFZhHlRNnf1XfEXVvTcEZQuisYwQ?fife=s16383" height="200" width="auto" /><br><br>沈祖海+宗邁？]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgSmbrRBv2MZMz3rb0oR9N7Ys3eG6QRRFEMXQ8ru4fNIalSs8_WDWZ3UpYMrpzpx6zTzSatF4Aplj3DA2c95qUpDeOxmXsqSe9t-OVMXtzYcihv0vS0xFD7WYGO3wRHU1kB2VPPziB7PJdPOD20jkY9-ELke5-7J-NGSi1Y8qzr0lhYeMwSsbZaoKQ1WK__jJgJlHUt9bD9Ks8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhlXBGQjmFnsl1UwFTSXYanLS5Oi2a3-LDJsGJOcuWnW9Jzw_f97q3Nzn-6WJqPEmOhWczuauJT9s_gSb1HLr0t1EOUM0rdlSUPSOI8BtvkA5CGQRwsRLHb1_hBCpYpVeOOh8LZ952a6BMlpZfS0pihok6MKHAXyrItqAe8-vSC9NvLWSVqFZhHlRNnf1XfEXVvTcEZQuisYwQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -917,11 +937,11 @@
       </Placemark>
       <Placemark>
         <name>欣欣大眾超級市場1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhann0zXFf5S9AZI6mS1Gr4dDvzh-zIWSWzBD0wCqnbfwkvWC2E-mHGrgWbhpEERPZdbjd3KQJAOzkSgBjr69oiZoNTsqfpSmF1S_FWOA2qU97nJ35U3lMj9vcGjLbfWT7KQe-i_8vxjG4vSButHL0zN8lMuqT6_pFHfxHCTY5gMGLCrNMxKEPwxixgNpTIWi2uPZao0jOd46I?fife=s16383" height="200" width="auto" /><br><br>蔡伯峰+高而潘+阮發(泰平)<br>競潮營造廠]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiy_avg3-gxISNPa8rRpFbyDOnh__H6ylKVN1GmS-Ndc-slC_YAbbqK4T4aMwFEn0P67bR2Mc6LEZp7ZUCTJkp4ZS9y2amIkVe_KlwkPTD9No9GYw6WTqn-fuHtmg1iHIuGfgFk0Xv9EkCQ3-GkgwwQqi3dzK2qMo9joTRe8gk6m4jfjqlebONphHcZWO9Ew74DhLojs4U_pvk?fife=s16383" height="200" width="auto" /><br><br>蔡伯峰+高而潘+阮發(泰平)<br>競潮營造廠]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhann0zXFf5S9AZI6mS1Gr4dDvzh-zIWSWzBD0wCqnbfwkvWC2E-mHGrgWbhpEERPZdbjd3KQJAOzkSgBjr69oiZoNTsqfpSmF1S_FWOA2qU97nJ35U3lMj9vcGjLbfWT7KQe-i_8vxjG4vSButHL0zN8lMuqT6_pFHfxHCTY5gMGLCrNMxKEPwxixgNpTIWi2uPZao0jOd46I?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiy_avg3-gxISNPa8rRpFbyDOnh__H6ylKVN1GmS-Ndc-slC_YAbbqK4T4aMwFEn0P67bR2Mc6LEZp7ZUCTJkp4ZS9y2amIkVe_KlwkPTD9No9GYw6WTqn-fuHtmg1iHIuGfgFk0Xv9EkCQ3-GkgwwQqi3dzK2qMo9joTRe8gk6m4jfjqlebONphHcZWO9Ew74DhLojs4U_pvk?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -932,11 +952,11 @@
       </Placemark>
       <Placemark>
         <name>景園大廈1973</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjyRMIJoHc9_0ehDw67zhka_sDqnspjj0y2Cdn86YT4cDhBA98e6soSBQOb8mwqHSPsIuNEc9njNDBPLEmkiBKDmwY2_DPwtg8HGH3RrOJ5GQT50p4xWDk1NCEIJu5fIg1NVqhqxDIZadn8bMpIqeDlzeFqrbw3B3MmxlqGkMtVqOb40mTNpU2MYwzwl-Txb6hIOrPFPCEaRrI?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZixN8DGQQibyNAqULHQMonoKPrJXb5IB9JozizWiDsDLOM1c1Cde9IlGA3KTho1n8UzjETvh_uiWKVvCmnFg-Ma9RNX5QxMUR7JPq-kj2KKrza9XT7fK3B4LvQZr4I8vQue2VZuiMDm1RZAQp9S6mAQaa6dR7ioUQPwXgYllXcb5ZWKf6MIC9LzSI7cuST3kCYieJx7UYpGqHk?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjyRMIJoHc9_0ehDw67zhka_sDqnspjj0y2Cdn86YT4cDhBA98e6soSBQOb8mwqHSPsIuNEc9njNDBPLEmkiBKDmwY2_DPwtg8HGH3RrOJ5GQT50p4xWDk1NCEIJu5fIg1NVqhqxDIZadn8bMpIqeDlzeFqrbw3B3MmxlqGkMtVqOb40mTNpU2MYwzwl-Txb6hIOrPFPCEaRrI?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZixN8DGQQibyNAqULHQMonoKPrJXb5IB9JozizWiDsDLOM1c1Cde9IlGA3KTho1n8UzjETvh_uiWKVvCmnFg-Ma9RNX5QxMUR7JPq-kj2KKrza9XT7fK3B4LvQZr4I8vQue2VZuiMDm1RZAQp9S6mAQaa6dR7ioUQPwXgYllXcb5ZWKf6MIC9LzSI7cuST3kCYieJx7UYpGqHk?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -947,11 +967,11 @@
       </Placemark>
       <Placemark>
         <name>中央保齡球館1973</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZifzqdnv1YFf4Q_EQWenrFh4mrSg3Vqxggr7c26QE2pjQnJdrLXzAGHh6AaZwhZ1Hto2AkFmOt0WZwWqRyUwX-qvdGeAqzLFGrPY4b5bF5PW5xpQyPtKkCHRcZ-kZ2Nx1_N3tqhJFPGpBwPwMCBE7rSiADePagO_b0yilrddQwNjrWCeajM4MOanKGm2l6H39CqULaMYqmNoB8?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjXb14O2CnF4mr_pSpbgewUFwWV2F7ALD3U36K1RIqfwyJhQUdbtJiAvdoCddC4XiVkj-yXeXZOHL3iEp2UfK8j7HMt8HR7hF7JeeYotf7DCkVsa0TPhfDV4oldPJdAEGZ2MRvVScysW5677B0d6kwyHt4qW5KUsY1ehyswML2cn3IBNN8pTiVmPdWIcglrySK1oRmqR3J-vfA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZifzqdnv1YFf4Q_EQWenrFh4mrSg3Vqxggr7c26QE2pjQnJdrLXzAGHh6AaZwhZ1Hto2AkFmOt0WZwWqRyUwX-qvdGeAqzLFGrPY4b5bF5PW5xpQyPtKkCHRcZ-kZ2Nx1_N3tqhJFPGpBwPwMCBE7rSiADePagO_b0yilrddQwNjrWCeajM4MOanKGm2l6H39CqULaMYqmNoB8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjXb14O2CnF4mr_pSpbgewUFwWV2F7ALD3U36K1RIqfwyJhQUdbtJiAvdoCddC4XiVkj-yXeXZOHL3iEp2UfK8j7HMt8HR7hF7JeeYotf7DCkVsa0TPhfDV4oldPJdAEGZ2MRvVScysW5677B0d6kwyHt4qW5KUsY1ehyswML2cn3IBNN8pTiVmPdWIcglrySK1oRmqR3J-vfA?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -972,11 +992,11 @@
       </Placemark>
       <Placemark>
         <name>大豐二莊集合住宅1973</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgUKB9U_28POf9Gcc2dGywafXB8pshymUrwvAMtYAXzOoQ_WVYNrbrcShfbi1EdHQeivqcEYmqYpO2ilbLFhWrQ3irIEBitYXF-rktq-vZ-901tcaoD_lSPAQKWJNKt4X7vH0KbauabaLgNPeZ29HxqhVf1pn9ZQ0uio_p1rGtd5rIR7In-GgoUqclz8FY1s91JQT-GIQzCYmQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiIYkQ2aHvz4zM3rREwlK_Lr8_FiGZm1siR4HPVaSHQ55rRJwKhEzgbVfCbKTBHWKQPKtZd0cryWB4jV5BSXezBx34sseSLvOPuhtLiObF0sIij4SuQunzzgeMOKr5Cz-XFTqI6Qzl7fR9gCIsr3FdtRWFMQ4widZi5HsxFodkEVG7QKv-1iM8fZziA4f8_WdB1IgbzGBOGa34?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgUKB9U_28POf9Gcc2dGywafXB8pshymUrwvAMtYAXzOoQ_WVYNrbrcShfbi1EdHQeivqcEYmqYpO2ilbLFhWrQ3irIEBitYXF-rktq-vZ-901tcaoD_lSPAQKWJNKt4X7vH0KbauabaLgNPeZ29HxqhVf1pn9ZQ0uio_p1rGtd5rIR7In-GgoUqclz8FY1s91JQT-GIQzCYmQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiIYkQ2aHvz4zM3rREwlK_Lr8_FiGZm1siR4HPVaSHQ55rRJwKhEzgbVfCbKTBHWKQPKtZd0cryWB4jV5BSXezBx34sseSLvOPuhtLiObF0sIij4SuQunzzgeMOKr5Cz-XFTqI6Qzl7fR9gCIsr3FdtRWFMQ4widZi5HsxFodkEVG7QKv-1iM8fZziA4f8_WdB1IgbzGBOGa34?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -997,11 +1017,11 @@
       </Placemark>
       <Placemark>
         <name>晴光大廈1975</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjaxOFSKqloX7GVPtVxERUyXJiqg3sbJ0DEilUYdnGbmfbsSI3XruQJKw5kOfVnbM1FEmVTM14Hxld-8VQb_mx9gyxtsfRIdpC89JBgKeuMkTdUH-kCtjuCO0F-LskClyDOepMQ9BxZP-_vlJQoV6BnFXLCZyaI-1CEVxGRJJg3kSNX8_uzL-JuImCdQ0VZycSe3vxICjxfako?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6PDKIxTu0y32TRk78h9X3WNjd2OxUdSAWHMf2wEbBqYP3dFyTXR2WoStK--Y7TSgEBEPENCC_tlLzlYKC-gNpmOU0uPPRe-XvNR_n5nA9e3flh3zRiwi9PaDvWPvaCs9dLQQhTfkYvExCa0MJHlG6dWzvY-G9aSeHQrH-w05vvUBW9L02cwYzGNgyePtueAInVqLag6dB5zc?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjaxOFSKqloX7GVPtVxERUyXJiqg3sbJ0DEilUYdnGbmfbsSI3XruQJKw5kOfVnbM1FEmVTM14Hxld-8VQb_mx9gyxtsfRIdpC89JBgKeuMkTdUH-kCtjuCO0F-LskClyDOepMQ9BxZP-_vlJQoV6BnFXLCZyaI-1CEVxGRJJg3kSNX8_uzL-JuImCdQ0VZycSe3vxICjxfako?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6PDKIxTu0y32TRk78h9X3WNjd2OxUdSAWHMf2wEbBqYP3dFyTXR2WoStK--Y7TSgEBEPENCC_tlLzlYKC-gNpmOU0uPPRe-XvNR_n5nA9e3flh3zRiwi9PaDvWPvaCs9dLQQhTfkYvExCa0MJHlG6dWzvY-G9aSeHQrH-w05vvUBW9L02cwYzGNgyePtueAInVqLag6dB5zc?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1104,11 +1124,11 @@
       </Placemark>
       <Placemark>
         <name>芝麻酒店1977</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiuy-1HCWmeVaLjpvt73oulX77LPyZTngvDpRItfMpWyJCf9k9bslEiarUTQEhAzLMRW_7gmwmrWXzkqZP96UUKO2BiQwslMtxEoQMkYu1xWml3WxjeF97fp2c0zkGnZVlu-kVwLUPqrMNHypc1rXZrT8a-7vIQdFzMV-CVq5fkcgIk9vJkzyii7MwTzVk7XcpNUxZc4j5JRTA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6aeddXEPAP1Cs68vmhovWDFACC825g5kGjmcqB882aI4UpQbWsUhtQvW6FtMP44XYFT-eRTpYcEmnztnVUzZJTjqGZbBxwSVEP6RtgQPtszcrwFmpUd4nj4wPFQiaw2egZZ451lPHmWV9XZ4AO26jbAs4Ce-uGKUYzwQuE5RrprJXAZMYcnaua_G-vAkKmkwZA2NUQqSKCxM?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiuy-1HCWmeVaLjpvt73oulX77LPyZTngvDpRItfMpWyJCf9k9bslEiarUTQEhAzLMRW_7gmwmrWXzkqZP96UUKO2BiQwslMtxEoQMkYu1xWml3WxjeF97fp2c0zkGnZVlu-kVwLUPqrMNHypc1rXZrT8a-7vIQdFzMV-CVq5fkcgIk9vJkzyii7MwTzVk7XcpNUxZc4j5JRTA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6aeddXEPAP1Cs68vmhovWDFACC825g5kGjmcqB882aI4UpQbWsUhtQvW6FtMP44XYFT-eRTpYcEmnztnVUzZJTjqGZbBxwSVEP6RtgQPtszcrwFmpUd4nj4wPFQiaw2egZZ451lPHmWV9XZ4AO26jbAs4Ce-uGKUYzwQuE5RrprJXAZMYcnaua_G-vAkKmkwZA2NUQqSKCxM?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1173,11 +1193,11 @@
       </Placemark>
       <Placemark>
         <name>新店客運1977</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiTVQwma-bfnKGk_l1qb6BV0FaaVf9Z5cjMkEfsChNztAmfCjHKG6j-wzY2A1ZFvYhUsZ1tcWuMip2x32Vddh7cixFhiVNU0-u-Lp0m3e-TlRGbJDesAoKCSRcGrOJYuhJrXatGjYl_9-OjC3IHG4GHmjvq-w_kjdKYUXbLmIbikXOpVZS6qDPOt4izgMvXgTeOzI2rKIqJNA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgQCL7aSsaTia6i6O83XJ4zV8X50mE5ZRglUu-SQ28dKbkeA7uI6lfKTyg7C8wIQw3ykpDDrK3ZDeS-PlkQYbDOpSxhN4FsL4ljJRq6YAaON3GN82OFhgEIb6eyewrXOVTuw8aX3Ab3_jNtyTko4g4N3aDuj5Q9Rc4YIXxuUp4FqotvayP08uTiXBub39NUpB_YgZ0ZE5cdkQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiTVQwma-bfnKGk_l1qb6BV0FaaVf9Z5cjMkEfsChNztAmfCjHKG6j-wzY2A1ZFvYhUsZ1tcWuMip2x32Vddh7cixFhiVNU0-u-Lp0m3e-TlRGbJDesAoKCSRcGrOJYuhJrXatGjYl_9-OjC3IHG4GHmjvq-w_kjdKYUXbLmIbikXOpVZS6qDPOt4izgMvXgTeOzI2rKIqJNA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgQCL7aSsaTia6i6O83XJ4zV8X50mE5ZRglUu-SQ28dKbkeA7uI6lfKTyg7C8wIQw3ykpDDrK3ZDeS-PlkQYbDOpSxhN4FsL4ljJRq6YAaON3GN82OFhgEIb6eyewrXOVTuw8aX3Ab3_jNtyTko4g4N3aDuj5Q9Rc4YIXxuUp4FqotvayP08uTiXBub39NUpB_YgZ0ZE5cdkQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1262,7 +1282,8 @@
       </Placemark>
       <Placemark>
         <name>張淑齡宅1979</name>
-        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <description>068中工建使字第00596號</description>
+        <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <Point>
           <coordinates>
             120.6613,24.13594,0
@@ -1298,11 +1319,11 @@
       </Placemark>
       <Placemark>
         <name>新北市藝文中心1980</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhJEXMNntg8UyPKGxKyRHzIAExSOYEmm-f5ejD8UsE6I-WDiuPSjJLSnD6L6VvgpE3tWjf_DvavbRzwYRyiZsCbviOsIX5Tev7r78Tk7PiZhFx4sDOl1aa8uxMskqxF5shCPHJ622dU5IK33ACbF-DLq4AcJ9JXJaTHIRfauHntwlVf3BaJAzN2J1WiyiAMNLS87T6vo47e2g?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg4m8-B7KbEgsxeOpDsCJFsCmb5JNoixDZkNjddBD29KKDASQYisrrWNO5kVjqOOHUdOq3_eTbxTLEAv7G3ArQrMMXEO1lu9DCmd1YKIVfilbWnK__4C-_LpT5_PhHhJhQGBhmw4GOPQ0jqL2zoE8ZIM1OrqThjQsb_UUFa4LfmOrjopYQA96Ys1CvhSMfGva57cepAE4_OIQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhJEXMNntg8UyPKGxKyRHzIAExSOYEmm-f5ejD8UsE6I-WDiuPSjJLSnD6L6VvgpE3tWjf_DvavbRzwYRyiZsCbviOsIX5Tev7r78Tk7PiZhFx4sDOl1aa8uxMskqxF5shCPHJ622dU5IK33ACbF-DLq4AcJ9JXJaTHIRfauHntwlVf3BaJAzN2J1WiyiAMNLS87T6vo47e2g?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg4m8-B7KbEgsxeOpDsCJFsCmb5JNoixDZkNjddBD29KKDASQYisrrWNO5kVjqOOHUdOq3_eTbxTLEAv7G3ArQrMMXEO1lu9DCmd1YKIVfilbWnK__4C-_LpT5_PhHhJhQGBhmw4GOPQ0jqL2zoE8ZIM1OrqThjQsb_UUFa4LfmOrjopYQA96Ys1CvhSMfGva57cepAE4_OIQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1313,11 +1334,11 @@
       </Placemark>
       <Placemark>
         <name>台灣土地銀行員工訓練中心1980</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjb32c1PjaBZq1Z5v7URa8h6hWyxFVTXlTqex7TY2rvwWcRYP0GJj81YqSw1e4gFZdJMNCpjDAPgyDBvz1UKJP8hHNrT1SrrIBqIc8s5skskzLad6DrfhDdKM1bsFD_d5fFAyVaaTikHyKFFRZBFBRoanCcDokcyW4ZxaI1b3jU4zLpdBzJ_-01QBr3l8GMnxM4tkbXFUPoFg?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZilazGBNuOiNWn1RyYiXrzfMw7bs60WcAIR-CPLXlyIs21w6SkyLaSV3UKiPWmIGHOkwHkjMLMpqgPAKa2m7lLdXtMNanLqAqzVcO3XLp13NQzy2ALEmXQ-w8F3adUD0AtFtxHVlFkDt8xDK-hyry-oju5ou_vF5JE8C-olQXXEMgan2-BHFKGDzGhdAZ88gUtr7UbNFyrK3A?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjb32c1PjaBZq1Z5v7URa8h6hWyxFVTXlTqex7TY2rvwWcRYP0GJj81YqSw1e4gFZdJMNCpjDAPgyDBvz1UKJP8hHNrT1SrrIBqIc8s5skskzLad6DrfhDdKM1bsFD_d5fFAyVaaTikHyKFFRZBFBRoanCcDokcyW4ZxaI1b3jU4zLpdBzJ_-01QBr3l8GMnxM4tkbXFUPoFg?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZilazGBNuOiNWn1RyYiXrzfMw7bs60WcAIR-CPLXlyIs21w6SkyLaSV3UKiPWmIGHOkwHkjMLMpqgPAKa2m7lLdXtMNanLqAqzVcO3XLp13NQzy2ALEmXQ-w8F3adUD0AtFtxHVlFkDt8xDK-hyry-oju5ou_vF5JE8C-olQXXEMgan2-BHFKGDzGhdAZ88gUtr7UbNFyrK3A?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1337,11 +1358,11 @@
       </Placemark>
       <Placemark>
         <name>HNCB 華南銀行 資訊中心1979</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiSAUQEy0jCgWVdF77fhk4BPoOzUNZXqv65D93N73QaBJz59mh9zSp776Lup3lUiC9cL6rGhziJYUpGjq0tXXCX9esaY73xwfJKL4R62Yf9_eVwjcGftV4ZOwxZ3xna0IDr76lePGEhD_K4feu7m8Ir19iQns1UJgjdJ1YIWvWT1ZCHBz8bEMJjO6k1eLWOGNohprZS5dSzpo8?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgjyj4MLcanR0wIoC5XuIavOlTtIFc2Tvnm8w5UO4ADKfkWx9vyDxlrbX7dldzEpG4NRF2HaC3ZnBIK9heMyzNl1j-3XJSZ1bJptypYngNwhe8ZUMKRSSKuObms3vr8PKUku6ohWcMq9XbLtQAoqBVE2PfVPF6R0JoyNWyDZrInHU-bXjUYAkUhRSM2FvjgVijWDc7svG2bLhg?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiSAUQEy0jCgWVdF77fhk4BPoOzUNZXqv65D93N73QaBJz59mh9zSp776Lup3lUiC9cL6rGhziJYUpGjq0tXXCX9esaY73xwfJKL4R62Yf9_eVwjcGftV4ZOwxZ3xna0IDr76lePGEhD_K4feu7m8Ir19iQns1UJgjdJ1YIWvWT1ZCHBz8bEMJjO6k1eLWOGNohprZS5dSzpo8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgjyj4MLcanR0wIoC5XuIavOlTtIFc2Tvnm8w5UO4ADKfkWx9vyDxlrbX7dldzEpG4NRF2HaC3ZnBIK9heMyzNl1j-3XJSZ1bJptypYngNwhe8ZUMKRSSKuObms3vr8PKUku6ohWcMq9XbLtQAoqBVE2PfVPF6R0JoyNWyDZrInHU-bXjUYAkUhRSM2FvjgVijWDc7svG2bLhg?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1352,11 +1373,11 @@
       </Placemark>
       <Placemark>
         <name>月裡山莊1981</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjpbRsaVuiIBUxqGRRc63hmpNMC-N-vS5mbXGgcwWLaWlmxww5TjreKB5eHNxsHZHHOFBHWiy9OhiqHlqbTkbf2ghWvr8rbQapf0MrcK1A2SAYnWhkogV6df7yvrHEEe0U5B48XaO8m2EQITuJzedGdf47Rk1Z5QSgqdONVOhDBsV8NvbA2DRGvmuEyDRxuDCUI1nKxoeHqZSM?fife=s16383" height="200" width="auto" /><br><br>順益汽車董事長林清富]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg2nHY0lYOUAO-ux8EZ24nVB6fUy_SpTPzwjKVhGY6QeFXtvfszRCVlga3-6hNRQuZu_-Xa2VHc1GQDMY7c5-jwvI-P411DKybYW470vAf8n7wp_kuVKWg5MUZJfgRXVlhE6AZvRstuAn2OZqEKMu7Twptbd7zK3Z3IYV7LJyOCzZWGz0gNI_cYlk9QiRfc671OP2BjqCSAXLQ?fife=s16383" height="200" width="auto" /><br><br>順益汽車董事長林清富]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjpbRsaVuiIBUxqGRRc63hmpNMC-N-vS5mbXGgcwWLaWlmxww5TjreKB5eHNxsHZHHOFBHWiy9OhiqHlqbTkbf2ghWvr8rbQapf0MrcK1A2SAYnWhkogV6df7yvrHEEe0U5B48XaO8m2EQITuJzedGdf47Rk1Z5QSgqdONVOhDBsV8NvbA2DRGvmuEyDRxuDCUI1nKxoeHqZSM?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg2nHY0lYOUAO-ux8EZ24nVB6fUy_SpTPzwjKVhGY6QeFXtvfszRCVlga3-6hNRQuZu_-Xa2VHc1GQDMY7c5-jwvI-P411DKybYW470vAf8n7wp_kuVKWg5MUZJfgRXVlhE6AZvRstuAn2OZqEKMu7Twptbd7zK3Z3IYV7LJyOCzZWGz0gNI_cYlk9QiRfc671OP2BjqCSAXLQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1376,11 +1397,11 @@
       </Placemark>
       <Placemark>
         <name>首利大廈1981</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh2UcDdwLfotiWRxKzZAzPT-BopcKZ6z9V5dRfbXBy4ZL68VybvCBG_z1aAkbacgG4Y9AwNG0Wby7GLTvqOj7Tcc_qvrWBfsZ4lRQDS6GDJeTp2xYzjMCygjfPToMQHZtafAkRK2dBSGysNc_jyjGJ6B6q9yebt19Gu3NZaInreC_w3AhgJWhm3LTu4KtHeHadR5j0jM-S0WHQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjdreuhXBnXhEqKGRiFdNW8ta36NzXZwCtnGamHed_F31IAUSeSrm1nbYYSQUdXecPV_ItcGPvSRFY2C1aWzBa7qoTGcIQ5pcWZ-9dVnfcWBBhnz3jSe23TflwSq5sHUI1Jf9hLmWf1dnx0DU9_TkhGFF-0Sq4rROuTBWAflvGTbRK6JZ1gdFr4mP7VSOv4zLMIBpu_3RRJtv0?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh2UcDdwLfotiWRxKzZAzPT-BopcKZ6z9V5dRfbXBy4ZL68VybvCBG_z1aAkbacgG4Y9AwNG0Wby7GLTvqOj7Tcc_qvrWBfsZ4lRQDS6GDJeTp2xYzjMCygjfPToMQHZtafAkRK2dBSGysNc_jyjGJ6B6q9yebt19Gu3NZaInreC_w3AhgJWhm3LTu4KtHeHadR5j0jM-S0WHQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjdreuhXBnXhEqKGRiFdNW8ta36NzXZwCtnGamHed_F31IAUSeSrm1nbYYSQUdXecPV_ItcGPvSRFY2C1aWzBa7qoTGcIQ5pcWZ-9dVnfcWBBhnz3jSe23TflwSq5sHUI1Jf9hLmWf1dnx0DU9_TkhGFF-0Sq4rROuTBWAflvGTbRK6JZ1gdFr4mP7VSOv4zLMIBpu_3RRJtv0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1391,11 +1412,11 @@
       </Placemark>
       <Placemark>
         <name>台北市立銀行松山大樓1982</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjBaiMrqQTo6Cz8uhWYJtV6WwBq2kaEMcZx4cDZLsghvN4Q6tshoOKQATjduIPQpY2Ehfr1wxL4DsQmLT4z-XY8MQrDC8SaVHoWTXgYl8a8F9Hu8Y_VLc0bVg3BCHlDFbv3MyuXX_dxkYl7P-TDqvaDvR62rGZEEqeUC_g8zh-sOAMis1DU7Wc9zkpWYDfz2pl2DXST-B8F3EA?fife=s16383" height="200" width="auto" /><br><br>福住營造]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjbVGIbrIXG1dUC_n5pC4Woao_Bx17RlQv1iPlG5ZUpKLMVod3EmUcPn1ygfu6UgQ0EwBLo0W4BiCSZTwCmyioZjwOFyOs5L7uOnx5-25C0Y5LEe1922pdtbJlanY-SbS4PzXgyJJ7O1rsaVt1eEWVpma_MsqZL6uGk6K9evfHbwzzkOhjEuJEq_6qvNpAz84opwxna9izGArQ?fife=s16383" height="200" width="auto" /><br><br>福住營造]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjBaiMrqQTo6Cz8uhWYJtV6WwBq2kaEMcZx4cDZLsghvN4Q6tshoOKQATjduIPQpY2Ehfr1wxL4DsQmLT4z-XY8MQrDC8SaVHoWTXgYl8a8F9Hu8Y_VLc0bVg3BCHlDFbv3MyuXX_dxkYl7P-TDqvaDvR62rGZEEqeUC_g8zh-sOAMis1DU7Wc9zkpWYDfz2pl2DXST-B8F3EA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjbVGIbrIXG1dUC_n5pC4Woao_Bx17RlQv1iPlG5ZUpKLMVod3EmUcPn1ygfu6UgQ0EwBLo0W4BiCSZTwCmyioZjwOFyOs5L7uOnx5-25C0Y5LEe1922pdtbJlanY-SbS4PzXgyJJ7O1rsaVt1eEWVpma_MsqZL6uGk6K9evfHbwzzkOhjEuJEq_6qvNpAz84opwxna9izGArQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1433,11 +1454,11 @@
       </Placemark>
       <Placemark>
         <name>華視大樓1983</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjkop0P75vwIqAJmDmKx5xedMLtGUmsyk1DAIUeNivx4jPWVMTxhOSHrwoup4ieNXMq6B5Rap6dtZ5nmJUtRp6VT7tINmvqBh8oGrqR-Y6xGpvD2fVJSMq9XqXyFNTy_e_Lw8aX1Pa6fvbSWtNokfTZr6LLcSxeVcPragDr88YUmGiqwddGOBh15DDCxMFLBVbFSKRfLNTjNWo?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6HGxBJzGgH-JAS4VbaGQIacqXZgRrUhiju26w1uFrNwqrxpDmkpYI79snFSwDCl1RXrar4id4e12mgGEuBIMglu6HgIMaglCF_cl3PFLLuySlYXwpQRiIc4OxVzN4-swTRcQbbbta2FgOtlUzAWBqpGn6JXTceKJmEu1JcRZdePHqMjt29GRvBAGfZm0FV1CJ9i-UiYSdzqQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjkop0P75vwIqAJmDmKx5xedMLtGUmsyk1DAIUeNivx4jPWVMTxhOSHrwoup4ieNXMq6B5Rap6dtZ5nmJUtRp6VT7tINmvqBh8oGrqR-Y6xGpvD2fVJSMq9XqXyFNTy_e_Lw8aX1Pa6fvbSWtNokfTZr6LLcSxeVcPragDr88YUmGiqwddGOBh15DDCxMFLBVbFSKRfLNTjNWo?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi6HGxBJzGgH-JAS4VbaGQIacqXZgRrUhiju26w1uFrNwqrxpDmkpYI79snFSwDCl1RXrar4id4e12mgGEuBIMglu6HgIMaglCF_cl3PFLLuySlYXwpQRiIc4OxVzN4-swTRcQbbbta2FgOtlUzAWBqpGn6JXTceKJmEu1JcRZdePHqMjt29GRvBAGfZm0FV1CJ9i-UiYSdzqQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1457,11 +1478,11 @@
       </Placemark>
       <Placemark>
         <name>司法官訓練所1983</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg2TbAXZ57qKM_gTDnldg7UO_3sq_z3m1vo56QjA6qn54KVabBWcU7fkj848YThzCEd6b_Ig1EwSCU8ZEHi2ey1QGZ5xLDV0WFpovAYy5KQyga0ho69JY7TzExg5ocVHKlDrN0rRu2tJUhWcHWfrQy52piLDa7FVgZrwEq5ZvOTZIw2eKAdzqBPdbL0Hs9jA1G3wiZZCHxmd_k?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiRVLXl57FXodIq6NppPhLVM4HNN7VDzM7DhBKp67NtnGp61EugGHzfsBXfS6ngGhDqi5BeZZ9Jt8hwSRGxgdq8xLtNvnARHCUUwKFqUXpRHydDSRoi7yZbItcYb89ETK6d9_RwJYopEVaa8imFSYRpXxDITRGgylLguEIgDZtPtMlJO3Kk-HDqlV7yaQCRvihOUY_Z_NNxEEg?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg2TbAXZ57qKM_gTDnldg7UO_3sq_z3m1vo56QjA6qn54KVabBWcU7fkj848YThzCEd6b_Ig1EwSCU8ZEHi2ey1QGZ5xLDV0WFpovAYy5KQyga0ho69JY7TzExg5ocVHKlDrN0rRu2tJUhWcHWfrQy52piLDa7FVgZrwEq5ZvOTZIw2eKAdzqBPdbL0Hs9jA1G3wiZZCHxmd_k?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiRVLXl57FXodIq6NppPhLVM4HNN7VDzM7DhBKp67NtnGp61EugGHzfsBXfS6ngGhDqi5BeZZ9Jt8hwSRGxgdq8xLtNvnARHCUUwKFqUXpRHydDSRoi7yZbItcYb89ETK6d9_RwJYopEVaa8imFSYRpXxDITRGgylLguEIgDZtPtMlJO3Kk-HDqlV7yaQCRvihOUY_Z_NNxEEg?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1472,11 +1493,11 @@
       </Placemark>
       <Placemark>
         <name>富邦產物大樓1984</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZixGpJHgGLmKh4BeXqglZdoaXtwCySisLUFSbeH28ZbqQ5-ZXnTeNe-AsQA-QWlXjVP0OqonvAU6l2Y_HwNmQ_1954rCyjEno0RgQ5Ncp3MXFhu65yDhoeKtLmKnP_MBLO6tQCpxWO7yBXbDIujZQGhn_JmgjqWVBEalUSj9Nw96uQolM6lM-xgpQzEK50eRGNK4cmMKSmAU6s?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgllHlgSa3D4yOmWuayI22g7V-1PhUchduaDR3xsvLc7WfGAoKiQhelugFYvu1G9d4vFRbAVoxkIxaR0ioBOaZsuxSAJ01-B1TXiMeJhhMhmXVtSl2YmbBr9S1tz_AWOps69ftISqyeeYzawtgXxG76DcGhbNiLP9WABp24D69O0-tMA2sy0miTDzWzNiFjickm8AqtaWfjEDg?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZixGpJHgGLmKh4BeXqglZdoaXtwCySisLUFSbeH28ZbqQ5-ZXnTeNe-AsQA-QWlXjVP0OqonvAU6l2Y_HwNmQ_1954rCyjEno0RgQ5Ncp3MXFhu65yDhoeKtLmKnP_MBLO6tQCpxWO7yBXbDIujZQGhn_JmgjqWVBEalUSj9Nw96uQolM6lM-xgpQzEK50eRGNK4cmMKSmAU6s?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgllHlgSa3D4yOmWuayI22g7V-1PhUchduaDR3xsvLc7WfGAoKiQhelugFYvu1G9d4vFRbAVoxkIxaR0ioBOaZsuxSAJ01-B1TXiMeJhhMhmXVtSl2YmbBr9S1tz_AWOps69ftISqyeeYzawtgXxG76DcGhbNiLP9WABp24D69O0-tMA2sy0miTDzWzNiFjickm8AqtaWfjEDg?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1559,11 +1580,11 @@
       </Placemark>
       <Placemark>
         <name>振興醫院1987</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhLM2PsiUy6cQK9yoJZK1UhS0ZArxhYE3efxwBWQDxzfWgaD40ML_93Fr1_JlPYrErOTkd50DJQIG2ikert0Qmt_nvh3qSwU0h9ymsLQlwiCHeS3JmQrBrD2E-vwOyzyL7ju4XxN-uUXIuxuuHDcYVGlyd-uzMdxcbyYAiRioc5w65Vwb-HQnxL58uBqAkrWsD4tsj_Q8ZgVQ4?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiWqm7s7pUQv3csugKWMdxfrg3ASfcKUAHJLKmO18pR0SF4Tib4_W_pUf3NJsT_R8luz9d3_0Oe4dKoJ38cVdlseaOIPE9LnECC1O5Dj66b5acR1hAnE3cO6bgJFvkRm_1LfMuPVYEZGIS1Nm8O_rWAlNyUjKH4K1YWNKYYXOXhkNWPnyLWKa7U16ksFbtHC_HUlAzXudW7MG4?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhLM2PsiUy6cQK9yoJZK1UhS0ZArxhYE3efxwBWQDxzfWgaD40ML_93Fr1_JlPYrErOTkd50DJQIG2ikert0Qmt_nvh3qSwU0h9ymsLQlwiCHeS3JmQrBrD2E-vwOyzyL7ju4XxN-uUXIuxuuHDcYVGlyd-uzMdxcbyYAiRioc5w65Vwb-HQnxL58uBqAkrWsD4tsj_Q8ZgVQ4?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiWqm7s7pUQv3csugKWMdxfrg3ASfcKUAHJLKmO18pR0SF4Tib4_W_pUf3NJsT_R8luz9d3_0Oe4dKoJ38cVdlseaOIPE9LnECC1O5Dj66b5acR1hAnE3cO6bgJFvkRm_1LfMuPVYEZGIS1Nm8O_rWAlNyUjKH4K1YWNKYYXOXhkNWPnyLWKa7U16ksFbtHC_HUlAzXudW7MG4?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1655,11 +1676,11 @@
       </Placemark>
       <Placemark>
         <name>台灣YKK股份有限公司1996</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg6okEteCiZ_yXToi07_hgYBhqTh2mByGs7lIiHUVeVPVM3OQFtdRssDz0T8L_0t3-LGMYzcTUNVA6j48PXhLa8ymRfZrVopFVJ6DBThnSCOeN1kbyXihm3py1fIqJMEMhyviaeelg6eAxmV3LMQsmpzoBoDA5ssq1jfCmWEeEgfmYOU_5VSSjJGPY6IoAPWAbd9FPMMZ0v5F0?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjps7pdKO3JH5fuXh_AbZHiUXUXCK0qJVRQAjvfrqvUCuMzVPAClLfpR1AZjkKeGbiRPvXiSM4rQoOz4qu-UbfaPZEStJGSd4xsyzU7qGs4iAvAE_dpU5oYCk3RQ7C2kIAMVBCrQv5H6A6yQbnslmwEzRg4EwMRaxyATrRMXlk5Hxtn05EtiFB1o1iXVBjakutTnbjdkCI1xt0?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg6okEteCiZ_yXToi07_hgYBhqTh2mByGs7lIiHUVeVPVM3OQFtdRssDz0T8L_0t3-LGMYzcTUNVA6j48PXhLa8ymRfZrVopFVJ6DBThnSCOeN1kbyXihm3py1fIqJMEMhyviaeelg6eAxmV3LMQsmpzoBoDA5ssq1jfCmWEeEgfmYOU_5VSSjJGPY6IoAPWAbd9FPMMZ0v5F0?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjps7pdKO3JH5fuXh_AbZHiUXUXCK0qJVRQAjvfrqvUCuMzVPAClLfpR1AZjkKeGbiRPvXiSM4rQoOz4qu-UbfaPZEStJGSd4xsyzU7qGs4iAvAE_dpU5oYCk3RQ7C2kIAMVBCrQv5H6A6yQbnslmwEzRg4EwMRaxyATrRMXlk5Hxtn05EtiFB1o1iXVBjakutTnbjdkCI1xt0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1714,7 +1735,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>壯觀台北集合住宅2002</name>
+        <name>台北九如大廈1999</name>
         <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1779,11 +1800,11 @@
       </Placemark>
       <Placemark>
         <name>日月潭觀光飯店(已拆除)1974</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg0HpPmJKx9DCsIjN-ZBlHVfUQx_rpn5YbGthGMpsOUk7Qz_1958ycIoM15UzjT2MEpbUGkVt_dxTm2KS9GgSoB08kGOwXhDDCocTIXavimLVM0upESegGulgkgMACSFu07rUzdA8Ar5IMPeFFGkWJMD5ySoR3Ow_KkjZ8LVhIlDDZxaf4SjdSG5VT3BIjpSFsVOj_nT5ZfMA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZji8lIovc_-e6JkqK2KdsTZz__AVRgewAfBdRogxpE3p6VaDEWAo87c6Cd0_q87C2XRcoHcxiXy0PM0B94ghHg63jInuin_EKlBLr9ssE05nqN75T9lqf5jmOy9669SLkC2y0BY6R0sn1sqXQiryKKbTX092xPmKXBAb8izGzooI5rXC9lV1vutOYkhpTQJhynIsq00OKMRSQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1778-E65100-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg0HpPmJKx9DCsIjN-ZBlHVfUQx_rpn5YbGthGMpsOUk7Qz_1958ycIoM15UzjT2MEpbUGkVt_dxTm2KS9GgSoB08kGOwXhDDCocTIXavimLVM0upESegGulgkgMACSFu07rUzdA8Ar5IMPeFFGkWJMD5ySoR3Ow_KkjZ8LVhIlDDZxaf4SjdSG5VT3BIjpSFsVOj_nT5ZfMA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZji8lIovc_-e6JkqK2KdsTZz__AVRgewAfBdRogxpE3p6VaDEWAo87c6Cd0_q87C2XRcoHcxiXy0PM0B94ghHg63jInuin_EKlBLr9ssE05nqN75T9lqf5jmOy9669SLkC2y0BY6R0sn1sqXQiryKKbTX092xPmKXBAb8izGzooI5rXC9lV1vutOYkhpTQJhynIsq00OKMRSQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1911,6 +1932,88 @@
         <Point>
           <coordinates>
             121.538822,25.034684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>興進路國泰人壽住宅1974</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.6975799,24.1557469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南新街階梯狀高程販厝1974</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.7445296,25.1234619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國泰人壽中壢通訊處1975</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.2242756,24.9581923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>玉山銀行 林園分行1979</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.3943837,22.5098495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>彰化縣肉品市場1983</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.452141,23.953653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高雄廣播電臺中寮發射站1983</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.4328558,22.8311812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>舊台汽彰化站1987
+</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.5424914,24.0858921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>台灣日立江森台中營業所1993</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.6053355,24.1559449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>台灣博世舒適科技股份有限公司 桃園工廠1994</name>
+        <styleUrl>#icon-1778-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.2813481,25.0681344,0
           </coordinates>
         </Point>
       </Placemark>
