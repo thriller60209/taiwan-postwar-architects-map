@@ -1495,6 +1495,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>台灣綠十字股份有限公司龍潭工廠1977</name>
+        <description>董事長：林錫池</description>
+        <styleUrl>#icon-1565-795548-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.208105,24.885532,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>寺廟</name>
