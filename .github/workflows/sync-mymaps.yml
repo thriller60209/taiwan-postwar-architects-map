@@ -2,7 +2,7 @@ name: Sync from Google My Maps
 
 on:
   schedule:
-    - cron: "17 * * * *"      # every hour at :17 (UTC)
+    - cron: "7,22,37,52 * * * *"   # four slots an hour: GitHub often delays or skips scheduled runs
   workflow_dispatch:           # "Run workflow" button in the Actions tab
   push:
     paths:

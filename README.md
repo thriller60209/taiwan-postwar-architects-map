@@ -16,8 +16,8 @@ scripts/build_site.py   ← rebuilds data/, dist/wooo-map/ and index.html from s
 scripts/config.json     ← architects (order + colour), aliases, duplicate-merge pairs
 scripts/template.html   ← standalone page shell (header/footer around the module)
 src/wooo-map/          ← the map itself: core.js + wooo-map.css (edit map behaviour/style here)
-sources/                ← static snapshots; sources/live/ = maps refreshed from Google My Maps every hour
-.github/workflows/      ← hourly sync job
+sources/                ← static snapshots; sources/live/ = maps refreshed from Google My Maps every 15 minutes (GitHub may delay scheduled runs)
+.github/workflows/      ← sync job (every 15 min + manual "Run workflow")
 data/architects.json    ← 80 architect layers: { id, name, color, count }  (ordered by surname stroke count)
 data/buildings.json     ← 1,647 buildings: { id, name, year, architects[], lat, lng, description_html, sources[] }
 .vercelignore           ← keeps raw KMZ sources / helper scripts out of the deployment
@@ -94,7 +94,7 @@ Merged and de-duplicated from five Google My Maps KMZ files by the author:
 
 ## Updating
 
-**Data — automatic.** `.github/workflows/sync-mymaps.yml` runs every hour (and on demand from the Actions tab →
+**Data — automatic.** `.github/workflows/sync-mymaps.yml` runs every 15 minutes — GitHub sometimes delays or skips scheduled runs, so after a big edit press "Run workflow" for an immediate update — (and on demand from the Actions tab →
 "Sync from Google My Maps" → Run workflow). It downloads the live Google My Maps
 (IDs listed in the workflow) as KML into `sources/live/`, runs `scripts/build_site.py`, and commits `index.html` + `data/`
 if anything changed; Vercel then redeploys. Each live map replaces the static snapshot in `sources/*.kmz` with the
@@ -130,5 +130,5 @@ map.destroy();
 ```
 
 `scripts/build_site.py` writes `data/*.json` (unchanged contract), `dist/wooo-map/*` and the
-standalone `index.html`, which is now a thin shell around the same module. The hourly workflow
+standalone `index.html`, which is now a thin shell around the same module. The sync workflow
 commits `dist/` too. How the official Astro site mounts it: **docs/ASTRO_INTEGRATION.md**.
