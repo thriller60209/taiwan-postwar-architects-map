@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>demo: /archive/map shell / wooo-map 07c2a89396</title>
+<title>demo: /archive/map shell / wooo-map 9cf6266a66</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="wooo-map/wooo-map.css?v=07c2a89396">
+<link rel="stylesheet" href="wooo-map/wooo-map.css?v=9cf6266a66">
 <!-- Test page only. Imitates the official Astro BaseLayout (header, footer, crosshair)
      so we can check the component adds no second header, footer, logo or cursor. -->
 <style>
@@ -57,9 +57,9 @@ h1{margin:0 0 14px;font-size:10pt;font-weight:700;color:var(--silver-title)}
 document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--cursor-x",e.clientX+"px");r.setProperty("--cursor-y",e.clientY+"px");},{passive:true});
 </script>
 <script type="module">
-import { mountWoooMap } from "./wooo-map/wooo-map.js?v=07c2a89396";
+import { mountWoooMap } from "./wooo-map/wooo-map.js?v=9cf6266a66";
 const host = document.getElementById("map-host");
-const opts = { architectsUrl: "../data/architects.json?v=2c36031cc1", buildingsUrl: "../data/buildings.json?v=2c36031cc1", initialView: "taiwan", mobileBreakpoint: 760 };
+const opts = { architectsUrl: "../data/architects.json?v=f6bff0ee43", buildingsUrl: "../data/buildings.json?v=f6bff0ee43", initialView: "taiwan", mobileBreakpoint: 760 };
 let map = await mountWoooMap(host, opts);
 // ?remount=N : mount/destroy N times to check that destroy() leaves nothing behind
 const n = +new URLSearchParams(location.search).get("remount") || 0;

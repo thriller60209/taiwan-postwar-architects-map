@@ -336,6 +336,7 @@ def build():
             extra = [x for x in extra if plain(x) not in pq]
             extra.append(q['desc'])
         d = clean('<br><br>'.join(parts + extra))
+        d = re.sub(r'(<[^>]*>)|台灣', lambda m: m.group(1) or '臺灣', d)   # text only, never inside tags/URLs
         # 王秀蓮's My Map sorts her works into building types (one folder each): show it first
         types = []
         for q in [prim] + secs:
@@ -349,6 +350,7 @@ def build():
                 if year(q['name']) is not None:
                     name = q['name'].strip().replace('\n', ' ')
                     break
+        name = name.replace('台灣', '臺灣')
         alln = ' '.join([name] + [q['name'] for q in secs])
         t = (alln + ' ' + plain(html.unescape(re.sub('<[^>]+>', ' ', '<br>'.join([prim['desc']] + [q['desc'] for q in secs]))))).lower()
         B.append(dict(n=name, y=year(name), a=a, lat=round(lat, 6), lng=round(lng, 6), d=d, s=src, t=t))

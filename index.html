@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="dist/wooo-map/wooo-map.css?v=07c2a89396">
+<link rel="stylesheet" href="dist/wooo-map/wooo-map.css?v=9cf6266a66">
 <!-- Standalone shell. The map itself is the dist/wooo-map module, the same one the
      atelier WooO website mounts at /archive/map. Edit the map in src/wooo-map/. -->
 <style>
@@ -56,7 +56,7 @@ a{color:inherit;text-decoration:none}a:hover,a:focus-visible{text-decoration:und
 <body>
 <div class="index-cursor index-cursor-x" aria-hidden="true"></div><div class="index-cursor index-cursor-y" aria-hidden="true"></div>
 <header class="site-header">
-  <a class="brand" href="https://atelierwooo.vercel.app/"><img src="assets/wooo-logo-silver.png" alt="atelier WooO"><span>台灣戰後建築師地圖<span class="en"><br>taiwan post-war architects map</span></span></a>
+  <a class="brand" href="https://atelierwooo.vercel.app/"><img src="assets/wooo-logo-silver.png" alt="atelier WooO"><span>臺灣戰後建築師地圖<span class="en"><br>taiwan post-war architects map</span></span></a>
   <nav class="nav" aria-label="primary"><a href="https://atelierwooo.vercel.app/">index</a><a href="https://atelierwooo.vercel.app/axis">axis</a><a href="https://atelierwooo.vercel.app/archive" aria-current="page">archive</a><a href="https://atelierwooo.vercel.app/about">about</a></nav>
 </header>
 <main class="map-slot" id="map-slot"></main>
@@ -65,10 +65,10 @@ a{color:inherit;text-decoration:none}a:hover,a:focus-visible{text-decoration:und
 document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--cursor-x",e.clientX+"px");r.setProperty("--cursor-y",e.clientY+"px");},{passive:true});
 </script>
 <script type="module">
-import { mountWoooMap } from "./dist/wooo-map/wooo-map.js?v=07c2a89396";
+import { mountWoooMap } from "./dist/wooo-map/wooo-map.js?v=9cf6266a66";
 mountWoooMap(document.getElementById("map-slot"), {
-  architectsUrl: "data/architects.json?v=2c36031cc1",
-  buildingsUrl: "data/buildings.json?v=2c36031cc1",
+  architectsUrl: "data/architects.json?v=f6bff0ee43",
+  buildingsUrl: "data/buildings.json?v=f6bff0ee43",
   initialView: "taiwan",
   mobileBreakpoint: 760
 });

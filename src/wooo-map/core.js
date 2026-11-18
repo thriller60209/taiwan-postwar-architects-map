@@ -62,6 +62,8 @@ function sanitize(html) {
   walk(tpl.content, out);
   return out;
 }
+// search folds 臺/台 so either spelling finds the same works
+const fold = (t) => String(t).replace(/臺/g, "台").toLowerCase();
 const plainText = (html) => { const t = document.createElement("template"); t.innerHTML = String(html || ""); return t.content.textContent || ""; };
 
 async function getJSON(url, signal) {
@@ -165,7 +167,7 @@ export async function mountWoooMap(container, opts = {}) {
   const COLORS = arch.map((a) => a.color);
   const B = bld.map((b, i) => ({
     i, n: b.name, y: b.year, a: b.architects, lat: b.lat, lng: b.lng, d: b.description_html || "", s: b.sources || [],
-    t: [b.name, plainText(b.description_html).replace(/\s+/g, ""), b.architects.map((k) => ARCH[k]).join(" "), b.year || ""].join(" ").toLowerCase()
+    t: fold([b.name, plainText(b.description_html).replace(/\s+/g, ""), b.architects.map((k) => ARCH[k]).join(" "), b.year || ""].join(" "))
   }));
   const sortWorks = (x, y) => (x.y ?? 9999) - (y.y ?? 9999) || x.n.localeCompare(y.n, "zh-Hant");
   const byArch = ARCH.map((_, k) => B.filter((b) => b.a.includes(k)).sort(sortWorks));
@@ -178,7 +180,7 @@ export async function mountWoooMap(container, opts = {}) {
   const inLayers = (b) => selected.length === 0 || b.a.some(isSel);
   const colorIdx = (b) => {
     if (selected.length) for (const k of selected) if (b.a.includes(k)) return k;
-    for (const t of tokens) { const k = ARCH.indexOf(t); if (k >= 0 && b.a.includes(k)) return k; }
+    for (const t of tokens) { const k = ARCH.findIndex((n) => fold(n) === t); if (k >= 0 && b.a.includes(k)) return k; }
     return b.a[0];
   };
 
@@ -188,7 +190,7 @@ export async function mountWoooMap(container, opts = {}) {
   lmap.attributionControl.setPrefix(false);
   const Zoom = L.Control.extend({ options: { position: "topright" }, onAdd() {
     const d = L.DomUtil.create("div", "wooo-map__zoom");
-    d.innerHTML = '<button type="button" aria-label="放大">+</button><button type="button" aria-label="縮小">−</button><button type="button" aria-label="全台灣">TW</button>';
+    d.innerHTML = '<button type="button" aria-label="放大">+</button><button type="button" aria-label="縮小">−</button><button type="button" aria-label="全臺灣">TW</button>';
     const [a, b, c] = d.querySelectorAll("button");
     a.onclick = () => lmap.zoomIn(); b.onclick = () => lmap.zoomOut();
     c.onclick = () => lmap.flyTo(view.center, view.zoom, { duration: reduceMotion ? 0 : 0.8 });
@@ -349,7 +351,7 @@ export async function mountWoooMap(container, opts = {}) {
   function runSearch() {
     clearTimeout(qTimer);
     qTimer = later(() => {
-      const nt = q.value.trim().toLowerCase().split(/[\s　,，、]+/).filter(Boolean);
+      const nt = fold(q.value.trim()).split(/[\s　,，、]+/).filter(Boolean);
       if (nt.join(" ") === tokens.join(" ")) return;
       if (nt.length) selected.length = 0;
       tokens = nt; update(true);
