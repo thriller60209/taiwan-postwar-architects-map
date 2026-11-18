@@ -246,6 +246,17 @@ def same_place(u, item_pts):
     return best
 
 
+# Place names use 臺: 臺灣、臺北、臺中、臺南、臺東、臺西、臺江、臺省 (臺灣省), and 臺 = Taiwan after 抵/來/返/赴/訪/離.
+# Not touched: 台 in ordinary words (陽台、舞台、司令台、電台、天文台…), company or school
+# abbreviations (台電、台糖、台大…), personal names and 新台幣.
+TAI_PLACE = re.compile(r'(?<![陽舞令電文塔平講櫃月窗站戲看])台(?=[灣北中南東西江省])'
+                       r'|(?<=[抵來返赴訪離])台(?![\u4e00-\u9fff])')   # 抵台 = arrived in Taiwan
+
+
+def tai(text):
+    return TAI_PLACE.sub('臺', text)
+
+
 def resolve_merges(pts):
     by = {}
     for p in pts:
@@ -336,7 +347,7 @@ def build():
             extra = [x for x in extra if plain(x) not in pq]
             extra.append(q['desc'])
         d = clean('<br><br>'.join(parts + extra))
-        d = re.sub(r'(<[^>]*>)|台灣', lambda m: m.group(1) or '臺灣', d)   # text only, never inside tags/URLs
+        d = re.sub(r'(<[^>]*>)|([^<]+)', lambda m: m.group(1) or tai(m.group(2)), d)   # text only, never inside tags/URLs
         # 王秀蓮's My Map sorts her works into building types (one folder each): show it first
         types = []
         for q in [prim] + secs:
@@ -350,7 +361,7 @@ def build():
                 if year(q['name']) is not None:
                     name = q['name'].strip().replace('\n', ' ')
                     break
-        name = name.replace('台灣', '臺灣')
+        name = tai(name)
         alln = ' '.join([name] + [q['name'] for q in secs])
         t = (alln + ' ' + plain(html.unescape(re.sub('<[^>]+>', ' ', '<br>'.join([prim['desc']] + [q['desc'] for q in secs]))))).lower()
         B.append(dict(n=name, y=year(name), a=a, lat=round(lat, 6), lng=round(lng, 6), d=d, s=src, t=t))
