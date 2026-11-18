@@ -1328,6 +1328,33 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>溫有諒醫院1979</name>
+        <styleUrl>#icon-1603-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.2586418,22.8579424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>湖內蘇宅1979</name>
+        <styleUrl>#icon-1603-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.22492962328,22.9099381300622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>龜山蓮宅1981</name>
+        <styleUrl>#icon-1603-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.3292883,24.9912385,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>工廠</name>

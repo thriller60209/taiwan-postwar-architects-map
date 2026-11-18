@@ -59,7 +59,7 @@ document.addEventListener("pointermove",e=>{const r=document.documentElement.sty
 <script type="module">
 import { mountWoooMap } from "./wooo-map/wooo-map.js?v=9cf6266a66";
 const host = document.getElementById("map-host");
-const opts = { architectsUrl: "../data/architects.json?v=f6bff0ee43", buildingsUrl: "../data/buildings.json?v=f6bff0ee43", initialView: "taiwan", mobileBreakpoint: 760 };
+const opts = { architectsUrl: "../data/architects.json?v=02b05da49e", buildingsUrl: "../data/buildings.json?v=02b05da49e", initialView: "taiwan", mobileBreakpoint: 760 };
 let map = await mountWoooMap(host, opts);
 // ?remount=N : mount/destroy N times to check that destroy() leaves nothing behind
 const n = +new URLSearchParams(location.search).get("remount") || 0;
