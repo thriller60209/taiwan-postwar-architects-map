@@ -1,7 +1,7 @@
 {
  "name": "wooo-map",
  "version": "1cd9c8f3a9",
- "dataVersion": "9003c92f8b",
+ "dataVersion": "b15d8bcd01",
  "entry": "wooo-map.js",
  "style": "wooo-map.css",
  "export": "mountWoooMap(container, { architectsUrl, buildingsUrl, data, initialView, mobileBreakpoint, L, leafletUrl }) -> { destroy(), map, element }",
@@ -10,6 +10,6 @@
   "architects": "data/architects.json",
   "buildings": "data/buildings.json",
   "architectsCount": 80,
-  "buildingsCount": 1977
+  "buildingsCount": 1982
  }
 }
