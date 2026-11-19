@@ -220,7 +220,7 @@ export async function mountWoooMap(container, opts = {}) {
   }
 
   /* ---------- detail card ---------- */
-  const body = $("body");
+  const body = $("body"), detail = $("detail");
   function openCard(b) {
     body.textContent = "";
     const top = document.createElement("div"); top.className = "wooo-map__pp-top";
@@ -236,15 +236,18 @@ export async function mountWoooMap(container, opts = {}) {
     if (b.d) { const d = document.createElement("div"); d.className = "wooo-map__pp-body"; d.appendChild(sanitize(b.d)); body.appendChild(d); }
     const src = document.createElement("div"); src.className = "wooo-map__pp-src";
     src.innerHTML = `來源：${b.s.map(esc).join("；")}<br><span>${b.lat.toFixed(5)}, ${b.lng.toFixed(5)}</span>`;
-    body.appendChild(src);
+    const foot = document.createElement("div"); foot.className = "wooo-map__foot";
+    foot.appendChild(src);
     const g = document.createElement("a"); g.className = "wooo-map__gmap"; g.target = "_blank"; g.rel = "noopener noreferrer";
     g.href = `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}`; g.textContent = "在 Google Maps 開啟 ↗";
-    body.appendChild(g);
+    foot.appendChild(g);
+    detail.querySelector(".wooo-map__foot")?.remove();
+    detail.appendChild(foot);
     body.scrollTop = 0;
     root.dataset.card = "";
     requestAnimationFrame(() => {
       if (ac.signal.aborted) return;
-      const h = Math.min($("detail").offsetHeight, root.clientHeight * 0.46);
+      const h = Math.min(detail.offsetHeight, root.clientHeight * 0.46);
       dive([b.lat, b.lng], isMobile() ? h / 2 : 0);
     });
   }

@@ -4,38 +4,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>demo: /archive/map shell / wooo-map __VERSION__</title>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+<title>demo: /archive/map host / wooo-map __VERSION__</title>
 <link rel="stylesheet" href="wooo-map/wooo-map.css?v=__VERSION__">
-<!-- Test page only. Imitates the official Astro BaseLayout (header, footer, crosshair)
-     so we can check the component adds no second header, footer, logo or cursor. -->
+<!-- Test page only. Mirrors the official Astro site (handoff 2026-11-19: global.css,
+     BaseLayout, map.astro host): fonts, 1280px .site, terminal command line and the
+     map host height, so the module can be checked exactly as it is embedded. -->
 <style>
-:root{--silver:#b4bebe;--silver-light:#d0d8d8;--silver-dark:#737c7c;--silver-text:#b4bebe;--silver-title:#d0d8d8;--silver-muted:#7f8888;--rule:rgba(180,190,190,.5);--cursor-x:-100vw;--cursor-y:-100vh}
+@font-face{font-family:"Cascadia Mono";src:url("../assets/fonts/CascadiaMono.woff2") format("woff2");font-weight:200 700;font-display:block}
+@font-face{font-family:"Fusion Pixel ZHTW";src:url("../assets/fonts/FusionPixel12-ZHTW.woff2") format("woff2");font-weight:400;font-display:block}
+:root{--silver:#b4bebe;--silver-light:#d0d8d8;--silver-dark:#737c7c;--black:#000;--silver-text:#b4bebe;--silver-title:#d0d8d8;--silver-muted:#7f8888;--rule:rgba(180,190,190,.5);--cursor-x:-100vw;--cursor-y:-100vh;
+  --font-mono:"Cascadia Mono","Fusion Pixel ZHTW","MingLiU","PMingLiU","新細明體",monospace}
 *{box-sizing:border-box}
-html{background:#000;color:var(--silver-text);font-family:"Source Code Pro","Microsoft JhengHei",Arial,sans-serif;font-size:10pt;letter-spacing:0}
-body{margin:0;background:#000}
-a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}
-.index-cursor{position:fixed;z-index:3000;pointer-events:none;opacity:0;transition:opacity .14s}
+html,body{overflow-x:hidden}
+html{background:#000;color:var(--silver-text);font-family:var(--font-mono);font-size:10pt;letter-spacing:0;scrollbar-gutter:stable}
+body{margin:0;min-height:100vh;background:#000}
+a{color:inherit;text-decoration:none}a:hover,a:focus{text-decoration:underline}
+.index-cursor{position:fixed;z-index:20;pointer-events:none;opacity:0;transition:opacity 140ms ease}
 .index-cursor-x{left:0;right:0;top:var(--cursor-y);height:2px;background:rgba(180,190,190,.46)}
 .index-cursor-y{top:0;bottom:0;left:var(--cursor-x);width:2px;background:rgba(180,190,190,.42)}
-@media (hover:hover) and (pointer:fine){body,body *{cursor:none}body:hover .index-cursor{opacity:1}}
+@media (hover:hover) and (pointer:fine){html,body,a,button{cursor:none}body:hover .index-cursor{opacity:1}}
 .site{width:min(100%,1280px);margin:0 auto;padding:14px 18px 48px;min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden}
 main{flex:1}
 .site-header{display:grid;grid-template-columns:170px 1fr;gap:28px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:18px}
 .brand{display:flex;align-items:center;gap:8px;line-height:1.2}
 .brand img{width:58px;height:auto;display:block}
-.nav{display:flex;gap:14px;justify-content:flex-end}
+.nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;line-height:1.2}
 .nav a[aria-current="page"]{text-decoration:underline}
-h1{margin:0 0 14px;font-size:10pt;font-weight:700;color:var(--silver-title)}
-.archive-views{display:flex;gap:8px;margin:0 0 14px;color:var(--silver-muted)}
-.archive-views a[aria-current="page"]{color:var(--silver-text);text-decoration:underline}
-.map-host{height:calc(100dvh - 210px);min-height:420px;border-top:1px solid var(--rule)}
+.map-heading{display:flex;justify-content:space-between;gap:20px;align-items:baseline}
+.cmd{margin:0 0 14px;line-height:1.45}
+.cmd b{font-weight:700}
+.map-heading button{min-height:44px;border:0;padding:0;background:transparent;color:var(--silver-muted);font:inherit}
+.wooo-map-host{height:calc(100dvh - 248px);min-height:420px;border-top:1px solid var(--rule);overflow:hidden}
 .site-footer{margin-top:2lh;display:flex;justify-content:center;font-size:8pt;line-height:1.4}
 @media (max-width:760px){
   .site{padding:12px 12px 36px}
-  .site-header{grid-template-columns:1fr;gap:10px}
-  .nav{justify-content:flex-start}
-  .map-host{height:calc(100dvh - 190px);margin:0 -12px}
+  .site-header{grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center}
+  .nav{display:grid;grid-template-columns:repeat(2,max-content);gap:8px 14px;justify-content:end;align-self:center;text-align:right}
+  .wooo-map-host{height:calc(100dvh - 262px);min-height:420px}
 }
 </style>
 </head>
@@ -47,9 +52,11 @@ h1{margin:0 0 14px;font-size:10pt;font-weight:700;color:var(--silver-title)}
     <nav class="nav" aria-label="primary"><a href="#">index</a><a href="#">axis</a><a href="#" aria-current="page">archive</a><a href="#">about</a></nav>
   </header>
   <main>
-    <h1>archive</h1>
-    <nav class="archive-views" aria-label="archive view"><a href="#">list</a><span aria-hidden="true">/</span><a href="#" aria-current="page">map</a></nav>
-    <div class="map-host" id="map-host"></div>
+    <div class="map-heading">
+      <p class="cmd">C:\WooO\database&gt; open [list/<b>map</b>]</p>
+      <button type="button">logout</button>
+    </div>
+    <div class="wooo-map-host" id="map-host" aria-label="post-war architects map"></div>
   </main>
   <footer class="site-footer">selected database by atelier WooO</footer>
 </div>
