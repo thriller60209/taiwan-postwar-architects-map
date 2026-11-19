@@ -132,3 +132,16 @@ map.destroy();
 `scripts/build_site.py` writes `data/*.json` (unchanged contract), `dist/wooo-map/*` and the
 standalone `index.html`, which is now a thin shell around the same module. The sync workflow
 commits `dist/` too. How the official Astro site mounts it: **docs/ASTRO_INTEGRATION.md**.
+
+## Module release (handoff 2026-11-19)
+
+The website (atelierwooo.vercel.app) vendors `dist/wooo-map/{wooo-map.js, wooo-map.css, manifest.json}`
+as one release. Every build regenerates `manifest.json` (module `version`, `dataVersion`,
+`architectsCount`, `buildingsCount`) from the code and the live data, so counts are never hand-written.
+
+- Fonts: the module registers no typeface. It uses the host's `--font-mono`
+  (Cascadia Mono + Fusion Pixel ZHTW, fallback MingLiU/PMingLiU/新細明體/monospace).
+  `assets/fonts/` holds both fonts and their licences (SIL OFL 1.1) for the standalone page and the demo only.
+- Desktop card: max height = host height − 28px; body scrolls, source + Google Maps row stay pinned.
+- Test pages: `dist/demo.html` mirrors the website's `/archive/map` host (1280px `.site`, terminal command
+  line, host height `calc(100dvh - 248px)`); `dist/widths.html` shows 320/375/390/430px and a 344×882 foldable.
