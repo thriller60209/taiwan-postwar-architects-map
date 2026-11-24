@@ -240,7 +240,7 @@
       </Placemark>
       <Placemark>
         <name>鳳山座1912</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7OrkdRgIHW_tIJAOKgOwarc_oMsGOxlzH5jm1HLpKD_VdI4FegAffHJ2KA54az3GetMm3jEj__GQUDIg87kb7ZxQicZFM9JE-BeOfwDJUfXIZZlD1Vki6uYpBEOlm3SBvGicgYQ2BIT_xoiKWbROYxh0ZnWfqcUuM89l97Gso9Ujr12g0DmN4of9Q2xTvyIIc-Tc01t8fzPZKON5VF65MYpcI0moSlputwf_HwFrPlQzabbhVeWyNc6yfhoiAdHZPqg6FxseTGubgtFGDha5Q2irOsOfaEx4wBAax_2nw77Rl8YObnf_-p2RPxPp93vLwzbcneXw93P2dxC_fVGYoZOaz2ZyIPFDg802kiQ2H3XD4Ta_7DQAwFuPDyw799wmkQMrcfwrgHsIlo90d6GytZbNJFvJEPujR_mvvK1Bl0eNP-cs4PPw" height="200" width="auto" /><br><br>說明: 營運日期（起）：1912-?-?<br>營運日期（迄）：?<br><br><br>地點: 所在地：高雄州，清末所存協臺衙改造充用（1931）<br>簡介: 於鳳山新城設立的高雄第二間戲院]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5bsyCNmSGZgQnEloqhfaVVNtzDDJxoaaZFlkOLO4vn0DFN_C7sPbr58P245Vml9cknapK7QXNXvoNgp1UKe3lDHuNsg8nIJFdjgshWWepCKitj8SeallGF2EisL5rixGZP2wrXLxDJTt2IuFvmssD4EMM5QoEYsz66TSVMPnXrYrz0eI7rqA0j_hr0eUVbi8B0tPWtORvpy_ZvA1xIExd_nAlo0kotvU8BFghpChEwPciYuTqxw_ffGj8Lh2gc20OgX602cOznHCZzC5Av0DsUR_4fOs2UatZpqQ772QcmEyWEizETc8GqZBIL7qE-dRXFZJ29Xduyb1jUPgGI-uk1noJaQQKClit_2jljf4LW5XbY9KXCekF7kW_6Tp-KD2qh2QdeXgnuApqM2aYO-6TNanmLPQZ2TyweiUVa1WJXeT-7EXpkYg" height="200" width="auto" /><br><br>說明: 營運日期（起）：1912-?-?<br>營運日期（迄）：?<br><br><br>地點: 所在地：高雄州，清末所存協臺衙改造充用（1931）<br>簡介: 於鳳山新城設立的高雄第二間戲院]]></description>
         <styleUrl>#icon-1899-757575-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -256,7 +256,7 @@
             <value>於鳳山新城設立的高雄第二間戲院</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7OrkdRgIHW_tIJAOKgOwarc_oMsGOxlzH5jm1HLpKD_VdI4FegAffHJ2KA54az3GetMm3jEj__GQUDIg87kb7ZxQicZFM9JE-BeOfwDJUfXIZZlD1Vki6uYpBEOlm3SBvGicgYQ2BIT_xoiKWbROYxh0ZnWfqcUuM89l97Gso9Ujr12g0DmN4of9Q2xTvyIIc-Tc01t8fzPZKON5VF65MYpcI0moSlputwf_HwFrPlQzabbhVeWyNc6yfhoiAdHZPqg6FxseTGubgtFGDha5Q2irOsOfaEx4wBAax_2nw77Rl8YObnf_-p2RPxPp93vLwzbcneXw93P2dxC_fVGYoZOaz2ZyIPFDg802kiQ2H3XD4Ta_7DQAwFuPDyw799wmkQMrcfwrgHsIlo90d6GytZbNJFvJEPujR_mvvK1Bl0eNP-cs4PPw</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5bsyCNmSGZgQnEloqhfaVVNtzDDJxoaaZFlkOLO4vn0DFN_C7sPbr58P245Vml9cknapK7QXNXvoNgp1UKe3lDHuNsg8nIJFdjgshWWepCKitj8SeallGF2EisL5rixGZP2wrXLxDJTt2IuFvmssD4EMM5QoEYsz66TSVMPnXrYrz0eI7rqA0j_hr0eUVbi8B0tPWtORvpy_ZvA1xIExd_nAlo0kotvU8BFghpChEwPciYuTqxw_ffGj8Lh2gc20OgX602cOznHCZzC5Av0DsUR_4fOs2UatZpqQ772QcmEyWEizETc8GqZBIL7qE-dRXFZJ29Xduyb1jUPgGI-uk1noJaQQKClit_2jljf4LW5XbY9KXCekF7kW_6Tp-KD2qh2QdeXgnuApqM2aYO-6TNanmLPQZ2TyweiUVa1WJXeT-7EXpkYg</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -292,7 +292,7 @@
       <name>1921～1930</name>
       <Placemark>
         <name>高雄館1921</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7TEcB0K9fxfiw9mVDcF0PV29vmAlZutjIhrBg2A__zYPPbu01XgwANBJR10By7uWYZx8yfrxqvemw-gRp5_8pxiEk5yqFgRrJ9-8PsKBjGFDusu1v9pW6w0QGoYcLViSXX9zsYyVMo5-OTvQaKmH_XkOfqE_2eb-qSpAG3NrWx6SIS4z11Iq27TOB3Tgm-j_14RKDOpb1iL1jOKCUzLs-bUyDfUuuVLlauYoO44QbzZiuxor0W9lHqmrKfjpEPMImp-w9TWn94UUUs0AiEamsV3eh0QzOXtw05AIYXpzTtr9y12dvPqaUFvwwr6KHkOXHAbW8Pncmj_upc4NQLpQ4Lm3hJRM6RZzTYufaZRkgpQrpai5tgJQ2koOcYzZgZ-_SWPJeBRxCv94_xdcIedbE6n90hbW4jV96qrCtFNKPFQon2svl8AA" height="200" width="auto" /><br><br>說明: ＊之後的亞洲戲院<br>大坪與一，發起人（1921）<br>荒木萬三郎，所有者（1944）<br>中村秀，經營者（1944）<br>清水覺一，會社擔當者（1944）<br>中村秀，統制會社契約書（1944)<br><br>地點: 所在地：高雄州，高雄市堀江町（1921）<br>　　　　高雄州，高雄市堀江町三丁目二番地（1931）<br>簡介: 大坪與一在1920年代，集合了老一代的「在地日商」荒木萬三郎、真砂由次郎、館林恒吉、名川鑒、小川與市、真砂由次郎，以及新一代的多木龍二、杉原佐一、高木拾郎、大坪佐苦樂、陳啟峰等人，分別在1921年（大正10年）設立「高雄劇場株式會社」、1925年（大正14年）創設「高雄製冰」及1928年（昭和3年）的「高雄共榮自動車株式會社」，分別進軍電影、製冰、公共運輸三項新興事業，在其1932年（昭和7年）過世後，高木拾郎繼續領導該集團運作，陸續投資土地、觀光、製帽等事業，成為日治時期最重要的商業集團。[26]其中陳中和家族以陳啟峰投資「高雄製冰」及「高雄共榮自動車」，以及高木拾郎於1929年成立的「壽山遊覽自動車」。<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6frajmGXDwGW7S10-IvVo9P3PbMJGUvZl_At0ECpWxoxdSbpAqlhC7HHxZK6g-D9Bh376CpQABXPMPIlT-fzN8FKs4omK3vo9zRodqgFnY-9ILrVv64CnujudaO3YN2M5XDDkq2roiZuN1GJNSqOarmNWhkWY9UWDoRy5edRHVcudpn9opmf4yXWfyEA8DRFoVPXPhNuYWrUKhu-cKT9whTVBcHiDj_WqPCK4I0cNMRfBZitZhWRePfvMBebxvbR6O2caX4LDw8mGM6dWWV2pQ_VX_lLA0AYfKlM81k4WUZKz6V02i_D6cqgZustKrAUq7MP8xocDP0ylunQcutHi2VgiIgsYxMaDZAqeaFynhqe18ddVnBWgkRQr_HLokjn9AZ8HBdxT2NVprey8mNoC9S-AP-ndV91swYJQcTXSQZ4qKBm4i" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7-WZUV0AUQE89Tc_nplGVP9iH_jJ0QGj_zu9Ecdcn2x-vt7_seDLSCIFtp8dvPfFoi2BhS_ZitOPSQrD5MsYmg8uPtvsPnk1qeaduxSOcwFK1tIAXQoIKN9fOZ3Gpe5etBNe9Kpe6kaOiFBgT0ntRPFxU-hFn-UHRwUuWMo18yK3eXwYkGwZqIImvQT_S3Chc9PCZODlDfkdO0rCe5WZptr52W3FzjVrvYX1IuYsQBdwoknsJ9WKVchOM8EM8S9ZheeaLP_5BT5ZQLTHWO4p2_uq-Th5HWnIkBuBog5CS-BzmUiiCXuSvAYe08FIjyqCtWbNesEPeOXzZjuBbroWat2xQY7ee6r5pshpY2U5bZges-We0UhL7wN-9Ymdre3QzWLfnS9WKxD7yuUG9MZYpQ2Nq_CVY0rfyNWnMqUSR_iu_-2Q" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4XOK4kBZjN8wI_GkELUXORLWVbB7P5GduJXJiKcpxTOLopbRvFNt-sjXvy9UnwoTOiuLPwj5hzIZ5i1JRRZGXnFXAusz96leVm3fnsQlotxlybXf-Hh2JKrxTJNd5QtzauFBPvGHGNJJeC4mimyQoom19yKokk8n7ngTyppKMTMKCgKu1pTbMe9QS6QPgYJoKdyxH2Ksr8_GmwHjnqZxlG1GKiyV3cCvly24qn6N5oonbV2VQWPiDBnXJEJm_iT8vE53dPe-Jw259OvoZzw6bOVv0LNv9UAiWUf3nE2b5YTOPjPjsXPLt0j1ErQygImiQQ2H3DD8o73MZ4xpZyHR5ySs8JErNYOcX-VIMB3YPF3b_xLUCC4p2ZytUCn9kLYS_kS_RXOn9gfxuxSaM0quyhWv7rdTjgbtqcoFI2H2OxyS5b47i87w" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7MOeE0BG7GZy-3n8Jfe70KXEHWUTlAteKC6ED-77ZkeSosKM2AeLpzjx43pQDzkzpx8yMhz9w_atDqFuXksE1TJ-ap4Q7vFo7qsuigWUXasRSPulsjdGbh9cEwWeTgE8yVcNI_WG8qw3tTJCV2SC_LqLyVjcnWNDlelPmkVSrQZr9KQrpK1Cy6flB2nlCuyA3dDv3U47K1LMoVir8Ui465QOqtDK9VpO_N2swvL5H8EGust3t4iltyWNclAqsgV4RbazhPoDLySgB9d-oBv2W9amjGSOkXpAs2rG1vnUTop3tp1hjXq4lcX5MJXHxqqY5scP3kugUSIrkll-rO8Z4Uh8PuJHfM8K6xJce5h95JtL9f2iqPLKXUmSFj3Lp98SOHXW8Ilg2MaVBeWp3uzbRp-YNuOF2s_wsi07iNlFQaDeCP406ccQ" height="200" width="auto" /><br><br>說明: ＊之後的亞洲戲院<br>大坪與一，發起人（1921）<br>荒木萬三郎，所有者（1944）<br>中村秀，經營者（1944）<br>清水覺一，會社擔當者（1944）<br>中村秀，統制會社契約書（1944)<br><br>地點: 所在地：高雄州，高雄市堀江町（1921）<br>　　　　高雄州，高雄市堀江町三丁目二番地（1931）<br>簡介: 大坪與一在1920年代，集合了老一代的「在地日商」荒木萬三郎、真砂由次郎、館林恒吉、名川鑒、小川與市、真砂由次郎，以及新一代的多木龍二、杉原佐一、高木拾郎、大坪佐苦樂、陳啟峰等人，分別在1921年（大正10年）設立「高雄劇場株式會社」、1925年（大正14年）創設「高雄製冰」及1928年（昭和3年）的「高雄共榮自動車株式會社」，分別進軍電影、製冰、公共運輸三項新興事業，在其1932年（昭和7年）過世後，高木拾郎繼續領導該集團運作，陸續投資土地、觀光、製帽等事業，成為日治時期最重要的商業集團。[26]其中陳中和家族以陳啟峰投資「高雄製冰」及「高雄共榮自動車」，以及高木拾郎於1929年成立的「壽山遊覽自動車」。<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4YkG6UHY_KoiiiySreJrUVk4ClcL1cpVXFBeYaJuktHfHRCvpepyZ4_BQVOwpWdAvCEhx9w4JPUMFgYuK6gyAg39jGD6Vr2P_JJlLQDH6lvs_PMerIwZ_XHcKcOyMEr1w7jnSkXE2FzQCDkqFAr4RFK7VskZ9ySbFSMwBYmB0UjzKlWiNn24n106HjpVX71YKzd4k0CvkI0r5_D3SumUfLr0OiqlrkUoDUj-0WUxz3BJBveR3md2v7HQNVAiM25ldS8_4OWiIECCTKKl2crbkW-XTJAypYb-HDwBu3Y69UfIP_B4T7LUF5DOyYwwjbGx8jtDJ3KihwYovKtt3oZngGxnCc8iMsGwwduyZV_6BrslxiGFK6IbAl7B00a6vRrQNaq9l94MPqw6-5QKRvXbPUiodlAUT4oahWuzFLRDuhjZ6CuFtV" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4_xdiZrhsitGZRPBbTp6Z2pfOcoprhIJlyFATmMg3EsQ17DdnRrkFpzprLlTzmRnR-5LbTKrJ1a5Mxvbgge9szRn942OvX3OlWUmGifB8Ltq9DgFoLFszyNaJjoh0VBZFCjaqZH9NOb2jSJ0QWCBTTPIQ426IDUBlkpztGRxlfDqZGXz-O_FK8lqP0TyWk6KC0AAQOJq_8bq_0PC_lt_hOlEuBZolTDwfexrpV8HIexNMPpfafROd4P0kNgTiWqq0KAKB1BKCy2Zwi_sfTFPQGHlIDwZ8VEj2Lb-2luLoTJ4tEV9EyWH8GF0z_RJTci3mQd8kn4zrrdjA7yvMTCwUzBS-aq9hrHvrONxghTwXtZLx43Yc_EH873dZVOoW4FDj-03rEK3bCIrAINtlm9VbHa5jYiOWe8iVGyU6uEy4rJuU9cg" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v41gGFk3R949e2VcbQTAbpZMT2XYzLrhsCu0-8I2wkvDR-8vFF3ZG3PcLRF-av7DYaITHhkAaTnREUxprOR8JLB46tFibTeozK1hjLsfeHzXWJufAD70gbPkHBVAZ69N2wFUNJ1WIXIJDEf1a-qysJfAt0wBcV1LmLYa80SdO5nrOzvmZQsuquvwKbNQNKi5pxrdDpVIIJt26ONctJgO9_SFcibHwFLCTv4JI0uXk8TrkXIRgBRAUrPtVA6td5oc5US8DbviQkY3-YrXkq98NMYqqQBEUtNPeTAhJr5oROMHWe_NpE83ea5SgwCYQNA5v1jddupqyyQOSGy9E3zYYadXX5A_m3-eJPizTO8JAXgCjBDbkafqgsiPh2rI4OhUzuvw3KpVkY4_Gsflpd-aBUii1-bU9HKLk9SOAakOwqJPVXKmXmR_Q" height="200" width="auto" />]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -312,7 +312,7 @@
             <value>大坪與一在1920年代，集合了老一代的「在地日商」荒木萬三郎、真砂由次郎、館林恒吉、名川鑒、小川與市、真砂由次郎，以及新一代的多木龍二、杉原佐一、高木拾郎、大坪佐苦樂、陳啟峰等人，分別在1921年（大正10年）設立「高雄劇場株式會社」、1925年（大正14年）創設「高雄製冰」及1928年（昭和3年）的「高雄共榮自動車株式會社」，分別進軍電影、製冰、公共運輸三項新興事業，在其1932年（昭和7年）過世後，高木拾郎繼續領導該集團運作，陸續投資土地、觀光、製帽等事業，成為日治時期最重要的商業集團。[26]其中陳中和家族以陳啟峰投資「高雄製冰」及「高雄共榮自動車」，以及高木拾郎於1929年成立的「壽山遊覽自動車」。</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7TEcB0K9fxfiw9mVDcF0PV29vmAlZutjIhrBg2A__zYPPbu01XgwANBJR10By7uWYZx8yfrxqvemw-gRp5_8pxiEk5yqFgRrJ9-8PsKBjGFDusu1v9pW6w0QGoYcLViSXX9zsYyVMo5-OTvQaKmH_XkOfqE_2eb-qSpAG3NrWx6SIS4z11Iq27TOB3Tgm-j_14RKDOpb1iL1jOKCUzLs-bUyDfUuuVLlauYoO44QbzZiuxor0W9lHqmrKfjpEPMImp-w9TWn94UUUs0AiEamsV3eh0QzOXtw05AIYXpzTtr9y12dvPqaUFvwwr6KHkOXHAbW8Pncmj_upc4NQLpQ4Lm3hJRM6RZzTYufaZRkgpQrpai5tgJQ2koOcYzZgZ-_SWPJeBRxCv94_xdcIedbE6n90hbW4jV96qrCtFNKPFQon2svl8AA https://lh3.googleusercontent.com/umsh/AN6v0v6frajmGXDwGW7S10-IvVo9P3PbMJGUvZl_At0ECpWxoxdSbpAqlhC7HHxZK6g-D9Bh376CpQABXPMPIlT-fzN8FKs4omK3vo9zRodqgFnY-9ILrVv64CnujudaO3YN2M5XDDkq2roiZuN1GJNSqOarmNWhkWY9UWDoRy5edRHVcudpn9opmf4yXWfyEA8DRFoVPXPhNuYWrUKhu-cKT9whTVBcHiDj_WqPCK4I0cNMRfBZitZhWRePfvMBebxvbR6O2caX4LDw8mGM6dWWV2pQ_VX_lLA0AYfKlM81k4WUZKz6V02i_D6cqgZustKrAUq7MP8xocDP0ylunQcutHi2VgiIgsYxMaDZAqeaFynhqe18ddVnBWgkRQr_HLokjn9AZ8HBdxT2NVprey8mNoC9S-AP-ndV91swYJQcTXSQZ4qKBm4i https://lh3.googleusercontent.com/umsh/AN6v0v7-WZUV0AUQE89Tc_nplGVP9iH_jJ0QGj_zu9Ecdcn2x-vt7_seDLSCIFtp8dvPfFoi2BhS_ZitOPSQrD5MsYmg8uPtvsPnk1qeaduxSOcwFK1tIAXQoIKN9fOZ3Gpe5etBNe9Kpe6kaOiFBgT0ntRPFxU-hFn-UHRwUuWMo18yK3eXwYkGwZqIImvQT_S3Chc9PCZODlDfkdO0rCe5WZptr52W3FzjVrvYX1IuYsQBdwoknsJ9WKVchOM8EM8S9ZheeaLP_5BT5ZQLTHWO4p2_uq-Th5HWnIkBuBog5CS-BzmUiiCXuSvAYe08FIjyqCtWbNesEPeOXzZjuBbroWat2xQY7ee6r5pshpY2U5bZges-We0UhL7wN-9Ymdre3QzWLfnS9WKxD7yuUG9MZYpQ2Nq_CVY0rfyNWnMqUSR_iu_-2Q https://lh3.googleusercontent.com/umsh/AN6v0v4XOK4kBZjN8wI_GkELUXORLWVbB7P5GduJXJiKcpxTOLopbRvFNt-sjXvy9UnwoTOiuLPwj5hzIZ5i1JRRZGXnFXAusz96leVm3fnsQlotxlybXf-Hh2JKrxTJNd5QtzauFBPvGHGNJJeC4mimyQoom19yKokk8n7ngTyppKMTMKCgKu1pTbMe9QS6QPgYJoKdyxH2Ksr8_GmwHjnqZxlG1GKiyV3cCvly24qn6N5oonbV2VQWPiDBnXJEJm_iT8vE53dPe-Jw259OvoZzw6bOVv0LNv9UAiWUf3nE2b5YTOPjPjsXPLt0j1ErQygImiQQ2H3DD8o73MZ4xpZyHR5ySs8JErNYOcX-VIMB3YPF3b_xLUCC4p2ZytUCn9kLYS_kS_RXOn9gfxuxSaM0quyhWv7rdTjgbtqcoFI2H2OxyS5b47i87w</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7MOeE0BG7GZy-3n8Jfe70KXEHWUTlAteKC6ED-77ZkeSosKM2AeLpzjx43pQDzkzpx8yMhz9w_atDqFuXksE1TJ-ap4Q7vFo7qsuigWUXasRSPulsjdGbh9cEwWeTgE8yVcNI_WG8qw3tTJCV2SC_LqLyVjcnWNDlelPmkVSrQZr9KQrpK1Cy6flB2nlCuyA3dDv3U47K1LMoVir8Ui465QOqtDK9VpO_N2swvL5H8EGust3t4iltyWNclAqsgV4RbazhPoDLySgB9d-oBv2W9amjGSOkXpAs2rG1vnUTop3tp1hjXq4lcX5MJXHxqqY5scP3kugUSIrkll-rO8Z4Uh8PuJHfM8K6xJce5h95JtL9f2iqPLKXUmSFj3Lp98SOHXW8Ilg2MaVBeWp3uzbRp-YNuOF2s_wsi07iNlFQaDeCP406ccQ https://lh3.googleusercontent.com/umsh/AN6v0v4YkG6UHY_KoiiiySreJrUVk4ClcL1cpVXFBeYaJuktHfHRCvpepyZ4_BQVOwpWdAvCEhx9w4JPUMFgYuK6gyAg39jGD6Vr2P_JJlLQDH6lvs_PMerIwZ_XHcKcOyMEr1w7jnSkXE2FzQCDkqFAr4RFK7VskZ9ySbFSMwBYmB0UjzKlWiNn24n106HjpVX71YKzd4k0CvkI0r5_D3SumUfLr0OiqlrkUoDUj-0WUxz3BJBveR3md2v7HQNVAiM25ldS8_4OWiIECCTKKl2crbkW-XTJAypYb-HDwBu3Y69UfIP_B4T7LUF5DOyYwwjbGx8jtDJ3KihwYovKtt3oZngGxnCc8iMsGwwduyZV_6BrslxiGFK6IbAl7B00a6vRrQNaq9l94MPqw6-5QKRvXbPUiodlAUT4oahWuzFLRDuhjZ6CuFtV https://lh3.googleusercontent.com/umsh/AN6v0v4_xdiZrhsitGZRPBbTp6Z2pfOcoprhIJlyFATmMg3EsQ17DdnRrkFpzprLlTzmRnR-5LbTKrJ1a5Mxvbgge9szRn942OvX3OlWUmGifB8Ltq9DgFoLFszyNaJjoh0VBZFCjaqZH9NOb2jSJ0QWCBTTPIQ426IDUBlkpztGRxlfDqZGXz-O_FK8lqP0TyWk6KC0AAQOJq_8bq_0PC_lt_hOlEuBZolTDwfexrpV8HIexNMPpfafROd4P0kNgTiWqq0KAKB1BKCy2Zwi_sfTFPQGHlIDwZ8VEj2Lb-2luLoTJ4tEV9EyWH8GF0z_RJTci3mQd8kn4zrrdjA7yvMTCwUzBS-aq9hrHvrONxghTwXtZLx43Yc_EH873dZVOoW4FDj-03rEK3bCIrAINtlm9VbHa5jYiOWe8iVGyU6uEy4rJuU9cg https://lh3.googleusercontent.com/umsh/AN6v0v41gGFk3R949e2VcbQTAbpZMT2XYzLrhsCu0-8I2wkvDR-8vFF3ZG3PcLRF-av7DYaITHhkAaTnREUxprOR8JLB46tFibTeozK1hjLsfeHzXWJufAD70gbPkHBVAZ69N2wFUNJ1WIXIJDEf1a-qysJfAt0wBcV1LmLYa80SdO5nrOzvmZQsuquvwKbNQNKi5pxrdDpVIIJt26ONctJgO9_SFcibHwFLCTv4JI0uXk8TrkXIRgBRAUrPtVA6td5oc5US8DbviQkY3-YrXkq98NMYqqQBEUtNPeTAhJr5oROMHWe_NpE83ea5SgwCYQNA5v1jddupqyyQOSGy9E3zYYadXX5A_m3-eJPizTO8JAXgCjBDbkafqgsiPh2rI4OhUzuvw3KpVkY4_Gsflpd-aBUii1-bU9HKLk9SOAakOwqJPVXKmXmR_Q</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -391,7 +391,7 @@
       </Placemark>
       <Placemark>
         <name>旗山座 約1927～1979</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7xdOXBqjK1SawMcUFMFgmEmBEitLgQwW6NwqSoOHiMGqZFfi1J-kFvUOm3bs3PZT7PmKuUFQaNLNhZLXG7fxYviY3SbyJ5LoNEa7CD_R4BJ1cihGiIrvX-KiYDJIfWlXB3sa02IqrNIrxDh-Qs7FSNNGEta7rukDfSeXCIFGqsj_xkasHXSXezNbAZtBrLFSeJxAijOO4HE9ycZYbLO17pMX8ydLz9rtx2ZIt3OPyGAoSIrM30lyNVYmmzwhD20HeVn8hNIRQD_uvjI9ItnYUn9itbv8U47dv6p16GGre7yQunDmNV3gOgCj4befxVfPHejlYJ6wQNj7gBMvpnc9XkRJLTHK149ouMNeaiOopo9I7UgqOtVb7fCJNJ4nDOIOgqAyb9iUWCmSYvFGaSQSJoK7HZZpaVuES4sWuU72Ke1qaann0FJg" height="200" width="auto" /><br><br>說明: 旗山第一戲院<br>地點: 所在地：高雄州，旗山郡旗山街（1944）<br>簡介: 戰後改稱「旗山戲院」<br>1965/1/17陳仁和改建<br>三文興業株式會社，所有者（1944）<br>三文興業株式會社，經營者（1944）<br>林田良平，會社擔當者（1944）<br>高山文一，統制會社契約書（1944）]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6izMrHLXLWDJm_SBWaE_3eAac0K6mBLCox66gVlApDyhX-ty67cgNkOi-N2fIzIJbrnQ0zBg4hrw5RjHn6hZujsK922EdAHBIYGkrkqgWztGiYLf3qxjvp4Y1A_twngAx55M3iPH4C0cgOvmg9p9hB11slvc1NI8W_GGzMTQJsv1cuH7qRTZ0JehtlDv4U3F55-QkTY8tFuOzdLl5fihUVxqXnJynMmnZhwhI9k2FKuTKukKbzgiK634DBkcM9GD6i1fGBS9eQD_QlKHkVNS47P4nkNuVndEIifjvly_Eq9mMG7uDS2b2WNX8wqGpHEFtVhZPKXH-TGFvtphi2OPYOt-LT6ybVGs9o5Bg_juNHNM6TT3i0cIOOg9UzxK36H9BPuONIUhtDMvo5-U0oA2-Y9c8UlPFN28UAEWwOSOnhpkH9nbPHbg" height="200" width="auto" /><br><br>說明: 旗山第一戲院<br>地點: 所在地：高雄州，旗山郡旗山街（1944）<br>簡介: 戰後改稱「旗山戲院」<br>1965/1/17陳仁和改建<br>三文興業株式會社，所有者（1944）<br>三文興業株式會社，經營者（1944）<br>林田良平，會社擔當者（1944）<br>高山文一，統制會社契約書（1944）]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -409,7 +409,7 @@
 高山文一，統制會社契約書（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7xdOXBqjK1SawMcUFMFgmEmBEitLgQwW6NwqSoOHiMGqZFfi1J-kFvUOm3bs3PZT7PmKuUFQaNLNhZLXG7fxYviY3SbyJ5LoNEa7CD_R4BJ1cihGiIrvX-KiYDJIfWlXB3sa02IqrNIrxDh-Qs7FSNNGEta7rukDfSeXCIFGqsj_xkasHXSXezNbAZtBrLFSeJxAijOO4HE9ycZYbLO17pMX8ydLz9rtx2ZIt3OPyGAoSIrM30lyNVYmmzwhD20HeVn8hNIRQD_uvjI9ItnYUn9itbv8U47dv6p16GGre7yQunDmNV3gOgCj4befxVfPHejlYJ6wQNj7gBMvpnc9XkRJLTHK149ouMNeaiOopo9I7UgqOtVb7fCJNJ4nDOIOgqAyb9iUWCmSYvFGaSQSJoK7HZZpaVuES4sWuU72Ke1qaann0FJg</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6izMrHLXLWDJm_SBWaE_3eAac0K6mBLCox66gVlApDyhX-ty67cgNkOi-N2fIzIJbrnQ0zBg4hrw5RjHn6hZujsK922EdAHBIYGkrkqgWztGiYLf3qxjvp4Y1A_twngAx55M3iPH4C0cgOvmg9p9hB11slvc1NI8W_GGzMTQJsv1cuH7qRTZ0JehtlDv4U3F55-QkTY8tFuOzdLl5fihUVxqXnJynMmnZhwhI9k2FKuTKukKbzgiK634DBkcM9GD6i1fGBS9eQD_QlKHkVNS47P4nkNuVndEIifjvly_Eq9mMG7uDS2b2WNX8wqGpHEFtVhZPKXH-TGFvtphi2OPYOt-LT6ybVGs9o5Bg_juNHNM6TT3i0cIOOg9UzxK36H9BPuONIUhtDMvo5-U0oA2-Y9c8UlPFN28UAEWwOSOnhpkH9nbPHbg</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -420,7 +420,7 @@
       </Placemark>
       <Placemark>
         <name>岡山座1928</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v73-Wf2TRK2pjPF_Rau2a5EwGBp7JYO-bAF0t3gSKFeCN6yvoSGU42TTdtjb6yYLf3h0Fvjl7Q6v16EMPo_8eeGT4K3VOlQuip1oxXoE5WT6KMNJsWmB13t0iFsJMbPMuK_aqvojCdO5fLGcbeZ6E7aAasZ38Cic5DKCg87NeRZ26_IbQhh2Y5cB8the5uucsJ6QYED7syqWpnkSlpuex0Tj-KzuFzOxQPRKcEZLjSX2bpGzGSsYduZi5XkvzBqCu7WJL_LDmV-_0fnpNt1bJZ-zUFdwk4hO6TntnT6krf2Aqqnr7ENZ9Dnqowc7XPK9jdBiEc4i_TmbY5pivHpDZ2roeYeERt9SWvS-EyB-hDZLCR078cMKVWg5ojWoqFeQIIGAfX26AWOgRHcTg8Ya13T0VLmamGFCGGeafoyPxkzugcd3CqXmw" height="200" width="auto" /><br><br>說明: 1928成立<br>地點: 所在地：高雄州，岡山街（1944）<br>簡介: ．總建地八十坪、建築費六千圓，在紅磚建成的鄉村地區是少見的宏偉建築。（《臺灣日日新報》1926-03-09）<br><br>吳瑞泰，發起人（1928）<br>何鉗，發起人（1928）<br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6MW_tlz77w8mtZ5Fc5F0c-RolRdtZLfiAf_COG_AkA4deKpqFfoaKR-8ND91ujnMfP0fNiv07IJ4VhGeRf4tYiQXCfCm4f9StxqnbYLTXGr3aOy4FQXZNQ_ItEPvVLBlprelinRx1UxI8f_Xd5FX13M3DFj1wBFO9tFXmoTY6svFCzFdtVwOtFPO_uXn91IPiP9zfb6wtJP8xaPPMDLeY3TCwQvnqWDyFMq5sChWi8RK7EU6znSmnJaCMVKT1QovqsaMuxewdT4_ZANlcVVoLtjd7URZRBK6TEBajFicY-buHlo5tzPE4V6CwAiJKdaB8Z_ueZXSv3G9kHkja7EyNUc3l6A7vj8pinlmxDtN9eUTAJRKhfQHc_9TznmcT1VRHEyvUhCs2T5ZKXqv6ldx9m5gSXxL_kjBC4tCvyOxZEFOzbE1bfmg" height="200" width="auto" /><br><br>說明: 1928成立<br>地點: 所在地：高雄州，岡山街（1944）<br>簡介: ．總建地八十坪、建築費六千圓，在紅磚建成的鄉村地區是少見的宏偉建築。（《臺灣日日新報》1926-03-09）<br><br>吳瑞泰，發起人（1928）<br>何鉗，發起人（1928）<br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -440,7 +440,7 @@
 齋藤善次郎，統制會社契約書（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v73-Wf2TRK2pjPF_Rau2a5EwGBp7JYO-bAF0t3gSKFeCN6yvoSGU42TTdtjb6yYLf3h0Fvjl7Q6v16EMPo_8eeGT4K3VOlQuip1oxXoE5WT6KMNJsWmB13t0iFsJMbPMuK_aqvojCdO5fLGcbeZ6E7aAasZ38Cic5DKCg87NeRZ26_IbQhh2Y5cB8the5uucsJ6QYED7syqWpnkSlpuex0Tj-KzuFzOxQPRKcEZLjSX2bpGzGSsYduZi5XkvzBqCu7WJL_LDmV-_0fnpNt1bJZ-zUFdwk4hO6TntnT6krf2Aqqnr7ENZ9Dnqowc7XPK9jdBiEc4i_TmbY5pivHpDZ2roeYeERt9SWvS-EyB-hDZLCR078cMKVWg5ojWoqFeQIIGAfX26AWOgRHcTg8Ya13T0VLmamGFCGGeafoyPxkzugcd3CqXmw</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6MW_tlz77w8mtZ5Fc5F0c-RolRdtZLfiAf_COG_AkA4deKpqFfoaKR-8ND91ujnMfP0fNiv07IJ4VhGeRf4tYiQXCfCm4f9StxqnbYLTXGr3aOy4FQXZNQ_ItEPvVLBlprelinRx1UxI8f_Xd5FX13M3DFj1wBFO9tFXmoTY6svFCzFdtVwOtFPO_uXn91IPiP9zfb6wtJP8xaPPMDLeY3TCwQvnqWDyFMq5sChWi8RK7EU6znSmnJaCMVKT1QovqsaMuxewdT4_ZANlcVVoLtjd7URZRBK6TEBajFicY-buHlo5tzPE4V6CwAiJKdaB8Z_ueZXSv3G9kHkja7EyNUc3l6A7vj8pinlmxDtN9eUTAJRKhfQHc_9TznmcT1VRHEyvUhCs2T5ZKXqv6ldx9m5gSXxL_kjBC4tCvyOxZEFOzbE1bfmg</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -451,7 +451,7 @@
       </Placemark>
       <Placemark>
         <name>澎湖會館1929(金城戲院)1952/10/3～1991</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v68CuJhM6ODvFxtC88Zk5ph1NfeWF2rQkp6cJx3zQRCJuPnIM38yHnEzyV8_yP9xtW3ZHwTcwLrwAX29YW49WW3cCfhtzYT7hGEW_N_dxtvSsNvK4NWTO8HcFX3BJ7-FdqPAS_exU9fCB6OOhjB4rNH5RbHOaKGgZ8v8VMBFHkXNeyznRDS5DsxLjnhebOdL5Vyrw4q8p6pkID_bhrGLun_xblJp9q9ACE9fbVgsTBxwfZmuvASlJo7IKbTu28hAxTQYJunL3t28B_J-aVqr8cShZ4jIaeC_0ej-9Xc0NhzVKyTGfSncjC4-Np1VW7a9ukBRb1oydIlRfal61w_dYoTObsiVy9UtJfOol_4Pn3Voy8k7Art8a0-D0Jo-2thVEQgzIwSWTS6RSJvZ9y8uDI0MOOv0lZCcW13eYZUc6QorTLbUtbZFg" height="200" width="auto" /><br><br>說明: 鹽國段(0038)337地號<br>地點: 803高雄市鹽埕區瀨南街161號<br>簡介: 澎湖廳民會1927於高雄成立，澎湖會館又名金城會館1929落成啟用，位於鹽埕區瀨南街。光復後1952改建為金城戲院，民會更名為高雄市澎湖同鄉會繼續於戲院辦公，見證澎湖幫當年在高雄的影響力。戲院1995拆除現在是停車場，算是澎湖先民移居高雄蓽路襤褸舊影。<br>戰後許火金經營<br>]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6wQcIOm33iDWOH5FZA4-PxKoHjdqR4kf6IcCNxGW8uVhjYUEpjV7OVz9oqmc8ZKUFmZN7CRefBvMCn8VjbXQJyTnKaCNFegDL1zompPqMV8GeGnhVN020tWpV3fVLGB5MplXNn_hEC8vEQAvw_VTupvz8DcbXY7wp-KqAiwf7cUFblPybov-oqhdRcEAwznR54H5bOVJUlIc3B2Sw7eJv7NUqMIzl8-0geIE0-O2TP1CtFf4vkqBcMd_gXjIBXZ44wpIh-GuskdibwsOzItGQJpMDQ-gFn9Z1CJHB3x65P0WhJh4inZBZmKYgqaL05qusFm--ybiAKnhaPc-W82NzPqwY1kqWHUG51n_XcKus0sOBobE6gSt0RXBSCzF3QpHiLX636-iWUUgyTN5nPFlRVJPFrTb0Fh2V_bwm2b8wz9BGw2u_svw" height="200" width="auto" /><br><br>說明: 鹽國段(0038)337地號<br>地點: 803高雄市鹽埕區瀨南街161號<br>簡介: 澎湖廳民會1927於高雄成立，澎湖會館又名金城會館1929落成啟用，位於鹽埕區瀨南街。光復後1952改建為金城戲院，民會更名為高雄市澎湖同鄉會繼續於戲院辦公，見證澎湖幫當年在高雄的影響力。戲院1995拆除現在是停車場，算是澎湖先民移居高雄蓽路襤褸舊影。<br>戰後許火金經營<br>]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -466,7 +466,7 @@
 </value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v68CuJhM6ODvFxtC88Zk5ph1NfeWF2rQkp6cJx3zQRCJuPnIM38yHnEzyV8_yP9xtW3ZHwTcwLrwAX29YW49WW3cCfhtzYT7hGEW_N_dxtvSsNvK4NWTO8HcFX3BJ7-FdqPAS_exU9fCB6OOhjB4rNH5RbHOaKGgZ8v8VMBFHkXNeyznRDS5DsxLjnhebOdL5Vyrw4q8p6pkID_bhrGLun_xblJp9q9ACE9fbVgsTBxwfZmuvASlJo7IKbTu28hAxTQYJunL3t28B_J-aVqr8cShZ4jIaeC_0ej-9Xc0NhzVKyTGfSncjC4-Np1VW7a9ukBRb1oydIlRfal61w_dYoTObsiVy9UtJfOol_4Pn3Voy8k7Art8a0-D0Jo-2thVEQgzIwSWTS6RSJvZ9y8uDI0MOOv0lZCcW13eYZUc6QorTLbUtbZFg</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6wQcIOm33iDWOH5FZA4-PxKoHjdqR4kf6IcCNxGW8uVhjYUEpjV7OVz9oqmc8ZKUFmZN7CRefBvMCn8VjbXQJyTnKaCNFegDL1zompPqMV8GeGnhVN020tWpV3fVLGB5MplXNn_hEC8vEQAvw_VTupvz8DcbXY7wp-KqAiwf7cUFblPybov-oqhdRcEAwznR54H5bOVJUlIc3B2Sw7eJv7NUqMIzl8-0geIE0-O2TP1CtFf4vkqBcMd_gXjIBXZ44wpIh-GuskdibwsOzItGQJpMDQ-gFn9Z1CJHB3x65P0WhJh4inZBZmKYgqaL05qusFm--ybiAKnhaPc-W82NzPqwY1kqWHUG51n_XcKus0sOBobE6gSt0RXBSCzF3QpHiLX636-iWUUgyTN5nPFlRVJPFrTb0Fh2V_bwm2b8wz9BGw2u_svw</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -477,7 +477,7 @@
       </Placemark>
       <Placemark>
         <name>興隆座1929</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7DG2zfSI1jL2uTSu_CA5py8Z1ytPApqFyFuwVA85vtkQSl5ZPACRk6J6PsqJrIbb8W1vqKjq2sBBc-q2oGshAjS1JXg77g6YJiIEU7NkWKssdcRCUTdi2eMDLEPuWSBJjIOmBZSSiIh1JV6O9_9DOteyLLSkppwVz_GJzd21YlxqlhSMHGHomQp5hidjRo-fxyJG3DWSxi_0zIzaB4i1WBat393zQkmfui84d_FIQx-fKShCcehW21DwBc_M-Ic97Zt6qs3_EKj61hxTUjNr9ROnGbwZ3BDv84hY4tVajE7FyWwpyA1cXmrp1X_MrFATT9ACFnG56C41VlLcBxputiyII-0aKhrGA8QttvuZcgCRWQQ1nE5CAz4yyrXF91CiPthFAER8IEGmGegQExwpdCbFBx7ZUYvlEjTsGsbQJBY9S4nimb" height="200" width="auto" /><br><br>說明: 1929成立<br>左營段 273-1 <br><br>地點: 所在地：高雄州，高雄市左營（1944）<br>簡介: 磚造2樓166坪<br>樓上234位樓下560位<br><br>黃查某，所有者（1944）<br>王稱奇，經營者（1944）<br>王稱奇，會社擔當者（1944）<br>王稱奇，統制會社契約書（1944）]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6FbTNJFiOKUw5fp1n0FPOv4NmtLMcWsEt5-8ipMv8O0giTY0FMFWwsmTJ-Y_k7w8eA0fH1fvKvK_6fGqknr9nbSYz_0ZXGaL8R6nd0nQ2YET5j5N3ePn4k2T3BIUcn_Ov1veEqXvlXNfs9-7NjVEhXjzceVAS0xdF8Qma_PcTt41wHQUQ1RvqOm7J-iOewKv2C6eXzeQ85hQiZgSnikwX4YDmdp4g903qhxtLdS7JOu68uNj9LIvlxYnHytWxEqUW9mLsQkBe4aBTMS3-b-5gpvGNmLtOQ1JwfY7j15kjxKkrp03zuapT5X9tquCYNzMBniGJyJKbRdz_l_NZLhJKNNRezdL4YQFcvK--M_lhFXCoSPWMvWdz6IhHCgN3LlFXeBbHm0J_XGaSG4uJ_ct_IhmPt20zYcDGGnXCMzzFKnDKNRWfc" height="200" width="auto" /><br><br>說明: 1929成立<br>左營段 273-1 <br><br>地點: 所在地：高雄州，高雄市左營（1944）<br>簡介: 磚造2樓166坪<br>樓上234位樓下560位<br><br>黃查某，所有者（1944）<br>王稱奇，經營者（1944）<br>王稱奇，會社擔當者（1944）<br>王稱奇，統制會社契約書（1944）]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -498,7 +498,7 @@
 王稱奇，統制會社契約書（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7DG2zfSI1jL2uTSu_CA5py8Z1ytPApqFyFuwVA85vtkQSl5ZPACRk6J6PsqJrIbb8W1vqKjq2sBBc-q2oGshAjS1JXg77g6YJiIEU7NkWKssdcRCUTdi2eMDLEPuWSBJjIOmBZSSiIh1JV6O9_9DOteyLLSkppwVz_GJzd21YlxqlhSMHGHomQp5hidjRo-fxyJG3DWSxi_0zIzaB4i1WBat393zQkmfui84d_FIQx-fKShCcehW21DwBc_M-Ic97Zt6qs3_EKj61hxTUjNr9ROnGbwZ3BDv84hY4tVajE7FyWwpyA1cXmrp1X_MrFATT9ACFnG56C41VlLcBxputiyII-0aKhrGA8QttvuZcgCRWQQ1nE5CAz4yyrXF91CiPthFAER8IEGmGegQExwpdCbFBx7ZUYvlEjTsGsbQJBY9S4nimb</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6FbTNJFiOKUw5fp1n0FPOv4NmtLMcWsEt5-8ipMv8O0giTY0FMFWwsmTJ-Y_k7w8eA0fH1fvKvK_6fGqknr9nbSYz_0ZXGaL8R6nd0nQ2YET5j5N3ePn4k2T3BIUcn_Ov1veEqXvlXNfs9-7NjVEhXjzceVAS0xdF8Qma_PcTt41wHQUQ1RvqOm7J-iOewKv2C6eXzeQ85hQiZgSnikwX4YDmdp4g903qhxtLdS7JOu68uNj9LIvlxYnHytWxEqUW9mLsQkBe4aBTMS3-b-5gpvGNmLtOQ1JwfY7j15kjxKkrp03zuapT5X9tquCYNzMBniGJyJKbRdz_l_NZLhJKNNRezdL4YQFcvK--M_lhFXCoSPWMvWdz6IhHCgN3LlFXeBbHm0J_XGaSG4uJ_ct_IhmPt20zYcDGGnXCMzzFKnDKNRWfc</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -509,7 +509,7 @@
       </Placemark>
       <Placemark>
         <name>金鵄館1929</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4uid77JNiIsAOccdrIaCdA5xGl--9sJ2lh6NrbH65gUlGDkE8V663VF6YpR1cWVpJX9eSXZIi-Yhn-VD7cK4cv1gUyei32Itya5kVPU0gOeglnOwPL-xy65VPHCqUGaGrnRIaP7j_wiL2QrPXfU2DjcMiCutPPci9MQgTkJlJgB1PGyJS95r6xbGWE8eiiBpdtzqiECda4hllfY0Lh0uwxKNp9KnIuNZvjAT4Z85X-WBBQMpmfqnLA3oW_5KkNynWQdBoG4uTRfnaG5AETVBXhnNI1d61iWNMh5a-UD8pnlkXzrYxIPZZpX9Jxwjvz6Tg-Q8wMf6s9rwc3vKpTuGhj55ijrU1KW3srkTTsdqRzNA6BEEMvUKWPQ9IpnfEywja_tdcWXZTfBcOIgHrPmprOk44jSIvtvE1LMikvfjBRURa2wn9B1A" height="200" width="auto" /><br><br>說明: 專映外國片<br><br>地點: 所在地：高雄州，高雄市鹽埕町原嫩ケラウンド一角（1929）<br>　　　　高雄州，高雄市榮町（1944）<br>簡介: ＊戰後光復大戲院<br>1945年台灣光復後改名為光復戲院，屬於台灣電影事業股份有限公司所有。當年光復戲院是高雄地區數一數二的戲院，均放映首輪國片，其中最令人記憶深刻且上演時日最長的，是1963年轟動一時的黃梅調電影《梁山伯與祝英台》。1968年，光復戲院改由中央電影公司直營。1982年10月，金馬獎外片觀摩首次南下高雄映演的場所就是光復戲院。<br>光復戲院在1983年8月24日宣佈停止營業。後來，中影公司花了近七千萬元重建光復戲院，改建成三樓新廈，闢成兩間放映廳，每廳約有400個座位，並於1987年6/19重新開幕，交由「鴻錦樓」（位於大勇路與大仁路口）的老闆經營，而影片的放映也從以往的首輪電影變為二輪電影。<br><br>2002年10月進行拆除，現為鹽埕埔站出口2<br><br>泉寬平，所有者（1929）<br>船橋武雄，所有者（1944）<br>船橋武雄，經營者（1944）<br>鈴木景三，會社擔當者（1944）<br>船橋武雄，統制會社契約書（1944）<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v5ybSatJevphKz74REQ_vH9sps30sgZvUK8uZwYMjwroVH8LJkmk5LGO5w4zi-OcGqQP8AvK9t_gWwkUo6V1fRJBpkTCJOfuSeRYGsKjrfonNXuopSQIC1h1jzN7uYzi6p-mw2kqVvOehuBh2lgQvFz9GC65Hk35_z2IYbfPNR4Z5VGf3hjmHaB5kPfBDCQT95RDzqsOdbD8G6puxqcaxlgHNrBBdEe9x28NgbOzb9ph-g6q0c2-GPxJl94xN912tHyWc6NBGOEYeoUAB5RFapxf_k2D8kLyWU6pXon76dccVtP4Ntxw3AMuM-2ewWGHEh_0mSDhCSSkIz9SB6STIzPHgBo9l4POrLxiQtRNHd1RQPuJDBnSxxyBNapGwUPbsTj7yhB-hrxfedZs4FDjbWfuk9Tr8tWhvU1brQbljNbf2EfIXtbWw" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v5ztayRfoLPZB9xBGUoaXCXKa_5w_3t7FhvNs_eh5sPD4yW96bjuNabXPEdf682ZH-RWIqJNfoI-iTu_bS8G3jW203fhSBteHQ21Ty3HVqEqIoKcQbpoLjqCjHhyuWqol-8J7f-0-jwtt_cV1YavzqKe0aNWquC-BGWXaBmAe8XkfiS_RCh3nCMxhof_E3L_LBFXXUlsN0eux5N143jzE3Nr84gszK0Zxkj_pFCyILbz8ZOf42SEmtcLXHdMlXXi6upKzFs-FzqMdNi7PGEKXTkEZ2Qxnt9RdrurbLXmJbOyfuBcAUoWupwxHV713UHmiEjrdR2lWD1CseW6scpIkPU2H3MmJJA1u_lPeKQ6JSe1Qg-Us3hgR6STY0wEkJl4tDhw9r03C2PA3LRk_tUG5o-tO-3Mws65mVmaLqJt_FAfMFfMzPXwO4" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6veQ_-v8BninnbSE8XQL0lG0w2F6sHceFOpWAA0zFn5V4RtjMh4ssClAAfPwbuy-SvpBaFhIIv8vSRmHaldnCNuW8s_OblzbzFIIZf4Ep_gurLTr0g5WMB2GCNsq361LkLHI6sIiip74vBZVQlgCZP4inPQ3qln3Df_jNUF9KRaY96YKuYMlNVdoXaOVxRhLYlZOC28pzKpDC3LZzhQMKMkgItNJgqouYDh-4u2XwH2Nnlw_VvF9r0WI8N8ZyIf0oQcMP7qXxDws95PHWTDDYTRenUYxMFIYgNCeK0QHpmVCdlmTu-PT_quJPX3j1mZhstzIwGfIlMidvgZPoFArcKk0-fwZihcUEMnDeemHN8TJaG7P122XmftIrW7DETeU-ojinlR_Wiajd2zyLBhCPbOn6q-mcrdNkZtg2ffLJhk8g7PAipmg" height="200" width="auto" /><br><br>說明: 專映外國片<br><br>地點: 所在地：高雄州，高雄市鹽埕町原嫩ケラウンド一角（1929）<br>　　　　高雄州，高雄市榮町（1944）<br>簡介: ＊戰後光復大戲院<br>1945年台灣光復後改名為光復戲院，屬於台灣電影事業股份有限公司所有。當年光復戲院是高雄地區數一數二的戲院，均放映首輪國片，其中最令人記憶深刻且上演時日最長的，是1963年轟動一時的黃梅調電影《梁山伯與祝英台》。1968年，光復戲院改由中央電影公司直營。1982年10月，金馬獎外片觀摩首次南下高雄映演的場所就是光復戲院。<br>光復戲院在1983年8月24日宣佈停止營業。後來，中影公司花了近七千萬元重建光復戲院，改建成三樓新廈，闢成兩間放映廳，每廳約有400個座位，並於1987年6/19重新開幕，交由「鴻錦樓」（位於大勇路與大仁路口）的老闆經營，而影片的放映也從以往的首輪電影變為二輪電影。<br><br>2002年10月進行拆除，現為鹽埕埔站出口2<br><br>泉寬平，所有者（1929）<br>船橋武雄，所有者（1944）<br>船橋武雄，經營者（1944）<br>鈴木景三，會社擔當者（1944）<br>船橋武雄，統制會社契約書（1944）<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6uq38JN58hKPr7xAwcBYh08ga9MJ4BQLCYDONVRqTK5GuYKO3fGdL4On9mX3B9qU0tiGNszP1c74WsFUw6JVOW6O7lt6aRI7BIKj1jG-Uly3poBJDLOL7bFdWvzhDsqdqGeXtLPvZSJuaMJ-phBrIPP2ZOi_7qTvlJ4g5vTId3az024k8Ek1euvhS3_fcKv3dhtzcb63va1nbykJ8bbzFuEm4QOWcLl3Imn4L7epZzqHsX3lRzQEE0MF6H11djUuVBAtmZ24nZ7APN0BSFXua2azf_tKVO-6GfNllMQ02cQiVhVP9lxMcvfbT-qWlaSdK27nc_2BI7dhzOD-IguI3QBVybjvz00Jnmq4_qBzmU1w_poqBI2Ghr9N1t1Ulu0G8FT6t17hvCqotBimZByTPDk8IUo0MrGdWi6nWGvPRR07Tofx_jlA" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7COTrYwc5QrTTjW2hc_kRcFMpk40HCFw4l8nwFhtOWik_oZ-ElDgZN-2YQ_CXpSRl-5sflDCznPtX7mXfkZGe7pEgy2ZW2TeE0MXbL21mIGBTqCKIiVUgUiAA0zXoGKyTIyOpGBwATQmPdUxhZsfL1TUnEVHHn_0TXPDa3Lx58Z1iptqcVmB9_wmje5seOMbI55PeJcL03OfetmtQeDjElNvaHuuGN_ZRdIjKPPTSFwhRw0ynYtwcwKsG9_FHyDHKvC6SnFRqCqQ-Q02vlUXvRzeWQhGUPWRWbfeIXIK0Tx2NsaTBUFWNQYI0edLdNiLyM6c1LXTf9EbhefqOvi-gdssyHV4je5kVie-PiGana146szLIk6hele3mE7yxV5Xh2j4hF46brKtQ0VlwkXV5_LSqwDnv1agyEZvrbwSBFtRowTkurVnU" height="200" width="auto" />]]></description>
         <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -534,7 +534,7 @@
 船橋武雄，統制會社契約書（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4uid77JNiIsAOccdrIaCdA5xGl--9sJ2lh6NrbH65gUlGDkE8V663VF6YpR1cWVpJX9eSXZIi-Yhn-VD7cK4cv1gUyei32Itya5kVPU0gOeglnOwPL-xy65VPHCqUGaGrnRIaP7j_wiL2QrPXfU2DjcMiCutPPci9MQgTkJlJgB1PGyJS95r6xbGWE8eiiBpdtzqiECda4hllfY0Lh0uwxKNp9KnIuNZvjAT4Z85X-WBBQMpmfqnLA3oW_5KkNynWQdBoG4uTRfnaG5AETVBXhnNI1d61iWNMh5a-UD8pnlkXzrYxIPZZpX9Jxwjvz6Tg-Q8wMf6s9rwc3vKpTuGhj55ijrU1KW3srkTTsdqRzNA6BEEMvUKWPQ9IpnfEywja_tdcWXZTfBcOIgHrPmprOk44jSIvtvE1LMikvfjBRURa2wn9B1A https://lh3.googleusercontent.com/umsh/AN6v0v5ybSatJevphKz74REQ_vH9sps30sgZvUK8uZwYMjwroVH8LJkmk5LGO5w4zi-OcGqQP8AvK9t_gWwkUo6V1fRJBpkTCJOfuSeRYGsKjrfonNXuopSQIC1h1jzN7uYzi6p-mw2kqVvOehuBh2lgQvFz9GC65Hk35_z2IYbfPNR4Z5VGf3hjmHaB5kPfBDCQT95RDzqsOdbD8G6puxqcaxlgHNrBBdEe9x28NgbOzb9ph-g6q0c2-GPxJl94xN912tHyWc6NBGOEYeoUAB5RFapxf_k2D8kLyWU6pXon76dccVtP4Ntxw3AMuM-2ewWGHEh_0mSDhCSSkIz9SB6STIzPHgBo9l4POrLxiQtRNHd1RQPuJDBnSxxyBNapGwUPbsTj7yhB-hrxfedZs4FDjbWfuk9Tr8tWhvU1brQbljNbf2EfIXtbWw https://lh3.googleusercontent.com/umsh/AN6v0v5ztayRfoLPZB9xBGUoaXCXKa_5w_3t7FhvNs_eh5sPD4yW96bjuNabXPEdf682ZH-RWIqJNfoI-iTu_bS8G3jW203fhSBteHQ21Ty3HVqEqIoKcQbpoLjqCjHhyuWqol-8J7f-0-jwtt_cV1YavzqKe0aNWquC-BGWXaBmAe8XkfiS_RCh3nCMxhof_E3L_LBFXXUlsN0eux5N143jzE3Nr84gszK0Zxkj_pFCyILbz8ZOf42SEmtcLXHdMlXXi6upKzFs-FzqMdNi7PGEKXTkEZ2Qxnt9RdrurbLXmJbOyfuBcAUoWupwxHV713UHmiEjrdR2lWD1CseW6scpIkPU2H3MmJJA1u_lPeKQ6JSe1Qg-Us3hgR6STY0wEkJl4tDhw9r03C2PA3LRk_tUG5o-tO-3Mws65mVmaLqJt_FAfMFfMzPXwO4</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6veQ_-v8BninnbSE8XQL0lG0w2F6sHceFOpWAA0zFn5V4RtjMh4ssClAAfPwbuy-SvpBaFhIIv8vSRmHaldnCNuW8s_OblzbzFIIZf4Ep_gurLTr0g5WMB2GCNsq361LkLHI6sIiip74vBZVQlgCZP4inPQ3qln3Df_jNUF9KRaY96YKuYMlNVdoXaOVxRhLYlZOC28pzKpDC3LZzhQMKMkgItNJgqouYDh-4u2XwH2Nnlw_VvF9r0WI8N8ZyIf0oQcMP7qXxDws95PHWTDDYTRenUYxMFIYgNCeK0QHpmVCdlmTu-PT_quJPX3j1mZhstzIwGfIlMidvgZPoFArcKk0-fwZihcUEMnDeemHN8TJaG7P122XmftIrW7DETeU-ojinlR_Wiajd2zyLBhCPbOn6q-mcrdNkZtg2ffLJhk8g7PAipmg https://lh3.googleusercontent.com/umsh/AN6v0v6uq38JN58hKPr7xAwcBYh08ga9MJ4BQLCYDONVRqTK5GuYKO3fGdL4On9mX3B9qU0tiGNszP1c74WsFUw6JVOW6O7lt6aRI7BIKj1jG-Uly3poBJDLOL7bFdWvzhDsqdqGeXtLPvZSJuaMJ-phBrIPP2ZOi_7qTvlJ4g5vTId3az024k8Ek1euvhS3_fcKv3dhtzcb63va1nbykJ8bbzFuEm4QOWcLl3Imn4L7epZzqHsX3lRzQEE0MF6H11djUuVBAtmZ24nZ7APN0BSFXua2azf_tKVO-6GfNllMQ02cQiVhVP9lxMcvfbT-qWlaSdK27nc_2BI7dhzOD-IguI3QBVybjvz00Jnmq4_qBzmU1w_poqBI2Ghr9N1t1Ulu0G8FT6t17hvCqotBimZByTPDk8IUo0MrGdWi6nWGvPRR07Tofx_jlA https://lh3.googleusercontent.com/umsh/AN6v0v7COTrYwc5QrTTjW2hc_kRcFMpk40HCFw4l8nwFhtOWik_oZ-ElDgZN-2YQ_CXpSRl-5sflDCznPtX7mXfkZGe7pEgy2ZW2TeE0MXbL21mIGBTqCKIiVUgUiAA0zXoGKyTIyOpGBwATQmPdUxhZsfL1TUnEVHHn_0TXPDa3Lx58Z1iptqcVmB9_wmje5seOMbI55PeJcL03OfetmtQeDjElNvaHuuGN_ZRdIjKPPTSFwhRw0ynYtwcwKsG9_FHyDHKvC6SnFRqCqQ-Q02vlUXvRzeWQhGUPWRWbfeIXIK0Tx2NsaTBUFWNQYI0edLdNiLyM6c1LXTf9EbhefqOvi-gdssyHV4je5kVie-PiGana146szLIk6hele3mE7yxV5Xh2j4hF46brKtQ0VlwkXV5_LSqwDnv1agyEZvrbwSBFtRowTkurVnU</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -548,7 +548,7 @@
       <name>1931～1945</name>
       <Placemark>
         <name>壽星座1930</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7Ozb8arrOslqhoixd5Mdi39D_NP3EuBlbm9kLT8JODXQXo0Nwz86hvQ6cNjeQlvDMSPhxBmahF04c9lgIEJbN-baBDICU07pYUpd80X2dkNZqq465y28fUb1X0FxhbiYO3U9qmTdX0SUa6_1u9cL10wbQ8fXvUTEPGVlmzpnZPNbnCb3IJPsS5iCptXoScr0Gtl33aXDD0AqY4CxgeGg2ltBUhTuCoOL1JLKAVytgD7d02XBRTryiUF22sPvSpLovoI-xzNvgbfHXWJFwnvtk8yH1d-3fapb0GQ8N3WlySFNlateR21r4p4EGPRsHWoW2735hDkZBKVRk54ZjVgAneO9eK1gJgbK_B6LJl9QbL3PYMm1U1-chD0HsUj5W4YAlEZJ2XcaLILpzNPq-bZqWsOM5y6r1snjvEH9ayUKNCzGZc0QbD" height="200" width="auto" /><br><br>說明: 1930-4-23 第一臺人戲院鹽埕座成立<br>地點: 所在地：高雄州，高雄市北野町（1929）<br>簡介: 戰後壽星戲院1995年關閉<br><br>多木龍二，株式會社鹽埕座取締役社長（1930）<br>宮本幸次郎，株式會社鹽埕座取締役（1930）<br>福井四磨，株式會社鹽埕座取締役（1930）<br>西田傳吉，株式會社鹽埕座取締役（1930）<br>陳啟峰，株式會社鹽埕座取締役（1930）<br>中村秀，株式會社鹽埕座監察役（1930）<br>林迦，株式會社鹽埕座監察役（1930）<br>陳鏡湖，座主（1931）<br>豐永易介，監事（1931-1941）<br>黃量，董事（1932-1941）<br>小野農夫，董事（1932-1935）<br>高鉾豐三郎，董事（1932-1941）<br>周李芳，監事（1935-）<br>李炳森，監事（1938-1941）<br>尾上信雄，董事（1941-）<br>高鉾豐三郎，所有者（1944）<br>高鉾豐三郎，經營者（1944）<br>高鉾豐三郎，統制會社契約書（1944）<br>今井淺次郎，會社擔當者（1944）]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6PKuL4QzYl3kYWHyzvyzpIozKq5GwXvCeDyC6t1t0usC1_AkR1O15UzB2rvTBxd9cFhB0HobRTB8F08G0P5NlciLrV9B4NwLLI6K9cbA-N3Chen4YCpdYENHNYk-8MKEVaRDf9Zw4REcbdwESigYiSIRf7kC0SjCxqOeP3cuN9mVNPFSsTp-hN3-X5wVLnDTBFkqIyOBNwMCtdrRbXRsK4uITt-r19yx_xnjkP-M8bVLhKQY-iFSto-VW4NTXbDXiQSHc5CBnsRQ-rT8cQvj5Vmwoju9snc1YPsts0AzTWd_IZCRLg4qYBEtbqGKa0qIdDqCuLB265BJUL1MDo7OvKIENG16mfxqQZyO7fsCOgWgcJrPcfz6ZZOI1-q8py3GIPNBJaZQD4NnNwiAXEKvOrfivXKARFHg7gY8wndhCU1c9g8xnX" height="200" width="auto" /><br><br>說明: 1930-4-23 第一臺人戲院鹽埕座成立<br>地點: 所在地：高雄州，高雄市北野町（1929）<br>簡介: 戰後壽星戲院1995年關閉<br><br>多木龍二，株式會社鹽埕座取締役社長（1930）<br>宮本幸次郎，株式會社鹽埕座取締役（1930）<br>福井四磨，株式會社鹽埕座取締役（1930）<br>西田傳吉，株式會社鹽埕座取締役（1930）<br>陳啟峰，株式會社鹽埕座取締役（1930）<br>中村秀，株式會社鹽埕座監察役（1930）<br>林迦，株式會社鹽埕座監察役（1930）<br>陳鏡湖，座主（1931）<br>豐永易介，監事（1931-1941）<br>黃量，董事（1932-1941）<br>小野農夫，董事（1932-1935）<br>高鉾豐三郎，董事（1932-1941）<br>周李芳，監事（1935-）<br>李炳森，監事（1938-1941）<br>尾上信雄，董事（1941-）<br>高鉾豐三郎，所有者（1944）<br>高鉾豐三郎，經營者（1944）<br>高鉾豐三郎，統制會社契約書（1944）<br>今井淺次郎，會社擔當者（1944）]]></description>
         <styleUrl>#icon-1899-795548-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -581,7 +581,7 @@
 今井淺次郎，會社擔當者（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7Ozb8arrOslqhoixd5Mdi39D_NP3EuBlbm9kLT8JODXQXo0Nwz86hvQ6cNjeQlvDMSPhxBmahF04c9lgIEJbN-baBDICU07pYUpd80X2dkNZqq465y28fUb1X0FxhbiYO3U9qmTdX0SUa6_1u9cL10wbQ8fXvUTEPGVlmzpnZPNbnCb3IJPsS5iCptXoScr0Gtl33aXDD0AqY4CxgeGg2ltBUhTuCoOL1JLKAVytgD7d02XBRTryiUF22sPvSpLovoI-xzNvgbfHXWJFwnvtk8yH1d-3fapb0GQ8N3WlySFNlateR21r4p4EGPRsHWoW2735hDkZBKVRk54ZjVgAneO9eK1gJgbK_B6LJl9QbL3PYMm1U1-chD0HsUj5W4YAlEZJ2XcaLILpzNPq-bZqWsOM5y6r1snjvEH9ayUKNCzGZc0QbD</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6PKuL4QzYl3kYWHyzvyzpIozKq5GwXvCeDyC6t1t0usC1_AkR1O15UzB2rvTBxd9cFhB0HobRTB8F08G0P5NlciLrV9B4NwLLI6K9cbA-N3Chen4YCpdYENHNYk-8MKEVaRDf9Zw4REcbdwESigYiSIRf7kC0SjCxqOeP3cuN9mVNPFSsTp-hN3-X5wVLnDTBFkqIyOBNwMCtdrRbXRsK4uITt-r19yx_xnjkP-M8bVLhKQY-iFSto-VW4NTXbDXiQSHc5CBnsRQ-rT8cQvj5Vmwoju9snc1YPsts0AzTWd_IZCRLg4qYBEtbqGKa0qIdDqCuLB265BJUL1MDo7OvKIENG16mfxqQZyO7fsCOgWgcJrPcfz6ZZOI1-q8py3GIPNBJaZQD4NnNwiAXEKvOrfivXKARFHg7gY8wndhCU1c9g8xnX</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -592,7 +592,7 @@
       </Placemark>
       <Placemark>
         <name>青年會館1930～1985</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4LoFynx8YMJcaBhNEOF-U5nbg0MBKn19RjOKJCrDnC4Tli---LuHLYjR6z3Olk8azjPkRUR7yUwRjfC2f6udr9hsz8Y3kW7Rgv2BbKxtsixTfVk3i1Hr8_9i6h7BhjAlb13zk1xUM-h-1RJad0YPo_ZtstbYhS24iWjlOIP9RPAFwvIay9twmCjA7MnSeyNQBrwox6f1PLRE0XMYuxAmfPScZQm0BesU8V1SmwXjutQREpFHtBPaWthtXLy8KZiEHGqrHFnFGaa9e8qREFribDVDVsoXEUjZhKoeE2xrMpkGiCcNB6UjkLvh7lb_jhLIPPiKS9YgKDa079dnU0aj6UOdvf2-VGw2KeExL_uG3EEGxq5JH5wpLbOMWRGxsK2EUanzQLnjtfUlKjbwLnc60L1udqA1P_Xj_vuaAF_oszELEuVA" height="200" width="auto" /><br><br>說明: 高雄戲院負責人王復成(混合)<br>地點: 台灣高雄市前金區大同二路131號<br>簡介: 1930年（昭和5年），日本政府於高雄川旁的高雄州廳後方興建「青年會館」，為全台首座青年會館。其主要用途為高雄州各地青年團舉辦演講、集會、映畫欣賞等活動的場所，另外亦發行青年雜誌。<br><br>戰後，青年會館由國民黨的「三民主義青年團」進行劫收，改為「青年戲院」專映電影。在經歷1947年二二八大屠殺與1950年代的白色恐怖之後，青年戲院於1953年改名為「勝利戲院」，當時的觀眾仍以學生為主。<br><br>1957年，勝利戲院經營權易主，改名為「高雄戲院」。照片中為1961年高雄戲院整修後的樣子，改建後的大門已不復以往壯觀優美。高雄戲院最後於1985年10月停業。原為高雄州廳的高雄地方法院於1987年遭拆除改建，在此矗立近一甲子的青年會館也隨之灰飛煙滅。]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6vmD4JVAMwj4wr0a87UDZILrgHAQ_XpYzO7kbcEaUw37x5CAXjNo0Ed9jdWJTpKEmqEzzSUmlw_MCMLs39jtJi8PQLg9AR0HYIMILSp56HvgMJ6z2qji47ePB7UzXoRsWp-TTFQ1P1flajXLHs_dinPvnOvUhrdCehKFauj9sfZuoCzn17dePhWgbjLdeAVgTeml25PfmOnM2Yf6_CqsYFKcj2ZLGuw19RWf91pgQGolCN8hEp2FaN1YCzPhSnQFWXExJ47AEVtchlDU37B_zTtpLcDNAlkP7_XPQDA-hQqTtlxbrJj19IdpUK1mZjdGlNlPSOSFH1fGfkyz5jB9XNp3BNijVgeZTq71gq95NJrgwrLVY9lHmOlq2cKZCJLLtm2mHtkC-TL1UGgXkyCk652r2ifaqqIAAIX4sZcpiQywYbiQ" height="200" width="auto" /><br><br>說明: 高雄戲院負責人王復成(混合)<br>地點: 台灣高雄市前金區大同二路131號<br>簡介: 1930年（昭和5年），日本政府於高雄川旁的高雄州廳後方興建「青年會館」，為全台首座青年會館。其主要用途為高雄州各地青年團舉辦演講、集會、映畫欣賞等活動的場所，另外亦發行青年雜誌。<br><br>戰後，青年會館由國民黨的「三民主義青年團」進行劫收，改為「青年戲院」專映電影。在經歷1947年二二八大屠殺與1950年代的白色恐怖之後，青年戲院於1953年改名為「勝利戲院」，當時的觀眾仍以學生為主。<br><br>1957年，勝利戲院經營權易主，改名為「高雄戲院」。照片中為1961年高雄戲院整修後的樣子，改建後的大門已不復以往壯觀優美。高雄戲院最後於1985年10月停業。原為高雄州廳的高雄地方法院於1987年遭拆除改建，在此矗立近一甲子的青年會館也隨之灰飛煙滅。]]></description>
         <styleUrl>#icon-1899-795548-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -609,7 +609,7 @@
 1957年，勝利戲院經營權易主，改名為「高雄戲院」。照片中為1961年高雄戲院整修後的樣子，改建後的大門已不復以往壯觀優美。高雄戲院最後於1985年10月停業。原為高雄州廳的高雄地方法院於1987年遭拆除改建，在此矗立近一甲子的青年會館也隨之灰飛煙滅。</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4LoFynx8YMJcaBhNEOF-U5nbg0MBKn19RjOKJCrDnC4Tli---LuHLYjR6z3Olk8azjPkRUR7yUwRjfC2f6udr9hsz8Y3kW7Rgv2BbKxtsixTfVk3i1Hr8_9i6h7BhjAlb13zk1xUM-h-1RJad0YPo_ZtstbYhS24iWjlOIP9RPAFwvIay9twmCjA7MnSeyNQBrwox6f1PLRE0XMYuxAmfPScZQm0BesU8V1SmwXjutQREpFHtBPaWthtXLy8KZiEHGqrHFnFGaa9e8qREFribDVDVsoXEUjZhKoeE2xrMpkGiCcNB6UjkLvh7lb_jhLIPPiKS9YgKDa079dnU0aj6UOdvf2-VGw2KeExL_uG3EEGxq5JH5wpLbOMWRGxsK2EUanzQLnjtfUlKjbwLnc60L1udqA1P_Xj_vuaAF_oszELEuVA</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6vmD4JVAMwj4wr0a87UDZILrgHAQ_XpYzO7kbcEaUw37x5CAXjNo0Ed9jdWJTpKEmqEzzSUmlw_MCMLs39jtJi8PQLg9AR0HYIMILSp56HvgMJ6z2qji47ePB7UzXoRsWp-TTFQ1P1flajXLHs_dinPvnOvUhrdCehKFauj9sfZuoCzn17dePhWgbjLdeAVgTeml25PfmOnM2Yf6_CqsYFKcj2ZLGuw19RWf91pgQGolCN8hEp2FaN1YCzPhSnQFWXExJ47AEVtchlDU37B_zTtpLcDNAlkP7_XPQDA-hQqTtlxbrJj19IdpUK1mZjdGlNlPSOSFH1fGfkyz5jB9XNp3BNijVgeZTq71gq95NJrgwrLVY9lHmOlq2cKZCJLLtm2mHtkC-TL1UGgXkyCk652r2ifaqqIAAIX4sZcpiQywYbiQ</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -620,7 +620,7 @@
       </Placemark>
       <Placemark>
         <name>新鳳山座1932</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5fvT3mvaT_43CqizPIBr7aTzLBKMwseM8vIJC3o8HNn6R0HgWWQX-L_IDEVN9aqVgSNsU6339STS1-HHrrp7SYRPcvgRHgjY7K3uh-ClG9hFX2_XhHk2EECICjB13BDWM5qZd1sEiS3a2Xe4q0I0V7l8VcuaxTB2Np34FHqQL99Ac7WJqdrKjnJkcZzO9-BaCL0g1t4OX_wKVXTWpihwgxnH6m-q_HtsGgIoZTrLLlMqCFZizViwq4GLYmIr9qfjpbc-djWrPWcClwR_rzbesuO1QBLTPpS2FUDsmu-6kPqhxbFRybFdNTGXyStjFThFcSfqlxCgtOr2c6G6IjclhPInRRNTA0VQulH5aN8ixjBdCPW53aBi3Xu34i9S7HCXiNhOx5wv6VTHBJQiwogi3LDkrNiH8ngvjSNpV4Tr5cFSI0" height="200" width="auto" /><br><br>說明: 戲院名稱：（新）鳳山座<br>定位精度：精確<br>營運日期（起）：1932-?-?<br>營運日期（迄）：?<br>可考之營運年代：1930-1939，1940-1945<br><br>工程費用三萬圓，現代摩登式建物，可容納一千名。（《臺灣日日新報》1932-05-11）<br><br>地點: 所在地：高雄州，舊鳳山座附近（1931）<br>　　　　高雄州，鳳山郡鳳山街（1944）<br>簡介: 何在首，座主（1932）<br>大觀商事株式會社，所有者（1944）<br>大觀商事株式會社，經營者（1944）<br>林水連，會社擔當者（1944）<br>平山敬三，統制會社契約書（1944）]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4FCmjgM9MOIHdNHQcyXHWE_zyk1X7J7KFr3ZLj576i6owG7iZMsoRorMS18gfuKMpAWgmUAa2QeUXPrazgzbaFHw9s0XQGpUf7sZi3HTEh5iidgj9VyMquZgEIT8kluLhTxXz1mm5eE1F3tQvPkpPgjlVieiFzL7eFkXFimhjQ8We6VfQSQhU-A-NoAkfgQPNVoJZC0khJKEL2Kdh1NVziaM9LLzY6JmQbybqFzQWbore4GVE0ewd8GdxcvtG2fiXFVIyDlmbfCEasyy52bpuRTWlDxLIDnYovKNRgbCLTeC_sB8j2PJuXnLiX2gScMKTCyB4XxVJJ0BPjR_pqlq-Bv36KYwNuDZhbUXfuNk3vKlWk5ddxSmqKjSRuHiVYOEH38JPi1yAZZb8GcVXaI5Megmz_brbtvtaLWNHOPi9Y0z-o" height="200" width="auto" /><br><br>說明: 戲院名稱：（新）鳳山座<br>定位精度：精確<br>營運日期（起）：1932-?-?<br>營運日期（迄）：?<br>可考之營運年代：1930-1939，1940-1945<br><br>工程費用三萬圓，現代摩登式建物，可容納一千名。（《臺灣日日新報》1932-05-11）<br><br>地點: 所在地：高雄州，舊鳳山座附近（1931）<br>　　　　高雄州，鳳山郡鳳山街（1944）<br>簡介: 何在首，座主（1932）<br>大觀商事株式會社，所有者（1944）<br>大觀商事株式會社，經營者（1944）<br>林水連，會社擔當者（1944）<br>平山敬三，統制會社契約書（1944）]]></description>
         <styleUrl>#icon-1899-795548-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -645,7 +645,7 @@
 平山敬三，統制會社契約書（1944）</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5fvT3mvaT_43CqizPIBr7aTzLBKMwseM8vIJC3o8HNn6R0HgWWQX-L_IDEVN9aqVgSNsU6339STS1-HHrrp7SYRPcvgRHgjY7K3uh-ClG9hFX2_XhHk2EECICjB13BDWM5qZd1sEiS3a2Xe4q0I0V7l8VcuaxTB2Np34FHqQL99Ac7WJqdrKjnJkcZzO9-BaCL0g1t4OX_wKVXTWpihwgxnH6m-q_HtsGgIoZTrLLlMqCFZizViwq4GLYmIr9qfjpbc-djWrPWcClwR_rzbesuO1QBLTPpS2FUDsmu-6kPqhxbFRybFdNTGXyStjFThFcSfqlxCgtOr2c6G6IjclhPInRRNTA0VQulH5aN8ixjBdCPW53aBi3Xu34i9S7HCXiNhOx5wv6VTHBJQiwogi3LDkrNiH8ngvjSNpV4Tr5cFSI0</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4FCmjgM9MOIHdNHQcyXHWE_zyk1X7J7KFr3ZLj576i6owG7iZMsoRorMS18gfuKMpAWgmUAa2QeUXPrazgzbaFHw9s0XQGpUf7sZi3HTEh5iidgj9VyMquZgEIT8kluLhTxXz1mm5eE1F3tQvPkpPgjlVieiFzL7eFkXFimhjQ8We6VfQSQhU-A-NoAkfgQPNVoJZC0khJKEL2Kdh1NVziaM9LLzY6JmQbybqFzQWbore4GVE0ewd8GdxcvtG2fiXFVIyDlmbfCEasyy52bpuRTWlDxLIDnYovKNRgbCLTeC_sB8j2PJuXnLiX2gScMKTCyB4XxVJJ0BPjR_pqlq-Bv36KYwNuDZhbUXfuNk3vKlWk5ddxSmqKjSRuHiVYOEH38JPi1yAZZb8GcVXaI5Megmz_brbtvtaLWNHOPi9Y0z-o</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -708,7 +708,7 @@ https://www.peopo.org/news/382333?fbclid=IwAR0FNsjvqRhWAHSRv5qXg8NSYQNT9pZ6NZBpG
       </Placemark>
       <Placemark>
         <name>★共樂館1943</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7rDw4o-qta_V7mbhdE6KlRNLNI4E5GAmZ_A7RE5YzFg_rTQh_GmwvpDwfDGAkOGZejHiUNd1Q2-yZdWuLTfSFv9ShvTLMkX-pxTPpNXXxXoJ7WOjP10EakizhJUALw1XmvDCiomzLgy1oxAX-0Ej-cxF0eX6vmwP8ubYfCDX2WtyJcjx5o3_GoNQfKD7F3du2hk_fBOWXHpgi1_NWv8S7eqKmUBLNYbJGzpCniENfaBolgznKcnh_vbrLT3Y_Q8Mnx8BMHpoBvV0C0iEM0lHAjoMfkqiPi22EhwUdhO7XLKMcxprbjQ8XeHQ-mnRgTOjcvfNWfhrtQNJRCpyUyc05vDemwtPsDuvX4wCznnefnr6Nk1GFTP3BQUy3ucJvR66CuwybL1-shJXIhjbdAxOg4e6IH74blLZ1qgxNnPNa8RYF-hCffvg" height="200" width="auto" /><br><br>說明: 1943-11-10成立<br>地點: 所在地：高雄州，岡山郡岡山街（1944）<br>簡介: 存在，戰後改稱「岡山戲院」，現為成衣賣場。<br><br>http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800<br><br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）<br>]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7UJagx8Fqf1ckQyczHmiCqCUTXJ9t8EdcGfX_o5i291y1Qcz27ADHN1nTPo6zFzR1zQUqtkLsPHgssZGdSrooYV-hlOpknwbejB9pwzWaabIAbyp248cL9eXPxPW9x-Mp6MkSkhinloAi-csG3_gE9sz5CqT7-Mc6JG3J_YDVwJ0m7kx6Xld8N6qEmGzlfvODNQzuk9t8ximDL0AxjGoQC2XacxJpG9N3IVcGwzM3qKsKehkCFSUO5rR7S-RxoQg_GY5NjEphKoxDBqK-tp2zSLnodown7eZ91PqtiQk5vpqaGvKF5BxGTYtVu5vb3Ka4MBgm7qQ8Km2JSZ3XJaLAgvaMk3h-LLse2qh0IvA1nAJUARhOSNTufwH9F9wBt0Mx2zsK4gBAsF9AKRZqLTLvWvHHZcMc5uzq8-Vo5YEr8OeADgDWXFg" height="200" width="auto" /><br><br>說明: 1943-11-10成立<br>地點: 所在地：高雄州，岡山郡岡山街（1944）<br>簡介: 存在，戰後改稱「岡山戲院」，現為成衣賣場。<br><br>http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800<br><br>株式會社岡山共樂館，所有者（1944）<br>株式會社岡山共樂館，經營者（1944）<br>東滿，會社擔當者（1944）<br>齋藤善次郎，統制會社契約書（1944）<br>]]></description>
         <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -729,7 +729,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
 ]]></value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7rDw4o-qta_V7mbhdE6KlRNLNI4E5GAmZ_A7RE5YzFg_rTQh_GmwvpDwfDGAkOGZejHiUNd1Q2-yZdWuLTfSFv9ShvTLMkX-pxTPpNXXxXoJ7WOjP10EakizhJUALw1XmvDCiomzLgy1oxAX-0Ej-cxF0eX6vmwP8ubYfCDX2WtyJcjx5o3_GoNQfKD7F3du2hk_fBOWXHpgi1_NWv8S7eqKmUBLNYbJGzpCniENfaBolgznKcnh_vbrLT3Y_Q8Mnx8BMHpoBvV0C0iEM0lHAjoMfkqiPi22EhwUdhO7XLKMcxprbjQ8XeHQ-mnRgTOjcvfNWfhrtQNJRCpyUyc05vDemwtPsDuvX4wCznnefnr6Nk1GFTP3BQUy3ucJvR66CuwybL1-shJXIhjbdAxOg4e6IH74blLZ1qgxNnPNa8RYF-hCffvg</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7UJagx8Fqf1ckQyczHmiCqCUTXJ9t8EdcGfX_o5i291y1Qcz27ADHN1nTPo6zFzR1zQUqtkLsPHgssZGdSrooYV-hlOpknwbejB9pwzWaabIAbyp248cL9eXPxPW9x-Mp6MkSkhinloAi-csG3_gE9sz5CqT7-Mc6JG3J_YDVwJ0m7kx6Xld8N6qEmGzlfvODNQzuk9t8ximDL0AxjGoQC2XacxJpG9N3IVcGwzM3qKsKehkCFSUO5rR7S-RxoQg_GY5NjEphKoxDBqK-tp2zSLnodown7eZ91PqtiQk5vpqaGvKF5BxGTYtVu5vb3Ka4MBgm7qQ8Km2JSZ3XJaLAgvaMk3h-LLse2qh0IvA1nAJUARhOSNTufwH9F9wBt0Mx2zsK4gBAsF9AKRZqLTLvWvHHZcMc5uzq8-Vo5YEr8OeADgDWXFg</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1206,7 +1206,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
       </Placemark>
       <Placemark>
         <name>新高戲院1950～1991</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj9Cb7AoNCAKLa315-HuJLyU0Av32Y_RybUHY9OvJFI8vPdD-mlgL-UOHJ_ibuNP2iRxJqMpz0Gmjc0OvTRxvElhNfv6AsS0YQe6DE5cfRf3xHdeRWQiXOxQqm_XWTkoMmGUmqUT8SDSf5gQVeHCu4p816uKotys5dFUlv-bcVavkiIuk77mXerT0UJsCFJOtstFkPvsx6uCQ?fife=s16383" height="200" width="auto" /><br><br>說明: 1979林月姮經營<br>地點: 高雄市鹽埕區藍橋里新興街305號<br>簡介: 開幕叫建國戲院，1952改名新高，1979林月姮承租改映首輪片，後改播色情<br>1983被抓，改吳忠信承租繼續色情映演<br>1991拆除蓋大樓<br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgAPRPl_5OV7AzO6Kn-o0uPJwAIgPJzaVqueUNRIMD99PirlcpaKH9Tu4SB_sbkrBQzU35wG41_WVo6WMWvJat5D---jpK-a-wu3DA4k36Uy0-H5TO9d72p097uzBNXmaxZQ4KJSXDBODiaYVr6YBRkkya3n5sJjHeMI2Zlu83JU_mHIHjo_FFWJ5Vg9XLk0AtYb3fncC0naw?fife=s16383" height="200" width="auto" /><br><br>說明: 1979林月姮經營<br>地點: 高雄市鹽埕區藍橋里新興街305號<br>簡介: 開幕叫建國戲院，1952改名新高，1979林月姮承租改映首輪片，後改播色情<br>1983被抓，改吳忠信承租繼續色情映演<br>1991拆除蓋大樓<br>]]></description>
         <styleUrl>#icon-1709-424242-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -1222,7 +1222,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
 </value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj9Cb7AoNCAKLa315-HuJLyU0Av32Y_RybUHY9OvJFI8vPdD-mlgL-UOHJ_ibuNP2iRxJqMpz0Gmjc0OvTRxvElhNfv6AsS0YQe6DE5cfRf3xHdeRWQiXOxQqm_XWTkoMmGUmqUT8SDSf5gQVeHCu4p816uKotys5dFUlv-bcVavkiIuk77mXerT0UJsCFJOtstFkPvsx6uCQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgAPRPl_5OV7AzO6Kn-o0uPJwAIgPJzaVqueUNRIMD99PirlcpaKH9Tu4SB_sbkrBQzU35wG41_WVo6WMWvJat5D---jpK-a-wu3DA4k36Uy0-H5TO9d72p097uzBNXmaxZQ4KJSXDBODiaYVr6YBRkkya3n5sJjHeMI2Zlu83JU_mHIHjo_FFWJ5Vg9XLk0AtYb3fncC0naw?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1500,7 +1500,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
       </Placemark>
       <Placemark>
         <name>港都戲院1952/10/15～1978</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7JfhhPui_t9LH5dL9zMBot60Lm0LmwEMJvnM0mwbwYGndlYxQfy6_ePlI929L8l0PUllGqkAaGBFIMB4IZtN-zPq-AZ7193pzFT8oz2DHlHkwaZcOmV_WO9Yok9Y1nU-iR4JImAy8yPvtg3pWTTwkgj4DFeBAFsoqv_DpHd02jFyBJUdRiYcG3Brx_K4Se3mmv_WJncoW9aqkNoiWphKVUuU0Gso7bfOsRF-NjFV5pGZoxxAbrlx3gErF56yGe33OSqCv0jUhgftU" height="200" width="auto" /><br><br>說明: 鹽府段(0040)196地號<br><br><br>地點: 高雄市鹽埕區興華街19號<br><br>簡介: 混和<br>張庸言、戴買等創立，混和戲院<br>1963葉炎山獨資接手，後轉脫衣舞<br>為市區首家色情<br>旁邊為舊果菜市場<br>]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v74yhGsLMmgxGz6ezJXm3eynBKw4-3cnrDetPPp2ddPNNFweRkkSOwnhbYQBFxaCU81unP71oGoUSC885fa2fLg5X5AOQ-CQfCdIm_cutN3WP4vDXTxv5P3Q897ITgCP7sn0e7wmUASzqh553Emp6lfOy4gs5Zq_F58mb1wT3NnuiFwbZHcQqXbD_hN7rE8-5LKK-RXkLBjXcCNdXJS_unlaPwLnUO6rXY2muVSj88eeKAOQaKl7yAGefo1npFEvXPVBK85-_Qhwd4" height="200" width="auto" /><br><br>說明: 鹽府段(0040)196地號<br><br><br>地點: 高雄市鹽埕區興華街19號<br><br>簡介: 混和<br>張庸言、戴買等創立，混和戲院<br>1963葉炎山獨資接手，後轉脫衣舞<br>為市區首家色情<br>旁邊為舊果菜市場<br>]]></description>
         <styleUrl>#icon-1709-424242-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -1521,7 +1521,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
 </value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7JfhhPui_t9LH5dL9zMBot60Lm0LmwEMJvnM0mwbwYGndlYxQfy6_ePlI929L8l0PUllGqkAaGBFIMB4IZtN-zPq-AZ7193pzFT8oz2DHlHkwaZcOmV_WO9Yok9Y1nU-iR4JImAy8yPvtg3pWTTwkgj4DFeBAFsoqv_DpHd02jFyBJUdRiYcG3Brx_K4Se3mmv_WJncoW9aqkNoiWphKVUuU0Gso7bfOsRF-NjFV5pGZoxxAbrlx3gErF56yGe33OSqCv0jUhgftU</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v74yhGsLMmgxGz6ezJXm3eynBKw4-3cnrDetPPp2ddPNNFweRkkSOwnhbYQBFxaCU81unP71oGoUSC885fa2fLg5X5AOQ-CQfCdIm_cutN3WP4vDXTxv5P3Q897ITgCP7sn0e7wmUASzqh553Emp6lfOy4gs5Zq_F58mb1wT3NnuiFwbZHcQqXbD_hN7rE8-5LKK-RXkLBjXcCNdXJS_unlaPwLnUO6rXY2muVSj88eeKAOQaKl7yAGefo1npFEvXPVBK85-_Qhwd4</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1532,7 +1532,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
       </Placemark>
       <Placemark>
         <name>小港戲院1953</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5PMZLLll6xKyyfWZwBTG01gRXbFa9gSxIiAhA0193__mcXDeyKwtCsUEUxm36acymk0KOK47_1f2hPc34jDbNLzkjmbRQe2Z1R0hMH6OLY7pp1lOJkggaP0WYc8CljNkM8-soWB02LSWMRL1si5XCqizVvct3bDjOHXVCXQTAD6JbKfzzUUEGTpJmfDfrHB4PJ4TsThFJvipsF8LkW9JRWKT1acg6m_UrWmG4347cYavtXj30KBUCR_vi_Y6dnMTLDlHJILav6YY8" height="200" width="auto" /><br><br>說明: <br>地點: <br>簡介: ]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4dM7xkmYZ9AOPfIiQO48v3i8zzdq4P163J5HAWNx_L2C0R_Mat1d9wzqh13hBNlXGdaSb2m9VK3_xPodXqk4rkvhKVbOWY4QqdTu-UJqKmuFQtrNl19Air_QYd_sSb2jhAs6A7zxIRBY3Vgpp86iCqY5lqpdZKMd_EWzYVofOs-JwmuBzwT6QfqnAwEwHe4LKG5fhRQJQuoKFQJL3E5HNacEYzxYVOfOg2hRS2ptYtVvVZeP3NwTFljWCGngUkENrlwqR_OYcpXkw" height="200" width="auto" /><br><br>說明: <br>地點: <br>簡介: ]]></description>
         <styleUrl>#icon-1709-424242-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -1545,7 +1545,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
             <value/>
           </Data>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5PMZLLll6xKyyfWZwBTG01gRXbFa9gSxIiAhA0193__mcXDeyKwtCsUEUxm36acymk0KOK47_1f2hPc34jDbNLzkjmbRQe2Z1R0hMH6OLY7pp1lOJkggaP0WYc8CljNkM8-soWB02LSWMRL1si5XCqizVvct3bDjOHXVCXQTAD6JbKfzzUUEGTpJmfDfrHB4PJ4TsThFJvipsF8LkW9JRWKT1acg6m_UrWmG4347cYavtXj30KBUCR_vi_Y6dnMTLDlHJILav6YY8</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4dM7xkmYZ9AOPfIiQO48v3i8zzdq4P163J5HAWNx_L2C0R_Mat1d9wzqh13hBNlXGdaSb2m9VK3_xPodXqk4rkvhKVbOWY4QqdTu-UJqKmuFQtrNl19Air_QYd_sSb2jhAs6A7zxIRBY3Vgpp86iCqY5lqpdZKMd_EWzYVofOs-JwmuBzwT6QfqnAwEwHe4LKG5fhRQJQuoKFQJL3E5HNacEYzxYVOfOg2hRS2ptYtVvVZeP3NwTFljWCGngUkENrlwqR_OYcpXkw</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1653,7 +1653,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
       </Placemark>
       <Placemark>
         <name>美都戲院1954～1993</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg4pmN3OzambzVf3myWW4F6ufisrN6YeS9W_2VEHcgujNVEpnb-lr4siQniZCyc0oagAI5KXAhxJPOX9ARanjuS7WpirwCxKKXWGApg15jJr0Siv4WQ19K_Vno0GW7jETgxFOoGul14Nte3nVTRaS209R4JmIlfiJdYM1fR70MIjPNPln0cPP3bR39h4RyZXOH5ubRiSAMt0SA?fife=s16383" height="200" width="auto" /><br><br>說明: 張嘉倫<br>地點: 高雄市美濃區合和里中正路一段８５巷１７號<br>簡介: 空地]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjEv6nlRs3RlC5gd8ldqMSrJV9c9cbEeuZ7x2aFfr0SOK4pyoxqMbYpnacbe_5pjIi-nGmoPUexIDQF71QR3J0BpP2dz_vcuYP_fzK7Nx5_4sGeSt8Mmz9rFRVCa3bZK_Atti4K7YPa6uiZZh7JhTP0G9K-SQtTE0imoUC64loBKziKlRFUzlM-IUUDzilYJGvmeVfrKfY8UZM?fife=s16383" height="200" width="auto" /><br><br>說明: 張嘉倫<br>地點: 高雄市美濃區合和里中正路一段８５巷１７號<br>簡介: 空地]]></description>
         <styleUrl>#icon-1709-424242-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -1666,7 +1666,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
             <value>空地</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZg4pmN3OzambzVf3myWW4F6ufisrN6YeS9W_2VEHcgujNVEpnb-lr4siQniZCyc0oagAI5KXAhxJPOX9ARanjuS7WpirwCxKKXWGApg15jJr0Siv4WQ19K_Vno0GW7jETgxFOoGul14Nte3nVTRaS209R4JmIlfiJdYM1fR70MIjPNPln0cPP3bR39h4RyZXOH5ubRiSAMt0SA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjEv6nlRs3RlC5gd8ldqMSrJV9c9cbEeuZ7x2aFfr0SOK4pyoxqMbYpnacbe_5pjIi-nGmoPUexIDQF71QR3J0BpP2dz_vcuYP_fzK7Nx5_4sGeSt8Mmz9rFRVCa3bZK_Atti4K7YPa6uiZZh7JhTP0G9K-SQtTE0imoUC64loBKziKlRFUzlM-IUUDzilYJGvmeVfrKfY8UZM?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -3395,7 +3395,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
       </Placemark>
       <Placemark>
         <name>宏總百貨-金星戲院1992/8/8～2000/11/16</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgQ0L48CkF5mIjxGhvL-a4lufV3gwKBBPa9vKKAdkHCTnIwWActWn789p3ra3GEndMIDg-Zzfyhbyfpktiuxx8LgDdzbQr2vjC3K8uuUiivLCiXwIqtP53dNF7xCxKK10KK0lOus2kUvTQ1mbrOEM-XV8FBiYbfg-x8X26brM1WcWT3BfY1eyJInaGUjLVyGe897ydcMR08XA?fife=s16383" height="200" width="auto" /><br><br>說明: 意誠段(0906)200地號<br> (79)高市工建築使字第00955號<br>  (76)高市工建築字第G04005號<br>商五<br><br>地點: 苓雅區三多四路63號<br>簡介: 林宏宗，高雄第一家全機能消費商圈戲院]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjpYbwujqS8SPFKmAo5rPh7aLWJFmPu_qGAr4Y_YJQ_o6VYtjKnv8vC0DEIW0stLjTcv2Vmg-0rp1N_mWXuJSdGe2tr2pnbiTYzZvnfUWFt7XX2K8H3CKrsByr3jhd3DoXOVzNvZYjwJHKh8oCdGN2Sn0bj6WrRbd_xjVLv0TZPtiqV1op4YEOdtLXF4EKf04ogluTETBijgQ?fife=s16383" height="200" width="auto" /><br><br>說明: 意誠段(0906)200地號<br> (79)高市工建築使字第00955號<br>  (76)高市工建築字第G04005號<br>商五<br><br>地點: 苓雅區三多四路63號<br>簡介: 林宏宗，高雄第一家全機能消費商圈戲院]]></description>
         <styleUrl>#icon-1547-0F9D58-labelson</styleUrl>
         <ExtendedData>
           <Data name="說明">
@@ -3412,7 +3412,7 @@ http://www.gangshan.tw/forum.php?mod=viewthread&tid=1800
             <value>林宏宗，高雄第一家全機能消費商圈戲院</value>
           </Data>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgQ0L48CkF5mIjxGhvL-a4lufV3gwKBBPa9vKKAdkHCTnIwWActWn789p3ra3GEndMIDg-Zzfyhbyfpktiuxx8LgDdzbQr2vjC3K8uuUiivLCiXwIqtP53dNF7xCxKK10KK0lOus2kUvTQ1mbrOEM-XV8FBiYbfg-x8X26brM1WcWT3BfY1eyJInaGUjLVyGe897ydcMR08XA?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjpYbwujqS8SPFKmAo5rPh7aLWJFmPu_qGAr4Y_YJQ_o6VYtjKnv8vC0DEIW0stLjTcv2Vmg-0rp1N_mWXuJSdGe2tr2pnbiTYzZvnfUWFt7XX2K8H3CKrsByr3jhd3DoXOVzNvZYjwJHKh8oCdGN2Sn0bj6WrRbd_xjVLv0TZPtiqV1op4YEOdtLXF4EKf04ogluTETBijgQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
