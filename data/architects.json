@@ -9,13 +9,13 @@
   "id": 1,
   "name": "中國興業",
   "color": "#daaeaa",
-  "count": 21
+  "count": 22
  },
  {
   "id": 2,
   "name": "方汝鎮",
   "color": "#c89790",
-  "count": 12
+  "count": 13
  },
  {
   "id": 3,
@@ -75,13 +75,13 @@
   "id": 12,
   "name": "吳明修",
   "color": "#be9e7c",
-  "count": 51
+  "count": 52
  },
  {
   "id": 13,
   "name": "吳增榮",
   "color": "#a88962",
-  "count": 28
+  "count": 48
  },
  {
   "id": 14,
@@ -135,7 +135,7 @@
   "id": 22,
   "name": "沈祖海",
   "color": "#a7a87d",
-  "count": 44
+  "count": 46
  },
  {
   "id": 23,
@@ -219,7 +219,7 @@
   "id": 36,
   "name": "高而潘",
   "color": "#9cc6b3",
-  "count": 164
+  "count": 165
  },
  {
   "id": 37,
@@ -237,7 +237,7 @@
   "id": 39,
   "name": "張亦煌",
   "color": "#46887a",
-  "count": 13
+  "count": 15
  },
  {
   "id": 40,
