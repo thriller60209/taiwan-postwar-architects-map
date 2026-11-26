@@ -1388,6 +1388,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>杭州街住宅1973</name>
+        <description><![CDATA[傅義<br>https://www.flickr.com/photos/intermezzi/albums/72157719781510695/with/51401409621/]]></description>
+        <styleUrl>#icon-1603-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.146097576095,22.7586271173981,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
