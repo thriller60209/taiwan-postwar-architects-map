@@ -50,6 +50,8 @@ COLORS = stroke_gradient(len(ARCH))
 ALIASES = CFG['aliases']
 BASE = CFG['base_map']
 FUYI_BOTH = set(CFG['fuyi_both'])
+FOREIGN = {k.strip(): v for k, v in CFG.get('foreign', {}).items() if not k.startswith('_')}
+PREWAR_FOLDERS = {'戰前建築', '1900～1920', '1921～1930', '1931～1945'}
 
 # Source maps, by My Maps title, in the order the original merge used.
 SOURCES = [
@@ -145,6 +147,10 @@ def text(p):
 def assign(p):
     s = p['src']
     A = set()
+    if p['folder'] in PREWAR_FOLDERS:      # never pre-war / Japanese-era works
+        return A
+    if p['name'].strip() in FOREIGN:
+        A.add('異邦人')
     if s == BASE['title'] and p['folder'] not in BASE['folders']:
         return A
     t = text(p)
@@ -353,6 +359,9 @@ def build():
         for q in [prim] + secs:
             if q['src'].startswith('蓮之') and q['folder'].strip() and q['folder'].strip() not in types:
                 types.append(q['folder'].strip())
+        fa = [FOREIGN[q['name'].strip()] for q in [prim] + secs if q['name'].strip() in FOREIGN]
+        if fa:
+            d = '異邦人：' + fa[0] + ('<br><br>' + d if d else '')
         if types:
             d = '類型：' + '、'.join(types) + ('<br><br>' + d if d else '')
         name = prim['name'].strip().replace('\n', ' ')
