@@ -18152,6 +18152,15 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>國本農場(卑南王家三合院)</name>
+        <styleUrl>#icon-1598-A52714-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.1197038,22.7910021,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>戰後建築</name>
@@ -18235,7 +18244,7 @@
       </Placemark>
       <Placemark>
         <name>月涵堂1966</name>
-        <description><![CDATA[張昌華/華泰<br>專案：吳明修（資料來源？）<br>繪圖：陳昭武]]></description>
+        <description><![CDATA[張昌華/華泰<br>吳明修（資料來源？）<br>繪圖：陳昭武]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -18866,8 +18875,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>吳明修國宅1983</name>
-        <description>吳明修？張英雄？</description>
+        <name>寶桑國宅1983</name>
+        <description>吳明修+張英雄</description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -20447,7 +20456,7 @@
       </Placemark>
       <Placemark>
         <name>北醫形態大樓1963</name>
-        <description><![CDATA[吳明修、林注顯、王明基、柯萬得/北醫工務組<br>結構：陸和順<br>教學大樓－落水口<br>brutalism<br>建築雙月刊第4期]]></description>
+        <description><![CDATA[吳明修、林注顯、王明基、柯萬得/北醫工務組<br>結構：陸和順<br>教學大樓－落水口<br>brutalism<br>建築雙月刊第4期<br>https://flic.kr/s/aHskoAXwL2]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -21634,7 +21643,7 @@
       </Placemark>
       <Placemark>
         <name>虹廬1965</name>
-        <description><![CDATA[王大閎<br>繆競潮/競潮營造<br>蘑菇頭<br>建築雙月刊第18期]]></description>
+        <description><![CDATA[王大閎<br>繆競潮/競潮營造<br>蘑菇頭<br>建築雙月刊第18期<br>54使字第0136號]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -22793,7 +22802,7 @@
       </Placemark>
       <Placemark>
         <name>國立台灣大學保健中心1966</name>
-        <description>王大閎</description>
+        <description><![CDATA[王大閎<br>國宜瑞/立國營造廠<br>55使字第0839號]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -22803,7 +22812,7 @@
       </Placemark>
       <Placemark>
         <name>女九舍1967</name>
-        <description>王大閎</description>
+        <description><![CDATA[王大閎<br>56使字第1237號<br>陳再成/長發營造廠]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -25855,11 +25864,11 @@
       </Placemark>
       <Placemark>
         <name>海員之家1960</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi-T4NaHnnJKtgcCwUZqQjNeNOzZbe-a0GuWs9uoiUHO3jwjtJ0rAbRUxmg81_fpE00fXvjpku0ILytz9YmjdNk8ZTBgzFMeQ5rWZIcEwuGnV-JLiugAlIXl0tNfmwwV_aHi3Bezd_nYus7BrzTf9gnZZ6qDqQTRkJn79Bqwpof8g1MIdHlepPAmMKISyS2OFpg5cegba1ayg?fife=s16383" height="200" width="auto" /><br><br>港務局設計課]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZizzKdkQVGGEiXmABjcvgR5uLQ_71ZRCU1UZwOn9iWrRoqC-lK3sSMGGCjueH1mOh510doxOgeMS8Lgeh23CbPTFmk93K7kXYF7JlSBCQoGcVE4QRC8zDoxeL1w5ijSWWIkgMWyz7Y25GCyQjjmwGxP88-wqXvefdeHJ12BivP2t4Bm4b0FlLEmheH3eJTHQQqRJ5HNa9r42Q?fife=s16383" height="200" width="auto" /><br><br>港務局設計課]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi-T4NaHnnJKtgcCwUZqQjNeNOzZbe-a0GuWs9uoiUHO3jwjtJ0rAbRUxmg81_fpE00fXvjpku0ILytz9YmjdNk8ZTBgzFMeQ5rWZIcEwuGnV-JLiugAlIXl0tNfmwwV_aHi3Bezd_nYus7BrzTf9gnZZ6qDqQTRkJn79Bqwpof8g1MIdHlepPAmMKISyS2OFpg5cegba1ayg?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZizzKdkQVGGEiXmABjcvgR5uLQ_71ZRCU1UZwOn9iWrRoqC-lK3sSMGGCjueH1mOh510doxOgeMS8Lgeh23CbPTFmk93K7kXYF7JlSBCQoGcVE4QRC8zDoxeL1w5ijSWWIkgMWyz7Y25GCyQjjmwGxP88-wqXvefdeHJ12BivP2t4Bm4b0FlLEmheH3eJTHQQqRJ5HNa9r42Q?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -26178,11 +26187,11 @@
       </Placemark>
       <Placemark>
         <name>共和大廈1963</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgh3l7yVKYCLP51nLA53uTM4r72hkPObOa0JU_UpAsinmd5rUZg2T6_4VbXfbjhtzAbBtcuadjvuXv3S7uoO6L5ZEkAJYvATYRCaxynPyFGGJK6btkL6eZJ9gYMI8F5EWB1Tjjq_N3wttTeSpo1M1QXU0N5FhtuErLOUznYywOCKoLU0o_OLoCOXJ6LlgLXKwLKYHr-FjniDiE?fife=s16383" height="200" width="auto" /><br><br>徐哲琳掛牌<br>李徵道機師設計(台北第一棟住宅大廈？)<br>https://www.facebook.com/photo/?fbid=10157478535828618&set=a.10151834790708618]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjRu5HWONJROAxJp2l1S_834pi12rTEoscOSMd6etXIBKeqg1RFm0FteDOoEDaaoF5SmVzqbIn9m2QDkDmM1MPGKQO3UrMD0VXYtdzgOSGLZAQVThkRLhIQEY3pvBF_Uka8Px_4i8uJK3wRN5c1UauAyvu5CLG_elQ_HCw9_upYnGhIaI01mx882cgpXs-I4m9EnVrDQPMuUEw?fife=s16383" height="200" width="auto" /><br><br>徐哲琳掛牌<br>李徵道機師設計(台北第一棟住宅大廈？)<br>https://www.facebook.com/photo/?fbid=10157478535828618&set=a.10151834790708618]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgh3l7yVKYCLP51nLA53uTM4r72hkPObOa0JU_UpAsinmd5rUZg2T6_4VbXfbjhtzAbBtcuadjvuXv3S7uoO6L5ZEkAJYvATYRCaxynPyFGGJK6btkL6eZJ9gYMI8F5EWB1Tjjq_N3wttTeSpo1M1QXU0N5FhtuErLOUznYywOCKoLU0o_OLoCOXJ6LlgLXKwLKYHr-FjniDiE?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjRu5HWONJROAxJp2l1S_834pi12rTEoscOSMd6etXIBKeqg1RFm0FteDOoEDaaoF5SmVzqbIn9m2QDkDmM1MPGKQO3UrMD0VXYtdzgOSGLZAQVThkRLhIQEY3pvBF_Uka8Px_4i8uJK3wRN5c1UauAyvu5CLG_elQ_HCw9_upYnGhIaI01mx882cgpXs-I4m9EnVrDQPMuUEw?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -32411,7 +32420,7 @@
       </Placemark>
       <Placemark>
         <name>台東中學行政大樓1964</name>
-        <description><![CDATA[修澤蘭？<br>https://www.facebook.com/share/p/1CwCoNG2AT/]]></description>
+        <description><![CDATA[修澤蘭<br>https://www.flickr.com/photos/intermezzi/albums/72157710818454216/]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -34030,7 +34039,7 @@
       </Placemark>
       <Placemark>
         <name>台灣銀行本行整建與增建餐廳1966</name>
-        <description><![CDATA[王大閎<br>1970營業廳大修]]></description>
+        <description><![CDATA[王大閎<br>洪清明/吉源營造廠<br>1970營業廳大修<br>55使字第0646號]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -36956,7 +36965,7 @@
       </Placemark>
       <Placemark>
         <name>台東國民黨部介壽堂1964</name>
-        <description>吳明修</description>
+        <description><![CDATA[吳明修<br>折版介壽堂已拆除<br>https://flic.kr/s/aHskkS4b9C]]></description>
         <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -37052,6 +37061,76 @@
         <Point>
           <coordinates>
             121.3735,25.0698055555556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>臺東縣私立均一實驗高級中學2008</name>
+        <description><![CDATA[象集團<br>https://flic.kr/s/aHsjnY1t2n]]></description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.1261014,22.7703313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>我自然生態農園2005</name>
+        <description><![CDATA[趙力行<br>https://flic.kr/s/aHsjtXN4p5]]></description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.100383687967,22.8382319637832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>台東縣立新生幼兒園1983</name>
+        <description><![CDATA[吳明修<br>https://flic.kr/p/pYQx87]]></description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.1423682,22.7630789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>臺東大同路郵局1987</name>
+        <description>黃書健</description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.1539744,22.7528199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>電信總局花磚格柵機房1982</name>
+        <description>林茂松/台灣電信管理局產業室</description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            120.9038507,22.3564447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>陳曙英宅1966（已拆除）</name>
+        <description><![CDATA[王大閎<br>李寶利/亨利營造廠<br>55使字第1218號]]></description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.533508,25.0239672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>台灣銀行宿舍1968（已拆除）</name>
+        <description><![CDATA[王大閎<br>57使字第0760號<br>朱逸飛/永昌建築公司]]></description>
+        <styleUrl>#icon-1546-1A237E-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.509026,25.035901,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43473,11 +43552,11 @@
       </Placemark>
       <Placemark>
         <name>可愛鐵工大門</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhdxsId1TKGUscS1yG7zUtVkfPYOKCcaH6BsSTU9HowwHf4Ob-Uc8wG6jLMnIB95JMbmRJknXkCe9rxXvJLKIgZ9c_F2cTHCBv2-on8YAeh_louLXLLkDOc2-DP02338dLyOxFa6UWGdn4mVxFw6ARTG8PfstQJAnca7l-yTGiHXTQIXy38Ly5Aa88kiT-pKduRwq8sMm5_-x800ioyYyQjVQ_dbQ0Ofl9K4Nc9VDWSxyvmEi-8swQlNXokZg?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiUeHewFm8gQTS_Fp1fhqRcwANGluASXTS3Lhci_bISujpN-3bc6QL7sLsxvHj6jlhQntBoDg8qxIyLoKAmxlIQq0hVZmMTCb5jRLB-ck1yQ2Ol7pj_PX5cqY3l7Exvt-ZbQVSVJO7c20uXlLjBs49-nh7P83XB03ReOaQp_sjeMskb1WamlK2TW6m4P21kvxd5v8d9lnwLJ_UcEA2LCCzyXtN7kU79zbUHRtsaJ5FS88yxbNK5vIDH05nQEw?fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#icon-1796-9C27B0-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhdxsId1TKGUscS1yG7zUtVkfPYOKCcaH6BsSTU9HowwHf4Ob-Uc8wG6jLMnIB95JMbmRJknXkCe9rxXvJLKIgZ9c_F2cTHCBv2-on8YAeh_louLXLLkDOc2-DP02338dLyOxFa6UWGdn4mVxFw6ARTG8PfstQJAnca7l-yTGiHXTQIXy38Ly5Aa88kiT-pKduRwq8sMm5_-x800ioyYyQjVQ_dbQ0Ofl9K4Nc9VDWSxyvmEi-8swQlNXokZg?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiUeHewFm8gQTS_Fp1fhqRcwANGluASXTS3Lhci_bISujpN-3bc6QL7sLsxvHj6jlhQntBoDg8qxIyLoKAmxlIQq0hVZmMTCb5jRLB-ck1yQ2Ol7pj_PX5cqY3l7Exvt-ZbQVSVJO7c20uXlLjBs49-nh7P83XB03ReOaQp_sjeMskb1WamlK2TW6m4P21kvxd5v8d9lnwLJ_UcEA2LCCzyXtN7kU79zbUHRtsaJ5FS88yxbNK5vIDH05nQEw?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -50433,11 +50512,11 @@
       </Placemark>
       <Placemark>
         <name>中壢浸信會1972</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjcF98SHItDc3O_ns0kChAfE5oA7fGPrFOwshnMOjqTPdtzuIqlKXDwfzjBcFBOZEymiqpXF60BO_ZAtPUU_V6TqOMdnEEGbKquhYE_FUSxyK240Hgxct5E0DJfvPLoPAeooK7snE8cTLJld91mY8vVUpoRpRcBJj1ZAPyJ6wsOkYR11KF2D3ES4CC3YkBRiKRILl3BEdQwkwY?fife=s16383" height="200" width="auto" /><br><br>黃有良/大宇<br>落水口<br>建築特刊68]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZid7fOqzDEgPkPrfvSgW6ud3fI0yUrSEJXHIYKyxz4sLVL8_41YYQyvlsjYW1KDA0WadohyQUCG5HQ_xdI5khJFinIOF5o0Jonc6PJSsqGW3QB32yocDAjpnppVTj-Hzkds6fmIDXASwXZj0qesYmmgoHnVGI-LX5_WtqNKibnzcFvp8S9neIpJKXFRN0rDpKNOrOO_6OG-WgY?fife=s16383" height="200" width="auto" /><br><br>黃有良/大宇<br>落水口<br>建築特刊68]]></description>
         <styleUrl>#icon-1671-BDBDBD-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjcF98SHItDc3O_ns0kChAfE5oA7fGPrFOwshnMOjqTPdtzuIqlKXDwfzjBcFBOZEymiqpXF60BO_ZAtPUU_V6TqOMdnEEGbKquhYE_FUSxyK240Hgxct5E0DJfvPLoPAeooK7snE8cTLJld91mY8vVUpoRpRcBJj1ZAPyJ6wsOkYR11KF2D3ES4CC3YkBRiKRILl3BEdQwkwY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZid7fOqzDEgPkPrfvSgW6ud3fI0yUrSEJXHIYKyxz4sLVL8_41YYQyvlsjYW1KDA0WadohyQUCG5HQ_xdI5khJFinIOF5o0Jonc6PJSsqGW3QB32yocDAjpnppVTj-Hzkds6fmIDXASwXZj0qesYmmgoHnVGI-LX5_WtqNKibnzcFvp8S9neIpJKXFRN0rDpKNOrOO_6OG-WgY?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -53338,6 +53417,26 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>基督教台東浸信會1978</name>
+        <description>林登龍/鳳森</description>
+        <styleUrl>#icon-1671-BDBDBD-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.1514596,22.7560929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>耶穌基督後期聖徒教會1987</name>
+        <description>譚一川</description>
+        <styleUrl>#icon-1671-BDBDBD-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.1385554,22.755817,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>戲院</name>
@@ -55798,11 +55897,11 @@
       </Placemark>
       <Placemark>
         <name>成都戲院</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4jkdeOHO5h8ZHJtPW-L_dXRCjGKRZ6bDrjEHyb-PfCSu9e-d1zQPFaNjnk1TWUeGYbQviuH_9QmmwtAHHQppmOu_4ryMA71-OyF3OhBG1_H9rtQG5ZlBkHj8aDUXF6XAJMInwlOA-fCs-sznahdnpkM2ciwJFshmV1aTin8LnHDpfxPHhFp_rDMe6TtSRlKPfCHupNUFpv4IwBL-sL35h37aB9yKycHy5RNeRqL8wDykUMxl8JIU93WUM4bf7nMWHMVb9he5hKXStfRRH9fa8UsPAQxtg_5I6pXz4oORqrxWlzginkcQeQjpiaf0pfxQbwYQXGhliDtYl0FauZOrovWjdkCwTwZeJVKtnnYwKmRgubwwc74grH0-q-ebZJumSBJBsLyrYVwPWJurQfyiXqNKe3dycj2w0BkxUIlkN-8PEYs57CbCBWPU52QwyYTvacdWQmctAMVxHQLxVi3X9m5NkxKLAts6h0t95d-n7FUFRiIDEGS1BvG82Vx9TONew4LE0angCxjKWzkhj1DmkmRphl3xB_rpB82vdFQCXEIfI03R3BcNdLdXCl2OBtGt3YS3feYn_yCqqhUZ4U1xUr7m5pMyvLXSA3BMcWZbs55l-Xat5n5RYcsnWvAyPKnOV4LOwj5ZbGEw" height="200" width="auto" /><br><br>統冠超市]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5rpyrKdEW-F6ioEY1cCSeYJ8qwZB7qv0BIjaEslCiqAiYbHTrvN9lmPzCZJ5Ao4HNg6eamyKKiCxX5tKlWQ_ebDQfyYkVTdDHC-Zub5YmZeJ9tOU_tTsYyxEojRIppZHDLEK373PhEONBjA-7iLlxaVHOoA0ItgN-T6lncQpsqeIZVZOPmE1olW8koc5FrlduqC7tYTumf5TPTy_LzofXfW4dba4yXifv7ps6jLnfCwU8F6GcfaihLtGfr7KKxwRchMxcm4cpPVoJwjNY2JLj6Y5_CByxDS7sxlOqmMUXJK4kCDRz18eLhV6SP0wbnMdiGNXopY3TqIBPQrE13KpU3AzRU8vUwOf8Hj5np1DqCNxolq_NbOQFp53TjdCRhdhlf_x48MpV8_N8RAhsUOpphVWqg4fEsj9z_94bK8XKZyp9QWbnsfwPscHRT29c4x1OU_16nQMbPV7ew92diJoNPFwCFX5Wyq8Ovvzsu41wA8kJosEYwpwleZ8ylHpP-DtmVMAvgjIjfjoAT_YsdDs1ezwLhtxW_jQOn32K-NgEAYbpoJfEKS-DZozxg7iBV25yqF4ADsWWK7YZgn6f9K8zOWAL41ai6zP4NFUnh4JdkYSGR3CUbhRh6fkNoRsgtJoj_uHCzhGWq6A" height="200" width="auto" /><br><br>統冠超市]]></description>
         <styleUrl>#icon-1709-0097A7-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4jkdeOHO5h8ZHJtPW-L_dXRCjGKRZ6bDrjEHyb-PfCSu9e-d1zQPFaNjnk1TWUeGYbQviuH_9QmmwtAHHQppmOu_4ryMA71-OyF3OhBG1_H9rtQG5ZlBkHj8aDUXF6XAJMInwlOA-fCs-sznahdnpkM2ciwJFshmV1aTin8LnHDpfxPHhFp_rDMe6TtSRlKPfCHupNUFpv4IwBL-sL35h37aB9yKycHy5RNeRqL8wDykUMxl8JIU93WUM4bf7nMWHMVb9he5hKXStfRRH9fa8UsPAQxtg_5I6pXz4oORqrxWlzginkcQeQjpiaf0pfxQbwYQXGhliDtYl0FauZOrovWjdkCwTwZeJVKtnnYwKmRgubwwc74grH0-q-ebZJumSBJBsLyrYVwPWJurQfyiXqNKe3dycj2w0BkxUIlkN-8PEYs57CbCBWPU52QwyYTvacdWQmctAMVxHQLxVi3X9m5NkxKLAts6h0t95d-n7FUFRiIDEGS1BvG82Vx9TONew4LE0angCxjKWzkhj1DmkmRphl3xB_rpB82vdFQCXEIfI03R3BcNdLdXCl2OBtGt3YS3feYn_yCqqhUZ4U1xUr7m5pMyvLXSA3BMcWZbs55l-Xat5n5RYcsnWvAyPKnOV4LOwj5ZbGEw</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5rpyrKdEW-F6ioEY1cCSeYJ8qwZB7qv0BIjaEslCiqAiYbHTrvN9lmPzCZJ5Ao4HNg6eamyKKiCxX5tKlWQ_ebDQfyYkVTdDHC-Zub5YmZeJ9tOU_tTsYyxEojRIppZHDLEK373PhEONBjA-7iLlxaVHOoA0ItgN-T6lncQpsqeIZVZOPmE1olW8koc5FrlduqC7tYTumf5TPTy_LzofXfW4dba4yXifv7ps6jLnfCwU8F6GcfaihLtGfr7KKxwRchMxcm4cpPVoJwjNY2JLj6Y5_CByxDS7sxlOqmMUXJK4kCDRz18eLhV6SP0wbnMdiGNXopY3TqIBPQrE13KpU3AzRU8vUwOf8Hj5np1DqCNxolq_NbOQFp53TjdCRhdhlf_x48MpV8_N8RAhsUOpphVWqg4fEsj9z_94bK8XKZyp9QWbnsfwPscHRT29c4x1OU_16nQMbPV7ew92diJoNPFwCFX5Wyq8Ovvzsu41wA8kJosEYwpwleZ8ylHpP-DtmVMAvgjIjfjoAT_YsdDs1ezwLhtxW_jQOn32K-NgEAYbpoJfEKS-DZozxg7iBV25yqF4ADsWWK7YZgn6f9K8zOWAL41ai6zP4NFUnh4JdkYSGR3CUbhRh6fkNoRsgtJoj_uHCzhGWq6A</value>
           </Data>
         </ExtendedData>
         <Point>

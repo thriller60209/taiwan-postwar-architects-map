@@ -195,7 +195,7 @@
       </Placemark>
       <Placemark>
         <name>台灣基督長老教會新港教會1975</name>
-        <description>新建</description>
+        <description><![CDATA[傅義<br>https://flic.kr/s/aHskKKAshh]]></description>
         <styleUrl>#icon-1671-0097A7-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -1395,6 +1395,16 @@
         <Point>
           <coordinates>
             121.146097576095,22.7586271173981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>杭州街胡宅1972</name>
+        <description><![CDATA[傅義<br>https://flic.kr/s/aHsjsAcnTv]]></description>
+        <styleUrl>#icon-1603-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            121.146063952663,22.7589506835816,0
           </coordinates>
         </Point>
       </Placemark>
